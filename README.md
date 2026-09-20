@@ -6,7 +6,8 @@
 軸は「**SaaS と現場の実データのあいだをどう埋めるか**」。例は給与・社会保険(社労士の仕事)で書きますが、
 部品は業種に依りません。記事ごとに「別の業種ならこう応用する」を添えます。
 
-- 記事の一覧(ハブ): Blogger の固定ページ「決定論ツール — 記事と道具の一覧」(公開後にリンクを置く)
+- 記事の一覧(ハブ): [決定論ツール — 記事と道具の一覧](https://chronicles-of-solo-parenting.blogspot.com/p/blog-page.html)(Blogger の固定ページ)
+- 記事 #0: [同じ仕事を、AI と決定論の道具で組み直すと何が変わるか](https://chronicles-of-solo-parenting.blogspot.com/2026/09/ai.html)
 - 立ち位置: 生成 AI(画像・動画モデル)ではなく、コードが計算で描く・検算する側。正確さ・再現性・量産が要る場所に寄せる
 
 ## この repo に入っているもの
@@ -51,4 +52,4 @@ python -X utf8 blogger_publish.py ../articles/x.md  # dry-run → out/x.html
 
 ## 状態
 
-2026-09-20 開設。記事 0 本。記事が増えるごとに `articles/` と Blogger のハブページを更新します。
+2026-09-20 開設。記事 1 本(#0)。記事が増えるごとに `articles/` と Blogger のハブページを更新します。
