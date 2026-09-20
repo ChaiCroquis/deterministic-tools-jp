@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1034" height="634" viewBox="0 0 1034 634" font-family="Meiryo, 'Yu Gothic', sans-serif">
+<rect width="1034" height="634" fill="#ffffff"/>
+<text x="24" y="40" font-size="26" font-weight="bold" fill="#111">汎用 core と特化 pack の切り分け(2 つの判定で 4 象限)</text>
+<text x="590.0" y="78" font-size="16" text-anchor="middle" fill="#444">業種・製品に依存するか</text>
+<text x="380.0" y="100" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">業種非依存(汎用候補)</text>
+<text x="800.0" y="100" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">業種依存(特化)</text>
+<text transform="translate(28,360.0) rotate(-90)" font-size="16" text-anchor="middle" fill="#444">行政が誰でも同じ答えを出すか</text>
+<text x="158" y="235.0" font-size="17" font-weight="bold" text-anchor="end" fill="#222">Yes: 表に入る</text>
+<rect x="174" y="114" width="412" height="242" rx="10" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="188" y="148" font-size="19" font-weight="bold" fill="#0f172a">rules-core(汎用候補)</text>
+<text x="192" y="178" font-size="15" fill="#1e293b">・行形式 / resolve / validate</text>
+<text x="192" y="202" font-size="15" fill="#1e293b">・数式 registry(安全評価)</text>
+<text x="192" y="226" font-size="15" fill="#1e293b">・pipeline 骨格 / CLI</text>
+<rect x="594" y="114" width="412" height="242" rx="10" fill="#dcfce7" stroke="#94a3b8"/>
+<text x="608" y="148" font-size="19" font-weight="bold" fill="#0f172a">rules-pack-*</text>
+<text x="612" y="178" font-size="15" fill="#1e293b">・sharoushi(既存 = 第 1 号)</text>
+<text x="612" y="202" font-size="15" fill="#1e293b">・税 / 最低賃金 / 自治体 …(候補)</text>
+<text x="612" y="226" font-size="15" fill="#1e293b">・sources_manifest + extractors</text>
+<text x="158" y="485.0" font-size="17" font-weight="bold" text-anchor="end" fill="#222">No: 変換部品</text>
+<rect x="174" y="364" width="412" height="242" rx="10" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="188" y="398" font-size="19" font-weight="bold" fill="#0f172a">jp-data-kit(汎用候補)</text>
+<text x="192" y="428" font-size="15" fill="#1e293b">・CSV 文字コード判定</text>
+<text x="192" y="452" font-size="15" fill="#1e293b">・氏名・会社名正規化 / 和暦</text>
+<text x="192" y="476" font-size="15" fill="#1e293b">・取込 CSV 書出 / 色分け Excel</text>
+<rect x="594" y="364" width="412" height="242" rx="10" fill="#fde2e2" stroke="#94a3b8"/>
+<text x="608" y="398" font-size="19" font-weight="bold" fill="#0f172a">domain adapters</text>
+<text x="612" y="428" font-size="15" fill="#1e293b">・社労夢 取込仕様 v1.25</text>
+<text x="612" y="452" font-size="15" fill="#1e293b">・賃金台帳パーサ(給与ソフト別)</text>
+<text x="612" y="476" font-size="15" fill="#1e293b">・kintone / Chatwork クライアント</text>
+</svg>

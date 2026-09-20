@@ -1,0 +1,21 @@
+# blogger_publish.py の設定例。実体は blogger.toml(gitignore 済、非公開側で管理)にコピーして埋める。
+# 空欄のまま --publish すると理由を出して停止する(dry-run は動く)。
+
+blog_url = ""            # 例: https://example.blogspot.com(blog_id があれば空でよい)
+blog_id = ""             # Blogger 管理画面 URL の数字
+
+label = "決定論ツール"   # 本シリーズの記事に必ず付けるラベル
+
+sentinel_root = ""       # Sentinel(blogloop)の展開先。--publish / --info の時だけ使う
+
+[sentinel_credentials]   # Windows 資格情報マネージャーのエントリ名(値は書かない)
+oauth_client_id_entry = ""
+oauth_client_secret_entry = ""
+
+[hub]   # 専用の固定ページ(シリーズのハブ)。--page で台帳から目次を再生成して更新
+title = "決定論ツール — 記事と道具の一覧"
+intro = "現実の仕事を AI と決定論の道具で再現できるか実測し、手順・スクリプト・検証方法を全部公開しています。"
+
+[github]   # 画像は Blogger にアップロードできないので GitHub 上の PNG を参照する
+org_url = "https://github.com/<owner>"
+raw_base_url = "https://raw.githubusercontent.com/<owner>/<repo>/main"   # md 内の相対パス(figures/x.png)をそのまま連結

@@ -1,0 +1,33 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 投稿係のオフライン検証(API・Sentinel 不要)
+        run: python -X utf8 publish/test_blogger_publish.py
+      - name: 公開してはいけないもの(秘密・ローカルパス・メール)の混入検査
+        run: python -X utf8 publish/scan_public.py .
+      - name: 記事が参照する図が figures/ に実在するか
+        run: |
+          python - <<'EOF'
+          import re, sys
+          from pathlib import Path
+          missing = []
+          for md in Path("articles").glob("*.md"):
+              if md.name.lower() == "readme.md":   # 書式説明の例示はスキップ
+                  continue
+              for m in re.finditer(r"!\[[^\]]*\]\((?!https?://)([^)\s]+)\)", md.read_text(encoding="utf-8")):
+                  if not Path(m.group(1)).exists():
+                      missing.append(f"{md}: {m.group(1)}")
+          print("\n".join(missing) or "OK: all figure paths exist")
+          sys.exit(1 if missing else 0)
+          EOF
