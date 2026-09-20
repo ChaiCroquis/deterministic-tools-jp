@@ -4,8 +4,8 @@
   "stages": [
     {"name": "資材", "items": ["自作ツール 67 本(私の記録)", "sharoushi-rules(1,681 行)", "3D サンプル + 記事 1 本", "Blender / Inkscape / ffmpeg", "Blogger 投稿基盤(既存)"]},
     {"name": "切り分け(4 象限)", "items": ["rules-core(汎用候補)", "rules-pack-sharoushi", "jp-data-kit(汎用候補)", "domain adapters(非公開)"]},
-    {"name": "商品ライン", "items": ["jp-data-kit 6 本(無料 OSS)", "rules 5 本(無料 OSS)", "給与チェックの型 2 本 + 代行", "集客小物 3 本(無料 DL)", "3D 記事(入口)"]},
-    {"name": "図と記事", "items": ["fig-kit F1〜F5(図も生成物)", "Smart Brevity 構成", "手順を省略しない", "導線 2 行(道具 / 代行)"]},
+    {"name": "商品ライン", "items": ["jp-data-kit 6 本(無料 OSS)", "rules 5 本(無料 OSS)", "給与チェックの型 2 本 + 個別対応", "集客小物 3 本(無料 DL)", "3D 記事(入口)"]},
+    {"name": "図と記事", "items": ["fig-kit F1〜F5(図も生成物)", "Smart Brevity 構成", "手順を省略しない", "導線 2 行(道具 / 個別対応)"]},
     {"name": "配信", "items": ["GitHub public(正本 + 画像)", "Blogger 専用ブログ(API)", "固定ページ = ハブ", "private repo(裏の正本)"]},
     {"name": "測定 → 判断", "items": ["購入 / 依頼 / DL / 問い合わせ", "GA4 + Search Console", "10 本 or 12 週で判定", "継続 / pivot / 撤退"]}
   ],

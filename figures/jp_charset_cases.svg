@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1102" height="1280" viewBox="0 0 1102 1280" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1102" height="1280" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">入力の種類 × 判定の順番 — どこで通り、どこで止まるか</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">合成データで実測(tests/test_jp_charset.py)。素朴な順 = 最初に計画した cp932 → utf-8-sig → utf-8 → utf-16</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">素朴な順(cp932 を先に)</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">この道具の順(BOM → NUL → utf-8 → cp932)</text>
+<text x="172" y="207.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">cp932</text>
+<rect x="190" y="132" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 段目で通る</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">cp932 と判定</text>
+<circle cx="216" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">結果は正しい</text>
+<rect x="636" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 段目で通る</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">cp932 と判定</text>
+<circle cx="662" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">utf-8 strict は通らない(1,000 行で 0)</text>
+<text x="172" y="363.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">BOM つき UTF-8</text>
+<rect x="190" y="288" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 段目で通ることがある</text>
+<circle cx="216" cy="351" r="2.5" fill="#c2410c"/>
+<text x="228" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">BOM が cp932 の 2 文字に化ける</text>
+<circle cx="216" cy="375" r="2.5" fill="#c2410c"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">中身次第で cp932 と誤判定</text>
+<rect x="636" y="288" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">BOM で確定</text>
+<circle cx="662" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">utf-8-sig と判定</text>
+<circle cx="662" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">BOM は本文から除く</text>
+<text x="172" y="519.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">UTF-8(BOM 無し)</text>
+<rect x="190" y="444" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 段目で通ることがある</text>
+<circle cx="216" cy="507" r="2.5" fill="#c2410c"/>
+<text x="228" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ヘッダーだけの CSV → cp932 と誤判定</text>
+<circle cx="216" cy="531" r="2.5" fill="#c2410c"/>
+<text x="228" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ヘッダー + 1 行 1,000 本中 351 本が誤判定</text>
+<rect x="636" y="444" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">3 段目で通る</text>
+<circle cx="662" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">utf-8 と判定</text>
+<circle cx="662" cy="531" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1,000 本中 1,000 本が正しい</text>
+<text x="172" y="675.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">UTF-16(BOM あり)</text>
+<rect x="190" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 段目で通ることがある</text>
+<circle cx="216" cy="663" r="2.5" fill="#c2410c"/>
+<text x="228" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">FF FE が cp932 の 2 文字に化ける</text>
+<circle cx="216" cy="687" r="2.5" fill="#c2410c"/>
+<text x="228" y="692" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">中身次第で cp932 と誤判定</text>
+<rect x="636" y="600" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">BOM で確定</text>
+<circle cx="662" cy="663" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">utf-16 と判定</text>
+<circle cx="662" cy="687" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="692" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">BOM は本文から除く</text>
+<text x="172" y="831.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">機種依存文字(cp932)</text>
+<rect x="190" y="756" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 段目で通る</text>
+<circle cx="216" cy="819" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">cp932 と判定</text>
+<circle cx="216" cy="843" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="848" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">㈱ ① 髙 﨑 Ⅱ も読める</text>
+<rect x="636" y="756" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 段目で通る</text>
+<circle cx="662" cy="819" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">cp932 と判定</text>
+<circle cx="662" cy="843" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="848" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">utf-8 strict は通らない</text>
+<text x="172" y="987.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">途中で混在</text>
+<rect x="190" y="912" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まる(この例では)</text>
+<circle cx="216" cy="975" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どの段も通らない</text>
+<circle cx="216" cy="999" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1004" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">通る中身もあり得る(4 段目の utf-16)</text>
+<rect x="636" y="912" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まる</text>
+<circle cx="662" cy="975" r="2.5" fill="#5b6272"/>
+<text x="674" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">UndecodableError</text>
+<circle cx="662" cy="999" r="2.5" fill="#5b6272"/>
+<text x="674" y="1004" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どの段で失敗したかを表示</text>
+<text x="172" y="1143.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">BOM 無し UTF-16</text>
+<rect x="190" y="1068" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 段目で通る(環境次第)</text>
+<circle cx="216" cy="1131" r="2.5" fill="#c2410c"/>
+<text x="228" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">BOM 無し utf-16 は OS 既定のバイト順で読む</text>
+<circle cx="216" cy="1155" r="2.5" fill="#c2410c"/>
+<text x="228" y="1160" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">バイト順が違えば意味のない文字列</text>
+<rect x="636" y="1068" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">NUL で止まる</text>
+<circle cx="662" cy="1131" r="2.5" fill="#5b6272"/>
+<text x="674" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">判定しない(この道具の限界)</text>
+<circle cx="662" cy="1155" r="2.5" fill="#5b6272"/>
+<text x="674" y="1160" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">BOM を付けるか UTF-8 で書き出してもらう</text>
+<rect x="190" y="1234" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="1246" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">正しく通る</text>
+<rect x="314" y="1234" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="340" y="1246" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">中身・環境次第で誤判定(文字化けが黙って返る)</text>
+<rect x="690" y="1234" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="716" y="1246" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">止まる(置換しない)</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1596" height="402" viewBox="0 0 1596 402" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1596" height="402" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">文字コード判定の流れ — 推測せず、固定の順番で厳密に試す</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">各段は errors='strict'。通らなければ次の段へ。全部通らなければ止まる(置換文字で読み進めない)</text>
+<rect x="36" y="118" width="260" height="148" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="36" y="118" width="260" height="6" rx="3" fill="#e7ecfb"/>
+<circle cx="62" cy="152" r="14" fill="#3b5bdb"/>
+<text x="62" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+<text x="84" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">BOM を見る</text>
+<circle cx="60" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">EF BB BF → utf-8-sig</text>
+<circle cx="60" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">FF FE / FE FF → utf-16</text>
+<circle cx="60" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">BOM は推測ではなく事実</text>
+<line x1="304" y1="192.0" x2="344" y2="192.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="352" y="118" width="260" height="148" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="352" y="118" width="260" height="6" rx="3" fill="#d6def9"/>
+<circle cx="378" cy="152" r="14" fill="#3b5bdb"/>
+<text x="378" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+<text x="400" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">NUL を見る</text>
+<circle cx="376" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">0x00 を含む → 止まる</text>
+<circle cx="376" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">BOM 無し UTF-16 の疑い</text>
+<circle cx="376" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">バイナリの疑い</text>
+<line x1="620" y1="192.0" x2="660" y2="192.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="668" y="118" width="260" height="148" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="668" y="118" width="260" height="6" rx="3" fill="#c4d0f6"/>
+<circle cx="694" cy="152" r="14" fill="#3b5bdb"/>
+<text x="694" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+<text x="716" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">utf-8 を厳密に</text>
+<circle cx="692" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">通れば utf-8</text>
+<circle cx="692" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">cp932 の列はほぼ通らない</text>
+<circle cx="692" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(合成 1,000 行で 0 行)</text>
+<line x1="936" y1="192.0" x2="976" y2="192.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="984" y="118" width="260" height="148" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="984" y="118" width="260" height="6" rx="3" fill="#b0c1f2"/>
+<circle cx="1010" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1010" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+<text x="1032" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">cp932 を厳密に</text>
+<circle cx="1008" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">通れば cp932</text>
+<circle cx="1008" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">機種依存文字も通る</text>
+<circle cx="1008" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(㈱ ① 髙 﨑 Ⅱ)</text>
+<line x1="1252" y1="192.0" x2="1292" y2="192.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1300" y="118" width="260" height="148" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1300" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1326" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1326" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+<text x="1348" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">全部失敗</text>
+<circle cx="1324" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">UndecodableError</text>
+<circle cx="1324" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">途中で混在したファイル</text>
+<circle cx="1324" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">壊れたバイト列</text>
+<line x1="324.0" y1="268" x2="324.0" y2="284" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="223.55" y="286" width="200.9" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="324.0" y="305" font-size="13" text-anchor="middle" fill="#c2410c">BOM あり → ここで確定</text>
+<line x1="640.0" y1="268" x2="640.0" y2="284" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="527.2" y="286" width="225.6" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="640.0" y="305" font-size="13" text-anchor="middle" fill="#c2410c">NUL あり → 判定せず止まる</text>
+<line x1="1272.0" y1="268" x2="1272.0" y2="284" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="1153.025" y="286" width="237.95" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="1272.0" y="305" font-size="13" text-anchor="middle" fill="#c2410c">通らない → 止まる(置換しない)</text>
+<text x="36" y="372" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">橙のピル = 機械で止める関所。cp932 を先に試さない理由は図 2。</text>
+</svg>

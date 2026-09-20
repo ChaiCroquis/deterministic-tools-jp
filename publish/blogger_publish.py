@@ -276,6 +276,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--publish", action="store_true", help="API を叩く(無ければ HTML を出すだけ)")
     ap.add_argument("--draft", action="store_true", help="--publish 時に下書きとして保存する")
     ap.add_argument("--info", action="store_true", help="設定した blog_id のブログ名・URL を読む(読み取りのみ)")
+    ap.add_argument("--update", action="store_true", help="公開済みの記事(台帳の source が一致する行)を同じ URL のまま本文差し替え")
     args = ap.parse_args(argv)
     cfg = load_cfg()
 
@@ -320,6 +321,18 @@ def main(argv: list[str] | None = None) -> int:
     out_path = OUT / (md_path.stem + ".html")
     out_path.write_text(content, encoding="utf-8")
     print(f"dry-run: title={title!r} labels={labels} html {len(content)} 字 → {out_path}")
+    if args.update:
+        row = next((r for r in reversed(load_ledger()) if r.get("source") == md_path.name and r.get("url")), None)
+        if not row:
+            print("台帳に一致する公開済み記事が無い(source = ファイル名)"); return 2
+        B, token, blog_id = _token_and_blog(cfg)
+        import urllib.parse
+        path = urllib.parse.urlparse(row["url"]).path
+        post = _api(f"{B.BASE}/blogs/{blog_id}/posts/bypath?path={urllib.parse.quote(path)}", token)
+        res = _api(f"{B.BASE}/blogs/{blog_id}/posts/{post['id']}", token, "PATCH",
+                   {"kind": "blogger#post", "id": post["id"], "title": title, "content": content, "labels": labels})
+        print(f"更新: {res.get('url', row['url'])}(id {post['id']}、URL は不変)")
+        return 0
     if not args.publish:
         return 0
     if not (cfg.get("blog_url") or cfg.get("blog_id")):

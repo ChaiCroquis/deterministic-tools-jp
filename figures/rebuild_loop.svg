@@ -59,13 +59,13 @@
 <rect x="1300" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
 <circle cx="1326" cy="152" r="14" fill="#3b5bdb"/>
 <text x="1326" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
-<text x="1348" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">使う人と頼む人</text>
+<text x="1348" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">使う人と合わせたい人</text>
 <circle cx="1324" cy="189" r="2.5" fill="#3b5bdb"/>
-<text x="1336" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">自分でやる人には道具</text>
+<text x="1336" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">自分でやる人には道具(GitHub)</text>
 <circle cx="1324" cy="213" r="2.5" fill="#3b5bdb"/>
-<text x="1336" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">頼みたい人には代行</text>
+<text x="1336" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">合わせたい人には道具を直して渡す</text>
 <circle cx="1324" cy="237" r="2.5" fill="#3b5bdb"/>
-<text x="1336" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">教えることと代行は対立しない</text>
+<text x="1336" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">データは預からない</text>
 <line x1="640.0" y1="292" x2="640.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
 <rect x="558.075" y="310" width="163.85" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
 <text x="640.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">1 時間で再現できたか</text>

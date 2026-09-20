@@ -1,0 +1,23 @@
+{
+  "title": "入力の種類 × 判定の順番 — どこで通り、どこで止まるか",
+  "subtitle": "合成データで実測(tests/test_jp_charset.py)。素朴な順 = 最初に計画した cp932 → utf-8-sig → utf-8 → utf-16",
+  "x_axis": {"label": "", "cols": ["素朴な順(cp932 を先に)", "この道具の順(BOM → NUL → utf-8 → cp932)"]},
+  "y_axis": {"label": "", "rows": ["cp932", "BOM つき UTF-8", "UTF-8(BOM 無し)", "UTF-16(BOM あり)", "機種依存文字(cp932)", "途中で混在", "BOM 無し UTF-16"]},
+  "cells": [
+    [{"name": "1 段目で通る", "tone": "default", "items": ["cp932 と判定", "結果は正しい"]},
+     {"name": "4 段目で通る", "tone": "accent", "items": ["cp932 と判定", "utf-8 strict は通らない(1,000 行で 0)"]}],
+    [{"name": "1 段目で通ることがある", "tone": "warn", "items": ["BOM が cp932 の 2 文字に化ける", "中身次第で cp932 と誤判定"]},
+     {"name": "BOM で確定", "tone": "accent", "items": ["utf-8-sig と判定", "BOM は本文から除く"]}],
+    [{"name": "1 段目で通ることがある", "tone": "warn", "items": ["ヘッダーだけの CSV → cp932 と誤判定", "ヘッダー + 1 行 1,000 本中 351 本が誤判定"]},
+     {"name": "3 段目で通る", "tone": "accent", "items": ["utf-8 と判定", "1,000 本中 1,000 本が正しい"]}],
+    [{"name": "1 段目で通ることがある", "tone": "warn", "items": ["FF FE が cp932 の 2 文字に化ける", "中身次第で cp932 と誤判定"]},
+     {"name": "BOM で確定", "tone": "accent", "items": ["utf-16 と判定", "BOM は本文から除く"]}],
+    [{"name": "1 段目で通る", "tone": "default", "items": ["cp932 と判定", "㈱ ① 髙 﨑 Ⅱ も読める"]},
+     {"name": "4 段目で通る", "tone": "accent", "items": ["cp932 と判定", "utf-8 strict は通らない"]}],
+    [{"name": "止まる(この例では)", "tone": "default", "items": ["どの段も通らない", "通る中身もあり得る(4 段目の utf-16)"]},
+     {"name": "止まる", "tone": "muted", "items": ["UndecodableError", "どの段で失敗したかを表示"]}],
+    [{"name": "4 段目で通る(環境次第)", "tone": "warn", "items": ["BOM 無し utf-16 は OS 既定のバイト順で読む", "バイト順が違えば意味のない文字列"]},
+     {"name": "NUL で止まる", "tone": "muted", "items": ["判定しない(この道具の限界)", "BOM を付けるか UTF-8 で書き出してもらう"]}]
+  ],
+  "legend": [["正しく通る", "accent"], ["中身・環境次第で誤判定(文字化けが黙って返る)", "warn"], ["止まる(置換しない)", "muted"]]
+}

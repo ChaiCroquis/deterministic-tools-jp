@@ -43,7 +43,7 @@
 <circle cx="692" cy="213" r="2.5" fill="#3b5bdb"/>
 <text x="704" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">rules 5 本(無料 OSS)</text>
 <circle cx="692" cy="237" r="2.5" fill="#3b5bdb"/>
-<text x="704" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">給与チェックの型 2 本 + 代行</text>
+<text x="704" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">給与チェックの型 2 本 + 個別対応</text>
 <circle cx="692" cy="261" r="2.5" fill="#3b5bdb"/>
 <text x="704" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">集客小物 3 本(無料 DL)</text>
 <circle cx="692" cy="285" r="2.5" fill="#3b5bdb"/>
@@ -61,7 +61,7 @@
 <circle cx="1008" cy="237" r="2.5" fill="#3b5bdb"/>
 <text x="1020" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">手順を省略しない</text>
 <circle cx="1008" cy="261" r="2.5" fill="#3b5bdb"/>
-<text x="1020" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">導線 2 行(道具 / 代行)</text>
+<text x="1020" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">導線 2 行(道具 / 個別対応)</text>
 <line x1="1252" y1="216.0" x2="1292" y2="216.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
 <rect x="1300" y="118" width="260" height="196" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
 <rect x="1300" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
