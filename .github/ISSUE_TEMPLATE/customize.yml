@@ -1,0 +1,47 @@
+name: 自分の環境に合わせたい(カスタマイズの相談)
+description: 道具を自分の環境に合わせて直したい時の相談。実データは受け取りません。
+title: "[合わせたい] "
+labels: ["customize"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        道具の側を直して渡す形で対応します。**データは預かりません。**
+        実際の CSV / Excel / PDF(給与・氏名・住所などを含むもの)は添付しないでください。添付された場合は中身を見ずに削除をお願いし、対応は列名と合成サンプルだけで進めます。
+  - type: dropdown
+    id: tool
+    attributes:
+      label: 対象の道具
+      options:
+        - jp_charset(文字コード判定)
+        - その他(下に書く)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 何を、どう合わせたいか
+      description: 例「取込先の CSV は utf-16 固定なので、判定順を固定したい」
+    validations:
+      required: true
+  - type: textarea
+    id: shape
+    attributes:
+      label: 入力の形(列名・件数・文字コードなど、実データではなく「形」)
+      description: 例「列は 社員番号,氏名,部署,基本給 の 4 つ、cp932、約 300 行」。値は書かない
+      render: text
+  - type: textarea
+    id: sample
+    attributes:
+      label: 合成サンプル(任意)
+      description: 実在しない値で作った 2〜3 行。実データからの切り貼りはしない
+      render: text
+  - type: checkboxes
+    id: no_real_data
+    attributes:
+      label: 実データの扱い
+      options:
+        - label: 実データ(給与・氏名・住所などを含むファイルや値)を添付・記入していません
+          required: true
+        - label: 対応は「道具の側を直して渡す」形で、データを預ける形ではないことを理解しました
+          required: true
