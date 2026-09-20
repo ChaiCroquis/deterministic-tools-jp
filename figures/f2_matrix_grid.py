@@ -12,8 +12,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import style as S  # noqa: E402
 
 INKSCAPE = r"C:\Program Files\Inkscape\bin\inkscape.exe"
-TONES = {"default": (S.CARD, S.LINE, S.ACCENT), "accent": (S.ACCENT_SOFT, "#c4d0f6", S.ACCENT),
-         "muted": (S.MUTED, S.LINE, S.INK2), "warn": (S.WARN_SOFT, "#f5c9ae", S.WARN)}
+TONES = {"default": (S.CARD, S.LINE, S.ACCENT), "accent": (S.ACCENT_SOFT, S.ACCENT_LINE, S.ACCENT),
+         "muted": (S.MUTED, S.LINE, S.INK2), "warn": (S.WARN_SOFT, S.WARN_LINE, S.WARN)}
 
 
 def build_svg(spec: dict) -> str:

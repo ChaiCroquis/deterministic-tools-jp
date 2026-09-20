@@ -20,6 +20,8 @@ MUTED = "#eef0f5"        # 比較の「前」側
 WARN = "#c2410c"         # 関所(橙)
 WARN_SOFT = "#fff1e8"
 SCALE = ["#e7ecfb", "#d6def9", "#c4d0f6", "#b0c1f2", "#9cb1ee"]   # 段階の淡→濃(同一色相)
+ACCENT_LINE = "#c4d0f6"   # アクセント淡色カードの枠
+WARN_LINE = "#f5c9ae"     # 橙淡色カードの枠
 
 
 def svg_open(w: int, h: int) -> list[str]:
