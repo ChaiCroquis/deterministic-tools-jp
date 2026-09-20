@@ -1,55 +1,13 @@
 {
-  "title": "汎用 core と特化 pack の切り分け(2 つの判定で 4 象限)",
-  "x_axis": {
-    "label": "業種・製品に依存するか",
-    "cols": [
-      "業種非依存(汎用候補)",
-      "業種依存(特化)"
-    ]
-  },
-  "y_axis": {
-    "label": "行政が誰でも同じ答えを出すか",
-    "rows": [
-      "Yes: 表に入る",
-      "No: 変換部品"
-    ]
-  },
+  "title": "汎用 core と特化 pack の切り分け",
+  "subtitle": "2 つの判定で 4 象限に置く。左列の「汎用」は pack が 2 個目を通るまで候補",
+  "x_axis": {"label": "業種・製品に依存するか", "cols": ["業種非依存(汎用候補)", "業種依存(特化)"]},
+  "y_axis": {"label": "行政が誰でも同じ答えを出すか", "rows": ["Yes: 表に入る", "No: 変換部品"]},
   "cells": [
-    [
-      {
-        "name": "rules-core(汎用候補)",
-        "items": [
-          "行形式 / resolve / validate",
-          "数式 registry(安全評価)",
-          "pipeline 骨格 / CLI"
-        ]
-      },
-      {
-        "name": "rules-pack-*",
-        "items": [
-          "sharoushi(既存 = 第 1 号)",
-          "税 / 最低賃金 / 自治体 …(候補)",
-          "sources_manifest + extractors"
-        ]
-      }
-    ],
-    [
-      {
-        "name": "jp-data-kit(汎用候補)",
-        "items": [
-          "CSV 文字コード判定",
-          "氏名・会社名正規化 / 和暦",
-          "取込 CSV 書出 / 色分け Excel"
-        ]
-      },
-      {
-        "name": "domain adapters",
-        "items": [
-          "社労夢 取込仕様 v1.25",
-          "賃金台帳パーサ(給与ソフト別)",
-          "kintone / Chatwork クライアント"
-        ]
-      }
-    ]
-  ]
+    [{"name": "rules-core(汎用候補)", "tone": "accent", "items": ["行形式 / resolve / validate", "数式 registry(安全評価)", "pipeline 骨格 / CLI"]},
+     {"name": "rules-pack-*", "tone": "default", "items": ["sharoushi(既存 = 第 1 号)", "税 / 最低賃金 / 自治体 …(候補)", "sources_manifest + extractors"]}],
+    [{"name": "jp-data-kit(汎用候補)", "tone": "accent", "items": ["CSV 文字コード判定", "氏名・会社名正規化 / 和暦", "取込 CSV 書出 / 色分け Excel"]},
+     {"name": "domain adapters", "tone": "muted", "items": ["給与ソフト・業務 SaaS の取込仕様", "賃金台帳パーサ(給与ソフト別)", "kintone / Chatwork クライアント"]}]
+  ],
+  "legend": [["公開(汎用候補)", "accent"], ["公開(特化 pack)", "default"], ["非公開", "muted"]]
 }

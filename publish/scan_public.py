@@ -23,6 +23,8 @@ PATTERNS = {
     "local work path": re.compile(r"[A-Za-z]:\\+(work|Claude|workspace(-next)?)\\+", re.I),
     "unc host path": re.compile(r"\\\\\\\\[A-Za-z0-9_\-]+\\\\"),
     "email": re.compile(r"[A-Za-z0-9._%+-]+@(gmail|yahoo|outlook|icloud|hotmail)\.[a-z]{2,}", re.I),
+    # 所属をにおわせる語(2026-09-20 決定: 公開物は「私の経験」の言い方に統一し、事務所・顧問先・自社・機器名を出さない)
+    "affiliation word": re.compile(r"事務所|顧問先|弊所|当所|自社|所長|勤務先|PC42"),
 }
 # 検査自体の定義行(本ファイル)と、説明のために置いたプレースホルダは除外
 ALLOW_LINE = re.compile(r"<owner>|<repo>|example\.blogspot|noreply@", re.I)

@@ -1,40 +1,53 @@
-"""fig-kit F2: matrix_grid — 2 軸の対応表を SVG で生成し Inkscape CLI で PNG 化する。
-入力 JSON: {"title","x_axis":{"label","cols":[..]},"y_axis":{"label","rows":[..]},"cells":[[{"name","items":[..]},..],..],"out"}
+"""fig-kit F2: matrix_grid — 2 軸の対応表を SVG で生成し Inkscape CLI で PNG 化する。意匠は style.py(共通)。
+セルは白カード。`tone` で塗りを変える: default(白) / accent(藍の淡色 = 「後」「使用中」) / muted(無彩 = 「前」「封印」) / warn(橙の淡色 = 注意)。
+入力 JSON: {"title","subtitle"?,"x_axis":{"label","cols":[..]},"y_axis":{"label","rows":[..]},
+            "cells":[[{"name","items":[..],"tone"?},..],..],"legend"?:[[name,tone],..]}
 使い方: python f2_matrix_grid.py <spec.json>
 """
 from __future__ import annotations
 import json, subprocess, sys
 from pathlib import Path
-from xml.sax.saxutils import escape
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import style as S  # noqa: E402
 
 INKSCAPE = r"C:\Program Files\Inkscape\bin\inkscape.exe"
-FONT = "Meiryo, 'Yu Gothic', sans-serif"
-PALETTE = ["#dbeafe", "#dcfce7", "#fef3c7", "#fde2e2"]
+TONES = {"default": (S.CARD, S.LINE, S.ACCENT), "accent": (S.ACCENT_SOFT, "#c4d0f6", S.ACCENT),
+         "muted": (S.MUTED, S.LINE, S.INK2), "warn": (S.WARN_SOFT, "#f5c9ae", S.WARN)}
 
 
 def build_svg(spec: dict) -> str:
     cols, rows = spec["x_axis"]["cols"], spec["y_axis"]["rows"]
-    cw, ch, lx, ty, pad = 420, 250, 170, 110, 24
-    W, H = lx + cw * len(cols) + pad, ty + ch * len(rows) + pad
-    o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}">',
-         f'<rect width="{W}" height="{H}" fill="#ffffff"/>',
-         f'<text x="{pad}" y="40" font-size="26" font-weight="bold" fill="#111">{escape(spec["title"])}</text>',
-         f'<text x="{lx + cw * len(cols) / 2}" y="78" font-size="16" text-anchor="middle" fill="#444">{escape(spec["x_axis"]["label"])}</text>']
+    max_items = max(len(c.get("items", [])) for row in spec["cells"] for c in row)
+    cw, ch, gap, lx, pad = 430, max(120, 92 + 24 * max_items), 16, 190, 36
+    ty = 132 if spec.get("subtitle") else 112
+    W = lx + (cw + gap) * len(cols) - gap + pad
+    H = ty + (ch + gap) * len(rows) - gap + pad + (36 if spec.get("legend") else 0)
+    o = S.svg_open(W, H)
+    o += S.title(pad, 48, spec["title"], spec.get("subtitle", ""))
+    if spec["x_axis"].get("label"):
+        o.append(S.text(lx + ((cw + gap) * len(cols) - gap) / 2, ty - 40, spec["x_axis"]["label"], 13, S.INK2, anchor="middle"))
     for j, c in enumerate(cols):
-        o.append(f'<text x="{lx + cw * j + cw / 2}" y="{ty - 10}" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">{escape(c)}</text>')
-    o.append(f'<text transform="translate(28,{ty + ch * len(rows) / 2}) rotate(-90)" font-size="16" text-anchor="middle" fill="#444">{escape(spec["y_axis"]["label"])}</text>')
-    k = 0
+        o.append(S.text(lx + (cw + gap) * j + cw / 2, ty - 14, c, 16, S.INK, "bold", "middle"))
+    if spec["y_axis"].get("label"):
+        o.append(f'<text transform="translate({pad},{ty + ((ch + gap) * len(rows) - gap) / 2}) rotate(-90)" font-size="13" text-anchor="middle" fill="{S.INK2}">{S.escape(spec["y_axis"]["label"])}</text>')
     for i, r in enumerate(rows):
-        y = ty + ch * i
-        o.append(f'<text x="{lx - 12}" y="{y + ch / 2}" font-size="17" font-weight="bold" text-anchor="end" fill="#222">{escape(r)}</text>')
+        y = ty + (ch + gap) * i
+        o.append(S.text(lx - 18, y + ch / 2 + 5, r, 15, S.INK, "bold", "end"))
         for j, _ in enumerate(cols):
-            x = lx + cw * j
+            x = lx + (cw + gap) * j
             cell = spec["cells"][i][j]
-            o.append(f'<rect x="{x + 4}" y="{y + 4}" width="{cw - 8}" height="{ch - 8}" rx="10" fill="{PALETTE[k % 4]}" stroke="#94a3b8"/>')
-            o.append(f'<text x="{x + 18}" y="{y + 38}" font-size="19" font-weight="bold" fill="#0f172a">{escape(cell["name"])}</text>')
-            for n, it in enumerate(cell["items"]):
-                o.append(f'<text x="{x + 22}" y="{y + 68 + 24 * n}" font-size="15" fill="#1e293b">・{escape(it)}</text>')
-            k += 1
+            fill, stroke, dot = TONES.get(cell.get("tone", "default"), TONES["default"])
+            o += S.card(x, y, cw, ch, fill, stroke)
+            o.append(S.text(x + 22, y + 36, cell["name"], 17, S.INK, "bold"))
+            o += S.bullets(x + 26, y + 68, cell.get("items", []), 14, 24, S.INK, dot)
+    if spec.get("legend"):
+        ly, lx0 = H - pad + 2, lx
+        for name, tone in spec["legend"]:
+            fill, stroke, _ = TONES.get(tone, TONES["default"])
+            o.append(f'<rect x="{lx0}" y="{ly - 12}" width="18" height="14" rx="4" fill="{fill}" stroke="{stroke}"/>')
+            o.append(S.text(lx0 + 26, ly, name, 13, S.INK2))
+            lx0 += 26 + 14 * len(name) + 28
     o.append("</svg>")
     return "\n".join(o)
 
