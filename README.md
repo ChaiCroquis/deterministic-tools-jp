@@ -17,6 +17,7 @@
 | `articles/` | 記事の正本(Markdown、frontmatter 付き)。Blogger へはここから投稿する |
 | `figures/` | 図の生成器(fig-kit)と、その入力 JSON・生成済み SVG / PNG。記事内の図は全てここから決定論で生成(数値が変われば図も変わる) |
 | `publish/` | Blogger 投稿係(公式 API v3)。既定は dry-run。設定ファイルの実体は含めない(`blogger.example.toml` を参照) |
+| `tools/` | 記事ごとの小さな道具(1 記事 = 1 道具)。stdlib 中心、`tests/` と合成データの `fixtures/` 付き。CI でテストを実行 |
 
 ## 図の生成(fig-kit)
 
