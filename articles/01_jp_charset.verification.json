@@ -1,0 +1,14 @@
+{
+  "_comment": "記事 01 に出てくる 2 桁以上の数値の出典台帳。数値は私の記録と、この場で実走したテストの出力のみ。推計は入れない。非公開の記録はパス・機器名・取引先名を書かない",
+  "article": "01_jp_charset.md",
+  "numbers": [
+    {"value": "17", "what": "CSV 文字コード判定の別実装の箇所数", "source": "私の棚卸し記録(非公開)。記事 00 と同じ数"},
+    {"value": "67", "what": "私が作ってきた道具の本数(2026-09-20 の棚卸し)", "source": "私の棚卸し記録(非公開)。記事 00 と同じ数"},
+    {"value": "26", "what": "6 パターンのうち ②文字コード に該当する本数", "source": "私の棚卸し記録(非公開)。記事 00 と同じ数"},
+    {"value": "1,000", "what": "計測に使った合成行数 / 合成ファイル本数(固定 seed 20260921 で生成)", "source": "テスト実走 2026-09-20: tools/jp_charset/tests/test_jp_charset.py test_measure_*"},
+    {"value": "351", "what": "UTF-8 の「ヘッダー + 1 行」合成ファイル 1,000 本のうち、素朴な順(cp932 を先に)が cp932 と誤判定した本数", "source": "テスト実走 2026-09-20: test_measure_naive_order_on_utf8_rows の出力 '351/1000'"},
+    {"value": "18", "what": "jp_charset のテスト件数(全件 passed)", "source": "テスト実走 2026-09-20: python -m pytest tools/jp_charset -q → '18 passed in 0.31s'"},
+    {"value": "16", "what": "UTF-16 / utf-16 という文字コード名の一部(計測値ではない)", "source": "文字コード名"},
+    {"value": "932", "what": "cp932 という文字コード名の一部(計測値ではない)", "source": "文字コード名"}
+  ]
+}
