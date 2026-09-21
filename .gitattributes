@@ -1,0 +1,2 @@
+# 記事の道具の fixture はバイト列そのものがテスト対象(CRLF / BOM / UTF-16)。git に改行を触らせない
+tools/*/fixtures/** -text
