@@ -1,0 +1,24 @@
+{
+  "_comment": "記事 02 に出てくる 2 桁以上の数値の出典台帳。数値は私の記録と、この場で実走したテストの出力のみ。推計は入れない。非公開の記録はパス・機器名・取引先名を書かない",
+  "article": "02_wareki.md",
+  "numbers": [
+    {"value": "18", "what": "和暦を読む正規表現が散在していたファイル数", "source": "私の棚卸し記録(非公開)。記事 00 と同じ棚卸し"},
+    {"value": "1,000", "what": "計測に使った合成件数(固定 seed 20260922 で生成)", "source": "テスト実走 2026-09-22: tools/wareki/tests/test_wareki.py test_measure_*"},
+    {"value": "98", "what": "改元をまたぐ年を含む合成 1,000 件のうち、年の足し算が黙って通し、改元表の外だった件数", "source": "テスト実走 2026-09-22: test_measure_naive_offset_passes_dates_outside_the_table の出力 'outside the era table: 98'"},
+    {"value": "52", "what": "上記 98 件の内訳: 改元後の旧元号", "source": "テスト実走 2026-09-22: 同テストの出力 '改元後の旧元号': 52"},
+    {"value": "24", "what": "上記 98 件の内訳: 改元前の新元号", "source": "テスト実走 2026-09-22: 同テストの出力 '改元前の新元号': 24"},
+    {"value": "22", "what": "上記 98 件の内訳: 太陽暦以前", "source": "テスト実走 2026-09-22: 同テストの出力 '太陽暦以前': 22"},
+    {"value": "902", "what": "同じ 1,000 件のうち、この道具(strict)が通した件数(= 1,000 - 98)", "source": "テスト実走 2026-09-22: 同テストの出力 'this tool strict: 902/1000'"},
+    {"value": "954", "what": "同じ 1,000 件のうち、strict=False で通る件数(= 902 + 52)", "source": "テスト実走 2026-09-22: 同テストの出力 'lenient: 954/1000'"},
+    {"value": "276", "what": "8 種類の表記に散らした合成 1,000 件のうち、素朴な正規表現(漢字元号のみ)が読めた件数", "source": "テスト実走 2026-09-22: test_measure_notation_variety の出力 'naive regex read 276/1000'"},
+    {"value": "60", "what": "wareki のテスト件数(全件 passed)", "source": "テスト実走 2026-09-22: python -m pytest tools/wareki -q → '60 passed in 0.45s'"},
+    {"value": "17", "what": "和暦と西暦が混ざった合成 fixture(mixed_dates.csv)の行数", "source": "tools/wareki/fixtures/make_fixtures.py(test_fixture_mixed_dates が len(rows) == 17 で固定)"},
+    {"value": "1868", "what": "明治元年の西暦(改元表の値。計測値ではない)", "source": "改元表 tools/wareki/wareki.py ERAS"},
+    {"value": "1873", "what": "太陽暦の採用年 = 明治 6 年(この道具の下限。計測値ではない)", "source": "改元表 tools/wareki/wareki.py ERAS"},
+    {"value": "31", "what": "平成 31 年(元号の年。計測値ではない)", "source": "改元表の例"},
+    {"value": "32", "what": "平成 32 年(改元後の旧元号の例。計測値ではない)", "source": "改元表の例"},
+    {"value": "64", "what": "昭和 64 年(元号の年。計測値ではない)", "source": "改元表の例"},
+    {"value": "45", "what": "明治 45 年(元号の年。計測値ではない)", "source": "改元表の例"},
+    {"value": "15", "what": "大正 15 年(元号の年。計測値ではない)", "source": "改元表の例"}
+  ]
+}
