@@ -1,0 +1,24 @@
+{
+  "_comment": "記事 03 に出てくる 2 桁以上の数値の出典台帳。数値は私の記録と、この場で実走したテストの出力のみ。推計は入れない。非公開の記録はパス・機器名・取引先名を書かない",
+  "article": "03_jp_name.md",
+  "numbers": [
+    {"value": "8", "what": "氏名を寄せるコードが別々に書かれていた箇所数(以上)", "source": "私の棚卸し記録(非公開)。記事 00 と同じ棚卸し"},
+    {"value": "1,000", "what": "計測に使った合成人数(固定 seed 20260923 で生成した左の名簿の行数)", "source": "テスト実走 2026-09-23: tools/jp_name/tests/test_jp_name.py test_measure_*"},
+    {"value": "970", "what": "左の名簿 1,000 行に含まれる姓名の通り数(30 通りが 2 人ずつ)", "source": "テスト実走 2026-09-23: build_rosters の合成条件(test_measure_rosters_are_built_as_declared で固定)"},
+    {"value": "30", "what": "同姓同名の別人として仕込んだ組数", "source": "テスト実走 2026-09-23: build_rosters の合成条件"},
+    {"value": "60", "what": "同姓同名 30 組ぶんの左の行数 / この道具の判断待ち『自分側が重複』の件数", "source": "テスト実走 2026-09-23: test_measure_this_tool の出力 '自分側が重複': 60"},
+    {"value": "20", "what": "左の名簿で旧姓を括弧併記にした行数 / 判断待ち『対象外表記』の件数", "source": "テスト実走 2026-09-23: test_measure_this_tool の出力 '対象外表記': 20"},
+    {"value": "40", "what": "右の名簿に載せなかった人数 / 判断待ち『相手なし』の件数", "source": "テスト実走 2026-09-23: test_measure_this_tool の出力 '相手なし': 40"},
+    {"value": "15", "what": "右にだけいる同姓同名の別人として足した行数 / 判断待ち『相手が複数』の件数。合成 fixture meibo_b.csv の行数も同じ 15", "source": "テスト実走 2026-09-23: test_measure_this_tool の出力 '相手が複数': 15 / tools/jp_name/fixtures/make_fixtures.py"},
+    {"value": "975", "what": "右の名簿の行数(1,000 - 40 + 15)", "source": "テスト実走 2026-09-23: test_measure_rosters_are_built_as_declared が len(right) == 975 で固定"},
+    {"value": "187", "what": "文字列の完全一致だけで決まった件数(1,000 件中)", "source": "テスト実走 2026-09-23: test_measure_exact_match_only の出力 'exact string match: 187/1000 matched'"},
+    {"value": "13", "what": "完全一致で決まった 187 件のうち、別人に当たっていた件数", "source": "テスト実走 2026-09-23: 同テストの出力 'wrong 13'"},
+    {"value": "793", "what": "類似度 0.8 以上を同じ人として自動採用したときに決まった件数(1,000 件中)", "source": "テスト実走 2026-09-23: test_measure_similarity_threshold_merges_different_people の出力 'auto-adopt: 793/1000 adopted'"},
+    {"value": "116", "what": "自動採用した 793 件のうち、別人だった件数", "source": "テスト実走 2026-09-23: 同テストの出力 'different person 116'"},
+    {"value": "865", "what": "この道具が照合した件数(1,000 件中。別人への結合は 0 件)", "source": "テスト実走 2026-09-23: test_measure_this_tool の出力 'matched 865/1000, wrong 0'"},
+    {"value": "135", "what": "この道具が判断待ちにした件数(60 + 15 + 40 + 20)", "source": "テスト実走 2026-09-23: 同テストの出力 'pending 135'"},
+    {"value": "22", "what": "異体字の同値表の組数", "source": "tools/jp_name/jp_name.py VARIANT_GROUPS(test_variant_groups_are_disjoint_and_distinct が各組を検査)"},
+    {"value": "59", "what": "jp_name のテスト件数(全件 passed)", "source": "テスト実走 2026-09-23: python -m pytest tools/jp_name -q → '59 passed in 3.57s'"},
+    {"value": "19", "what": "合成 fixture meibo_a.csv の行数", "source": "tools/jp_name/fixtures/make_fixtures.py(test_fixture_meibo_pairs が len(a) == 19 で固定)"}
+  ]
+}
