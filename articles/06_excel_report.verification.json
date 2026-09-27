@@ -1,0 +1,11 @@
+{"article": "06_excel_report.md",
+ "numbers": [
+   {"value": "82", "what": "excel_report のテスト件数(全て通過)", "source": "テスト実走 2026-09-27: python -m pytest tools/excel_report -q → 82 passed in 10.02s"},
+   {"value": "12", "what": "合成 fixture の差異一覧の行数 / 計測で「表の外にある」を付けたセル数", "source": "fixtures/sai_ichiran.csv(合成データ)。テスト実走 2026-09-27 の CLI --check が『検査 12 行』、test_measure_rows_are_built_as_declared が INJECT の表の外にある 12 を固定"},
+   {"value": "14", "what": "その 12 行に付けた判定の件数 / 計測で「値が無い」を付けたセル数", "source": "テスト実走 2026-09-27: CLI --check が『判断待ち 14 件』、test_write_returns_counts と test_measure_rows_are_built_as_declared が固定"},
+   {"value": "11", "what": "計測で「相手が決まらない」を付けたセル数", "source": "テスト実走 2026-09-27: test_measure_rows_are_built_as_declared が INJECT で固定"},
+   {"value": "16", "what": "計測で「形が両立しない」を付けたセル数", "source": "テスト実走 2026-09-27: test_measure_rows_are_built_as_declared が INJECT で固定"},
+   {"value": "1,000", "what": "計測で合成した差異一覧の行数", "source": "テスト実走 2026-09-27: test_measure_* の N = 1000(固定 seed 20260927)"},
+   {"value": "60", "what": "その 1,000 行に付けた判定のセル数 = 塗られたセル数 = 読み戻して復元できたセル座標の数 = 静的に焼いた出力から読める塗りの数", "source": "テスト実走 2026-09-27: test_measure_this_tool_writes_and_the_readback_agrees(60 cells painted / coordinates recovered 60)/ test_measure_conditional_formatting_leaves_no_colour_in_the_file(static 60)"},
+   {"value": "55", "what": "判定を付けた行数 = CSV 化しても理由コードを運んでいた行数", "source": "テスト実走 2026-09-27: test_measure_rows_are_built_as_declared(PENDING_ROWS 55)/ test_measure_colour_only_output_and_the_downstream_steps(rows carrying a reason in the CSV 55)"}
+ ]}
