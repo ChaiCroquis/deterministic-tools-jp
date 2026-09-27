@@ -16,8 +16,19 @@ jobs:
         run: python -X utf8 publish/test_blogger_publish.py
       - name: 記事の道具のテスト(tools/*/tests)
         run: |
-          pip install -q pytest
-          if ls tools/*/tests >/dev/null 2>&1; then python -m pytest tools -q; else echo "tools/ なし"; fi
+          # openpyxl は excel_report の依存。記事・README で確かめた版に固定する(版で xlsx の中身が変わるテストがある)
+          pip install -q pytest openpyxl==3.1.5
+          # 道具ごとに別プロセスで回す。各道具が同名の fixtures/make_fixtures.py を持つので、
+          # 1 プロセスで tools/ を回すと先に読んだ make_fixtures を他の道具が掴む(手元の series_check.py も道具単位)
+          fail=0; found=0
+          for t in tools/*/tests; do
+            [ -d "$t" ] || continue
+            found=1
+            echo "== $t"
+            python -m pytest "$t" -q || fail=1
+          done
+          [ "$found" = 1 ] || echo "tools/ なし"
+          exit $fail
       - name: 公開してはいけないもの(秘密・ローカルパス・メール)の混入検査
         run: python -X utf8 publish/scan_public.py .
       - name: 記事が参照する図が figures/ に実在するか
