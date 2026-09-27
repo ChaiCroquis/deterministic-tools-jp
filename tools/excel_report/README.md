@@ -72,6 +72,7 @@ where_it_lives("sai.xlsx", "FFF1E8")        # 塗りが入っている zip の�
 ## テスト
 
 ```
+pip install -r tools/excel_report/requirements.txt pytest   # openpyxl を記事で確かめた版(3.1.5)で入れる
 python -m pytest tools/excel_report -q      # fixture は全て合成データ(fixtures/make_fixtures.py で再生成可)
 ```
 

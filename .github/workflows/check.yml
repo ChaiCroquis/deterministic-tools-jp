@@ -16,16 +16,21 @@ jobs:
         run: python -X utf8 publish/test_blogger_publish.py
       - name: 記事の道具のテスト(tools/*/tests)
         run: |
-          # openpyxl は excel_report の依存。記事・README で確かめた版に固定する(版で xlsx の中身が変わるテストがある)
-          pip install -q pytest openpyxl==3.1.5
-          # 道具ごとに別プロセスで回す。各道具が同名の fixtures/make_fixtures.py を持つので、
-          # 1 プロセスで tools/ を回すと先に読んだ make_fixtures を他の道具が掴む(手元の series_check.py も道具単位)
+          # 道具ごとに専用の venv を作り、その道具の requirements.txt(外部依存を == で固定)と pytest だけを入れて回す。
+          # 他の道具の依存で偶然通ることがなく、宣言漏れはここで落ちる。別プロセスなので、各道具が持つ
+          # 同名の fixtures/make_fixtures.py も取り違えない(手元の series_check.py も道具単位)
           fail=0; found=0
           for t in tools/*/tests; do
             [ -d "$t" ] || continue
             found=1
-            echo "== $t"
-            python -m pytest "$t" -q || fail=1
+            d=$(dirname "$t")
+            echo "== $d"
+            if [ ! -f "$d/requirements.txt" ]; then echo "requirements.txt が無い: $d"; fail=1; continue; fi
+            venv="${RUNNER_TEMP:-/tmp}/venv-$(basename "$d")"
+            python -m venv "$venv"
+            py="$venv/bin/python"; [ -x "$py" ] || py="$venv/Scripts/python.exe"   # 後者は Windows で手元再現する時
+            "$py" -m pip install -q --disable-pip-version-check pytest -r "$d/requirements.txt" || { fail=1; continue; }
+            "$py" -m pytest "$t" -q || fail=1
           done
           [ "$found" = 1 ] || echo "tools/ なし"
           exit $fail
