@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1102" height="1004" viewBox="0 0 1102 1004" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1102" height="1004" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">日付 1 軸で壊れる 4 点と、それを潰す列 — どこまで実装し、どこを次回に回したか</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">合成データで実測(tools/asof_table/tests)。行 = 適用開始日だけでは表せないこと、列 = 行の側に足す列 / この部品での状態</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">行の側に足す列(何を宣言させるか)</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">この部品での状態(実測つき)</text>
+<text x="172" y="231.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">基準日の違い</text>
+<rect x="190" y="132" width="430" height="188" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">basis</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どの日付で引くかを行が宣言</text>
+<circle cx="216" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">対象月初日 / 賃金締切日 / 請求日</text>
+<circle cx="216" cy="243" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ key で揺れたら表の不備</text>
+<circle cx="216" cy="267" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="272" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">case に無ければ理由コード</text>
+<rect x="636" y="132" width="430" height="188" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">実装した</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">合成 2,160 件のうち 72 件で差</text>
+<circle cx="662" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">3 月・4 月の年度またぎで出る</text>
+<circle cx="662" cy="243" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">呼ぶ側は日付を 1 つ渡さない</text>
+<circle cx="662" cy="267" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="272" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由コード「基準日が case に無い」</text>
+<text x="172" y="435.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">数式自体の改正</text>
+<rect x="190" y="336" width="430" height="188" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="372" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">payload の形</text>
+<circle cx="216" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値か数式 id かを行が持つ</text>
+<circle cx="216" cy="423" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">改正は行を分ければ表せる</text>
+<circle cx="216" cy="447" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="452" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">数式も data にする考え方</text>
+<circle cx="216" cy="471" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="476" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">評価する側は別の部品</text>
+<rect x="636" y="336" width="430" height="188" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="372" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">次回に回した</text>
+<circle cx="662" cy="399" r="2.5" fill="#c2410c"/>
+<text x="674" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値は文字列のまま返すだけ</text>
+<circle cx="662" cy="423" r="2.5" fill="#c2410c"/>
+<text x="674" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">型変換・端数処理・評価はしない</text>
+<circle cx="662" cy="447" r="2.5" fill="#c2410c"/>
+<text x="674" y="452" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の形としては置ける</text>
+<circle cx="662" cy="471" r="2.5" fill="#c2410c"/>
+<text x="674" y="476" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">この回の測定には入っていない</text>
+<text x="172" y="639.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">公表日と施行日のずれ</text>
+<rect x="190" y="540" width="430" height="188" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">known_from / known_to</text>
+<circle cx="216" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">いつ公表された知識かを行が持つ</text>
+<circle cx="216" cy="627" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="632" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">as_of で当時の知識を再現する</text>
+<circle cx="216" cy="651" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="656" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">遡って適用された改正を表せる</text>
+<circle cx="216" cy="675" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="680" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">質(実値 / 仮置き)も列に持つ</text>
+<rect x="636" y="540" width="430" height="188" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">構造だけ入れて中身は仮置き</text>
+<circle cx="662" cy="603" r="2.5" fill="#5b6272"/>
+<text x="674" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">as_of だけ動かすと行が変わる</text>
+<circle cx="662" cy="627" r="2.5" fill="#5b6272"/>
+<text x="674" y="632" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公表前の 12 件は値を返さない</text>
+<circle cx="662" cy="651" r="2.5" fill="#5b6272"/>
+<text x="674" y="656" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">仮置きの行は止まる(黙らない)</text>
+<circle cx="662" cy="675" r="2.5" fill="#5b6272"/>
+<text x="674" y="680" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実値を埋めるのは表を作る側</text>
+<text x="172" y="843.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">経過措置の対象限定</text>
+<rect x="190" y="744" width="430" height="188" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="780" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">sel_ と priority</text>
+<circle cx="216" cy="807" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="812" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">対象セグメントを次元で持つ</text>
+<circle cx="216" cy="831" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="836" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">空欄はワイルドカード</text>
+<circle cx="216" cy="855" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="860" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">0 本則 / 10 経過措置 / 20 特例</text>
+<circle cx="216" cy="879" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="884" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同順位で並んだら止める</text>
+<rect x="636" y="744" width="430" height="188" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="780" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">実装した</text>
+<circle cx="662" cy="807" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="812" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">合成 2,160 件のうち 180 件で差</text>
+<circle cx="662" cy="831" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="836" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">旧い帯だけ据え置かれる改正</text>
+<circle cx="662" cy="855" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="860" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">細かい指定を自動で優先しない</text>
+<circle cx="662" cy="879" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="884" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由コード「同順位で複数該当」</text>
+<rect x="190" y="958" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="970" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">この部品で実装した</text>
+<rect x="370" y="958" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="396" y="970" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">構造だけ入れて中身は仮置き</text>
+<rect x="606" y="958" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="632" y="970" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">次回に回した</text>
+</svg>

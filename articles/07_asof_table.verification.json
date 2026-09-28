@@ -1,0 +1,23 @@
+{"article": "07_asof_table.md",
+ "numbers": [
+  {"value": "44", "what": "合成した表の行数(fixtures/ryouritsu.csv)", "source": "テスト実走 2026-09-28(test_clean_table_shape / test_fixtures_are_reproducible、assert len(table) == 44)"},
+  {"value": "2,160", "what": "測定 1 の引き当て件数(30 か月 × 12 地域 × 2 帯 × 3 ルール)", "source": "テスト実走 2026-09-28(test_measure_main、assert m['total'] == 2160)"},
+  {"value": "252", "what": "測定 1 で適用開始日 1 軸の引き方と答えが違った件数", "source": "テスト実走 2026-09-28(test_measure_main、assert m['mismatch'] == 252)"},
+  {"value": "72", "what": "252 件のうち基準日の違いによる差", "source": "テスト実走 2026-09-28(test_measure_main、assert m['by_cause']['基準日'] == 72)"},
+  {"value": "180", "what": "252 件のうち経過措置による差", "source": "テスト実走 2026-09-28(test_measure_main、assert m['by_cause']['経過措置'] == 180)"},
+  {"value": "228", "what": "252 件のうち、どちらも値を返したが中身が違った件数", "source": "テスト実走 2026-09-28(test_measure_main、assert m['silently_different_value'] == 228)"},
+  {"value": "24", "what": "252 件のうち、1 軸の側が値を返しこの部品は止めた件数", "source": "テスト実走 2026-09-28(test_measure_main、assert m['naive_value_but_undetermined'] == 24)"},
+  {"value": "24", "what": "測定 2 の引き当て件数(12 地域 × 引く時点 2 通り)", "source": "テスト実走 2026-09-28(test_measure_knowledge、assert m['total'] == 24)"},
+  {"value": "144", "what": "測定 1 でこの部品が理由コードで止めた件数", "source": "テスト実走 2026-09-28(test_measure_main、assert m['stopped'] == 144)"},
+  {"value": "30", "what": "測定 1 で流した月数(2024-01 から 2026-06)", "source": "テスト実走 2026-09-28(tests/test_asof_table.py の MONTHS、len == 30)"},
+  {"value": "12", "what": "測定 1・2 で使った合成の地域の数", "source": "テスト実走 2026-09-28(fixtures/make_fixtures.py の AREAS、test_each_area_gets_its_own_row で 12 通り)"},
+  {"value": "12", "what": "測定 2 でこの部品が公表前として止めた件数 / 公表後に値を返した件数", "source": "テスト実走 2026-09-28(test_measure_knowledge、assert m['tool_stopped'] == 12 and m['tool_value'] == 12)"},
+  {"value": "12", "what": "基盤にあたる層にぶら下がっている道具の本数", "source": "私の棚卸し記録(非公開)の仕分け結果"},
+  {"value": "73", "what": "この道具のテスト件数", "source": "テスト実走 2026-09-28(python -m pytest tools/asof_table -q → 73 passed)"},
+  {"value": "1,681", "what": "作り直した私の参照表の行数", "source": "私の参照表の作業記録(非公開)"},
+  {"value": "45", "what": "同じ表に入っているルールの種類数", "source": "私の参照表の作業記録(非公開)"},
+  {"value": "11", "what": "同じ表の更新手順を回した履歴の回数(うち 2 回は意図的な失敗試験)", "source": "私の参照表の実行履歴(非公開)"},
+  {"value": "27", "what": "履歴の扱いで詰まった自作の道具の本数", "source": "私の棚卸し記録(非公開)の仕分け結果"},
+  {"value": "10", "what": "順位の列で経過措置に割り当てた値", "source": "tools/asof_table/asof_table.py の PRIORITIES(テスト実走 2026-09-28、test_the_transitional_row_wins_over_the_main_rule)"},
+  {"value": "20", "what": "順位の列で特例に割り当てた値", "source": "tools/asof_table/asof_table.py の PRIORITIES(テスト実走 2026-09-28、test_validate_lists_every_kind で登録外の判定に使用)"}
+ ]}
