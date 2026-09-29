@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1102" height="800" viewBox="0 0 1102 800" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1102" height="800" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">丸めは項目ごとに規定されている。実行環境の既定は項目を知らない</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">左 = 私の参照表に出典欄つきで記録してある行。右 = 同じ合成の金額 120 件に実行環境の既定を当てた実走の出力</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">規定の側(出典欄つきの行から引用)</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">実際の側(その場で実走した既定の出力)</text>
+<text x="172" y="231.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">保険料の被保険者負担</text>
+<rect x="190" y="132" width="430" height="188" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">50銭以下切捨て</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の備考「被保険者負担分 50 銭ルール」</text>
+<circle cx="216" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典欄「厚労省通達」/ payload は formula</text>
+<circle cx="216" cy="243" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">端数 0.50 は下、0.51 から上</text>
+<circle cx="216" cy="267" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="272" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ表に 3 年分の行がある</text>
+<rect x="636" y="132" width="430" height="188" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">120 件中 8 件が食い違う</text>
+<circle cx="662" cy="195" r="2.5" fill="#c2410c"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">4,471.50 → 表で指定すると 4,471</text>
+<circle cx="662" cy="219" r="2.5" fill="#c2410c"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">Python の round は 4,472</text>
+<circle cx="662" cy="243" r="2.5" fill="#c2410c"/>
+<text x="674" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">Decimal の既定も 4,472</text>
+<circle cx="662" cy="267" r="2.5" fill="#c2410c"/>
+<text x="674" y="272" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">int の切り捨ては 46 件で食い違う</text>
+<text x="172" y="435.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">雇用の給付日額</text>
+<rect x="190" y="336" width="430" height="188" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="372" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1円未満切捨て</text>
+<circle cx="216" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の記述「区分計算 + 1 円未満切捨て」</text>
+<circle cx="216" cy="423" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典欄「厚労省 PDF(計算式・限度額)」</text>
+<circle cx="216" cy="447" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="452" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">端数がいくつでも下へ落とす</text>
+<circle cx="216" cy="471" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="476" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">帯ごとの計算式と対で記録してある</text>
+<rect x="636" y="336" width="430" height="188" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="372" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">120 件中 54 件が食い違う</text>
+<circle cx="662" cy="399" r="2.5" fill="#c2410c"/>
+<text x="674" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">Python の round が 54 件で違う</text>
+<circle cx="662" cy="423" r="2.5" fill="#c2410c"/>
+<text x="674" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">Decimal の既定も 54 件で違う</text>
+<circle cx="662" cy="447" r="2.5" fill="#c2410c"/>
+<text x="674" y="452" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">int の切り捨てだけ 0 件</text>
+<circle cx="662" cy="471" r="2.5" fill="#c2410c"/>
+<text x="674" y="476" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">たまたま一致は規定の裏付けではない</text>
+<text x="172" y="639.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">年金額</text>
+<rect x="190" y="540" width="430" height="188" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">円未満四捨五入</text>
+<circle cx="216" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の備考「円未満四捨五入 等」</text>
+<circle cx="216" cy="627" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="632" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典欄「国年法 / 厚年法」/ payload は formula</text>
+<circle cx="216" cy="651" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="656" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">端数 0.5 は必ず上へ</text>
+<circle cx="216" cy="675" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="680" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">備考の「等」= 項目ごとにさらに分かれる</text>
+<rect x="636" y="540" width="430" height="188" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">120 件中 10 件が食い違う</text>
+<circle cx="662" cy="603" r="2.5" fill="#c2410c"/>
+<text x="674" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">4,472.50 → 表で指定すると 4,473</text>
+<circle cx="662" cy="627" r="2.5" fill="#c2410c"/>
+<text x="674" y="632" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">Python の round は 4,472(偶数側へ)</text>
+<circle cx="662" cy="651" r="2.5" fill="#c2410c"/>
+<text x="674" y="656" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">整数部の偶奇で向きが変わる</text>
+<circle cx="662" cy="675" r="2.5" fill="#c2410c"/>
+<text x="674" y="680" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">int の切り捨ては 64 件で食い違う</text>
+<rect x="190" y="754" width="18" height="14" rx="4" fill="#ffffff" stroke="#d9dce6"/>
+<text x="216" y="766" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">規定の側(出典欄つきの行)</text>
+<rect x="426" y="754" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="452" y="766" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">実際の側(実走した既定の出力)</text>
+</svg>
