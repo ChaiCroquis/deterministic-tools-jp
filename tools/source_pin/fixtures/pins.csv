@@ -1,0 +1,14 @@
+key,value,raw_text,source_kind,source_file,source_sha256,locator,method,normalizer,captured_at,note
+料率_地域I,9.98,9.98,表形式の xlsx,genpon_ryouritsu.xlsx,dc18b1dec20076c7b102c13805853c949f87ca514cbedd1bcb62474dda8f86b3,料率!B3,xlsx_cell,そのまま,2026-10-01T09:00:00+00:00,数値セル(合成・架空)
+料率_地域II,1.60,1.60%,表形式の xlsx,genpon_ryouritsu.xlsx,dc18b1dec20076c7b102c13805853c949f87ca514cbedd1bcb62474dda8f86b3,料率!B4,xlsx_cell,パーセント,2026-10-01T09:00:00+00:00,% 付きの文字列セル(合成・架空)
+上限額_地域I,1230000,１，２３０，０００円,表形式の xlsx,genpon_ryouritsu.xlsx,dc18b1dec20076c7b102c13805853c949f87ca514cbedd1bcb62474dda8f86b3,料率!C3,xlsx_cell,全角半角+カンマ除去+円,2026-10-01T09:00:00+00:00,全角・カンマ・円が混ざったセル(合成・架空)
+等級上限,650000,650000,表形式の xlsx,genpon_ryouritsu.xlsx,dc18b1dec20076c7b102c13805853c949f87ca514cbedd1bcb62474dda8f86b3,料率!C4,xlsx_cell,そのまま,2026-10-01T09:00:00+00:00,数値セル(合成・架空)
+上限額_区分B,7294,"7,294円",テキスト層のある PDF,genpon_gendogaku.txt,d5893a83517826f978959e2740a540f6d0d6a27bb949733efa110c50fe5fb7be,7,text_line,カンマ除去+円,2026-10-01T09:00:00+00:00,PDF から取り出したテキストの 7 行目
+賃金日額_下限,2869,"2,869円",テキスト層のある PDF,genpon_gendogaku.txt,d5893a83517826f978959e2740a540f6d0d6a27bb949733efa110c50fe5fb7be,11,text_line,カンマ除去+円,2026-10-01T09:00:00+00:00,同じテキストの 11 行目
+改定日,2027-08-01,2027年8月1日,テキスト層のある PDF,genpon_gendogaku.txt,d5893a83517826f978959e2740a540f6d0d6a27bb949733efa110c50fe5fb7be,13,text_line,日付,2026-10-01T09:00:00+00:00,同じテキストの 13 行目
+日数_区分A,90,90,日付の無い HTML,genpon_nissu.html,5116881a6a7115c02da4f5010c328781ff633d2356f3b79321813909a7de69cc,6,html_text,そのまま,2026-10-01T09:00:00+00:00,tag を外したテキストの 6 行目
+日数_適用開始日,2017-04-01,2017-04-01,日付の無い HTML,genpon_nissu.html,5116881a6a7115c02da4f5010c328781ff633d2356f3b79321813909a7de69cc,表の見出し(日付の記載が無い),manual,そのまま,2026-10-01T09:00:00+00:00,HTML に日付が無いので人が仮置きした。接地の検査はできない
+乗率_世代I,,,画像だけの PDF,genpon_gazou.pdf,5ad259dc9ef4fdc9bb174b71f92076d4305eeb444bfdf3431f1cf92f5543f706,3 ページの表(テキスト層が無い),unavailable,,2026-10-01T09:00:00+00:00,画像だけの PDF。value は空のまま残す
+乗率_世代II,,,画像だけの PDF,genpon_gazou.pdf,5ad259dc9ef4fdc9bb174b71f92076d4305eeb444bfdf3431f1cf92f5543f706,4 ページの表(テキスト層が無い),unavailable,,2026-10-01T09:00:00+00:00,同じ PDF。取れない物も 1 行として残す
+来年度の配布ページ,page-00042,page-00042,URL が変わる配布元,haifu_kiroku.txt,e61d1900db8088d262ed98c673afcbebeb8361e973b9d0ef8ff50e35cabc4401,手元の記録 3 行目(機械で辿れない),manual,そのまま,2026-10-01T09:00:00+00:00,配布ページの id を人が見て転記した
+来年度の数表,,,URL が変わる配布元,,,来年度の配布(まだ無い),unavailable,,2026-10-01T09:00:00+00:00,配布がまだ無いので原本のファイルも無い

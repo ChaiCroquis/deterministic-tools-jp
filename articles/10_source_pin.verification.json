@@ -1,0 +1,16 @@
+{"article": "10_source_pin.md",
+ "numbers": [
+  {"value": "1,681", "what": "私の数表に入っている行数", "source": "私の棚卸し記録(非公開)の収録範囲の記述"},
+  {"value": "45", "what": "私の数表に入っているルールの種類数", "source": "私の棚卸し記録(非公開)の収録範囲の記述"},
+  {"value": "11", "what": "私の更新台帳に残っている実行回数", "source": "私の棚卸し記録(非公開)の検証実績の記述"},
+  {"value": "7,050", "what": "料率の xlsx から作った行を 3 年ぶん再計算して一致した件数", "source": "私の棚卸し記録(非公開)の検証実績の記述"},
+  {"value": "13", "what": "合成の原本 5 種に張ったピンの本数", "source": "テスト実走 2026-10-01(test_measure_pins、13 本)"},
+  {"value": "10", "what": "検査を通ったピンの本数(うち 2 本は人が転記した印つき)", "source": "テスト実走 2026-10-01(test_measure_pins、verified 10)"},
+  {"value": "19", "what": "原本とピンの表を 1 か所ずつ書き換えた通り数", "source": "テスト実走 2026-10-01(test_measure_tampering、cases 19)"},
+  {"value": "18", "what": "そのうち検査が止めた通り数", "source": "テスト実走 2026-10-01(test_measure_tampering、stopped 18)"},
+  {"value": "37", "what": "道具のテスト件数", "source": "テスト実走 2026-10-01(pytest tools/source_pin -q → 37 passed)"},
+  {"value": "1.32", "what": "そのテストの実行秒数", "source": "テスト実走 2026-10-01(pytest 出力 37 passed in 1.32s)"},
+  {"value": "12", "what": "原本の中の場所の書き方の例に使ったセル番号(シート名!B12)", "source": "合成 fixture の説明用の例(tools/source_pin/README.md)"},
+  {"value": "1.60", "what": "合成 fixture の料率(架空)。正規化で桁を落とさない例", "source": "テスト実走 2026-10-01(test_normalizer_keeps_trailing_zero_as_written)"},
+  {"value": "1.6", "what": "上の値を丸めた場合の形(そうはしないという説明のための値)", "source": "テスト実走 2026-10-01(test_normalizer_keeps_trailing_zero_as_written)"}
+ ]}

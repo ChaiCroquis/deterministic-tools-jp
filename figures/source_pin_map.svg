@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1548" height="1088" viewBox="0 0 1548 1088" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1548" height="1088" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">原本の種類 × 取り出し方 — 取れない場所も表から消えない</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">件数は合成の原本に張ったピン 13 本の map 出力。出典は私の記録(非公開)の該当記述と合成の原本名。私の手元の 3 領域に限り、制度全体は網羅しない</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">機械で取り出せる</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">人が転記するしかない</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">取れない</text>
+<text x="172" y="219.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">表形式の xlsx</text>
+<rect x="190" y="132" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ピン 4 本</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">シート名!セルで直接読む</text>
+<circle cx="216" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">合成の原本 genpon_ryouritsu.xlsx</text>
+<circle cx="216" cy="243" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記録: 料率の xlsx は 3 年分読めた</text>
+<rect x="636" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">該当なし</text>
+<circle cx="662" cy="195" r="2.5" fill="#5b6272"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">転記に頼った列は無い</text>
+<rect x="1082" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">該当なし</text>
+<circle cx="1108" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">セルの位置が決まれば取れる</text>
+<text x="172" y="399.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">テキスト層のある PDF</text>
+<rect x="190" y="312" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ピン 3 本</text>
+<circle cx="216" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">取り出したテキストの行番号</text>
+<circle cx="216" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">合成の原本 genpon_gendogaku.txt</text>
+<circle cx="216" cy="423" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記録: 計算式と限度額は読めた</text>
+<rect x="636" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">該当なし</text>
+<circle cx="662" cy="375" r="2.5" fill="#5b6272"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">テキストに値が在った</text>
+<rect x="1082" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">該当なし</text>
+<circle cx="1108" cy="375" r="2.5" fill="#5b6272"/>
+<text x="1120" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">PDF 本体には指紋だけ張る</text>
+<text x="172" y="579.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">日付の無い HTML</text>
+<rect x="190" y="492" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ピン 1 本</text>
+<circle cx="216" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">tag を外した行番号で読む</text>
+<circle cx="216" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">合成の原本 genpon_nissu.html</text>
+<circle cx="216" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記録: 日数の表は読めた</text>
+<rect x="636" y="492" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ピン 1 本</text>
+<circle cx="662" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">日付が原本に書かれていない</text>
+<circle cx="662" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">人が仮置き = 転記の印が付く</text>
+<circle cx="662" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記録: 適用開始日は仮置き</text>
+<rect x="1082" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">該当なし</text>
+<circle cx="1108" cy="555" r="2.5" fill="#5b6272"/>
+<text x="1120" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値そのものは取れている</text>
+<text x="172" y="759.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">画像だけの PDF</text>
+<rect x="190" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">該当なし</text>
+<circle cx="216" cy="735" r="2.5" fill="#5b6272"/>
+<text x="228" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">テキスト層が無い</text>
+<rect x="636" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">該当なし</text>
+<circle cx="662" cy="735" r="2.5" fill="#5b6272"/>
+<text x="674" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">読めないので転記もできない</text>
+<rect x="1082" y="672" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ピン 2 本</text>
+<circle cx="1108" cy="735" r="2.5" fill="#c2410c"/>
+<text x="1120" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値は空のまま 1 行残す</text>
+<circle cx="1108" cy="759" r="2.5" fill="#c2410c"/>
+<text x="1120" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">合成の原本 genpon_gazou.pdf</text>
+<circle cx="1108" cy="783" r="2.5" fill="#c2410c"/>
+<text x="1120" y="788" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記録: 乗率の PDF は画像で未抽出</text>
+<text x="172" y="939.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">URL が変わる配布元</text>
+<rect x="190" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">該当なし</text>
+<circle cx="216" cy="915" r="2.5" fill="#5b6272"/>
+<text x="228" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">配布ページを機械で辿れない</text>
+<rect x="636" y="852" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ピン 1 本</text>
+<circle cx="662" cy="915" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">人が見たページの id を転記</text>
+<circle cx="662" cy="939" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">読み替え: URL でなく記録と指紋</text>
+<circle cx="662" cy="963" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記録: 次年度の id は手で追加</text>
+<rect x="1082" y="852" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ピン 1 本</text>
+<circle cx="1108" cy="915" r="2.5" fill="#c2410c"/>
+<text x="1120" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">来年度の配布がまだ無い</text>
+<circle cx="1108" cy="939" r="2.5" fill="#c2410c"/>
+<text x="1120" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原本のファイルも無い</text>
+<circle cx="1108" cy="963" r="2.5" fill="#c2410c"/>
+<text x="1120" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値は空のまま 1 行残す</text>
+<rect x="190" y="1042" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="1054" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">機械で取り出せる</text>
+<rect x="356" y="1042" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="382" y="1054" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">該当なし</text>
+<rect x="466" y="1042" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="492" y="1054" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">取れない(値は空のまま残す)</text>
+</svg>
