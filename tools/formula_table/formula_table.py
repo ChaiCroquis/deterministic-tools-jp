@@ -171,19 +171,31 @@ def _literal(node: ast.Constant, expr: str) -> Decimal:
 
 
 def to_decimal(v: object, what: str) -> Decimal:
-    """入力を Decimal にする。float は理由コードで止める(文字列の '1.5' は通す)。"""
+    """入力を Decimal にする。float は理由コードで止める(文字列の '1.5' は通す)。
+    NaN / Infinity は数として読まない(丸めで例外になったり、値として返ったりしないよう、入口で止める)。
+    全角数字など半角でない字を含む文字列も数として読まない。"""
     if isinstance(v, Decimal):
-        return v
+        return _finite(v, what, v)
     if isinstance(v, bool):
         raise Stop("float 混入", f"{what} が真偽値")
     if isinstance(v, float):
         raise Stop("float 混入", f"{what} が float({v!r})。Decimal か文字列で渡す")
     if isinstance(v, int):
         return Decimal(v)
+    s = str(v).strip()
+    if not s.isascii():   # Decimal は全角数字も数として読むが、勝手に半角へ寄せない(取込側の数字の扱いとそろえる)
+        raise TableError(f"{what} が数として読めない(半角でない字を含む): {v!r}")
     try:
-        return Decimal(str(v).strip())
+        d = Decimal(s)
     except InvalidOperation as e:
         raise TableError(f"{what} が数として読めない: {v!r}") from e
+    return _finite(d, what, v)
+
+
+def _finite(d: Decimal, what: str, v: object) -> Decimal:
+    if not d.is_finite():
+        raise TableError(f"{what} が数として読めない(有限の数でない): {v!r}")
+    return d
 
 
 # ---------------------------------------------------------------- 行

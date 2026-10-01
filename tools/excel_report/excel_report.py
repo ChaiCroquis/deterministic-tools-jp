@@ -45,6 +45,8 @@ PENDING_FIELDS = ("シート", "セル座標", "行番号", "列名", "値", "�
 REASON_FIELDS = ("理由コード", "意味", "塗り")
 HEX = re.compile(r"\A[0-9A-F]{6}\Z")
 NO_FILL = (None, "00000000")          # openpyxl が「塗りなし」を返す形
+# xlsx(XML)に書けない文字: タブ・改行・CR 以外の制御文字、U+FFFE / U+FFFF、対になっていないサロゲート
+XML_ILLEGAL = re.compile("[\x00-\x08\x0b\x0c\x0e-\x1f￾￿\ud800-\udfff]")
 
 
 class SpecError(Exception):
@@ -201,6 +203,17 @@ def check_judgments(table: Table, reasons: ReasonTable, judgments: Sequence[Judg
         if (j.row, j.column) in seen:
             raise SpecError(f"同じセルに理由が 2 つある: {j.row} 行 {j.column}(どちらを塗るかは機械では決まらない)")
         seen.add((j.row, j.column))
+
+
+def check_values(table: Table, reasons: ReasonTable) -> None:
+    """見出し・値・理由コードの表に xlsx に書けない文字が無いか。あれば書く前に止める(置換して書き進めない)。"""
+    places = [(f"見出し {c!r}", c) for c in table.columns]
+    places += [(f"{i} 行 {c} の値", v) for i, row in enumerate(table.rows, 1) for c, v in zip(table.columns, row)]
+    places += [(f"理由コード {r.code!r} の{k}", s) for r in reasons.reasons for k, s in (("コード", r.code), ("意味", r.meaning))]
+    for where, s in places:
+        m = XML_ILLEGAL.search(str(s))
+        if m:
+            raise SpecError(f"{where}に xlsx に書けない文字がある: U+{ord(m.group(0)):04X}(置換して書き進めない)")
 
 
 def reason_column_values(table: Table, judgments: Sequence[Judgment]) -> list[str]:
@@ -401,12 +414,18 @@ def write(path: str | os.PathLike[str], table: Table, reasons: ReasonTable,
     """作業ファイルに書く → 読み戻して突き合わせる → 通ったものだけ本来の名前にする。
 
     差が 1 つでもあれば作業ファイルを消す。人に渡るファイルは作られない。
+    書く途中で例外になっても作業ファイルを消してから例外を上げる(作業ファイルを残さない)。
     """
     dest = Path(path)
     check_judgments(table, reasons, judgments)
+    check_values(table, reasons)
     tmp = dest.with_name(dest.name + ".tmp.xlsx")   # openpyxl は拡張子で読み書きを断るので .xlsx を残す
-    _build(tmp, table, reasons, judgments)
-    diffs = verify(tmp, table, reasons, judgments)
+    try:
+        _build(tmp, table, reasons, judgments)
+        diffs = verify(tmp, table, reasons, judgments)
+    except BaseException:
+        tmp.unlink(missing_ok=True)
+        raise
     if diffs:
         tmp.unlink()
         return Result(str(dest), False, diffs=tuple(diffs))

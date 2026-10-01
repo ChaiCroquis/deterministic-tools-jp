@@ -42,6 +42,15 @@ class UndecodableError(ValueError):
     """固定順の全てで strict 復号に失敗した、または NUL を含むため判定を拒否した。"""
 
 
+def _by_bom(data: bytes, enc: str) -> Decoded:
+    """BOM が示す文字コードで strict に読む。読めなければ UndecodableError(BOM 付き UTF-8 の後ろに
+    cp932 を連結したファイルなどを、別の文字コードとして読み進めない)。"""
+    try:
+        return Decoded(enc, data.decode(enc, errors="strict"))
+    except UnicodeDecodeError as e:
+        raise UndecodableError(f"BOM は {enc} を示すが、byte {e.start} 付近で復号に失敗 ({e.reason})") from e
+
+
 def detect(data: bytes) -> Decoded:
     """バイト列を固定順で厳密に復号し、最初に通った文字コード名と本文を返す。
 
@@ -53,12 +62,12 @@ def detect(data: bytes) -> Decoded:
     if data == b"":
         return Decoded("utf-8", "")
 
-    # 1. BOM(決定論。推測ではない)
+    # 1. BOM(決定論。推測ではない)。BOM が示す文字コードで読めなければ、ほかの段に回さず止める
     if data.startswith(BOM_UTF8):
-        return Decoded("utf-8-sig", data.decode("utf-8-sig", errors="strict"))
+        return _by_bom(data, "utf-8-sig")
     if data.startswith(BOM_UTF16_LE) or data.startswith(BOM_UTF16_BE):
         # utf-16 コーデックは BOM を読んでエンディアンを決め、BOM を除去する
-        return Decoded("utf-16", data.decode("utf-16", errors="strict"))
+        return _by_bom(data, "utf-16")
 
     # 2. NUL(BOM 無し UTF-16 / バイナリの疑い。UTF-8 や cp932 のテキストには現れない)
     if b"\x00" in data:
