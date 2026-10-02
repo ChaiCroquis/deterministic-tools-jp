@@ -1,0 +1,23 @@
+{"article": "11_cross_route.md",
+ "numbers": [
+   {"value": "13", "what": "合成の経路 A の行数", "source": "テスト実走 2026-10-02 test_measure_pairs(rows_a)"},
+   {"value": "14", "what": "合成の経路 B の行数", "source": "テスト実走 2026-10-02 test_measure_pairs(rows_b)"},
+   {"value": "15", "what": "2 経路の key の和集合 = 突合表の行数 = 全ての行を分母にしたときの分母", "source": "テスト実走 2026-10-02 test_measure_pairs(keys)/ test_measure_rate(rows)"},
+   {"value": "7", "what": "一致した組の数(agree)", "source": "テスト実走 2026-10-02 test_measure_pairs"},
+   {"value": "1", "what": "不一致の組の数(disagree)", "source": "テスト実走 2026-10-02 test_measure_pairs"},
+   {"value": "3", "what": "片方の経路にしか無い組の数(single_route)", "source": "テスト実走 2026-10-02 test_measure_pairs"},
+   {"value": "4", "what": "比べられない組の数(incomparable)", "source": "テスト実走 2026-10-02 test_measure_pairs"},
+   {"value": "8", "what": "比べられた行の数(agree + disagree)= 狭いほうの分母", "source": "テスト実走 2026-10-02 test_measure_rate(compared)"},
+   {"value": "0.8750", "what": "比べられた 8 行だけを分母にした一致率", "source": "テスト実走 2026-10-02 test_measure_rate"},
+   {"value": "0.4667", "what": "全 15 行を分母にした一致率", "source": "テスト実走 2026-10-02 test_measure_rate"},
+   {"value": "16", "what": "2 経路の表を 1 か所ずつ書き換えた通り数", "source": "テスト実走 2026-10-02 test_measure_tampering(cases)"},
+   {"value": "9", "what": "止まる理由コードの数", "source": "テスト実走 2026-10-02 test_measure_tampering(REASONS 全到達を assert)"},
+   {"value": "33", "what": "cross_route のテスト件数", "source": "テスト実走 2026-10-02 python -m pytest tools/cross_route -q"},
+   {"value": "200", "what": "性質テスト(hypothesis)が毎回試す通り数", "source": "テスト実走 2026-10-02 test_cross_route_property.py の max_examples"},
+   {"value": "1,681", "what": "私の数表の行数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "45", "what": "私の数表に入っているルールの種類数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "1,079", "what": "上流の表だけが出どころの最低賃金の行数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "55", "what": "上流の表だけが出どころの業種別の率の業種数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "39", "what": "適用開始日が原本に書かれていない所定の日数の行数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "47", "what": "図 1 の料率の行で一致した支部の数と分母", "source": "私の棚卸し記録(非公開)"}
+ ]}

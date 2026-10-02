@@ -133,6 +133,7 @@ def write_xlsx(path: Path) -> Path:
         for name, text in _xlsx_parts():
             info = zipfile.ZipInfo(name, date_time=ZIP_DATE)
             info.compress_type = zipfile.ZIP_DEFLATED
+            info.create_system = 0   # 作った OS の欄を固定(既定は Windows 0 / Linux 3 で、手元と CI で sha256 がずれる)
             z.writestr(info, text.encode("utf-8"))
     return path
 
