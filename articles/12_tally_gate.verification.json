@@ -1,0 +1,15 @@
+{"article": "12_tally_gate.md",
+ "numbers": [
+   {"value": "39", "what": "何らかの突合を持っている手元の道具の本数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "14", "what": "配布して使っている検査の道具の本数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "64", "what": "tally_gate のテスト件数", "source": "テスト実走 2026-10-03 python -m pytest tools/tally_gate -q"},
+   {"value": "300", "what": "性質テスト(hypothesis)が毎回試す通り数", "source": "テスト実走 2026-10-03 test_tally_gate_property.py の max_examples"},
+   {"value": "50", "what": "丸めの境界(銭)。合成の表で端数がちょうどこの値になる欄が 4 件ある", "source": "テスト実走 2026-10-03 test_measure_rounding(boundary)"},
+   {"value": "1,000", "what": "図 1 と手順で仕込んだ値のずれの額(円)", "source": "テスト実走 2026-10-03 test_measure_visibility / test_offsetting_pair_passes_the_total"},
+   {"value": "2,400", "what": "符号の所属を取り違えた時に人ごとの合計へ出た差の 1 件目(円)", "source": "テスト実走 2026-10-03 test_only_the_row_axis_sees_a_sign_mistake"},
+   {"value": "6,800", "what": "符号の所属を取り違えた時に人ごとの合計へ出た差の 2 件目(円)", "source": "テスト実走 2026-10-03 test_only_the_row_axis_sees_a_sign_mistake"},
+   {"value": "197,833", "what": "人が 1 行抜けた時の総計の差(円)= 抜けた人の差引支給額", "source": "テスト実走 2026-10-03 test_only_the_column_axis_sees_a_missing_person"},
+   {"value": "10001", "what": "合成 fixture の識別子(1 人目)", "source": "合成 fixture tools/tally_gate/fixtures/meisai.csv(架空)"},
+   {"value": "10003", "what": "合成 fixture の識別子(3 人目)", "source": "合成 fixture tools/tally_gate/fixtures/meisai.csv(架空)"},
+   {"value": "10004", "what": "合成 fixture の識別子(4 人目)", "source": "合成 fixture tools/tally_gate/fixtures/meisai.csv(架空)"}
+ ]}
