@@ -1,5 +1,9 @@
 # asof_table — 毎年変わる数表を「基準日・対象・公表時点」で引く
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [同じ日付で引いても答えが変わるので、基準日と公表時点を列にする](https://chronicles-of-solo-parenting.blogspot.com/2026/09/blog-post_28.html)(2026-09-28 公開)
+<!-- article-links:end -->
+
 料率・最低賃金・等級表・限度額のような毎年変わる数表を「適用開始日つきの履歴」で持つと、
 **適用開始日という日付 1 軸では足りない**。足りないのは次の 4 か所で、どれも誤った値を静かに返す。
 

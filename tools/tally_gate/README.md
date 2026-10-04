@@ -1,5 +1,9 @@
 # tally_gate — 人ごとと項目ごとに足して、両方が合うまで次に渡さない
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [人ごとと項目ごとに足して、両方が合うまで取込には渡さない](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post.html)(2026-10-03 公開)
+<!-- article-links:end -->
+
 支給控除の一覧は「人 × 項目」の表だ。人ごとに横へ足した差引の額、項目ごとに縦へ足した集計行、そして総計の
 3 つは、**同じ数字集合**から出てくる。だから「3 つが全部一致するまで取込用の出力を作らない」という関所が作れる。
 

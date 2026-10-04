@@ -1,5 +1,9 @@
 # jp_charset — 日本語 CSV の文字コードを、推測せずに固定の順番で厳密に決める
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [日本語 CSV の文字コードは、推測せずに順番に試す](https://chronicles-of-solo-parenting.blogspot.com/2026/09/csv.html)(2026-09-21 公開)
+<!-- article-links:end -->
+
 取込のたびに文字化けと戦う原因の多くは「文字コードの推測」にある。この道具は推測しない。
 決まった順番で `errors="strict"` に復号を試し、最初に通った文字コード名と本文を返す。
 全部失敗したら例外で止まる(置換文字で読み進めない)。stdlib のみ、依存なし。

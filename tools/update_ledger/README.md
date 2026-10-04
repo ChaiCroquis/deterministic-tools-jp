@@ -1,5 +1,9 @@
 # update_ledger — 数表の更新を「実行 1 回 = 台帳 1 行」で残す
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [数表の更新は、いつ何が変わったかを台帳に残してから差し替える](https://chronicles-of-solo-parenting.blogspot.com/2026/09/blog-post_29.html)(2026-09-30 公開)
+<!-- article-links:end -->
+
 毎年書き換わる数表(料率・限度額・等級表)を更新するとき、**更新そのものの記録が無いと
 「いつ何が変わったか」を後から数えられない**。間違いが混ざった回も特定できない。
 

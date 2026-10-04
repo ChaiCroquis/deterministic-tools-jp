@@ -1,5 +1,9 @@
 # source_pin — 原本から取った値 1 件を「ピン 1 行」で持ち、毎回原本に突き合わせる
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [公式の数表は、取れない場所を先に地図にしてから取りに行く](https://chronicles-of-solo-parenting.blogspot.com/2026/09/blog-post_30.html)(2026-10-01 公開)
+<!-- article-links:end -->
+
 数表を行で持つ部品([asof_table](../asof_table))も、更新を台帳に残す部品([update_ledger](../update_ledger))も、
 **「行がすでにある」ことを前提にしている**。その行を作る工程、つまり配布元の xlsx / PDF / HTML から
 値を取り出す工程は、取れる場所と取れない場所がまだらだ。取れなかった場所を空欄のまま下流に流すと、

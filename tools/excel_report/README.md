@@ -1,5 +1,9 @@
 # excel_report — 差異一覧を色分け Excel で人に返す。色は値ではないので、理由の列を先に置いてから塗る
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [色は値ではないので、理由の列を先に置いてから塗る](https://chronicles-of-solo-parenting.blogspot.com/2026/09/blog-post_26.html)(2026-09-27 公開)
+<!-- article-links:end -->
+
 差異を色だけで示した Excel は、値だけを読む工程(CSV 化・別のブックへの書き写し・値の貼り付け)を
 1 つ通ると意味が落ちる。この道具は判定結果を **理由コードという値** として表に持ち、色はその列から
 決定論で決まる従属表示として静的に焼く。条件付き書式は使わない(開いた時に Excel が評価する形にすると、

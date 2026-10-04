@@ -1,5 +1,9 @@
 # cross_route — 同じ値を 2 つの経路で取った行を突き合わせる(どちらが正しいかは選ばない)
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [2 つの経路で同じ数字を取ったら、合わない前に「同じものか」を疑う](https://chronicles-of-solo-parenting.blogspot.com/2026/10/2.html)(2026-10-02 公開)
+<!-- article-links:end -->
+
 原本から値 1 件を取り出す部品([source_pin](../source_pin))は、その値が原本の指定場所に書いてあることまでしか
 言えない。取り出した値が合っているかは原本の中では確かめられないので、次の手は **同じ値を別の経路で
 もう 1 回取って突き合わせる** ことになる。

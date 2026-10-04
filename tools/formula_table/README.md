@@ -1,5 +1,9 @@
 # formula_table — 数式を表の行に置き、丸め方を隣の列で指定して評価する
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [数式は表の行に置き、丸め方は隣の列に書く](https://chronicles-of-solo-parenting.blogspot.com/2026/09/blog-post_137.html)(2026-09-29 公開)
+<!-- article-links:end -->
+
 毎年変わる数表を行で持てても(post_007 の `asof_table`)、**計算の仕方そのものが改正される回**は
 値の履歴では表せない。この部品は数式を文字列の列として行に持ち、有効期間と公表時点を値の行と同じ形で付ける。
 
