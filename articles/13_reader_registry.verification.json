@@ -1,0 +1,18 @@
+{"article": "13_reader_registry.md",
+ "numbers": [
+   {"value": "30", "what": "書式のズレを踏んでいる手元の道具の本数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "26", "what": "文字コードの判定を持っている手元の道具の本数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "17", "what": "文字コードの判定が別々の実装として散っている箇所数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "36", "what": "取込側の制約(符号の置き方を含む)に合わせている手元の道具の本数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "451", "what": "同じ読み取りを派生させた 3 本のうち 1 本目の行数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "483", "what": "同じ読み取りを派生させた 3 本のうち 2 本目の行数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "486", "what": "同じ読み取りを派生させた 3 本のうち 3 本目の行数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "60", "what": "時間の表記の進数(60 進の分を 60 で割って 10 進にする)", "source": "道具の値の形『60進の時間』tools/reader_registry/reader_registry.py"},
+   {"value": "10", "what": "止まる理由コードの個数。および 10 進(60 進の時間の変換先)", "source": "テスト実走 2026-10-04 test_the_quirk_names_live_in_the_core_but_the_assignment_does_not(REASONS が 10)"},
+   {"value": "12", "what": "合成の表 4 枚から読めた行の合計。時間を 10 進にした欄も同じ 12 件", "source": "テスト実走 2026-10-04 test_measure_shapes"},
+   {"value": "13", "what": "合成 fixture の表の枚数(読めるものと止まるものの合計)", "source": "合成 fixture tools/reader_registry/fixtures/make_fixtures.py(架空)"},
+   {"value": "81", "what": "reader_registry のテスト件数", "source": "テスト実走 2026-10-04 python -m pytest tools/reader_registry -q"},
+   {"value": "300", "what": "性質テスト(hypothesis)が毎回試す通り数。および丸めで落ちた差 1/300 時間の分母", "source": "テスト実走 2026-10-04 test_reader_registry_property.py の max_examples / test_measure_shapes"},
+   {"value": "20", "what": "値の形の境界の例(0:20 を 0.33 にする)の分", "source": "テスト実走 2026-10-04 test_value_form_boundaries"},
+   {"value": "000101", "what": "合成 fixture の識別子(1 人目)", "source": "合成 fixture tools/reader_registry/fixtures/make_fixtures.py(架空)"}
+ ]}
