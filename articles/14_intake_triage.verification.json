@@ -1,0 +1,16 @@
+{"article": "14_intake_triage.md",
+ "numbers": [
+   {"value": "36", "what": "取込側の制約(型・値域・符号の置き方)に合わせている手元の道具の本数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "30", "what": "帳票の書式のズレを踏んでいる手元の道具の本数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "29", "what": "コードや名前のマスタ不一致を踏んでいる手元の道具の本数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "100", "what": "頓挫した移行の見積もりの社数(1 社 4〜5 日 × この社数)", "source": "私の棚卸し記録(非公開)"},
+   {"value": "500", "what": "同じ見積もりの合計日数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "18", "what": "合成の行の行数(6 行は違反なし、12 行は 1 か所だけ宣言から外してある)", "source": "合成 fixture tools/intake_triage/fixtures/gyou.csv(架空)。テスト実走 2026-10-05 test_measure_triage"},
+   {"value": "12", "what": "その 18 行に仕込んだ違反の件数(= 違反が在る行数。1 行に 1 件)", "source": "テスト実走 2026-10-05 test_measure_triage(違反 12 件)"},
+   {"value": "75", "what": "intake_triage のテスト件数", "source": "テスト実走 2026-10-05 python -m pytest tools/intake_triage -q → 75 passed"},
+   {"value": "300", "what": "性質テスト(hypothesis)が毎回試す通り数", "source": "テスト実走 2026-10-05 tests/test_intake_triage_property.py の max_examples"},
+   {"value": "15", "what": "性質テストの壊し方の通り数(「壊さない」を含む)", "source": "tools/intake_triage/tests/test_intake_triage_property.py の 壊し方"},
+   {"value": "48250", "what": "合成 fixture の控除合計の値(符号を付けずに印字された引く側の例)", "source": "合成 fixture tools/intake_triage/fixtures/gyou.csv(架空)。テスト実走 2026-10-05 test_the_line_moves_with_the_declaration_not_with_the_value"},
+   {"value": "20260931", "what": "合成 fixture の暦に無い日(形の直し方が宣言されているので 2 本目に入る例)", "source": "合成 fixture tools/intake_triage/fixtures/gyou.csv(架空)。テスト実走 2026-10-05 test_measure_the_calendar_day_lands_on_the_second_line"},
+   {"value": "0.3333", "what": "合成の 18 行のうちそのまま通る行の割合(分母の内訳と一緒にしか返らない)", "source": "テスト実走 2026-10-05 test_measure_share"}
+ ]}
