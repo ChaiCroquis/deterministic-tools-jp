@@ -31,6 +31,7 @@
 | 2026-10-02 | [2 つの経路で同じ数字を取ったら、合わない前に「同じものか」を疑う](https://chronicles-of-solo-parenting.blogspot.com/2026/10/2.html) | [`tools/cross_route`](tools/cross_route) |
 | 2026-10-03 | [人ごとと項目ごとに足して、両方が合うまで取込には渡さない](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post.html) | [`tools/tally_gate`](tools/tally_gate) |
 | 2026-10-04 | [帳票の形が相手先ごとに違っても、核は太らせず読み取り係を足す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_03.html) | [`tools/reader_registry`](tools/reader_registry) |
+| 2026-10-05 | [取り込めない行は直さずに、機械が決めてよいところまでで仕分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_04.html) | [`tools/intake_triage`](tools/intake_triage) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
