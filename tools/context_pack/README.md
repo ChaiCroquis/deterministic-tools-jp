@@ -1,5 +1,9 @@
 # context_pack — 数表は AI に思い出させず、引いた行に版を焼いて渡す
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [数表は AI に思い出させず、引いた行に版を焼いて渡す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/ai.html)(2026-10-06 公開)
+<!-- article-links:end -->
+
 引いた行 1 件を AI のプロンプトへ貼る場面を扱う。人は表を開けば版が見え、機械は引数で版を指定できるが、
 **AI は渡された塊の中にしか版を持てない**。だから値・対象・有効期間・公表時点・出典・原本の指紋が
 塊に焼かれていないと、もっともらしく古い値が通る。

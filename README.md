@@ -32,6 +32,7 @@
 | 2026-10-03 | [人ごとと項目ごとに足して、両方が合うまで取込には渡さない](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post.html) | [`tools/tally_gate`](tools/tally_gate) |
 | 2026-10-04 | [帳票の形が相手先ごとに違っても、核は太らせず読み取り係を足す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_03.html) | [`tools/reader_registry`](tools/reader_registry) |
 | 2026-10-05 | [取り込めない行は直さずに、機械が決めてよいところまでで仕分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_04.html) | [`tools/intake_triage`](tools/intake_triage) |
+| 2026-10-06 | [数表は AI に思い出させず、引いた行に版を焼いて渡す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/ai.html) | [`tools/context_pack`](tools/context_pack) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
