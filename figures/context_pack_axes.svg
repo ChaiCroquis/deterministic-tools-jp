@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1994" height="968" viewBox="0 0 1994 968" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1994" height="968" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">同じ 1 行を誰に渡すか — 版の辿り方だけが読み手ごとに違う</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">出典 = その場で実走した組み立て(合成の引いた行 12 行 / 問い 12 件)と私の記録(非公開)。文字数とバイト数は実走値で、トークン数ではない(分割器はこの部品の外にある)</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">版が中から辿れる</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">問いが宣言の外なら止まる</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">大きさ(実走値)</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">古い値が黙って通り得る</text>
+<text x="172" y="207.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">人が開く表</text>
+<rect x="190" y="132" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">表の側にある</text>
+<circle cx="216" cy="195" r="2.5" fill="#5b6272"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">開けば版が目に入る</text>
+<circle cx="216" cy="219" r="2.5" fill="#5b6272"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">塊にしない</text>
+<rect x="636" y="132" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">人が気づく</text>
+<circle cx="662" cy="195" r="2.5" fill="#5b6272"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">該当が無ければ分かる</text>
+<circle cx="662" cy="219" r="2.5" fill="#5b6272"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">見落としはする</text>
+<rect x="1082" y="132" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">字数の話にならない</text>
+<circle cx="1108" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">表を開く形</text>
+<rect x="1528" y="132" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">起きにくい</text>
+<circle cx="1554" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">版が目に入るから</text>
+<text x="172" y="363.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">機械が引数で引く行</text>
+<rect x="190" y="288" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">引数で指定する</text>
+<circle cx="216" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">基準日と公表時点を渡す</text>
+<circle cx="216" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">返る行に出典が付く</text>
+<rect x="636" y="288" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まる</text>
+<circle cx="662" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">引く側が理由コードで止める</text>
+<circle cx="662" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">決まらなければ値を返さない</text>
+<rect x="1082" y="288" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">346 字 / 390 バイト</text>
+<circle cx="1108" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 行 JSON に 12 列ぜんぶ</text>
+<circle cx="1108" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">塊より大きい</text>
+<rect x="1528" y="288" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">起きにくい</text>
+<circle cx="1554" cy="351" r="2.5" fill="#5b6272"/>
+<text x="1566" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">版を引数に書くから</text>
+<text x="172" y="519.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">AI に貼る塊</text>
+<rect x="190" y="444" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">塊の中に焼く</text>
+<circle cx="216" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">必ず焼く 8 列が欠けたら止まる</text>
+<circle cx="216" cy="531" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実走: 問い 12 件中 7 件が止まった</text>
+<rect x="636" y="444" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まる</text>
+<circle cx="662" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">該当 0 件・2 件以上で止まる</text>
+<circle cx="662" cy="531" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">近い行で埋めない</text>
+<rect x="1082" y="444" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">192 字 / 270 バイト</text>
+<circle cx="1108" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">仮置きの行は 215 字(注記 1 行)</text>
+<circle cx="1108" cy="531" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2 回組み立てて sha256 一致 5/5</text>
+<rect x="1528" y="444" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">閉じられない</text>
+<circle cx="1554" cy="507" r="2.5" fill="#c2410c"/>
+<text x="1566" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">塊を無視して記憶で答える経路</text>
+<circle cx="1554" cy="531" r="2.5" fill="#c2410c"/>
+<text x="1566" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">そこは部品の外</text>
+<text x="172" y="675.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">表全体をそのまま貼る</text>
+<rect x="190" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">入ってはいる</text>
+<circle cx="216" cy="663" r="2.5" fill="#c2410c"/>
+<text x="228" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どの行を読んだかが決まらない</text>
+<circle cx="216" cy="687" r="2.5" fill="#c2410c"/>
+<text x="228" y="692" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">版が複数ある</text>
+<rect x="636" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まらない</text>
+<circle cx="662" cy="663" r="2.5" fill="#c2410c"/>
+<text x="674" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">読み手が近い行を選べる</text>
+<circle cx="662" cy="687" r="2.5" fill="#c2410c"/>
+<text x="674" y="692" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">選んだ記録が残らない</text>
+<rect x="1082" y="600" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4174 字 / 4880 バイト</text>
+<circle cx="1108" cy="663" r="2.5" fill="#5b6272"/>
+<text x="1120" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">合成の 12 行ぶん</text>
+<circle cx="1108" cy="687" r="2.5" fill="#5b6272"/>
+<text x="1120" y="692" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">この部品に出す経路は無い</text>
+<rect x="1528" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">通り得る</text>
+<circle cx="1554" cy="663" r="2.5" fill="#c2410c"/>
+<text x="1566" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どの版が使われたか言えない</text>
+<text x="172" y="831.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">値だけを貼る</text>
+<rect x="190" y="756" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">辿れない</text>
+<circle cx="216" cy="819" r="2.5" fill="#c2410c"/>
+<text x="228" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">版が 1 つも入らない</text>
+<circle cx="216" cy="843" r="2.5" fill="#c2410c"/>
+<text x="228" y="848" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実走: 5 字</text>
+<rect x="636" y="756" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まらない</text>
+<circle cx="662" cy="819" r="2.5" fill="#c2410c"/>
+<text x="674" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">問いの記録が残らない</text>
+<rect x="1082" y="756" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">5 字 / 5 バイト</text>
+<circle cx="1108" cy="819" r="2.5" fill="#5b6272"/>
+<text x="1120" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">いちばん小さい</text>
+<circle cx="1108" cy="843" r="2.5" fill="#5b6272"/>
+<text x="1120" y="848" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">塊との差は 187 字</text>
+<rect x="1528" y="756" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">通り得る</text>
+<circle cx="1554" cy="819" r="2.5" fill="#c2410c"/>
+<text x="1566" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">去年の値と見分けが付かない</text>
+<rect x="190" y="922" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="934" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">満たす(実走で確かめた)</text>
+<rect x="412" y="922" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="438" y="934" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">満たさない / 閉じられない</text>
+<rect x="662" y="922" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="688" y="934" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">その形では問いにならない</text>
+</svg>

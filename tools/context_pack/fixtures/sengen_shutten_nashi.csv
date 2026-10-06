@@ -1,0 +1,7 @@
+field,required,max_chars,pin
+値,○,40,payload
+対象,○,120,rule|selector
+有効期間,○,40,valid_from|valid_to
+公表時点,○,40,known_from|known_quality
+原本,○,160,source_file|source_row|source_sha256
+順位,,20,priority

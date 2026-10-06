@@ -1,0 +1,19 @@
+{"article": "15_context_pack.md",
+ "numbers": [
+   {"value": "10", "what": "止まる理由コードの数(REASONS)。全部に道があることを突き合わせた", "source": "テスト実走 2026-10-06(test_every_reason_code_has_a_path)"},
+   {"value": "11", "what": "私の数表を更新する無人の手順の実行履歴の回数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "12", "what": "合成の引いた行の行数、および流した問いの件数", "source": "テスト実走 2026-10-06(test_measure_asks)"},
+   {"value": "13", "what": "引いた行の列の数(ROW_COLUMNS)", "source": "テスト実走 2026-10-06(tools/context_pack/context_pack.py の ROW_COLUMNS)"},
+   {"value": "23", "what": "仮置きの注記 1 行ぶんの字数(215 − 192)", "source": "テスト実走 2026-10-06(test_measure_tentative_note)"},
+   {"value": "45", "what": "私の数表に入っているルールの種類数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "70", "what": "この道具のテスト件数", "source": "テスト実走 2026-10-06(python -m pytest tools/context_pack -q → 70 passed)"},
+   {"value": "120", "what": "合成の宣言表で出典の field に宣言した字数の上限", "source": "テスト実走 2026-10-06(test_over_the_limit_is_not_truncated)"},
+   {"value": "122", "what": "合成の行のうち、上限を超える出典の文字列の字数", "source": "テスト実走 2026-10-06(test_over_the_limit_is_not_truncated)"},
+   {"value": "192", "what": "公表時点が実値の行から作った塊の文字数", "source": "テスト実走 2026-10-06(test_measure_sizes)"},
+   {"value": "215", "what": "公表時点が仮置きの行から作った塊の文字数(注記 1 行ぶん長い)", "source": "テスト実走 2026-10-06(test_measure_tentative_note)"},
+   {"value": "300", "what": "性質テスト(hypothesis)が毎回試す通り数", "source": "テスト実走 2026-10-06(test_context_pack_property.py の max_examples)"},
+   {"value": "346", "what": "機械が引数で引く 1 行 JSON の文字数", "source": "テスト実走 2026-10-06(test_measure_sizes)"},
+   {"value": "1681", "what": "私の数表の行数", "source": "私の棚卸し記録(非公開)"},
+   {"value": "4174", "what": "合成の 12 行をそのまま貼った場合の文字数", "source": "テスト実走 2026-10-06(test_measure_sizes)"},
+   {"value": "7050", "what": "料率の原本から作った行を再計算して一致した件数", "source": "私の棚卸し記録(非公開)"}
+ ]}
