@@ -33,6 +33,7 @@
 | 2026-10-04 | [帳票の形が相手先ごとに違っても、核は太らせず読み取り係を足す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_03.html) | [`tools/reader_registry`](tools/reader_registry) |
 | 2026-10-05 | [取り込めない行は直さずに、機械が決めてよいところまでで仕分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_04.html) | [`tools/intake_triage`](tools/intake_triage) |
 | 2026-10-06 | [数表は AI に思い出させず、引いた行に版を焼いて渡す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/ai.html) | [`tools/context_pack`](tools/context_pack) |
+| 2026-10-07 | [AI が返した数値は、渡した行に在るかどうかだけで突き合わせる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/ai_082792725.html) | [`tools/answer_check`](tools/answer_check) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの

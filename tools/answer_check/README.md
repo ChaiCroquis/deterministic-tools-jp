@@ -1,5 +1,9 @@
 # answer_check — AI が返した数値は、渡した行に在るかどうかだけで突き合わせる
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [AI が返した数値は、渡した行に在るかどうかだけで突き合わせる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/ai_082792725.html)(2026-10-07 公開)
+<!-- article-links:end -->
+
 前の工程([context_pack](../context_pack))で、引いた行を AI のプロンプトへ貼る塊にするところまでは
 機械で固められる。固められないのは、**返ってきた文章のほう** だ。文章に現れた数値が、渡した行の値
 なのか、塊の外から出てきた値なのかは、文章を読んだだけでは区別できない。
