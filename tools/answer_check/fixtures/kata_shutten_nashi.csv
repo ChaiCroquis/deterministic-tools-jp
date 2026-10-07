@@ -1,0 +1,2 @@
+selector,payload,valid_from,valid_to,known_from,known_quality,source,source_file,source_row,source_sha256
+保険料率_甲 / 地域=地域A,9.70,2026-03-01,,2026-02-10,実値,,moto_ryouritsu.csv,2,d8d3d48c3f2894ef2f63b9d8ce7994df8b6b1f4c1ad9cafaa87db74a5680de0c

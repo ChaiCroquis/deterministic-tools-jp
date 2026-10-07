@@ -1,0 +1,21 @@
+{"article": "16_answer_check.md",
+ "numbers": [
+  {"value": "12", "what": "合成の文章の文の数 / 見つけた表記の総数 / 対応表の行数", "source": "テスト実走 2026-10-07 test_measure_verdicts(assert で固定)"},
+  {"value": "10", "what": "止まる理由コードの数", "source": "テスト実走 2026-10-07 test_every_reason_code_has_a_path(REASONS と突き合わせ)"},
+  {"value": "49", "what": "tools/answer_check のテスト件数", "source": "テスト実走 2026-10-07 python -m pytest tools/answer_check -q(49 passed)"},
+  {"value": "300", "what": "性質テストが試す通り数(derandomize=True で固定)", "source": "tests/test_answer_check_property.py の settings(max_examples=300)"},
+  {"value": "1,681", "what": "私の数表の行数", "source": "私の記録(非公開)"},
+  {"value": "45", "what": "私の数表のルールの種類", "source": "私の記録(非公開)"},
+  {"value": "97", "what": "合成の文章に置いた ‰ 表記の数値(10 分の 1 にして 9.70 になる)", "source": "テスト実走 2026-10-07 test_measure_arawarekata"},
+  {"value": "357", "what": "合成の文章に置いた千円単位の数値(千倍して 357000 になる)", "source": "テスト実走 2026-10-07 test_measure_arawarekata"},
+  {"value": "357000", "what": "合成の塊の限度額の値(架空)", "source": "fixtures/kata.csv(合成データ)"},
+  {"value": "1120", "what": "合成の塊の最低賃金の値(架空)。全角と桁区切りの表記から読んだ値", "source": "fixtures/kata.csv(合成データ)"},
+  {"value": "0.8333", "what": "比べられた 6 件を分母にした接地率", "source": "テスト実走 2026-10-07 test_measure_rate(assert で固定)"},
+  {"value": "0.5556", "what": "取り出せた 9 件を分母にした接地率", "source": "テスト実走 2026-10-07 test_measure_rate(assert で固定)"},
+  {"value": "1.0000", "what": "分母 0 のときに返してしまいうる接地率(そうしない理由の説明)", "source": "tools/answer_check/answer_check.py の『文章が空』理由コード"},
+  {"value": "9.70", "what": "合成の塊の料率の値(架空)", "source": "fixtures/kata.csv(合成データ)"},
+  {"value": "9.80", "what": "丸めを雑に宣言すると隠れる側の例として挙げた値", "source": "tools/answer_check/README.md「できないこと」"},
+  {"value": "9.7", "what": "丸めだけ違う書き方の例(宣言した丸めで 9.70 に揃う)", "source": "テスト実走 2026-10-07 test_measure_arawarekata"},
+  {"value": "dd49e62247b2", "what": "同じ入力から 2 回判定した結果の sha256 の先頭 12 桁", "source": "テスト実走 2026-10-07 test_measure_verify(assert で固定)"},
+  {"value": "d8d3d48c3f2894ef2f63b9d8ce7994df8b6b1f4c1ad9cafaa87db74a5680de0c", "what": "合成の原本 moto_ryouritsu.csv の sha256(本物の指紋)", "source": "テスト実走 2026-10-07 test_the_fixture_sha256_is_the_real_fingerprint"}
+ ]}

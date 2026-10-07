@@ -1,0 +1,5 @@
+selector,payload,valid_from,valid_to,known_from,known_quality,source,source_file,source_row,source_sha256
+保険料率_甲 / 地域=地域A,9.70,2026-03-01,,2026-02-10,実値,合成の料率表 2026 年度版(架空),moto_ryouritsu.csv,2,d8d3d48c3f2894ef2f63b9d8ce7994df8b6b1f4c1ad9cafaa87db74a5680de0c
+保険料率_乙 / 地域=地域A,1.60,2026-03-01,,2026-03-01,仮置き,合成の料率表 2026 年度版(架空),moto_ryouritsu.csv,2,d8d3d48c3f2894ef2f63b9d8ce7994df8b6b1f4c1ad9cafaa87db74a5680de0c
+限度額_丁 / 区分=区分1,357000,2026-04-01,,2026-01-20,実値,合成の限度額表 2026 年度版(架空),moto_gendogaku.csv,2,c94e585161cc8db0f52f43085815f1de90ab5ed842aabb3783fee602f201995b
+最低賃金 / 地域=地域A,1120,2025-10-01,,2025-08-05,実値,合成の最低賃金表 2025 年度版(架空),moto_ryouritsu.csv,2,d8d3d48c3f2894ef2f63b9d8ce7994df8b6b1f4c1ad9cafaa87db74a5680de0c

@@ -1,0 +1,1 @@
+{"known_from": "2026-02-10", "known_quality": "実値", "payload": "9.70", "selector": "保険料率_甲 / 地域=地域A", "source": "合成の料率表 2026 年度版(架空)", "source_file": "moto_ryouritsu.csv", "source_row": "2", "source_sha256": "d8d3d48c3f2894ef2f63b9d8ce7994df8b6b1f4c1ad9cafaa87db74a5680de0c", "valid_from": "2026-03-01", "valid_to": ""}
