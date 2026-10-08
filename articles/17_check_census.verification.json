@@ -1,0 +1,15 @@
+{"article": "17_check_census.md",
+ "numbers": [
+  {"value": "39", "what": "棚卸しで『テストが在る』と文字列検索で数えた本数(未実行)", "source": "私の棚卸し記録(非公開)"},
+  {"value": "18", "what": "同じ記録で『テストが無い』と数えた本数", "source": "私の棚卸し記録(非公開)"},
+  {"value": "10", "what": "同じ記録で『在るか不明』と数えた本数", "source": "私の棚卸し記録(非公開)"},
+  {"value": "67", "what": "39 + 18 + 10 = 記録に行がある本数の合計", "source": "私の棚卸し記録(非公開)"},
+  {"value": "10", "what": "合成プロジェクトの宣言表の行数", "source": "テスト実走 2026-10-08(test_measure_verdicts)"},
+  {"value": "0.5000", "what": "合格率(走らせた行だけを分母にした場合)", "source": "テスト実走 2026-10-08(test_measure_rate_needs_two_denominators)"},
+  {"value": "0.3000", "what": "合格率(宣言の行すべてを分母にした場合)", "source": "テスト実走 2026-10-08(test_measure_rate_needs_two_denominators)"},
+  {"value": "25", "what": "pytest で通ったテストの件数", "source": "テスト実走 2026-10-08(python -m pytest tools/check_census -q → 25 passed)"},
+  {"value": "12", "what": "記事に載せた判定部分の sha256 の先頭の桁数", "source": "テスト実走 2026-10-08(test_measure_verify_matches)"},
+  {"value": "50", "what": "性質テスト 1 本目が毎回試す入力の通り数", "source": "テスト実走 2026-10-08(tests/test_check_census_property.py の settings)"},
+  {"value": "300", "what": "性質テスト 2 本目(分母の恒等式)が毎回試す入力の通り数", "source": "テスト実走 2026-10-08(tests/test_check_census_property.py の settings)"},
+  {"value": "20", "what": "合成の宣言表に書いた timeout の秒数", "source": "tools/check_census/fixtures/sengen.csv"}
+ ]}

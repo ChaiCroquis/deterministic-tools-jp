@@ -1,0 +1,3 @@
+name,path,declared,runner,timeout,required,allow_network,source
+道具A_通る,proj/tool_a,在る,"[""python"", ""run_ok.py""]",20,はい,,合成の棚卸し記録(架空)
+道具A_通る,proj/tool_a,在る,"[""python"", ""run_ok.py""]",20,はい,,合成の棚卸し記録(架空)

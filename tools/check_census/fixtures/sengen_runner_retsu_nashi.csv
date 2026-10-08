@@ -1,0 +1,2 @@
+name,path,declared,timeout,required,allow_network,source
+道具A_通る,proj/tool_a,在る,20,はい,,合成の棚卸し記録(架空)

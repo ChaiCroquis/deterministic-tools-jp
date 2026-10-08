@@ -1,0 +1,11 @@
+name,path,declared,runner,timeout,required,allow_network,source
+道具A_通る,proj/tool_a,在る,"[""python"", ""run_ok.py""]",20,はい,,合成の棚卸し記録(架空)
+道具B_落ちる,proj/tool_b,在る,"[""python"", ""run_ng.py""]",20,いいえ,,合成の棚卸し記録(架空)
+道具C_時間超過,proj/tool_c,在る,"[""python"", ""run_slow.py""]",1,いいえ,,合成の棚卸し記録(架空)
+道具D_テスト無し,proj/tool_d,無い,,20,いいえ,,合成の棚卸し記録(架空)
+道具E_在るか不明,proj/tool_e,不明,"[""python"", ""run_ok.py""]",20,いいえ,,合成の棚卸し記録(架空)
+道具F_runner未宣言,proj/tool_f,在る,,20,いいえ,,合成の棚卸し記録(架空)
+道具G_試験ゼロ,proj/tool_g,在る,"[""python"", ""run_no_tests.py""]",20,いいえ,,合成の棚卸し記録(架空)
+道具H_外向き不許可,proj/tool_h,在る,"[""python"", ""run_net.py""]",20,いいえ,,合成の棚卸し記録(架空)
+道具J_path無し,proj/tool_j,在る,"[""python"", ""run_ok.py""]",20,いいえ,,合成の棚卸し記録(架空)
+道具K_外向き許可,proj/tool_k,在る,"[""python"", ""run_net.py""]",20,いいえ,はい,合成の棚卸し記録(架空)

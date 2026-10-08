@@ -1,0 +1,2 @@
+name,path,declared,runner,timeout,required,allow_network,source
+道具I_揺れる,proj/tool_i,在る,"[""python"", ""run_yureru.py""]",20,いいえ,,合成の棚卸し記録(架空)
