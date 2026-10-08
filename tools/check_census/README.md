@@ -1,5 +1,9 @@
 # check_census — 検証は在るかを数えず、走らせた結果だけを台帳に残す
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [検証は在るかを数えず、走らせた結果だけを台帳に残す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_07.html)(2026-10-08 公開)
+<!-- article-links:end -->
+
 棚卸しの記録に「テストが在る」と数えられた本数が並んでいても、その件数は **走らせた結果を 1 件も
 言っていない**。在ることと通ったことは別の事実で、数えた件数は前者しか言わない。
 
