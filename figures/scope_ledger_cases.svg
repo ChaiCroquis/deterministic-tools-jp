@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1994" height="1268" viewBox="0 0 1994 1268" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1994" height="1268" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">線の種類 × 判定の 4 値 — 公開済み 17 本の宣言を、走らせずに構文として突き合わせた結果</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">読み替え = 主体は道具 1 本ずつ、説明は宣言の verbatim、反応は静的な突合。見えるのは構文の形まで。一致しない行は行番号と verbatim だけ。読めない行にも出典。収集範囲は公開済み 17 本。遵守率は単独で出さない(読めた行のみ 0.7500 / 全行 0.3529)</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">宣言どおり</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">一致しない</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">宣言が無い</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">機械では読めない</text>
+<text x="172" y="219.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">外向きの通信を持たない</text>
+<rect x="190" y="132" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 件</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">種類 = import、名指し = urllib</text>
+<circle cx="216" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">取り込む行が 1 つも無い</text>
+<rect x="636" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="1082" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="1528" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<text x="172" y="399.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">シェルを経由しない</text>
+<rect x="190" y="312" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 件</text>
+<circle cx="216" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">種類 = kwarg、名指し = shell=True</text>
+<circle cx="216" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値まで名指しして突き合わせた</text>
+<rect x="636" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="1082" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="1528" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<text x="172" y="579.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">書き込まない</text>
+<rect x="190" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="636" y="492" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 件</text>
+<circle cx="662" cy="555" r="2.5" fill="#c2410c"/>
+<text x="674" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">種類 = write、名指し = open</text>
+<circle cx="662" cy="579" r="2.5" fill="#c2410c"/>
+<text x="674" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">現れた行は 635 と 555</text>
+<circle cx="662" cy="603" r="2.5" fill="#c2410c"/>
+<text x="674" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出すのは行番号と宣言だけ</text>
+<rect x="1082" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="1528" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<text x="172" y="759.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">名指しの引数を持たない</text>
+<rect x="190" y="672" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">3 件</text>
+<circle cx="216" cy="735" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">種類 = option</text>
+<circle cx="216" cy="759" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">名指しは関数名まで絞った 2 件</text>
+<circle cx="216" cy="783" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="788" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">CLI と関数の両方を見た 1 件</text>
+<rect x="636" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="1082" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="1528" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<text x="172" y="939.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">文章だけの宣言</text>
+<rect x="190" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="636" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="1082" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="1528" y="852" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">7 件</text>
+<circle cx="1554" cy="915" r="2.5" fill="#c2410c"/>
+<text x="1566" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由コード = 種類の欄が無い</text>
+<circle cx="1554" cy="939" r="2.5" fill="#c2410c"/>
+<text x="1566" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">経路として名指しできない宣言</text>
+<circle cx="1554" cy="963" r="2.5" fill="#c2410c"/>
+<text x="1566" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">読めないことは守られていないことではない</text>
+<text x="172" y="1119.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">宣言が無い線</text>
+<rect x="190" y="1032" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="636" y="1032" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="1082" y="1032" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 件</text>
+<circle cx="1108" cy="1095" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">その線について表に宣言が無い</text>
+<circle cx="1108" cy="1119" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典にはどこを見たかが残る</text>
+<circle cx="1108" cy="1143" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1148" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">していないことの証明ではない</text>
+<rect x="1528" y="1032" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<rect x="190" y="1222" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">機械で読めて、名指しの経路が現れなかった</text>
+<rect x="524" y="1222" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="550" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">この箱に入り、人に戻した</text>
+<rect x="746" y="1222" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="772" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">0 件</text>
+</svg>

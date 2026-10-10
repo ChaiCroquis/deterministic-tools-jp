@@ -1,0 +1,18 @@
+tool,line,declaration,source,kind,target,path
+answer_check,外向きの通信を持たない,**モデル名・API・ネットワークを持たない**(推論は関所の外。文章は人が貼る),tools/answer_check/README.md L19,import,urllib,../../answer_check/answer_check.py
+context_pack,外向きの通信を持たない,**モデル名・API・ネットワークを持たない**(推論は部品の外。塊を作るだけで、投げない),tools/context_pack/README.md L17,import,urllib,../../context_pack/context_pack.py
+reader_registry,外向きの通信を持たない,,tools/reader_registry/README.md L141-149 の できないこと 節を見た(この線についての宣言は無い),,,
+check_census,シェルを経由しない,**シェルを経由しない**(argv は配列のまま渡す。文字列を結合してコマンドを作る経路が無い。`shell=True` がソースのどこにも無いことをテストで固定してある),tools/check_census/README.md L16-17,kwarg,shell=True,../../check_census/check_census.py
+intake_triage,書き込まない,**書き出しを持たない**(ファイルはこの部品からは開かない),tools/intake_triage/README.md L21,write,open,../../intake_triage/intake_triage.py
+tally_gate,書き込まない,**書き出しを持たない**(全部一致した時に次の工程へ渡す行を返すだけ。ファイルはこの部品からは開かない),tools/tally_gate/README.md L18,write,open,../../tally_gate/tally_gate.py
+wareki,書き込まない,,tools/wareki/README.md L73-77 の できないこと 節を見た(この線についての宣言は無い),,,
+asof_table,名指しの引数を持たない,**黙って現行値や直近値へ落ちる経路は無い**(`resolve` に fallback の引数も持たせていない)。,tools/asof_table/README.md L18,option,resolve:fallback,../../asof_table/asof_table.py
+formula_table,名指しの引数を持たない,**丸めを書いていない式は評価せずに止める**。部品は既定の丸めを持たない(`evaluate` に `rounding` 引数も無い)。,tools/formula_table/README.md L12,option,evaluate:rounding,../../formula_table/formula_table.py
+cross_route,名指しの引数を持たない,優先する経路を選ぶ引数(`prefer` / `authoritative` / `fallback` に相当するもの)も、片方へ落ちる引数も無い。,tools/cross_route/README.md L49-50,option,prefer,../../cross_route/cross_route.py
+jp_charset,判定しない範囲,BOM 無しの UTF-16 は判定しない(止まる)。書き出し側で BOM を付けるか UTF-8 にしてもらう,tools/jp_charset/README.md L54,,,
+jp_name,同一人物を決めない,同一人物かどうかは決めない。決めるのは「照合キーが一致するか」だけ。判断待ちの行を人が見る前提の部品,tools/jp_name/README.md L79,,,
+jp_corp,同じ法人を決めない,同じ法人かどうかは決めない。決めるのは「番号が一致するか」「照合キーが一致するか」だけ,tools/jp_corp/README.md L94,,,
+intake_csv,差の原因を推定しない,差の原因は推定しない。元データと読み戻しのどちらが正しいかも決めない,tools/intake_csv/README.md L118,,,
+update_ledger,値の正しさを判定しない,**値そのものの正しさは判定しない。** 改正の解釈もしない。何行がどう動いたかを数えて残すだけ,tools/update_ledger/README.md L117,,,
+source_pin,原本の解釈を判定しない,値そのものの正しさ・原本の解釈は判定しない(原本の場所と文字に合っているかだけ),tools/source_pin/README.md L110,,,
+excel_report,判断待ちを決めない,判定はしない。どのセルが判断待ちかを決めるのは呼ぶ側で、この道具は置き場所と突合だけを引き受ける,tools/excel_report/README.md L101,,,
