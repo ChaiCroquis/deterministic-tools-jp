@@ -1,5 +1,9 @@
 # scope_ledger — できないと書いたことは、道具の中に経路が無いことまで確かめる
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [できないと書いたことは、道具の中に経路が無いことまで確かめる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_09.html)(2026-10-10 公開)
+<!-- article-links:end -->
+
 記事や README の「できないこと」の節には、**その引数が無い / その経路が無い** と書いてある。
 それは宣言であって、宣言は文章だ。**文章は読み手の側では確かめられない。**
 
