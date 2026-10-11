@@ -1,0 +1,4 @@
+axis,choice,source,default,limit
+丸めの名前,50銭以下切捨て,tools/formula_table/README.md L37,1,200
+丸めの名前,1円未満切捨て,tools/formula_table/README.md L38,,200
+丸めの名前,円未満四捨五入,tools/formula_table/README.md L39,,200

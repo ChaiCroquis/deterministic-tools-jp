@@ -1,0 +1,22 @@
+{"article": "19_variant_fan.md",
+ "numbers": [
+  {"value": "11", "what": "軸を 5 本まで宣言に戻したときの相異なる値の通り数", "source": "テスト実走 2026-10-11(test_measure_adding_one_axis_at_a_time、assert distincts == [1, 1, 2, 5, 11, 13])"},
+  {"value": "12", "what": "軸を 3 本まで宣言に戻したときの組み合わせ数、宣言された既定の値 8,997 を出した組み合わせの件数、および sha256 を突き合わせる先頭の桁数", "source": "テスト実走 2026-10-11(test_measure_adding_one_axis_at_a_time、assert totals == [3, 6, 12, 24, 48, 96]/ test_measure_the_fan_over_all_six_axes、assert [len(cs) ...] == [8, 4, 12, 2, 10, 12, 12, 4, 8, 2, 10, 6, 6])"},
+  {"value": "13", "what": "96 通りの組み合わせから出た相異なる値の通り数、および合成した軸表の行数(6 軸)", "source": "テスト実走 2026-10-11(test_measure_the_fan_over_all_six_axes、assert c['相異なる値の件数'] == 13 / test_every_choice_keeps_its_source_and_the_repo_ones_resolve、assert len(rows) == 13)"},
+  {"value": "15", "what": "ほかの 5 軸を固定した 32 組のうち、丸めの名前の 3 候補で値が分かれた組の数", "source": "テスト実走 2026-10-11(test_measure_the_rounding_axis_opens_the_fan_only_at_the_boundary、assert len(hiraita) == 15)"},
+  {"value": "17", "what": "同じ 32 組のうち、丸めの 3 候補が全部同じ値になった組の数", "source": "テスト実走 2026-10-11(同テスト、assert sorted(Counter(...).items()) == [(1, 17), (2, 15)])"},
+  {"value": "24", "what": "軸を 4 本まで宣言に戻したときの組み合わせ数", "source": "テスト実走 2026-10-11(test_measure_adding_one_axis_at_a_time、assert totals == [3, 6, 12, 24, 48, 96])"},
+  {"value": "30", "what": "合成した軸表の『期間の切り方』の候補(架空の日割りの分母)", "source": "fixtures/make_fixtures.py の CHOICES(テスト実走 2026-10-11、test_measure_the_fan_over_all_six_axes で候補数 2 を固定)"},
+  {"value": "31", "what": "同じ軸のもう 1 つの候補(架空)", "source": "fixtures/make_fixtures.py の CHOICES(テスト実走 2026-10-11、同上)"},
+  {"value": "32", "what": "丸めの名前以外の 5 軸を固定したときにできる組の数", "source": "テスト実走 2026-10-11(test_measure_the_rounding_axis_opens_the_fan_only_at_the_boundary、assert len(groups) == 32)"},
+  {"value": "38", "what": "この道具のテスト件数", "source": "テスト実走 2026-10-11(python -m pytest tools/variant_fan -q → 38 passed)"},
+  {"value": "48", "what": "軸を 5 本まで宣言に戻したときの組み合わせ数、および基準日の取り方以外を固定したときにできる組の数(そのすべてで値が 2 通りに分かれた)", "source": "テスト実走 2026-10-11(test_measure_adding_one_axis_at_a_time / test_measure_the_as_of_axis_opens_every_group、assert len(groups) == 48 and all(len(g) == 2 ...))"},
+  {"value": "80", "what": "性質テスト 1 本目が毎回試す通り数(derandomize で固定)", "source": "tools/variant_fan/tests/test_variant_fan_property.py の settings(max_examples=80)(テスト実走 2026-10-11)"},
+  {"value": "96", "what": "6 軸の候補を全通り組み合わせたときの組み合わせ総数", "source": "テスト実走 2026-10-11(test_measure_the_fan_over_all_six_axes、assert c['組み合わせ総数'] == 96)"},
+  {"value": "300", "what": "性質テスト 2 本目が毎回試す通り数(derandomize で固定)", "source": "tools/variant_fan/tests/test_variant_fan_property.py の settings(max_examples=300)(テスト実走 2026-10-11)"},
+  {"value": "829", "what": "選び方を書き切った式表で、丸めの名前の 3 候補から出た 1 つの値(架空)", "source": "テスト実走 2026-10-11(test_measure_the_fan_can_collapse_to_one_value、assert [v for v, _ in f.distinct()] == ['829'])"},
+  {"value": "2509", "what": "扇の幅の開き(最大 11,045 − 最小 8,536)", "source": "テスト実走 2026-10-11(test_measure_the_width_is_the_observed_min_and_max、assert Decimal(w['最大']) - Decimal(w['最小']) == Decimal('2509'))"},
+  {"value": "8536", "what": "96 通りで観測した最小の値(架空)", "source": "テスト実走 2026-10-11(test_measure_the_width_is_the_observed_min_and_max、assert (w['最小'], w['最大']) == ('8536', '11045'))"},
+  {"value": "8997", "what": "宣言された既定の組み合わせから出た値(架空)。13 通りのうち印が付くのはこの 1 つだけ", "source": "テスト実走 2026-10-11(test_measure_only_one_of_the_thirteen_is_marked_as_declared_default、assert marked[0]['値'] == '8997')"},
+  {"value": "11045", "what": "96 通りで観測した最大の値(架空)", "source": "テスト実走 2026-10-11(test_measure_the_width_is_the_observed_min_and_max、assert (w['最小'], w['最大']) == ('8536', '11045'))"}
+ ]}

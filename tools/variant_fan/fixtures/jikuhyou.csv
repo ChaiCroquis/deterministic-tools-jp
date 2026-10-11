@@ -1,0 +1,14 @@
+axis,choice,source,default,limit
+丸めの名前,50銭以下切捨て,tools/formula_table/README.md L37,1,200
+丸めの名前,1円未満切捨て,tools/formula_table/README.md L38,,200
+丸めの名前,円未満四捨五入,tools/formula_table/README.md L39,,200
+丸めを掛ける段,丸めない,tools/formula_table/README.md L40,1,200
+丸めを掛ける段,1円未満切捨て,tools/formula_table/README.md L38,,200
+基準日の取り方,2026-04-01,articles/07_asof_table.md L28,1,200
+基準日の取り方,2026-03-31,articles/07_asof_table.md L28,,200
+区分の選び方,8.13,合成の料率メモ(架空)L1,1,200
+区分の選び方,9.98,合成の料率メモ(架空)L2,,200
+期間の切り方,30,合成の日割りメモ(架空)L1,1,200
+期間の切り方,31,合成の日割りメモ(架空)L2,,200
+入力の桁の扱い,丸めない,tools/formula_table/README.md L40,1,200
+入力の桁の扱い,1円未満切捨て,tools/formula_table/README.md L38,,200
