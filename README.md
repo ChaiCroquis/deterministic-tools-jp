@@ -36,6 +36,7 @@
 | 2026-10-07 | [AI が返した数値は、渡した行に在るかどうかだけで突き合わせる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/ai_082792725.html) | [`tools/answer_check`](tools/answer_check) |
 | 2026-10-08 | [検証は在るかを数えず、走らせた結果だけを台帳に残す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_07.html) | [`tools/check_census`](tools/check_census) |
 | 2026-10-10 | [できないと書いたことは、道具の中に経路が無いことまで確かめる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_09.html) | [`tools/scope_ledger`](tools/scope_ledger) |
+| 2026-10-11 | [同じ式でも、選び方を並べて答えが何通り出るかを先に数える](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_10.html) | [`tools/variant_fan`](tools/variant_fan) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの

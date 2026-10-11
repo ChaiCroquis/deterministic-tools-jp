@@ -1,5 +1,9 @@
 # variant_fan — 同じ式でも、選び方を並べて答えが何通り出るかを先に数える
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [同じ式でも、選び方を並べて答えが何通り出るかを先に数える](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_10.html)(2026-10-11 公開)
+<!-- article-links:end -->
+
 同じ式・同じ金額でも、**書かれていない選び方が 1 つ増えるごとに、どれももっともらしい答えの組み合わせが
 掛け算で増える**。丸めの名前、丸めを掛ける段、基準日の取り方、区分の選び方、期間の切り方、入力の桁の扱い。
 [formula_table](../formula_table) は丸めの軸 1 本を「書かせて止める」側だったが、こちらは
