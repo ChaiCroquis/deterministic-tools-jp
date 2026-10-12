@@ -1,0 +1,2 @@
+rank,column,direction,kind,missing,choices,source,swap
+1,社員番号,昇順,整数,先,,articles/05_intake_csv.md L24,逆順

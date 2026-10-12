@@ -1,0 +1,3 @@
+rank,column,direction,kind,missing,choices,source,swap
+1,社員番号,昇順,整数,後,,articles/05_intake_csv.md L24,
+,等級,,,,A|B|C,合成の並び順メモ(架空)L1,

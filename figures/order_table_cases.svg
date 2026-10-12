@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1994" height="1088" viewBox="0 0 1994 1088" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1994" height="1088" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">連載が自分で書いた 5 つの宣言と、自分の記録で実際に起きたこと</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">読み替え = 方針側は公開済みの道具と記事に書いた宣言の verbatim、実務側は自分の台帳 11 行への観測と合成表への実走。見えるのは宣言された鍵で順が一意に決まるかまで。一致しない行に嘘・違反とは書かず、宣言と件数だけを置く。率は単独で出さない</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">公式にどう書かれているか</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">実際に何が起きたか</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">方針側の出典</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">実務側の出典</text>
+<text x="172" y="219.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">同じバイト列</text>
+<rect x="190" y="132" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 回数えて sha256 を突合</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">判定部分に時刻を入れない</text>
+<circle cx="216" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">一致しなければ観測を返す</text>
+<rect x="636" y="132" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言が足りていれば成り立った</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2 回並べて sha256 が一致</text>
+<circle cx="662" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行順を 3 通り入れ替えても一致</text>
+<circle cx="662" cy="243" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ただし鍵が足りると止まる側へ</text>
+<rect x="1082" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">articles/19_variant_fan.md L198</text>
+<circle cx="1108" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公開記事(2026-10-11)</text>
+<rect x="1528" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">tools/order_table/tests</text>
+<circle cx="1554" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">合成 12 行への実走</text>
+<text x="172" y="399.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">1 行 1 件の一覧</text>
+<rect x="190" y="312" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">台帳は 1 行 1 件の一覧</text>
+<circle cx="216" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実行 1 回が 1 行</text>
+<circle cx="216" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">先頭から辿れる形</text>
+<rect x="636" y="312" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">どちらが先か決まらない行が 2 行</text>
+<circle cx="662" cy="375" r="2.5" fill="#c2410c"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2 回目と 3 回目が秒まで同じ時刻</text>
+<circle cx="662" cy="399" r="2.5" fill="#c2410c"/>
+<text x="674" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">順序が台帳から決まらない</text>
+<circle cx="662" cy="423" r="2.5" fill="#c2410c"/>
+<text x="674" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">追記を拒む側へ直した</text>
+<rect x="1082" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">articles/09_update_ledger.md L34</text>
+<circle cx="1108" cy="375" r="2.5" fill="#5b6272"/>
+<text x="1120" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公開記事(2026-09-30)</text>
+<rect x="1528" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">同記事の台帳 11 行</text>
+<circle cx="1554" cy="375" r="2.5" fill="#5b6272"/>
+<text x="1566" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2026-09-19 の手元の実行</text>
+<text x="172" y="579.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">差分と本番が一致</text>
+<rect x="190" y="492" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">差分の件数を台帳に残す</text>
+<circle cx="216" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">追加 / 削除 / 変更の件数</text>
+<circle cx="216" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番ファイルの sha256 も残す</text>
+<rect x="636" y="492" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">差分 0 なのに sha256 が動いた行が 1 行</text>
+<circle cx="662" cy="555" r="2.5" fill="#c2410c"/>
+<text x="674" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">並び順や添え物の欄が動いたか</text>
+<circle cx="662" cy="579" r="2.5" fill="#c2410c"/>
+<text x="674" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記事は推測のまま置いてある</text>
+<circle cx="662" cy="603" r="2.5" fill="#c2410c"/>
+<text x="674" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言表を書くまで確かめられない</text>
+<rect x="1082" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">articles/09_update_ledger.md L36</text>
+<circle cx="1108" cy="555" r="2.5" fill="#5b6272"/>
+<text x="1120" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公開記事(2026-09-30)</text>
+<rect x="1528" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">同記事の台帳 11 行</text>
+<circle cx="1554" cy="555" r="2.5" fill="#5b6272"/>
+<text x="1566" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">10 回目の 1 行</text>
+<text x="172" y="759.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">行順が宣言から決まる</text>
+<rect x="190" y="672" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">並べ方は部品の中に入れない</text>
+<circle cx="216" cy="735" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">順序と区切りは塊の外で決める</text>
+<circle cx="216" cy="759" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">決めるのは人の側</text>
+<rect x="636" y="672" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">線の内側は開いていなかった</text>
+<circle cx="662" cy="735" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言表を置くと粗い鍵では止まる</text>
+<circle cx="662" cy="759" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同値の組 3 組 / 関与 6 行</text>
+<circle cx="662" cy="783" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="788" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">密な鍵では 12 行が一意</text>
+<rect x="1082" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">articles/15_context_pack.md L251</text>
+<circle cx="1108" cy="735" r="2.5" fill="#5b6272"/>
+<text x="1120" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公開記事(2026-10-06)</text>
+<rect x="1528" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">fixtures/data_shikyuu.csv</text>
+<circle cx="1554" cy="735" r="2.5" fill="#5b6272"/>
+<text x="1566" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">合成の 12 行への実走</text>
+<text x="172" y="939.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">読み戻しても同じ</text>
+<rect x="190" y="852" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">書き出した CSV は読み戻して突合</text>
+<circle cx="216" cy="915" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">列の順と見出しは固定</text>
+<circle cx="216" cy="939" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値の中のカンマで列をずらさない</text>
+<rect x="636" y="852" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">読み戻しは一致、宣言しない並べ方は動く</text>
+<circle cx="662" cy="915" r="2.5" fill="#c2410c"/>
+<text x="674" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">並べた 12 行は読み戻して一致</text>
+<circle cx="662" cy="939" r="2.5" fill="#c2410c"/>
+<text x="674" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">カンマを含む 1 行も保たれた</text>
+<circle cx="662" cy="963" r="2.5" fill="#c2410c"/>
+<text x="674" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言しない安定ソートは 6 行動いた</text>
+<rect x="1082" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">articles/05_intake_csv.md L24</text>
+<circle cx="1108" cy="915" r="2.5" fill="#5b6272"/>
+<text x="1120" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公開記事(2026-09-26)</text>
+<rect x="1528" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">tools/order_table/tests</text>
+<circle cx="1554" cy="915" r="2.5" fill="#5b6272"/>
+<text x="1566" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">テスト側の別実装との比較</text>
+<rect x="190" y="1042" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="1054" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">宣言どおりだった / 宣言を置いて初めて数えられた</text>
+<rect x="594" y="1042" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="620" y="1054" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">宣言と実際が食い違った(嘘・違反とは書かない)</text>
+<rect x="970" y="1042" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="996" y="1054" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">出典(ファイル名 + 行番号)</text>
+</svg>

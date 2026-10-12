@@ -1,0 +1,2 @@
+rank,column,direction,kind,missing,choices,source,swap
+1,金額,昇順,Decimal,後,,合成の並び順メモ(架空)L5,逆順

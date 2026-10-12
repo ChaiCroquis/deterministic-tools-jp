@@ -1,0 +1,4 @@
+rank,column,direction,kind,missing,choices,source,swap
+1,支給日,昇順,日付,後,,articles/07_asof_table.md L28,逆順
+2,区分,昇順,宣言された列挙,後,,articles/09_update_ledger.md L58,
+,区分,,,,甲|乙|丙,articles/09_update_ledger.md L58,
