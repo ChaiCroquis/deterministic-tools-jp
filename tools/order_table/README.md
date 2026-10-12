@@ -1,5 +1,9 @@
 # order_table — 同じ中身でも行の順は変わるので、並べ方を表に書いてから並べる
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [同じ中身でも行の順は変わるので、並べ方を表に書いてから並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_11.html)(2026-10-12 公開)
+<!-- article-links:end -->
+
 **行の並べ方を宣言しないまま並べると、中身が同じでも出力のバイト列が変わる。** 同じ 12 行を同じ
 処理に流しても、入力の行順が違えば出力の行順が違い、差分も sha256 も毎回ずれる。
 [update_ledger](../update_ledger) の台帳には「差分 0 なのに本番ファイルの sha256 が動いた」行が
