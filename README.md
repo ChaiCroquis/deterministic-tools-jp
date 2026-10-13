@@ -38,6 +38,7 @@
 | 2026-10-10 | [できないと書いたことは、道具の中に経路が無いことまで確かめる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_09.html) | [`tools/scope_ledger`](tools/scope_ledger) |
 | 2026-10-11 | [同じ式でも、選び方を並べて答えが何通り出るかを先に数える](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_10.html) | [`tools/variant_fan`](tools/variant_fan) |
 | 2026-10-12 | [同じ中身でも行の順は変わるので、並べ方を表に書いてから並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_11.html) | [`tools/order_table`](tools/order_table) |
+| 2026-10-13 | [同じ道具でも環境が違えば出力は変わるので、判定に入れない欄を先に表に書く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_12.html) | [`tools/env_match`](tools/env_match) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの

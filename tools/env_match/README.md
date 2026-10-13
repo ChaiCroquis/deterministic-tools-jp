@@ -1,5 +1,9 @@
 # env_match — 同じ道具でも環境が違えば出力は変わるので、判定に入れない欄を先に表に書く
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [同じ道具でも環境が違えば出力は変わるので、判定に入れない欄を先に表に書く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_12.html)(2026-10-13 公開)
+<!-- article-links:end -->
+
 **同じ入力・同じ道具でも、判定に入れる欄を宣言しないまま指紋を比べると、環境が違うだけで一致が
 崩れる。** この連載の道具は毎回「同じ入力には同じバイト列」と書いていて、
 [variant_fan](../variant_fan) と [order_table](../order_table) の記事では
