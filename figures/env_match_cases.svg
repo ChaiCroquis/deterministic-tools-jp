@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2440" height="656" viewBox="0 0 2440 656" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="2440" height="656" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">連載が自分で書いた 3 つの前提と、合成した出力の束を突き合わせて出た件数</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">前提側は連載自身の公開宣言の verbatim(= 仮想の相手を立てていない)。観測側は公開済みの道具の出力の形を写した合成の束への実走。見えるのは宣言された判定部分までで、道具の内部の非決定性は見ていない。差の原因は環境要素に割り当てず、一致率も単独では出さない(外した欄の件数と分母を必ず併記)</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">前提側の verbatim</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">ラベル間で一致した件数</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">一致しなかった件数</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">説明が付く差(宣言表の欄)</text>
+<text x="2189.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">残差(宣言表に無い欄)</text>
+<text x="172" y="207.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">同じ入力には同じバイト列</text>
+<rect x="190" y="132" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">articles/20_order_table.md L146</text>
+<circle cx="216" cy="195" r="2.5" fill="#5b6272"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公開記事(2026-10-12)</text>
+<circle cx="216" cy="219" r="2.5" fill="#5b6272"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公開済みの道具 20 本に同じ宣言</text>
+<rect x="636" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">判定に入れた 8 欄が一致</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">時刻 / パス / ホスト名を変えた 2 対</text>
+<circle cx="662" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2 回 + ラベル順入れ替えで同じ指紋</text>
+<rect x="1082" y="132" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 欄</text>
+<circle cx="1108" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どちらの対でも 0 欄</text>
+<rect x="1528" y="132" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 欄</text>
+<circle cx="1554" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">時刻 1 / 絶対パス 2 / ホスト名 1</text>
+<circle cx="1554" cy="219" r="2.5" fill="#5b6272"/>
+<text x="1566" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言表で 入れない と書いた欄</text>
+<rect x="1974" y="132" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 欄</text>
+<circle cx="2000" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言表に無い欄での差は無し</text>
+<text x="172" y="363.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">外す欄は 3 つで足りる</text>
+<rect x="190" y="288" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">articles/19_variant_fan.md L143</text>
+<circle cx="216" cy="351" r="2.5" fill="#5b6272"/>
+<text x="228" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公開記事(2026-10-11)</text>
+<circle cx="216" cy="375" r="2.5" fill="#5b6272"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">名指しは 絶対パス / 時刻 / ホスト名</text>
+<rect x="636" y="288" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 欄</text>
+<circle cx="662" cy="351" r="2.5" fill="#c2410c"/>
+<text x="674" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">改行を CRLF にした 1 対</text>
+<circle cx="662" cy="375" r="2.5" fill="#c2410c"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">一致した欄は 1 つも無い</text>
+<rect x="1082" y="288" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">8 欄すべて</text>
+<circle cx="1108" cy="351" r="2.5" fill="#c2410c"/>
+<text x="1120" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値はどれも復帰文字で終わる</text>
+<circle cx="1108" cy="375" r="2.5" fill="#c2410c"/>
+<text x="1120" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">寄せれば一致するが寄せない</text>
+<rect x="1528" y="288" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 欄</text>
+<circle cx="1554" cy="351" r="2.5" fill="#5b6272"/>
+<text x="1566" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">外した欄でも差は出ていた</text>
+<rect x="1974" y="288" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">8 欄</text>
+<circle cx="2000" cy="351" r="2.5" fill="#c2410c"/>
+<text x="2012" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">改行は 3 つの一覧に無い</text>
+<circle cx="2000" cy="375" r="2.5" fill="#c2410c"/>
+<text x="2012" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原因は割り当てずにそのまま置く</text>
+<text x="172" y="519.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">指紋を比べれば済む</text>
+<rect x="190" y="444" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">articles/20_order_table.md L139</text>
+<circle cx="216" cy="507" r="2.5" fill="#5b6272"/>
+<text x="228" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公開記事(2026-10-12)</text>
+<circle cx="216" cy="531" r="2.5" fill="#5b6272"/>
+<text x="228" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2 回並べて指紋を突き合わせる</text>
+<rect x="636" y="444" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">7 欄</text>
+<circle cx="662" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋の欄が無い版との 1 対</text>
+<circle cx="662" cy="531" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">残る 7 欄は一致した</text>
+<rect x="1082" y="444" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 欄</text>
+<circle cx="1108" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">不一致は 0 欄</text>
+<rect x="1528" y="444" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 欄</text>
+<circle cx="1554" cy="507" r="2.5" fill="#5b6272"/>
+<text x="1566" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">外した欄での差は無し</text>
+<rect x="1974" y="444" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 欄 + 1 欄</text>
+<circle cx="2000" cy="507" r="2.5" fill="#c2410c"/>
+<text x="2012" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋の欄が無い → 取れない 1 欄</text>
+<circle cx="2000" cy="531" r="2.5" fill="#c2410c"/>
+<text x="2012" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">版の欄が宣言表に無い → 宣言が無い 1 欄</text>
+<rect x="190" y="610" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="622" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">宣言どおりだった / 宣言を置いて初めて数えられた</text>
+<rect x="594" y="610" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="620" y="622" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">宣言と実際が食い違った(嘘・違反とは書かない)</text>
+<rect x="970" y="610" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="996" y="622" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">出典(ファイル名 + 行番号)</text>
+</svg>

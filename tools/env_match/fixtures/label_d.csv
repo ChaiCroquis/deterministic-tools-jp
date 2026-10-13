@@ -1,0 +1,3 @@
+label,element,setting,source,base,swap
+既定,なし(基準),既定のまま,合成の環境メモ(架空)L1,既定,逆順
+sha256 の欄が無い版,道具の版,sha256 の欄を出さない版,public/README.md L50,,

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1912" height="426" viewBox="0 0 1912 426" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1912" height="426" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">突き合わせる流れ — 束と 2 枚の表を読む → 宣言された判定部分だけを切り出す → バイト列で 4 値に分ける</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">橙のピルが関所。欄を勝手に外す経路・正規化して寄せる経路・許容誤差で束ねる経路・自分で走らせる経路・今の環境を基準に混ぜる経路・差の原因を環境要素に割り当てる経路・入力を直す経路はこの図に無い(関数にも CLI にも引数が無い)</text>
+<rect x="36" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="36" y="118" width="260" height="6" rx="3" fill="#e7ecfb"/>
+<circle cx="62" cy="152" r="14" fill="#3b5bdb"/>
+<text x="62" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+<text x="84" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">3 つを読む</text>
+<circle cx="60" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">束はラベルごとに 1 ファイル</text>
+<circle cx="60" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 行 1 欄(欄名 → タブ → 値)</text>
+<circle cx="60" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ラベル表は 6 列</text>
+<circle cx="60" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">判定部分の宣言表は 4 列</text>
+<line x1="304" y1="204.0" x2="344" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="352" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="352" y="118" width="260" height="6" rx="3" fill="#d6def9"/>
+<circle cx="378" cy="152" r="14" fill="#3b5bdb"/>
+<text x="378" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+<text x="400" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">出典とラベルを見る</text>
+<circle cx="376" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行ごとに出典が在るか</text>
+<circle cx="376" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ラベル名が重複していないか</text>
+<circle cx="376" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変えた環境要素が書かれているか</text>
+<circle cx="376" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ラベルが 2 つ以上あるか</text>
+<line x1="620" y1="204.0" x2="660" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="668" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="668" y="118" width="260" height="6" rx="3" fill="#c4d0f6"/>
+<circle cx="694" cy="152" r="14" fill="#3b5bdb"/>
+<text x="694" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+<text x="716" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">基準と欄名の対応を見る</text>
+<circle cx="692" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">基準ラベルが表に在るか</text>
+<circle cx="692" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由の分類が 5 語のどれか</text>
+<circle cx="692" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">入れる欄が全ラベルの出力に在るか</text>
+<circle cx="692" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言表に無い欄が出力に無いか</text>
+<line x1="936" y1="204.0" x2="976" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="984" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="984" y="118" width="260" height="6" rx="3" fill="#b0c1f2"/>
+<circle cx="1010" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1010" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+<text x="1032" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言どおりに切り出す</text>
+<circle cx="1008" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">入れる欄だけを取り出す</text>
+<circle cx="1008" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">寄せない・詰めない・並べ替えない</text>
+<circle cx="1008" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の終わりも触らない</text>
+<circle cx="1008" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">外した欄は件数だけ数える</text>
+<line x1="1252" y1="204.0" x2="1292" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1300" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1300" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1326" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1326" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+<text x="1348" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">バイト列で 4 値に分ける</text>
+<circle cx="1324" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">一致 / 不一致</text>
+<circle cx="1324" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">判定部分が取れない</text>
+<circle cx="1324" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言が無い</text>
+<circle cx="1324" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">外した欄の件数と分母を併記</text>
+<line x1="1568" y1="204.0" x2="1608" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1616" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1616" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1642" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1642" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">6</text>
+<text x="1664" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 回 + 入れ替えて返す</text>
+<circle cx="1640" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">判定部分の sha256 を突合</text>
+<circle cx="1640" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ラベル表の行順を入れ替える</text>
+<circle cx="1640" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じバイト列になるかを実測</text>
+<circle cx="1640" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">時刻とパスは判定部分の外</text>
+<line x1="324.0" y1="292" x2="324.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="229.72500000000002" y="310" width="188.54999999999998" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="324.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">列が足りない / 束が無い</text>
+<line x1="640.0" y1="292" x2="640.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="477.8" y="310" width="324.4" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="640.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">宣言表 0 行 / ラベル 1 つ / 出典が空</text>
+<line x1="956.0" y1="292" x2="956.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="799.975" y="310" width="312.05" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="956.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">理由が未登録 / 欄名の不一致 / 基準が無い</text>
+<line x1="1588.0" y1="292" x2="1588.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="1469.025" y="310" width="237.95" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="1588.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">取れない / 宣言が無い で止まる</text>
+<text x="36" y="396" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">前の段で止まったら 1 つも結果を返さない(札は略称で、理由コード 12 個の内訳は本文に書いた)。不一致 は理由コードではなく、突き合わせが成立した上での結果として件数と欄名と行番号が返る。判定したことは「宣言された判定部分がラベル間でバイト列として一致するか」までになる。</text>
+</svg>

@@ -1,0 +1,20 @@
+{"article": "21_env_match.md",
+ "numbers": [
+  {"value": "12", "what": "判定部分の宣言表の行数(判定に入れる 8 欄 + 外す 4 欄)", "source": "tools/env_match/fixtures/sengen_hantei.csv(テスト実走 2026-10-13: test_committed_tables_load)"},
+  {"value": "12", "what": "止まる理由コードの個数(崩した表 10 枚 + 差し替えた実装 2 本で全てに道がある)", "source": "テスト実走 2026-10-13(test_measure_stop_reasons_all_have_a_path)"},
+  {"value": "12", "what": "CRLF で書き出した束のうち、値が復帰文字で終わる行数(= 全行)", "source": "テスト実走 2026-10-13(test_measure_newline_breaks_every_included_field)"},
+  {"value": "12", "what": "突き合わせた判定部分の sha256 のうち記事に載せた先頭の桁数", "source": "テスト実走 2026-10-13(test_measure_declared_exclusions_match)"},
+  {"value": "13", "what": "taba_c(既定 / 版 3.13)の出力に現れた欄数(宣言表 12 行 + 宣言が無い 1 欄)", "source": "テスト実走 2026-10-13(test_measure_undeclared_field_stays_in_the_count)"},
+  {"value": "10", "what": "止まる理由コードを出すために崩した表の枚数 / 部品が import している module の個数", "source": "テスト実走 2026-10-13(test_measure_stop_reasons_all_have_a_path / test_measure_no_path_to_run_anything)"},
+  {"value": "14", "what": "突き合わせの前後で sha256 が変わらないことを見た入力ファイル数(束 9 + 表 5)", "source": "テスト実走 2026-10-13(test_no_path_to_write_the_inputs)"},
+  {"value": "20", "what": "この記事より前に公開した道具の本数(どれも「同じ入力には同じバイト列」と書いている)", "source": "publish/ledger.jsonl(2026-10-12 までに公開した記事の tool_url を数えた)"},
+  {"value": "49", "what": "道具のテストの通った件数", "source": "テスト実走 2026-10-13(python -m pytest tools/env_match -q)"},
+  {"value": "120", "what": "性質テスト 1 本目(いつも成り立つこと)の通り数", "source": "テスト実走 2026-10-13(tools/env_match/tests/test_env_match_property.py)"},
+  {"value": "300", "what": "性質テスト 2 本目(外した欄だけで差を作っても結果は一致のまま)の通り数", "source": "テスト実走 2026-10-13(tools/env_match/tests/test_env_match_property.py)"},
+  {"value": "103", "what": "宣言表の出典が指す articles/20_order_table.md の行番号(件数の欄)", "source": "articles/20_order_table.md(テスト実走 2026-10-13: test_sources_point_at_real_lines)"},
+  {"value": "139", "what": "図 1 の 3 行目の前提が指す articles/20_order_table.md の行番号(verify の 2 つ)", "source": "articles/20_order_table.md 139 行目"},
+  {"value": "143", "what": "宣言表の出典が指す articles/19_variant_fan.md の行番号(判定とは別の欄に出す 3 つ)", "source": "articles/19_variant_fan.md(テスト実走 2026-10-13: test_sources_point_at_real_lines)"},
+  {"value": "146", "what": "宣言表の出典が指す articles/20_order_table.md の行番号(判定とは別の欄に出す 3 つ)", "source": "articles/20_order_table.md(テスト実走 2026-10-13: test_sources_point_at_real_lines)"},
+  {"value": "407402", "what": "taba_a を突き合わせた判定部分の sha256 の先頭(12 桁は 407402ff86cd)", "source": "テスト実走 2026-10-13(test_measure_declared_exclusions_match)"},
+  {"value": "94", "what": "合成した束の sha256 の欄に入れた値の先頭(合成の表から計算した架空の指紋)", "source": "tools/env_match/fixtures/make_fixtures.py(実走 2026-10-13)"}
+ ]}

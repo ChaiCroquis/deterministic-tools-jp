@@ -1,0 +1,13 @@
+field,judge,reason,source
+データ表の行数,入れる,,
+鍵の組数,入れる,,articles/20_order_table.md L103
+同値の組の件数,入れる,,articles/20_order_table.md L103
+同値の組に関与した行数,入れる,,articles/20_order_table.md L104
+順が一意に決まった行数,入れる,,articles/20_order_table.md L104
+分母に含めたもの,入れる,,articles/20_order_table.md L105
+鍵は宣言された列だけ,入れる,,articles/20_order_table.md L107
+sha256,入れる,,articles/19_variant_fan.md L143
+読んだデータ表の絶対パス,入れない,絶対パス,articles/20_order_table.md L146
+読んだ宣言表の絶対パス,入れない,絶対パス,articles/20_order_table.md L146
+読んだ時刻,入れない,時刻,articles/20_order_table.md L146
+ホスト名,入れない,ホスト名,articles/20_order_table.md L146
