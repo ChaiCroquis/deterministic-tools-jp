@@ -1,5 +1,9 @@
 # span_split — 料率が変わる日が期間の途中に来るので、期間を先に境界で切ってから行を当てる
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [料率が変わる日が期間の途中に来るので、期間を先に境界で切ってから行を当てる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_13.html)(2026-10-14 公開)
+<!-- article-links:end -->
+
 **値が切り替わる日が期間の途中に来るとき、期間を 1 つのまま 1 本の日付で引くと、片側の値が
 黙って期間全体に当たる。** [asof_table](../asof_table) の回で、行の側に基準日・公表時点・
 対象・順位の列を足して「1 点の日付で引く」ところは決まるようにした。けれど引く単位が
