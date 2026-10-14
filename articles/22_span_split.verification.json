@@ -1,0 +1,21 @@
+{"article": "22_span_split.md",
+ "numbers": [
+  {"value": "54", "what": "span_split のテスト件数(passed)", "source": "テスト実走 2026-10-14(python -m pytest tools/span_split -q)"},
+  {"value": "150", "what": "性質テスト 1 本目の例の数(derandomize=True で固定)", "source": "テスト実走 2026-10-14(tests/test_span_split_property.py の max_examples)"},
+  {"value": "300", "what": "性質テスト 2 本目の例の数(derandomize=True で固定)", "source": "テスト実走 2026-10-14(tests/test_span_split_property.py の max_examples)"},
+  {"value": "10", "what": "経過措置の行の順位 / 当日の帰属を旧側にしたときの小期間の件数 / 部品が import している module の数", "source": "テスト実走 2026-10-14(test_measure_keika_row_wins_by_priority / test_measure_onday_moves_the_cut_by_one_day / test_no_float_no_subprocess_no_environment)"},
+  {"value": "90", "what": "2025-01-01〜2025-06-30 を当日の帰属 新側 で切ったときの前の小期間の日数(旧側では後の小期間の日数)", "source": "テスト実走 2026-10-14(test_measure_onday_moves_the_cut_by_one_day)"},
+  {"value": "91", "what": "同じ期間の後の小期間の日数(旧側では前の小期間の日数)", "source": "テスト実走 2026-10-14(test_measure_onday_moves_the_cut_by_one_day)"},
+  {"value": "1,094", "what": "合成した期間表 5 行の日数の合計(新側でも旧側でも小期間の合計と一致)", "source": "テスト実走 2026-10-14(test_measure_days_always_sum_to_the_original)"},
+  {"value": "548", "what": "段階施行の fixture で切った期間 1 本の日数", "source": "テスト実走 2026-10-14(test_measure_staged_boundaries_make_three_pieces)"},
+  {"value": "183", "what": "段階施行で割れた 1 つめと 2 つめの小期間の日数", "source": "テスト実走 2026-10-14(test_measure_staged_boundaries_make_three_pieces)"},
+  {"value": "182", "what": "段階施行の 3 つめの小期間の日数 / 公表時点を 切る に寄せたときの前の小期間の日数", "source": "テスト実走 2026-10-14(test_measure_staged_boundaries_make_three_pieces / test_measure_known_later_declaration_splits_the_result)"},
+  {"value": "273", "what": "公表時点の fixture の期間の日数(切らない に寄せると 1 本のまま)", "source": "テスト実走 2026-10-14(test_measure_known_later_declaration_splits_the_result)"},
+  {"value": "12", "what": "止まる理由コードの数(すべてに道がある)", "source": "テスト実走 2026-10-14(test_all_twelve_stop_reasons_are_covered)"},
+  {"value": "14", "what": "「表として読めない」で返す崩した表の枚数", "source": "テスト実走 2026-10-14(test_read_error_count)"},
+  {"value": "23", "what": "fixtures/kowashita に置いた崩した表の枚数", "source": "テスト実走 2026-10-14(test_inputs_are_not_modified)"},
+  {"value": "36", "what": "切る前後で sha256 が変わらなかった入力 CSV の数", "source": "テスト実走 2026-10-14(test_inputs_are_not_modified)"},
+  {"value": "ea48f4f9f773", "what": "当日の帰属 新側 で切った判定部分の sha256 先頭 12 桁", "source": "テスト実走 2026-10-14(test_measure_declared_boundaries_cut / test_measure_verify_is_deterministic)"},
+  {"value": "cd9463f61c0b", "what": "当日の帰属 旧側 で切った判定部分の sha256 先頭 12 桁", "source": "テスト実走 2026-10-14(test_measure_onday_moves_the_cut_by_one_day / test_measure_verify_is_deterministic)"},
+  {"value": "6", "what": "図 1 に並べた境界の件数 / 基準日の種別の登録数", "source": "私の棚卸し記録(非公開)/ テスト実走 2026-10-14(test_registered_vocabularies)"}
+ ]}
