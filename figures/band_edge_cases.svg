@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1994" height="1276" viewBox="0 0 1994 1276" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1994" height="1276" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">線にちょうど当たる 8 件 — 帯の軸は記録に在り、等号の向きが行から取れるのは 4 件</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">収集範囲は私の棚卸し記録(非公開)に載っている範囲に限る(制度を網羅して読んだわけではない)。値(料率・金額・境界額)は出さない。残りの断りは本文に書いた。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">どの線に触れているか</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">等号の向きは行から取れるか</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">動かした主体</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">改定の列に載っている日付</text>
+<text x="172" y="197.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">月額が等級の境目</text>
+<rect x="190" y="132" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">報酬月額帯 → 等級</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行に書いてあるのは軸名まで</text>
+<rect x="636" y="132" width="430" height="120" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行から取れない</text>
+<circle cx="662" cy="195" r="2.5" fill="#c2410c"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">帯の軸名だけが残っている</text>
+<rect x="1082" y="132" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">協会けんぽ / 厚労省告示</text>
+<circle cx="1108" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">私の棚卸し記録(非公開)</text>
+<rect x="1528" y="132" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">不定期</text>
+<circle cx="1554" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">日付は欄に無い</text>
+<text x="172" y="333.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">日額が率の境目</text>
+<rect x="190" y="268" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">賃金日額帯 → 給付率</text>
+<circle cx="216" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">備考に「帯の境界値が param」</text>
+<rect x="636" y="268" width="430" height="120" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行から取れない</text>
+<circle cx="662" cy="331" r="2.5" fill="#c2410c"/>
+<text x="674" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">境界値が要ると書いてある</text>
+<rect x="1082" y="268" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">厚生労働省</text>
+<circle cx="1108" cy="331" r="2.5" fill="#5b6272"/>
+<text x="1120" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">私の棚卸し記録(非公開)</text>
+<rect x="1528" y="268" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">毎年の改定</text>
+<circle cx="1554" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">帯そのものが毎年動く</text>
+<text x="172" y="469.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">休業日数が境目</text>
+<rect x="190" y="404" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">休業日数帯(180 日)</text>
+<circle cx="216" cy="467" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">帯の境目が行に書いてある</text>
+<rect x="636" y="404" width="430" height="120" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行から取れない</text>
+<circle cx="662" cy="467" r="2.5" fill="#c2410c"/>
+<text x="674" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">境目の数はあるが向きが無い</text>
+<rect x="1082" y="404" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">厚生労働省</text>
+<circle cx="1108" cy="467" r="2.5" fill="#5b6272"/>
+<text x="1120" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">私の棚卸し記録(非公開)</text>
+<rect x="1528" y="404" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">不定期</text>
+<circle cx="1554" cy="467" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">日付は欄に無い</text>
+<text x="172" y="605.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">生年月日が減額の境目</text>
+<rect x="190" y="540" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">生年月日帯 → 減額率</text>
+<circle cx="216" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">備考に「1962-04-02 以降」</text>
+<rect x="636" y="540" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">取れる</text>
+<circle cx="662" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">以降 = その日を含む側</text>
+<rect x="1082" y="540" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">日本年金機構</text>
+<circle cx="1108" cy="603" r="2.5" fill="#5b6272"/>
+<text x="1120" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">私の棚卸し記録(非公開)</text>
+<rect x="1528" y="540" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2022-04</text>
+<circle cx="1554" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">改定の欄に日付が在る</text>
+<text x="172" y="741.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">生年月日が加算の境目</text>
+<rect x="190" y="676" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">生年月日帯 → 加算</text>
+<circle cx="216" cy="739" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">備考に「1966-04-01 以前生まれのみ」</text>
+<rect x="636" y="676" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">取れる</text>
+<circle cx="662" cy="739" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">以前 = その日を含む側</text>
+<rect x="1082" y="676" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">日本年金機構</text>
+<circle cx="1108" cy="739" r="2.5" fill="#5b6272"/>
+<text x="1120" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">私の棚卸し記録(非公開)</text>
+<rect x="1528" y="676" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">年度ごと</text>
+<circle cx="1554" cy="739" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">帯そのものは動かない</text>
+<text x="172" y="877.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">時間外が率の境目</text>
+<rect x="190" y="812" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">時間外の区分 → 割増率</text>
+<circle cx="216" cy="875" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">区分に「月 60h 超」</text>
+<rect x="636" y="812" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">取れる</text>
+<circle cx="662" cy="875" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">超 = その数を含まない側</text>
+<rect x="1082" y="812" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">厚生労働省</text>
+<circle cx="1108" cy="875" r="2.5" fill="#5b6272"/>
+<text x="1120" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">私の棚卸し記録(非公開)</text>
+<rect x="1528" y="812" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2023-04</text>
+<circle cx="1554" cy="875" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">猶予が終わった日</text>
+<text x="172" y="1013.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">休業の日数が境目</text>
+<rect x="190" y="948" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">休業中の日数 → 免除</text>
+<circle cx="216" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">数式の欄に「14 日以上」</text>
+<rect x="636" y="948" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">取れる</text>
+<circle cx="662" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">以上 = その数を含む側</text>
+<rect x="1082" y="948" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">日本年金機構</text>
+<circle cx="1108" cy="1011" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">私の棚卸し記録(非公開)</text>
+<rect x="1528" y="948" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2022-10</text>
+<circle cx="1554" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">数式が改正された日</text>
+<text x="172" y="1149.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">勤続年数が境目</text>
+<rect x="190" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">週所定労働日数帯 × 勤続年数帯</text>
+<circle cx="216" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2 次元の帯で引く</text>
+<rect x="636" y="1084" width="430" height="120" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行から取れない</text>
+<circle cx="662" cy="1147" r="2.5" fill="#c2410c"/>
+<text x="674" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">軸が 2 本とも軸名だけ</text>
+<rect x="1082" y="1084" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">労基法 39 条</text>
+<circle cx="1108" cy="1147" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">私の棚卸し記録(非公開)</text>
+<rect x="1528" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">不定期</text>
+<circle cx="1554" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">日付は欄に無い</text>
+<rect x="190" y="1230" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="1242" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">等号の向きが行の文言から取れる</text>
+<rect x="454" y="1230" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="480" y="1242" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">軸名だけで、等号の向きが行から取れない</text>
+<rect x="774" y="1230" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="800" y="1242" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">出典(動かした主体と、どこで見た記録か)</text>
+</svg>
