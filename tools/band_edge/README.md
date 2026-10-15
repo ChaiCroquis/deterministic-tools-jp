@@ -1,5 +1,9 @@
 # band_edge — 帯の境界ちょうどの値はどちらにも入るので、以上と未満を表に書いてから引く
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [帯の境界ちょうどの値はどちらにも入るので、以上と未満を表に書いてから引く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_14.html)(2026-10-15 公開)
+<!-- article-links:end -->
+
 **帯の境界ちょうどの値は、以上と未満のどちらを書いたかが表に無いと、どちらの帯にも入れられる
 (そして黙ってどちらかに入る)。** [asof_table](../asof_table) の回で「1 点の日付で行を引く」、
 [span_split](../span_split) の回で「期間を境界日で切って行を当てる」ところまでは決まるように

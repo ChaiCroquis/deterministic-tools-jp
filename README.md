@@ -40,6 +40,7 @@
 | 2026-10-12 | [同じ中身でも行の順は変わるので、並べ方を表に書いてから並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_11.html) | [`tools/order_table`](tools/order_table) |
 | 2026-10-13 | [同じ道具でも環境が違えば出力は変わるので、判定に入れない欄を先に表に書く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_12.html) | [`tools/env_match`](tools/env_match) |
 | 2026-10-14 | [料率が変わる日が期間の途中に来るので、期間を先に境界で切ってから行を当てる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_13.html) | [`tools/span_split`](tools/span_split) |
+| 2026-10-15 | [帯の境界ちょうどの値はどちらにも入るので、以上と未満を表に書いてから引く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_14.html) | [`tools/band_edge`](tools/band_edge) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
