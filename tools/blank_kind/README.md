@@ -1,5 +1,9 @@
 # blank_kind — 空欄は 0 とも全部とも読めるので、欠けている意味を列ごとに書いてから引く
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [空欄は 0 とも全部とも読めるので、欠けている意味を列ごとに書いてから引く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/0.html)(2026-10-16 公開)
+<!-- article-links:end -->
+
 **同じ空欄が、列によって「全部に当たる」とも「まだ取っていない」とも「制度として該当なし」
 とも読める。どれかを書いていないと、空欄は黙って 0 か現行値になる。**
 [asof_table](../asof_table) の回で基準日と公表時点、[span_split](../span_split) の回で期間、
