@@ -1,0 +1,293 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2886" height="1684" viewBox="0 0 2886 1684" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="2886" height="1684" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">私の更新の実行記録 11 回 — 出し直す範囲が「最終実行の日付」では決まらない</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">出典は手元の実行記録 1 ファイルの 11 行(行番号を各行に付けた)。件数は丸めず原文のまま置いた。網羅ではない(11 回ぶんで、しかも 1 日に収まっている)。値(料率・金額)は出さず、指紋は先頭 8 桁までにした。残りの断りは本文に書いた。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">実行の時刻(原文のまま)</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">状態</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">差分の件数</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">出力の指紋(先頭 8 桁)</text>
+<text x="2189.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">変わった行のキーが残っている件数</text>
+<text x="2635.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">この回を跨いだ出し直し範囲</text>
+<text x="172" y="197.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">1 回目</text>
+<rect x="190" y="132" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T09:55:21+00:00</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L1</text>
+<rect x="636" y="132" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ok</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番を書き換えた</text>
+<rect x="1082" y="132" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">追加 1301 / 削除 0 / 変更 0</text>
+<circle cx="1108" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">丸めずに別の欄で置いた</text>
+<rect x="1528" y="132" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4c9940e7</text>
+<circle cx="1554" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">この回で新しくなった値</text>
+<rect x="1974" y="132" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<circle cx="2000" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の見本 (diff.samples) の件数</text>
+<rect x="2420" y="132" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">見本だけで決まらない</text>
+<circle cx="2446" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="2458" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変わったキーの一覧が無い</text>
+<text x="172" y="333.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">2 回目</text>
+<rect x="190" y="268" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T09:55:22+00:00</text>
+<circle cx="216" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L2</text>
+<rect x="636" y="268" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ok</text>
+<circle cx="662" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番を書き換えた</text>
+<rect x="1082" y="268" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">追加 0 / 削除 0 / 変更 0</text>
+<circle cx="1108" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">丸めずに別の欄で置いた</text>
+<rect x="1528" y="268" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4c9940e7</text>
+<circle cx="1554" cy="331" r="2.5" fill="#5b6272"/>
+<text x="1566" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">前の回と同じ値に戻っている</text>
+<rect x="1974" y="268" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<circle cx="2000" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の見本 (diff.samples) の件数</text>
+<rect x="2420" y="268" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まる</text>
+<circle cx="2446" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="2458" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変わった行が 0</text>
+<text x="172" y="469.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">3 回目</text>
+<rect x="190" y="404" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T09:55:22+00:00</text>
+<circle cx="216" cy="467" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L3</text>
+<rect x="636" y="404" width="430" height="120" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">failed</text>
+<circle cx="662" cy="467" r="2.5" fill="#c2410c"/>
+<text x="674" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番は前回のまま</text>
+<rect x="1082" y="404" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">記録が無い(diff は null)</text>
+<circle cx="1108" cy="467" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の欄ごと記録されていない</text>
+<rect x="1528" y="404" width="430" height="120" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">指紋なし</text>
+<circle cx="1554" cy="467" r="2.5" fill="#c2410c"/>
+<text x="1566" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋が無いので版として指せない</text>
+<rect x="1974" y="404" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">記録が無い</text>
+<circle cx="2000" cy="467" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の欄ごと記録されていない</text>
+<rect x="2420" y="404" width="430" height="120" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">版として指せない</text>
+<circle cx="2446" cy="467" r="2.5" fill="#c2410c"/>
+<text x="2458" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">検証に落ちた回</text>
+<text x="172" y="605.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">4 回目</text>
+<rect x="190" y="540" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T09:55:23+00:00</text>
+<circle cx="216" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L4</text>
+<rect x="636" y="540" width="430" height="120" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">failed</text>
+<circle cx="662" cy="603" r="2.5" fill="#c2410c"/>
+<text x="674" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番は前回のまま</text>
+<rect x="1082" y="540" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">記録が無い(diff は null)</text>
+<circle cx="1108" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の欄ごと記録されていない</text>
+<rect x="1528" y="540" width="430" height="120" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">指紋なし</text>
+<circle cx="1554" cy="603" r="2.5" fill="#c2410c"/>
+<text x="1566" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋が無いので版として指せない</text>
+<rect x="1974" y="540" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">記録が無い</text>
+<circle cx="2000" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の欄ごと記録されていない</text>
+<rect x="2420" y="540" width="430" height="120" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">版として指せない</text>
+<circle cx="2446" cy="603" r="2.5" fill="#c2410c"/>
+<text x="2458" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">検証に落ちた回</text>
+<text x="172" y="741.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">5 回目</text>
+<rect x="190" y="676" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T09:55:24+00:00</text>
+<circle cx="216" cy="739" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L5</text>
+<rect x="636" y="676" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ok</text>
+<circle cx="662" cy="739" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番を書き換えた</text>
+<rect x="1082" y="676" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">追加 1 / 削除 0 / 変更 1</text>
+<circle cx="1108" cy="739" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">丸めずに別の欄で置いた</text>
+<rect x="1528" y="676" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">eeb87884</text>
+<circle cx="1554" cy="739" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">この回で新しくなった値</text>
+<rect x="1974" y="676" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 件</text>
+<circle cx="2000" cy="739" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の見本 (diff.samples) の件数</text>
+<rect x="2420" y="676" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">見本だけで決まらない</text>
+<circle cx="2446" cy="739" r="2.5" fill="#3b5bdb"/>
+<text x="2458" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変わったキーの一覧が無い</text>
+<text x="172" y="877.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">6 回目</text>
+<rect x="190" y="812" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T09:55:42+00:00</text>
+<circle cx="216" cy="875" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L6</text>
+<rect x="636" y="812" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ok</text>
+<circle cx="662" cy="875" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番を書き換えた</text>
+<rect x="1082" y="812" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">追加 0 / 削除 1 / 変更 1</text>
+<circle cx="1108" cy="875" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">丸めずに別の欄で置いた</text>
+<rect x="1528" y="812" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4c9940e7</text>
+<circle cx="1554" cy="875" r="2.5" fill="#5b6272"/>
+<text x="1566" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">前の回と同じ値に戻っている</text>
+<rect x="1974" y="812" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 件</text>
+<circle cx="2000" cy="875" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の見本 (diff.samples) の件数</text>
+<rect x="2420" y="812" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">見本だけで決まらない</text>
+<circle cx="2446" cy="875" r="2.5" fill="#3b5bdb"/>
+<text x="2458" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変わったキーの一覧が無い</text>
+<text x="172" y="1013.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">7 回目</text>
+<rect x="190" y="948" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T22:04:22+00:00</text>
+<circle cx="216" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L7</text>
+<rect x="636" y="948" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ok</text>
+<circle cx="662" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番を書き換えた</text>
+<rect x="1082" y="948" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">追加 0 / 削除 0 / 変更 0</text>
+<circle cx="1108" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">丸めずに別の欄で置いた</text>
+<rect x="1528" y="948" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4c9940e7</text>
+<circle cx="1554" cy="1011" r="2.5" fill="#5b6272"/>
+<text x="1566" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">前の回と同じ値に戻っている</text>
+<rect x="1974" y="948" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<circle cx="2000" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の見本 (diff.samples) の件数</text>
+<rect x="2420" y="948" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まる</text>
+<circle cx="2446" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="2458" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変わった行が 0</text>
+<text x="172" y="1149.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">8 回目</text>
+<rect x="190" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T22:35:16+00:00</text>
+<circle cx="216" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L8</text>
+<rect x="636" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ok</text>
+<circle cx="662" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番を書き換えた</text>
+<rect x="1082" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">追加 341 / 削除 141 / 変更 1</text>
+<circle cx="1108" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">丸めずに別の欄で置いた</text>
+<rect x="1528" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">a5d40eaa</text>
+<circle cx="1554" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">この回で新しくなった値</text>
+<rect x="1974" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">6 件</text>
+<circle cx="2000" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の見本 (diff.samples) の件数</text>
+<rect x="2420" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">見本だけで決まらない</text>
+<circle cx="2446" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="2458" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変わったキーの一覧が無い</text>
+<text x="172" y="1285.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">9 回目</text>
+<rect x="190" y="1220" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1256" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T22:48:48+00:00</text>
+<circle cx="216" cy="1283" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1288" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L9</text>
+<rect x="636" y="1220" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1256" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ok</text>
+<circle cx="662" cy="1283" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1288" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番を書き換えた</text>
+<rect x="1082" y="1220" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1256" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">追加 180 / 削除 0 / 変更 0</text>
+<circle cx="1108" cy="1283" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1288" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">丸めずに別の欄で置いた</text>
+<rect x="1528" y="1220" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1256" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ba9150b8</text>
+<circle cx="1554" cy="1283" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1288" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">この回で新しくなった値</text>
+<rect x="1974" y="1220" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1256" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">5 件</text>
+<circle cx="2000" cy="1283" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="1288" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の見本 (diff.samples) の件数</text>
+<rect x="2420" y="1220" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="1256" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">見本だけで決まらない</text>
+<circle cx="2446" cy="1283" r="2.5" fill="#3b5bdb"/>
+<text x="2458" y="1288" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変わったキーの一覧が無い</text>
+<text x="172" y="1421.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">10 回目</text>
+<rect x="190" y="1356" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1392" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T22:49:52+00:00</text>
+<circle cx="216" cy="1419" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1424" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L10</text>
+<rect x="636" y="1356" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1392" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ok</text>
+<circle cx="662" cy="1419" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1424" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番を書き換えた</text>
+<rect x="1082" y="1356" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1392" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">追加 0 / 削除 0 / 変更 0</text>
+<circle cx="1108" cy="1419" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1424" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">丸めずに別の欄で置いた</text>
+<rect x="1528" y="1356" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1392" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">151d31f0</text>
+<circle cx="1554" cy="1419" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1424" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">この回で新しくなった値</text>
+<rect x="1974" y="1356" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1392" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<circle cx="2000" cy="1419" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="1424" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の見本 (diff.samples) の件数</text>
+<rect x="2420" y="1356" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="1392" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まる</text>
+<circle cx="2446" cy="1419" r="2.5" fill="#3b5bdb"/>
+<text x="2458" y="1424" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変わった行が 0</text>
+<text x="172" y="1557.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">11 回目</text>
+<rect x="190" y="1492" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-09-19T22:50:45+00:00</text>
+<circle cx="216" cy="1555" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 CHANGELOG.jsonl L11</text>
+<rect x="636" y="1492" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ok</text>
+<circle cx="662" cy="1555" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番を書き換えた</text>
+<rect x="1082" y="1492" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">追加 0 / 削除 0 / 変更 0</text>
+<circle cx="1108" cy="1555" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">丸めずに別の欄で置いた</text>
+<rect x="1528" y="1492" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">151d31f0</text>
+<circle cx="1554" cy="1555" r="2.5" fill="#5b6272"/>
+<text x="1566" y="1560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">前の回と同じ値に戻っている</text>
+<rect x="1974" y="1492" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">0 件</text>
+<circle cx="2000" cy="1555" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="1560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の見本 (diff.samples) の件数</text>
+<rect x="2420" y="1492" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="1528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まる</text>
+<circle cx="2446" cy="1555" r="2.5" fill="#3b5bdb"/>
+<text x="2458" y="1560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変わった行が 0</text>
+<rect x="190" y="1638" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="1650" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">出し直す範囲が台帳から決まる回</text>
+<rect x="454" y="1638" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="480" y="1650" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">版として指せない回(検証に落ちて指紋が無い)</text>
+<rect x="816" y="1638" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="842" y="1650" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">前の回と同じ指紋に戻っている欄</text>
+</svg>

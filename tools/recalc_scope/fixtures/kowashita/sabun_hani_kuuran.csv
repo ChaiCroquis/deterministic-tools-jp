@@ -1,0 +1,5 @@
+from_version,to_version,keys,change,coverage,source
+b3c8d1e6f2a9b4c7,c5d2e9f4a1b8c3d6,合成のキーE(架空),追加,,articles/15_context_pack.md L15
+c5d2e9f4a1b8c3d6,d9e4f1a8b3c6d2e7,合成のキーA(架空)|合成のキーB(架空),変更,全件,協会けんぽ / 私の棚卸し記録(非公開)
+c5d2e9f4a1b8c3d6,d9e4f1a8b3c6d2e7,合成のキーD(架空),追加,全件,協会けんぽ / 私の棚卸し記録(非公開)
+d9e4f1a8b3c6d2e7,e1f6a3b9c4d7e2f8,合成のキーC(架空),追加,全件,厚生労働省 / 私の棚卸し記録(非公開)

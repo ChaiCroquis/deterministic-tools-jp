@@ -1,0 +1,16 @@
+{"article": "25_recalc_scope.md",
+ "numbers": [
+  {"value": "12", "what": "合成した結果の台帳の行数(= 4 値の分母)", "source": "テスト実走 2026-10-17 test_measure_twelve_results_split_into_four(assert c[\"結果の台帳の行数\"] == 12)"},
+  {"value": "10", "what": "差分の 1 欄を見本だけ → 全件 に書き換えても結果が動かなかった行数", "source": "テスト実走 2026-10-17 test_measure_one_coverage_cell_moves_two_results(assert len(other) == 10)。同じ値で「部品が import している module は 10 個」も測っている(test_measure_no_float_no_subprocess)"},
+  {"value": "11", "what": "私の更新の実行記録に残っている実行の回数(図 1 の行数)", "source": "私の更新の実行記録(非公開)の 11 行。各行の行番号を図 1 に付けた"},
+  {"value": "13", "what": "同じ結果 id を 2 行書いた台帳の行数(止まったまま 1 行も読まない)", "source": "テスト実走 2026-10-17 test_measure_duplicate_result_id_breaks_the_denominator(assert c[\"結果の台帳の行数\"] == 13)"},
+  {"value": "26", "what": "「表として読めない」で返る崩した表の枚数", "source": "テスト実走 2026-10-17 test_measure_read_error_count(assert n == 26)"},
+  {"value": "31", "what": "この道具のテストの件数", "source": "テスト実走 2026-10-17 python -m pytest tools/recalc_scope -q → 31 passed"},
+  {"value": "42", "what": "読む前後で sha256 が変わらないことを確かめた入力ファイルの数", "source": "テスト実走 2026-10-17 test_measure_inputs_are_not_modified(assert len(before) == 42)"},
+  {"value": "150", "what": "性質テスト 1 本目の試行回数(乱数は固定)", "source": "tests/test_recalc_scope_property.py の @settings(max_examples=150, derandomize=True)"},
+  {"value": "300", "what": "性質テスト 2 本目の試行回数(乱数は固定)", "source": "tests/test_recalc_scope_property.py の @settings(max_examples=300, derandomize=True)"},
+  {"value": "180", "what": "実行記録 9 行目の追加件数(残っているキーは 5 件)", "source": "私の更新の実行記録(非公開)9 行目"},
+  {"value": "341", "what": "実行記録 8 行目の追加件数(残っているキーは 6 件)", "source": "私の更新の実行記録(非公開)8 行目"},
+  {"value": "1301", "what": "実行記録 1 行目(初回)の追加件数(残っているキーは 0 件)", "source": "私の更新の実行記録(非公開)1 行目"},
+  {"value": "141", "what": "実行記録 8 行目の削除件数(図 1 の 8 回目)", "source": "私の更新の実行記録(非公開)8 行目"}
+ ]}
