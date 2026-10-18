@@ -43,6 +43,7 @@
 | 2026-10-15 | [帯の境界ちょうどの値はどちらにも入るので、以上と未満を表に書いてから引く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_14.html) | [`tools/band_edge`](tools/band_edge) |
 | 2026-10-16 | [空欄は 0 とも全部とも読めるので、欠けている意味を列ごとに書いてから引く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/0.html) | [`tools/blank_kind`](tools/blank_kind) |
 | 2026-10-17 | [差し替えた後にどれを出し直すかは、引いた版の指紋を結果に残してから決める](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_16.html) | [`tools/recalc_scope`](tools/recalc_scope) |
+| 2026-10-18 | [手元にある日付が引ける日付とは限らないので、日付の種別を先に台帳にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_17.html) | [`tools/basis_map`](tools/basis_map) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの

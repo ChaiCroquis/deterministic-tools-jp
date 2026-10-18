@@ -1,5 +1,9 @@
 # basis_map — 手元にある日付が引ける日付とは限らないので、日付の種別を先に台帳にする
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [手元にある日付が引ける日付とは限らないので、日付の種別を先に台帳にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_17.html)(2026-10-18 公開)
+<!-- article-links:end -->
+
 **日付は 1 種類ではない。手元にあるのが支払日でも、行が求めているのは対象月初日や離職日や
 請求日で、どの種別を渡すかを台帳に書いていないと、似た名前の日付が黙って代入される。**
 [asof_table](../asof_table) の回で「同じ日付で引いても公表時点で答えが変わる」ところ、
