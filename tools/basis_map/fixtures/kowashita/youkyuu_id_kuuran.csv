@@ -1,0 +1,6 @@
+rule_id,kind_id,source
+,K01,articles/07_asof_table.md L13
+R02,K02,厚生労働省 / 私の棚卸し記録(非公開)
+R03,K03,articles/22_span_split.md L13
+R04,K05,私の棚卸し記録(非公開)
+R05,K06,articles/07_asof_table.md L16

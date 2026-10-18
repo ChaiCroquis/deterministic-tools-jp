@@ -1,0 +1,17 @@
+{"article": "26_basis_map.md",
+ "numbers": [
+  {"value": "20", "what": "合成した 3 枚の分母(rule 5 件 × 対象 4 件 = 20 組)", "source": "テスト実走 2026-10-18 test_measure_twenty_pairs_split_into_four(assert c[\"分母(rule 数 × 対象数)\"] == 20)"},
+  {"value": "12", "what": "合成した手元の表の行数。図 1 の「basis 列に並んでいる種別の通り数」も同じ値", "source": "テスト実走 2026-10-18 test_measure_twenty_pairs_split_into_four(assert c[\"手元の表の行数\"] == 12)。図 1 側は私の棚卸し記録(非公開)の A 表を機械で数えた 12 通り"},
+  {"value": "16", "what": "台帳の 1 欄を 候補 → 登録済 に書き換えても結果も理由も動かなかった組の数", "source": "テスト実走 2026-10-18 test_measure_one_status_cell_moves_four_pairs(assert len(other) == 16)"},
+  {"value": "24", "what": "この道具のテストの件数。同じ値で「同じ rule id が 2 行ある要求表の分母(6 行 × 対象 4)」も測っている", "source": "テスト実走 2026-10-18 python -m pytest tools/basis_map -q → 24 passed。分母の側は test_measure_duplicate_rule_id_breaks_the_denominator(assert c[\"分母(rule 数 × 対象数)\"] == 24)"},
+  {"value": "19", "what": "「表として読めない」で返る崩した表の枚数", "source": "テスト実走 2026-10-18 test_measure_read_error_count(assert n == 19)"},
+  {"value": "28", "what": "崩した表の総枚数(うち 9 枚が止まる理由コードを出す)", "source": "テスト実走 2026-10-18 test_measure_read_error_count(assert len(list((FIX / \"kowashita\").glob(\"*.csv\"))) == 28)"},
+  {"value": "33", "what": "読む前後で sha256 が変わらないことを確かめた入力ファイルの数", "source": "テスト実走 2026-10-18 test_measure_inputs_are_not_modified(assert len(before) == 33)"},
+  {"value": "10", "what": "部品が import している module の数。同じ値で図 1 の「請求日の行数」も測っている", "source": "テスト実走 2026-10-18 test_measure_no_float_no_subprocess(assert len(mods) == 10)。図 1 側は私の棚卸し記録(非公開)の A 表を機械で数えた 10 行"},
+  {"value": "150", "what": "性質テスト 1 本目の試行回数(乱数は固定)", "source": "tests/test_basis_map_property.py の @settings(max_examples=150, derandomize=True)"},
+  {"value": "300", "what": "性質テスト 2 本目の試行回数(乱数は固定)", "source": "tests/test_basis_map_property.py の @settings(max_examples=300, derandomize=True)"},
+  {"value": "58", "what": "棚卸しの A 表で basis 列に値が書かれている行数(図 1 の 1 行目)", "source": "私の棚卸し記録(非公開)の A 表を機械で数えた。12 通り / 58 行、うち「(basis 追加候補)」付きが 6 行"},
+  {"value": "22", "what": "棚卸しの A 表で basis が「対象月初日」の行数(うち 1 行は「(年度)」付き)", "source": "私の棚卸し記録(非公開)の A 表を機械で数えた"},
+  {"value": "94", "what": "判定部分の sha256 先頭 12 桁 94a452a5ddb9 の先頭 2 桁(本文では枠内にだけ出したが、台帳にも載せた)", "source": "テスト実走 2026-10-18 test_measure_determinism(assert base.sha256()[:12] == \"94a452a5ddb9\")"},
+  {"value": "13", "what": "候補 → 登録済 に書き換えた表の判定部分の sha256 先頭 12 桁 13c33776b86e の先頭 2 桁", "source": "テスト実走 2026-10-18 test_measure_determinism(assert pull(s=\"shubetsu_touroku\").sha256()[:12] == \"13c33776b86e\")"}
+ ]}

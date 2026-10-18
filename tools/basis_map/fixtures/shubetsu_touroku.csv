@@ -1,0 +1,7 @@
+kind_id,name,aliases,meaning,format,status,source
+K01,対象月初日,対象月の初日,その月の 1 日,YYYY-MM-DD,登録済,articles/07_asof_table.md L13
+K02,賃金締切日,賃金締め日,賃金を締める日,YYYY-MM-DD,登録済,articles/02_wareki.md L15
+K03,離職日,,雇用関係が終わる日,YYYY-MM-DD,登録済,articles/22_span_split.md L14
+K04,請求日,,給付を請求した日,YYYY-MM-DD,登録済,協会けんぽ / 私の棚卸し記録(非公開)
+K05,資格取得日,,被保険者の資格を取る日,YYYY-MM-DD,登録済,私の棚卸し記録(非公開)
+K06,休業開始日,,休業が始まる日,YYYY-MM-DD,登録済,articles/07_asof_table.md L16
