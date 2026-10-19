@@ -1,0 +1,6 @@
+rule_id,kind,priorities,wildcard,tie,source
+R01,宣言された順位,0=本則|10=経過措置|20=特例,*,例外にする,articles/07_asof_table.md L73
+R02,宣言された順位,0=本則|10=経過措置|20=特例,*,例外にする,articles/07_asof_table.md L108
+R03,宣言された順位,0=本則|10=経過措置|20=特例,*,例外にする,articles/23_band_edge.md L13
+R04,宣言された順位,0=本則|10=経過措置|20=特例,*,例外にする,協会けんぽ / 私の棚卸し記録(非公開)
+R05,宣言された順位では決まらない,0=本則|10=経過措置|20=特例,*,例外にする,articles/23_band_edge.md L14

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1994" height="1436" viewBox="0 0 1994 1436" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1994" height="1436" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">2 本以上の行が同時に当たる類型と、順位について原文に何と書かれているか</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">行 = 棚卸しの原文から拾った類型 8 件。違法とは書かず、順位の欄が無い理由も推定しない(原文に書かれていない)。引用は要約せず原文のまま。出典は URL でなくファイル名を伏せた行番号。値(料率・金額)は原文が未取得と書いているので出さない。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">どの 2 本が同時に当たるか</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">順位について原文に何と書かれているか(原文のまま)</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">宣言された順位だけで裁定が決まるか</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">出典</text>
+<text x="172" y="207.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">① 到達日の経過措置</text>
+<rect x="190" y="132" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">本則の行と、到達日で限定した行</text>
+<circle cx="216" cy="195" r="2.5" fill="#5b6272"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ対象月に 2 本当たる</text>
+<rect x="636" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">順位が備考に書いてある</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「経過措置行 (priority 10) の典型」</text>
+<rect x="1082" y="132" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まる</text>
+<circle cx="1108" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ただし行の欄ではなく備考の文章</text>
+<rect x="1528" y="132" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L46</text>
+<circle cx="1554" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A3 の行(機械で数えた)</text>
+<text x="172" y="363.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">② 本則と経過措置</text>
+<rect x="190" y="288" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">本則の行と、生年月日帯で限定した行</text>
+<circle cx="216" cy="351" r="2.5" fill="#5b6272"/>
+<text x="228" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ請求日に 2 本当たる</text>
+<rect x="636" y="288" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 本あるとだけ書いてある</text>
+<circle cx="662" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「本則 65 + 経過措置行」</text>
+<rect x="1082" y="288" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まらない</text>
+<circle cx="1108" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どちらが勝つかは書かれていない</text>
+<rect x="1528" y="288" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L64</text>
+<circle cx="1554" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A4 の行(機械で数えた)</text>
+<text x="172" y="519.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">③ 地域別と産業別</text>
+<rect x="190" y="444" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">地域別の行と、産業別の行</text>
+<circle cx="216" cy="507" r="2.5" fill="#5b6272"/>
+<text x="228" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ労働日に 2 本当たる</text>
+<rect x="636" y="444" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">順位ではなく式だと原文が書く</text>
+<circle cx="662" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「priority 10 (地域別より高い方が</text>
+<circle cx="662" cy="531" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">適用 = 実際は max 比較 → formula)」</text>
+<rect x="1082" y="444" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">順位では表せないと原文が書いている</text>
+<circle cx="1108" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">未対応の欄にも「max 比較…は</text>
+<circle cx="1108" cy="531" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">formula 側」と書かれている</text>
+<rect x="1528" y="444" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L82 / L121</text>
+<circle cx="1554" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A5 の行と B の未対応の欄</text>
+<text x="172" y="675.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">④ 企業規模の猶予</text>
+<rect x="190" y="600" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">本則の行と、企業規模で限定した行</text>
+<circle cx="216" cy="663" r="2.5" fill="#5b6272"/>
+<text x="228" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">猶予が終わるまで 2 本当たる</text>
+<rect x="636" y="600" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">有効期間を閉じる話として書かれる</text>
+<circle cx="662" cy="663" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「猶予終了 = 企業規模 sel 付き</text>
+<circle cx="662" cy="687" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="692" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">経過措置行の valid_to 閉鎖」</text>
+<rect x="1082" y="600" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まらない</text>
+<circle cx="1108" cy="663" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">閉じる前の重なりの順位は無い</text>
+<rect x="1528" y="600" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L83</text>
+<circle cx="1554" cy="663" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A5 の行(機械で数えた)</text>
+<text x="172" y="831.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">⑤ 事業区分の猶予</text>
+<rect x="190" y="756" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">本則の行と、事業区分で限定した行</text>
+<circle cx="216" cy="819" r="2.5" fill="#5b6272"/>
+<text x="228" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">猶予が終わるまで 2 本当たる</text>
+<rect x="636" y="756" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">対象の欄に猶予とだけ書いてある</text>
+<circle cx="662" cy="819" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「事業区分 (建設 / 運送 / 医師</text>
+<circle cx="662" cy="843" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="848" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">= 2024-04 猶予終了)」</text>
+<rect x="1082" y="756" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まらない</text>
+<circle cx="1108" cy="819" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">備考の欄は空で、順位の語が無い</text>
+<rect x="1528" y="756" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L84</text>
+<circle cx="1554" cy="819" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A5 の行(機械で数えた)</text>
+<text x="172" y="987.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">⑥ 未指定と具体行</text>
+<rect x="190" y="912" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未指定の行と、具体的に書かれた行</text>
+<circle cx="216" cy="975" r="2.5" fill="#5b6272"/>
+<text x="228" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">未指定はどの対象にも当たる</text>
+<rect x="636" y="912" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未指定の読み方だけが書いてある</text>
+<circle cx="662" cy="975" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「selector 未指定 = wildcard」</text>
+<circle cx="662" cy="999" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1004" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「未指定次元 = ワイルドカード」</text>
+<rect x="1082" y="912" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まらない</text>
+<circle cx="1108" cy="975" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">重なったときどちらが勝つかは</text>
+<circle cx="1108" cy="999" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1004" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どちらの原文にも書かれていない</text>
+<rect x="1528" y="912" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L115 / 作業状況 L34</text>
+<circle cx="1554" cy="975" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">B 表 E3 と行形式の表</text>
+<text x="172" y="1143.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">⑦ 公的層と事業所層</text>
+<rect x="190" y="1068" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">公的な層の行と、事業所ごとの層の行</text>
+<circle cx="216" cy="1131" r="2.5" fill="#5b6272"/>
+<text x="228" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ対象に 2 層から当たる</text>
+<rect x="636" y="1068" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">層の順位が書いてある</text>
+<circle cx="662" cy="1131" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「公的層より priority 高」</text>
+<rect x="1082" y="1068" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まる</text>
+<circle cx="1108" cy="1131" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ただし値は書かれていない</text>
+<rect x="1528" y="1068" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L130</text>
+<circle cx="1554" cy="1131" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">C2 の行(機械で数えた)</text>
+<text x="172" y="1299.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">⑧ 本則と特例</text>
+<rect x="190" y="1224" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">本則の行と、通達による特例の行</text>
+<circle cx="216" cy="1287" r="2.5" fill="#5b6272"/>
+<text x="228" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ対象に 2 本当たる場合がある</text>
+<rect x="636" y="1224" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">順位の値まで書いてある</text>
+<circle cx="662" cy="1287" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「priority 20 の特例行として</text>
+<circle cx="662" cy="1311" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1316" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">計算に効く場合のみ表に入る」</text>
+<rect x="1082" y="1224" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">決まる</text>
+<circle cx="1108" cy="1287" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">表に入る場合にかぎる</text>
+<rect x="1528" y="1224" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L132</text>
+<circle cx="1554" cy="1287" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">C4 の行(機械で数えた)</text>
+<rect x="190" y="1390" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="216" y="1402" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">同時に当たる 2 本(重なりの側)</text>
+<rect x="482" y="1390" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="508" y="1402" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">原文に書かれている順位の宣言</text>
+</svg>

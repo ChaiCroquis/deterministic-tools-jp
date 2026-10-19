@@ -1,0 +1,13 @@
+{"article": "27_rank_clash.md",
+ "numbers": [
+  {"value": "20", "what": "合成した 3 枚の分母(rule 5 件 × 対象 4 件 = 20 組)。同じ値で「許す順位の宣言のうち特例の値 20」「空欄の順位を 20 で埋めた測定」も書いている", "source": "テスト実走 2026-10-19 test_measure_twenty_pairs_split_into_four(assert c[\"分母(rule 数 × 対象数)\"] == 20)。順位の値 20 は fixtures/sengen_a.csv の priorities 欄『0=本則|10=経過措置|20=特例』"},
+  {"value": "11", "what": "1 本に決まった組の件数。同じ値で「部品が import している module の数」も測っている", "source": "テスト実走 2026-10-19 test_measure_twenty_pairs_split_into_four(assert c[\"4 値\"][\"1 本に決まった\"] == 11)。module 側は test_measure_no_float_no_subprocess(assert len(mods) == 11)"},
+  {"value": "10", "what": "許す順位の宣言のうち経過措置の値。同順位だった行の順位を 0 から 10 へ上げる測定で使っている", "source": "fixtures/sengen_a.csv の priorities 欄『0=本則|10=経過措置|20=特例』。測定は テスト実走 2026-10-19 test_measure_specific_row_does_not_win(assert pair_of(after, \"R02\", \"T01\").priority == \"10\")"},
+  {"value": "18", "what": "行の順位を 1 欄 0 → 10 に上げても結果も理由も動かなかった組の数", "source": "テスト実走 2026-10-19 test_measure_specific_row_does_not_win(assert len([...]) == 18)"},
+  {"value": "24", "what": "この道具のテストの件数", "source": "テスト実走 2026-10-19 python -m pytest tools/rank_clash -q → 24 passed"},
+  {"value": "27", "what": "「表として読めない」で返る崩した表の枚数", "source": "テスト実走 2026-10-19 test_measure_read_error_count(assert n == 27)"},
+  {"value": "36", "what": "崩した表の総枚数(うち 8 枚が止まる理由コードを出す)", "source": "テスト実走 2026-10-19 test_measure_read_error_count(assert len(list((FIX / \"kowashita\").glob(\"*.csv\"))) == 36)"},
+  {"value": "42", "what": "読む前後で sha256 が変わらないことを確かめた入力ファイルの数", "source": "テスト実走 2026-10-19 test_measure_inputs_are_not_modified(assert len(before) == 42)"},
+  {"value": "200", "what": "性質テスト 1 本目の試行回数(乱数は固定)", "source": "tests/test_rank_clash_property.py の @settings(max_examples=200, derandomize=True)"},
+  {"value": "300", "what": "性質テスト 2 本目の試行回数(乱数は固定)", "source": "tests/test_rank_clash_property.py の @settings(max_examples=300, derandomize=True)"}
+ ]}

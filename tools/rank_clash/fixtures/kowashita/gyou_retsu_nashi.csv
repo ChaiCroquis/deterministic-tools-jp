@@ -1,0 +1,10 @@
+row_id,rule_id,seg,source
+G01,R01,次元A=*|次元B=*,articles/07_asof_table.md L73
+G02,R01,次元A=a1|次元B=*,厚生労働省 / 私の棚卸し記録(非公開)
+G03,R02,次元A=*|次元B=*,articles/07_asof_table.md L108
+G04,R02,次元A=a1|次元B=*,私の棚卸し記録(非公開)
+G05,R03,次元A=*|次元B=*,articles/23_band_edge.md L13
+G06,R03,次元A=*|次元B=b1,私の棚卸し記録(非公開)
+G07,R04,次元A=a1|次元B=b1,協会けんぽ / 私の棚卸し記録(非公開)
+G08,R05,次元A=*|次元B=*,articles/23_band_edge.md L14
+G09,R05,次元A=a2|次元B=*,articles/26_basis_map.md L15
