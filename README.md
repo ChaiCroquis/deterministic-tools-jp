@@ -44,6 +44,7 @@
 | 2026-10-16 | [空欄は 0 とも全部とも読めるので、欠けている意味を列ごとに書いてから引く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/0.html) | [`tools/blank_kind`](tools/blank_kind) |
 | 2026-10-17 | [差し替えた後にどれを出し直すかは、引いた版の指紋を結果に残してから決める](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_16.html) | [`tools/recalc_scope`](tools/recalc_scope) |
 | 2026-10-18 | [手元にある日付が引ける日付とは限らないので、日付の種別を先に台帳にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_17.html) | [`tools/basis_map`](tools/basis_map) |
+| 2026-10-19 | [本則と経過措置が同時に当たるので、どちらが勝つかを順位の欄に書いてから引く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_18.html) | [`tools/rank_clash`](tools/rank_clash) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
