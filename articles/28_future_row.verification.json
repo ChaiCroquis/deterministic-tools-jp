@@ -1,0 +1,18 @@
+{"article": "28_future_row.md",
+ "numbers": [
+  {"value": "10", "what": "合成した行の表の行数。同じ値で「行数 10 × 基準日 3 = 30 組」の分母と、止まる理由コードを出す崩した表 10 枚も書いている", "source": "テスト実走 2026-10-20 test_measure_thirty_pairs_split_into_five(assert c[\"行の表の行数\"] == 10)。崩した表 10 枚は test_measure_stop_reason_codes_all_reachable(assert len(cases) == 10)"},
+  {"value": "11", "what": "止まる理由コードの個数。同じ値で「部品が import している module の数」も測っている", "source": "テスト実走 2026-10-20 test_measure_stop_reason_codes_all_reachable(assert len(F.STOP_REASONS) == 11)。module 側は test_measure_no_float_no_subprocess(assert len(mods) == 11)"},
+  {"value": "12", "what": "記事に載せた sha256 の先頭の桁数", "source": "テスト実走 2026-10-20 test_measure_determinism(assert base.sha256()[:12] == \"d5bce09169b9\")"},
+  {"value": "13", "what": "「基準日に効いている」組の件数(合成した 3 枚、30 組のうち)", "source": "テスト実走 2026-10-20 test_measure_thirty_pairs_split_into_five(assert c[\"5 値\"][\"基準日に効いている\"] == 13)"},
+  {"value": "15", "what": "効き始める日を知った日(公布日)で代用した表での「基準日に効いている」組の件数", "source": "テスト実走 2026-10-20 test_measure_known_day_is_not_used_as_start(assert after.counts()[\"5 値\"][\"基準日に効いている\"] == 15)"},
+  {"value": "16", "what": "空の効き始める日を年度初めで埋めた表での「基準日に効いている」組の件数", "source": "テスト実走 2026-10-20 test_measure_blank_start_is_not_filled(assert after.counts()[\"5 値\"][\"基準日に効いている\"] == 16)"},
+  {"value": "27", "what": "この道具のテストの件数", "source": "テスト実走 2026-10-20 python -m pytest tools/future_row -q → 27 passed"},
+  {"value": "28", "what": "効き始める日を公布日で代用しても結果が動かなかった組の数(30 組のうち)", "source": "テスト実走 2026-10-20 test_measure_known_day_is_not_used_as_start(assert len([...]) == 28)"},
+  {"value": "30", "what": "分母(行数 10 × 基準日の数 3 = 30 組)", "source": "テスト実走 2026-10-20 test_measure_thirty_pairs_split_into_five(assert c[\"分母(行数 × 基準日の数)\"] == 30)"},
+  {"value": "33", "what": "「表として読めない」で返る崩した表の枚数", "source": "テスト実走 2026-10-20 test_measure_read_error_count(assert n == 33)"},
+  {"value": "42", "what": "崩した表の総枚数(うち 10 枚が止まる理由コードを出す)", "source": "テスト実走 2026-10-20 test_measure_read_error_count(assert len(list((FIX / \"kowashita\").glob(\"*.csv\"))) == 42)"},
+  {"value": "48", "what": "読む前後で sha256 が変わらないことを確かめた入力ファイルの数", "source": "テスト実走 2026-10-20 test_measure_inputs_are_not_modified(assert len(before) == 48)"},
+  {"value": "74", "what": "図 1 の ⑤ で原文が書いている法律の番号(令和 7 年法律第 74 号)。原文の表記のまま写した", "source": "私の棚卸し記録(非公開)の作業状況 70 行目「厚年等級表 (4、うち 3 行は令和 7 年法律第 74 号の未来有効行 …)」"},
+  {"value": "200", "what": "性質テスト 1 本目の試行回数(乱数は固定)", "source": "tests/test_future_row_property.py の @settings(max_examples=200, derandomize=True)"},
+  {"value": "300", "what": "性質テスト 2 本目の試行回数(乱数は固定)", "source": "tests/test_future_row_property.py の @settings(max_examples=300, derandomize=True)"}
+ ]}

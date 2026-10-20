@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2440" height="2468" viewBox="0 0 2440 2468" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="2440" height="2468" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">効き始める日が原文に書かれている事例と、その日が来るまで表の中でどう置かれているか</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">行 = 原文から拾った事例 8 件を効き始める日の順に並べ、下の別枠に「効き始める日の欄が空のまま持つ」と宣言された 2 件を置いた(並べられるものと並べられないものを 1 つの表で足さない)。引用は要約せず原文のまま、日付も原文の表記のまま。金額・料率・要件の値は … にした。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">効き始める日(原文のまま)</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">何が動くか(原文のまま)</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">誰が動かしたか</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">表に収録済と原文が書いているか</text>
+<text x="2189.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">出典(ファイル名 + 行番号)</text>
+<text x="172" y="243.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">⑧ 新設の 2 給付</text>
+<rect x="190" y="132" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2025-04</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">もう過ぎている</text>
+<rect x="636" y="132" width="430" height="212" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「2025-04 新設」が 2 行</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">備考「valid_from =</text>
+<circle cx="662" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2025-04-01 の新設行」</text>
+<rect x="1082" y="132" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">厚労省</text>
+<circle cx="1108" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典の欄に書かれた範囲</text>
+<rect x="1528" y="132" width="430" height="212" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">抽出一覧に名前が在る</text>
+<circle cx="1554" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ただし未来有効行とは</text>
+<circle cx="1554" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">書かれていない</text>
+<rect x="1974" y="132" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L48 / L49</text>
+<circle cx="2000" cy="195" r="2.5" fill="#5b6272"/>
+<text x="2012" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A3 の行</text>
+<text x="172" y="471.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">⑦ 支援金率</text>
+<rect x="190" y="360" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="396" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-04</text>
+<circle cx="216" cy="423" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文は「2026-04〜」</text>
+<rect x="636" y="360" width="430" height="212" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="396" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「子ども子育て支援金率」</text>
+<circle cx="662" cy="423" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「(47、2026-04〜)」</text>
+<circle cx="662" cy="447" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="452" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「… = 子ども・子育て支援金</text>
+<circle cx="662" cy="471" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="476" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(2026-04 新設・労使折半)」</text>
+<rect x="1082" y="360" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="396" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">公式 xlsx から抽出</text>
+<circle cx="1108" cy="423" r="2.5" fill="#5b6272"/>
+<text x="1120" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典の欄に書かれた範囲</text>
+<rect x="1528" y="360" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="396" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">収録済</text>
+<circle cx="1554" cy="423" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">47 行として在る</text>
+<rect x="1974" y="360" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="396" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L64 / L107</text>
+<circle cx="2000" cy="423" r="2.5" fill="#5b6272"/>
+<text x="2012" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">自前抽出の表と</text>
+<circle cx="2000" cy="447" r="2.5" fill="#5b6272"/>
+<text x="2012" y="452" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">分かったことの節</text>
+<text x="172" y="699.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">④ 支給停止調整額</text>
+<rect x="190" y="588" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="624" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-04</text>
+<circle cx="216" cy="651" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="656" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文に「要照合」付き</text>
+<rect x="636" y="588" width="430" height="212" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="624" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">在職老齢年金_支給停止調整額</text>
+<circle cx="662" cy="651" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="656" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「年度 (2026-04 に … へ</text>
+<circle cx="662" cy="675" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="680" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">引上げ、要照合)」</text>
+<rect x="1082" y="588" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="624" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">厚労省</text>
+<circle cx="1108" cy="651" r="2.5" fill="#5b6272"/>
+<text x="1120" y="656" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典の欄に書かれた範囲</text>
+<rect x="1528" y="588" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="624" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未収録</text>
+<circle cx="1554" cy="651" r="2.5" fill="#5b6272"/>
+<text x="1566" y="656" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しの行として在るだけ</text>
+<rect x="1974" y="588" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="624" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L67</text>
+<circle cx="2000" cy="651" r="2.5" fill="#5b6272"/>
+<text x="2012" y="656" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A4 の行</text>
+<text x="172" y="927.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">⑤ 厚年等級表</text>
+<rect x="190" y="816" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="852" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-09 / 2028-09 / 2029-09</text>
+<circle cx="216" cy="879" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="884" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">3 行に分かれている</text>
+<rect x="636" y="816" width="430" height="212" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="852" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「厚年等級表」の 3 行</text>
+<circle cx="662" cy="879" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="884" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「(4、うち 3 行は令和 7 年</text>
+<circle cx="662" cy="903" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="908" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">法律第 74 号の未来有効行</text>
+<circle cx="662" cy="927" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="932" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2027-09 / 2028-09 / 2029-09)」</text>
+<rect x="1082" y="816" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="852" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">令和 7 年法律第 74 号</text>
+<circle cx="1108" cy="879" r="2.5" fill="#5b6272"/>
+<text x="1120" y="884" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文が法律名まで書いている</text>
+<rect x="1528" y="816" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="852" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">収録済</text>
+<circle cx="1554" cy="879" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="884" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">上流 OSS 由来として在る</text>
+<rect x="1974" y="816" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="852" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L70</text>
+<circle cx="2000" cy="879" r="2.5" fill="#5b6272"/>
+<text x="2012" y="884" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">上流 OSS 由来の節</text>
+<text x="172" y="1155.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">③ 企業規模要件</text>
+<rect x="190" y="1044" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1080" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-10〜</text>
+<circle cx="216" cy="1107" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1112" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">段階 = 複数行になる</text>
+<rect x="636" y="1044" width="430" height="212" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1080" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">短時間労働者_企業規模要件</text>
+<circle cx="662" cy="1107" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1112" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「2024-10 → 令和 7 年改正で</text>
+<circle cx="662" cy="1131" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">段階撤廃 (2027-10〜、要照合)」</text>
+<circle cx="662" cy="1155" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1160" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">備考「段階 = valid_from の</text>
+<circle cx="662" cy="1179" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1184" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">異なる複数行」</text>
+<rect x="1082" y="1044" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1080" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">厚労省</text>
+<circle cx="1108" cy="1107" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1112" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典の欄に書かれた範囲</text>
+<rect x="1528" y="1044" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1080" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未収録</text>
+<circle cx="1554" cy="1107" r="2.5" fill="#5b6272"/>
+<text x="1566" y="1112" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L127 が「未収録」</text>
+<rect x="1974" y="1044" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1080" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L92</text>
+<circle cx="2000" cy="1107" r="2.5" fill="#5b6272"/>
+<text x="2012" y="1112" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A6 の行</text>
+<text x="172" y="1383.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">② 遺族厚生年金</text>
+<rect x="190" y="1272" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1308" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2028-04</text>
+<circle cx="216" cy="1335" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1340" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">段階施行と書かれている</text>
+<rect x="636" y="1272" width="430" height="212" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1308" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">遺族厚生年金_有期給付</text>
+<circle cx="662" cy="1335" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1340" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「2028-04 段階施行</text>
+<circle cx="662" cy="1359" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1364" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(令和 7 年改正)」</text>
+<circle cx="662" cy="1383" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1388" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">備考「未来有効行 + 段階 =</text>
+<circle cx="662" cy="1407" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1412" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">valid_from の異なる複数行」</text>
+<rect x="1082" y="1272" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1308" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">厚労省</text>
+<circle cx="1108" cy="1335" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1340" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典の欄に書かれた範囲</text>
+<rect x="1528" y="1272" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1308" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未収録</text>
+<circle cx="1554" cy="1335" r="2.5" fill="#5b6272"/>
+<text x="1566" y="1340" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しの行として在るだけ</text>
+<rect x="1974" y="1272" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1308" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L73</text>
+<circle cx="2000" cy="1335" r="2.5" fill="#5b6272"/>
+<text x="2012" y="1340" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A4 の行</text>
+<text x="172" y="1611.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">① 週所定労働時間</text>
+<rect x="190" y="1500" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1536" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2028-10</text>
+<circle cx="216" cy="1563" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1568" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文は「施行日確定」</text>
+<rect x="636" y="1500" width="430" height="212" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1536" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">雇用保険_適用要件_週所定労働時間</text>
+<circle cx="662" cy="1563" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1568" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「2028-10 に … 時間へ</text>
+<circle cx="662" cy="1587" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1592" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(公布済・施行日確定)」</text>
+<circle cx="662" cy="1611" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1616" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">備考「未来有効行</text>
+<circle cx="662" cy="1635" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1640" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(known now, valid 2028-10)」</text>
+<rect x="1082" y="1500" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1536" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">厚労省</text>
+<circle cx="1108" cy="1563" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1568" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典の欄に書かれた範囲</text>
+<rect x="1528" y="1500" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1536" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未収録</text>
+<circle cx="1554" cy="1563" r="2.5" fill="#5b6272"/>
+<text x="1566" y="1568" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しの行として在るだけ</text>
+<rect x="1974" y="1500" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1536" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L51</text>
+<circle cx="2000" cy="1563" r="2.5" fill="#5b6272"/>
+<text x="2012" y="1568" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A3 の行</text>
+<text x="172" y="1839.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">⑥ 国民年金保険料</text>
+<rect x="190" y="1728" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1764" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">R9</text>
+<circle cx="216" cy="1791" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1796" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文は和暦の年度表記</text>
+<circle cx="216" cy="1815" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1820" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">日付に展開しない</text>
+<rect x="636" y="1728" width="430" height="212" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1764" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「国民年金保険料」</text>
+<circle cx="662" cy="1791" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1796" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「(2、R9 は未来有効行)」</text>
+<rect x="1082" y="1728" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1764" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">年金機構 PDF / 厚労省 press</text>
+<circle cx="1108" cy="1791" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1796" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の出典の欄</text>
+<rect x="1528" y="1728" width="430" height="212" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1764" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">収録済</text>
+<circle cx="1554" cy="1791" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1796" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2 行として在る</text>
+<rect x="1974" y="1728" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1764" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L66</text>
+<circle cx="2000" cy="1791" r="2.5" fill="#5b6272"/>
+<text x="2012" y="1796" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">自前抽出の表</text>
+<text x="172" y="2067.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">別枠 ⑨ 賃金要件</text>
+<rect x="190" y="1956" width="430" height="212" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1992" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">空のまま</text>
+<circle cx="216" cy="2019" r="2.5" fill="#c2410c"/>
+<text x="228" y="2024" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">日付が書けない</text>
+<circle cx="216" cy="2043" r="2.5" fill="#c2410c"/>
+<text x="228" y="2048" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">だから並べられない</text>
+<rect x="636" y="1956" width="430" height="212" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1992" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">短時間労働者_賃金要件</text>
+<circle cx="662" cy="2019" r="2.5" fill="#c2410c"/>
+<text x="674" y="2024" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「撤廃予定・施行日は政令</text>
+<circle cx="662" cy="2043" r="2.5" fill="#c2410c"/>
+<text x="674" y="2048" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(要照合)」</text>
+<circle cx="662" cy="2067" r="2.5" fill="#c2410c"/>
+<text x="674" y="2072" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">備考「v2 E6「政令待ち」行の</text>
+<circle cx="662" cy="2091" r="2.5" fill="#c2410c"/>
+<text x="674" y="2096" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実例」</text>
+<rect x="1082" y="1956" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1992" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">厚労省</text>
+<circle cx="1108" cy="2019" r="2.5" fill="#5b6272"/>
+<text x="1120" y="2024" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典の欄に書かれた範囲</text>
+<rect x="1528" y="1956" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1992" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未収録</text>
+<circle cx="1554" cy="2019" r="2.5" fill="#5b6272"/>
+<text x="1566" y="2024" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L127 が「E6</text>
+<circle cx="1554" cy="2043" r="2.5" fill="#5b6272"/>
+<text x="1566" y="2048" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(政令待ち行) の実データが</text>
+<circle cx="1554" cy="2067" r="2.5" fill="#5b6272"/>
+<text x="1566" y="2072" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">まだ無い」</text>
+<rect x="1974" y="1956" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1992" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L93</text>
+<circle cx="2000" cy="2019" r="2.5" fill="#5b6272"/>
+<text x="2012" y="2024" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">A6 の行</text>
+<text x="172" y="2295.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">別枠 ⑩ C6 の分類</text>
+<rect x="190" y="2184" width="430" height="212" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="2220" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">空のまま</text>
+<circle cx="216" cy="2247" r="2.5" fill="#c2410c"/>
+<text x="228" y="2252" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「有効期間が決まらない」</text>
+<rect x="636" y="2184" width="430" height="212" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="2220" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「C6. 施行日未確定の改正」</text>
+<circle cx="662" cy="2247" r="2.5" fill="#c2410c"/>
+<text x="674" y="2252" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">例「賃金要件 … の撤廃</text>
+<circle cx="662" cy="2271" r="2.5" fill="#c2410c"/>
+<text x="674" y="2276" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(政令委任)、企業規模要件の</text>
+<circle cx="662" cy="2295" r="2.5" fill="#c2410c"/>
+<text x="674" y="2300" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">段階撤廃」</text>
+<circle cx="662" cy="2319" r="2.5" fill="#c2410c"/>
+<text x="674" y="2324" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「施行日確定で valid_from を</text>
+<circle cx="662" cy="2343" r="2.5" fill="#c2410c"/>
+<text x="674" y="2348" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">埋めて known を切る」</text>
+<rect x="1082" y="2184" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="2220" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">原文に主体の記載なし</text>
+<circle cx="1108" cy="2247" r="2.5" fill="#5b6272"/>
+<text x="1120" y="2252" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">分類の行なので書かれていない</text>
+<rect x="1528" y="2184" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="2220" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">表の外に置く分類</text>
+<circle cx="1554" cy="2247" r="2.5" fill="#5b6272"/>
+<text x="1566" y="2252" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">欄の形は宣言済み</text>
+<rect x="1974" y="2184" width="430" height="212" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="2220" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L134</text>
+<circle cx="2000" cy="2247" r="2.5" fill="#5b6272"/>
+<text x="2012" y="2252" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">C 章の行</text>
+<rect x="190" y="2422" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="2434" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">効き始める日が原文に書かれている / 表に収録済と書かれている</text>
+<rect x="678" y="2422" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="704" y="2434" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">効き始める日の欄が空のまま持つと宣言されている(別枠)</text>
+<rect x="1110" y="2422" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="1136" y="2434" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">原文の出典の欄・収録前(棚卸しの行として在るだけ)</text>
+</svg>
