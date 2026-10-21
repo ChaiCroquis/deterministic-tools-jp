@@ -46,6 +46,7 @@
 | 2026-10-18 | [手元にある日付が引ける日付とは限らないので、日付の種別を先に台帳にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_17.html) | [`tools/basis_map`](tools/basis_map) |
 | 2026-10-19 | [本則と経過措置が同時に当たるので、どちらが勝つかを順位の欄に書いてから引く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_18.html) | [`tools/rank_clash`](tools/rank_clash) |
 | 2026-10-20 | [公布された改正は表に先に入るので、効き始める日が来るまでは予定として別に返す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_19.html) | [`tools/future_row`](tools/future_row) |
+| 2026-10-21 | [高い方が勝つ裁定は順位では決まらないので、比べる欄と単位と丸めの前後を先に書く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_20.html) | [`tools/compare_pick`](tools/compare_pick) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
