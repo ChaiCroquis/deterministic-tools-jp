@@ -1,0 +1,60 @@
+{
+ "article": "29_compare_pick.md",
+ "numbers": [
+  {
+   "value": "10",
+   "what": "合成した候補の表 P03 の片方の行の順位(宣言された順位の 3 値 0 / 10 / 20 のうち、経過措置にあたる値)。図 1 と本文が引用した原文「priority 10(地域別より高い方が適用 = 実際は max 比較 → formula)」の 10 も同じ表記",
+   "source": "fixtures/kouho_a.csv の priority 欄。測定は テスト実走 2026-10-21 test_measure_priority_column_is_not_read_for_comparison(assert q.row_id == \"G05\")。原文の 10 は 私の棚卸し記録(非公開)の棚卸し L82(原文のまま)"
+  },
+  {
+   "value": "11",
+   "what": "合成した候補の表の組数。同じ値で「止まった組の件数」も測っている",
+   "source": "テスト実走 2026-10-21 test_measure_twenty_two_pairs_split_into_four(assert c[\"組数\"] == 11、assert c[\"4 値\"][\"止まった\"] == 11)"
+  },
+  {
+   "value": "12",
+   "what": "裁定の種類を 1 欄「宣言された順位」に書き換えたときの「順位で決まった」組の件数。同じ値で「部品が import している module の数」も測っている",
+   "source": "テスト実走 2026-10-21 test_measure_priority_column_is_not_read_for_comparison(assert after.counts()[\"4 値\"][\"順位で決まった\"] == 12)。module 側は test_measure_no_float_no_eval(assert len(mods) == 12)"
+  },
+  {
+   "value": "21",
+   "what": "合成した候補の表の行数(11 組ぶん)",
+   "source": "テスト実走 2026-10-21 test_measure_twenty_two_pairs_split_into_four(assert c[\"候補の表の行数\"] == 21)"
+  },
+  {
+   "value": "22",
+   "what": "分母(組数 11 × 基準日の数 2)。丸めの前後を入れ替えたときの件数の分母にも同じ値を使っている",
+   "source": "テスト実走 2026-10-21 test_measure_twenty_two_pairs_split_into_four(assert c[\"分母(組数 × 基準日の数)\"] == 22)、test_measure_round_when_swaps_the_winner(assert probe[\"分母(組数 × 基準日の数)\"] == 22)"
+  },
+  {
+   "value": "26",
+   "what": "この道具のテストの件数",
+   "source": "テスト実走 2026-10-21 python -m pytest tools/compare_pick -q → 26 passed"
+  },
+  {
+   "value": "200",
+   "what": "性質テスト 1 本目の試行回数(乱数は固定)",
+   "source": "tests/test_compare_pick_property.py の @settings(max_examples=200, derandomize=True)"
+  },
+  {
+   "value": "300",
+   "what": "性質テスト 2 本目の試行回数(乱数は固定)",
+   "source": "tests/test_compare_pick_property.py の @settings(max_examples=300, derandomize=True)"
+  },
+  {
+   "value": "1026",
+   "what": "合成した候補の表 P03 の、順位 10 の行の値(架空。実在の料率でも金額でもない)",
+   "source": "fixtures/kouho_a.csv。測定は テスト実走 2026-10-21 test_measure_round_when_swaps_the_winner(丸めの前後を入れ替えると この行 G05 が勝つ)"
+  },
+  {
+   "value": "1049",
+   "what": "合成した候補の表 P03 の、順位 0 の行の値(架空。実在の料率でも金額でもない)",
+   "source": "fixtures/kouho_a.csv。測定は テスト実走 2026-10-21 test_measure_priority_column_is_not_read_for_comparison(assert (p.result, p.row_id, p.value) == (\"比較で決まった\", \"G06\", \"1050\"))"
+  },
+  {
+   "value": "1,681",
+   "what": "原文が、同じ区分・同じ順位・同じ知識の期間で有効期間が重なる行を探す検査を走らせた行数(結果は 0 件)。引用であって私の測定ではない",
+   "source": "私の棚卸し記録(非公開)の作業状況 L95(原文のまま)"
+  }
+ ]
+}

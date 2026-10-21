@@ -1,0 +1,6 @@
+rule_id,kind,field,direction,unit,round_when,rounding,tie,source
+R01,宣言された順位,,,,,,,articles/27_rank_clash.md L8
+R02,値の比較,欄A,,単位甲,後,50 の倍数に丸める,宣言された順位で裁定,articles/27_rank_clash.md L101
+R03,値の比較,欄A,大きい方,単位甲,前,50 の倍数に丸める,決まらない,articles/08_formula_table.md L61
+R04,決まらない,,,,,,,articles/27_rank_clash.md L212
+R05,値の比較,欄B,小さい方,単位乙,後,小数点以下を切り捨てる,決まらない,厚生労働省 / 私の棚卸し記録(非公開)
