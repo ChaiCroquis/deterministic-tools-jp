@@ -1,0 +1,17 @@
+{"article": "30_cover_stock.md",
+ "numbers": [
+  {"value": "10", "what": "合成した収録の在庫表の行数(数表の数)。収録開始を 1 年ずらす写しもこの 10 枚を 1 枚ずつ", "source": "テスト実走 2026-10-22(test_measure_77_pairs_split_into_five / test_measure_shifting_the_start_never_widens_cover)"},
+  {"value": "10", "what": "読んだ数表 30 枚のうち引けなかった延べ枚数(4 つの理由の合計)", "source": "テスト実走 2026-10-22(test_measure_four_reasons_do_not_collapse)"},
+  {"value": "10", "what": "部品が import している module の数(float / eval / exec / subprocess / random / platform / 今日を読む呼び出しは 0 件)", "source": "テスト実走 2026-10-22(test_measure_no_clock_and_no_float)"},
+  {"value": "11", "what": "合成した計算のレシピ表の行数(= レシピ数)", "source": "テスト実走 2026-10-22(test_measure_77_pairs_split_into_five)"},
+  {"value": "12", "what": "レシピの要る数表が全部そろう件数(分母 77)。sha256 の先頭 12 桁という使い方も同じ値", "source": "テスト実走 2026-10-22(test_measure_77_pairs_split_into_five / test_measure_counts_add_up)"},
+  {"value": "14", "what": "端の確度を仮置きから実値に替えたときに全部そろうへ移った後の件数(12 + 2)", "source": "テスト実走 2026-10-22(test_measure_provisional_edge_read_as_actual)"},
+  {"value": "17", "what": "tools/cover_stock のテスト件数(pytest -q の 17 passed)", "source": "テスト実走 2026-10-22(python -m pytest tools/cover_stock -q)"},
+  {"value": "30", "what": "読んだ数表の延べ数(数表ごとの分母 105 のうち、止まらずに読んだ分)", "source": "テスト実走 2026-10-22(test_measure_counts_add_up)"},
+  {"value": "32", "what": "年の数え方が違って止まった件数(分母 77)", "source": "テスト実走 2026-10-22(test_measure_year_kind_is_not_converted)"},
+  {"value": "36", "what": "収録開始がいちばん古い数表と新しい数表の差(年)。私の記録では消費税率 1989〜 と 年金 2025-04〜 の差、合成した在庫表でも同じ形にしてある", "source": "私の棚卸し記録(非公開)の 2 行 + テスト実走 2026-10-22(test_measure_timeline_is_one_row_per_event)"},
+  {"value": "57", "what": "止まった件数(分母 77)。5 つの理由に分かれる", "source": "テスト実走 2026-10-22(test_measure_77_pairs_split_into_five / test_measure_year_kind_is_not_converted)"},
+  {"value": "77", "what": "分母(レシピ数 11 × 年の数 7)", "source": "テスト実走 2026-10-22(test_measure_77_pairs_split_into_five)"},
+  {"value": "200", "what": "性質テスト 1 本目の例の数(derandomize で毎回同じ 200 通り)", "source": "tests/test_cover_stock_property.py の @settings(max_examples=200)、実走 2026-10-22"},
+  {"value": "300", "what": "性質テスト 2 本目の例の数(収録の外の年に近くの行を当てない側)", "source": "tests/test_cover_stock_property.py の @settings(max_examples=300)、実走 2026-10-22"}
+ ]}
