@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1994" height="1904" viewBox="0 0 1994 1904" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1994" height="1904" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">線の外に何が在るかを 1 行 1 件に並べると、同じ「できていない」が 3 つに分かれる</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">原文は要約せず原文のまま、出典はファイル名を伏せた行番号(作業状況 = 2026-09-20、棚卸し = 2026-09-19)。出口は 3 値しかないのに、分けたい形は 5 つある。そのうち終了コード 0 で値が返るものが 3 つ。収集範囲の限界は本文に書いた。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">領域と節</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">原文(原文のまま)</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">4 値のどこに出るか</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">出典</text>
+<text x="172" y="207.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">月数上限</text>
+<rect x="190" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">年金 / 定額部分の月数上限</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">式は在って呼べる</text>
+<rect x="636" y="132" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未実装 | 数式は 単価 × 乗率 × 月数 の</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">み、呼び出し側で上限適用が必要</text>
+<rect x="1082" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">返るが一手残る</text>
+<circle cx="1108" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値は返る</text>
+<circle cx="1108" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">仕上げが外に残る</text>
+<rect x="1528" y="132" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L119</text>
+<circle cx="1554" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">できていないことの表</text>
+<circle cx="1554" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ文が使い方 L49 にも</text>
+<text x="172" y="363.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">報酬比例乗率</text>
+<rect x="190" y="288" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">年金 / 報酬比例部分の乗率</text>
+<circle cx="216" cy="351" r="2.5" fill="#c2410c"/>
+<text x="228" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ年金の中で分かれる</text>
+<rect x="636" y="288" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">画像 PDF、未抽出 | 老齢厚生年金の報</text>
+<circle cx="662" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">酬比例額が計算できない (定額部分・</text>
+<circle cx="662" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">基礎年金・在職老齢の停止判定までは可)</text>
+<rect x="1082" y="288" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まる</text>
+<circle cx="1108" cy="351" r="2.5" fill="#c2410c"/>
+<text x="1120" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値が 1 つも返らない</text>
+<rect x="1528" y="288" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L118</text>
+<circle cx="1554" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 行上に在る</text>
+<circle cx="1554" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">できていないことの表</text>
+<text x="172" y="519.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">3 次元 table</text>
+<rect x="190" y="444" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">雇用保険 / 所定給付日数の 3 軸</text>
+<circle cx="216" cy="507" r="2.5" fill="#c2410c"/>
+<text x="228" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">未対応</text>
+<rect x="636" y="444" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">3 次元 table (所定給付日数) は table の</text>
+<circle cx="662" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ネストか sel 2 軸への分解が要る</text>
+<rect x="1082" y="444" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まる</text>
+<circle cx="1108" cy="507" r="2.5" fill="#c2410c"/>
+<text x="1120" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">表の形が足りない</text>
+<rect x="1528" y="444" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L121</text>
+<circle cx="1554" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">未対応 (次の課題) の行</text>
+<text x="172" y="675.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">max 比較</text>
+<rect x="190" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">最低賃金 / 高い方の比較</text>
+<circle cx="216" cy="663" r="2.5" fill="#c2410c"/>
+<text x="228" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">順位の機構では解けない</text>
+<rect x="636" y="600" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「max 比較」(特定最低賃金 vs 地域別) は</text>
+<circle cx="662" cy="663" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">formula 側</text>
+<rect x="1082" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まる</text>
+<circle cx="1108" cy="663" r="2.5" fill="#c2410c"/>
+<text x="1120" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">引く機構の外に在る</text>
+<circle cx="1108" cy="687" r="2.5" fill="#c2410c"/>
+<text x="1120" y="692" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">比べるのは compare pick</text>
+<rect x="1528" y="600" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L121</text>
+<circle cx="1554" cy="663" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ 1 行の中の 2 つめ</text>
+<text x="172" y="831.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">数式 registry</text>
+<rect x="190" y="756" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">全体 / 数式 registry</text>
+<circle cx="216" cy="819" r="2.5" fill="#c2410c"/>
+<text x="228" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">id の文字列だけ</text>
+<rect x="636" y="756" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">数式 registry (formula id → 実装) は未実</text>
+<circle cx="662" cy="819" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">装、id の文字列だけ</text>
+<rect x="1082" y="756" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まる</text>
+<circle cx="1108" cy="819" r="2.5" fill="#c2410c"/>
+<text x="1120" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しは 1 日前の日付</text>
+<circle cx="1108" cy="843" r="2.5" fill="#c2410c"/>
+<text x="1120" y="848" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L76 には 14 式</text>
+<rect x="1528" y="756" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L121</text>
+<circle cx="1554" cy="819" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ 1 行の中の 3 つめ</text>
+<circle cx="1554" cy="843" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="848" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">日付の差は本文に書いた</text>
+<text x="172" y="987.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">判断 (C1)</text>
+<rect x="190" y="912" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">設計上の外 / 要件該当性の判断</text>
+<circle cx="216" cy="975" r="2.5" fill="#5b6272"/>
+<text x="228" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">表に入らないものの分類</text>
+<rect x="636" y="912" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">判断結果を case の属性として受け取る</text>
+<circle cx="662" cy="975" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(人間 or LLM が起票)。表は属性が</text>
+<circle cx="662" cy="999" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1004" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">確定した後だけ動く</text>
+<rect x="1082" y="912" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">外から渡す前提</text>
+<circle cx="1108" cy="975" r="2.5" fill="#5b6272"/>
+<text x="1120" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">呼ぶ前に渡す一手</text>
+<circle cx="1108" cy="999" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1004" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">返り値には現れない</text>
+<rect x="1528" y="912" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L129</text>
+<circle cx="1554" cy="975" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">C 章 (表の外) の 1 行目</text>
+<text x="172" y="1143.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">主体固有 (C2)</text>
+<rect x="190" y="1068" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">設計上の外 / 主体ごとのパラメータ</text>
+<circle cx="216" cy="1131" r="2.5" fill="#5b6272"/>
+<text x="228" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公的に一意でない値</text>
+<rect x="636" y="1068" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">同じ行形式の第 2 層 (事業所マトリックス)</text>
+<circle cx="662" cy="1131" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">を持ち、sel に事業所 id を足す。</text>
+<circle cx="662" cy="1155" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1160" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公的層より priority 高</text>
+<rect x="1082" y="1068" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">外から渡す前提</text>
+<circle cx="1108" cy="1131" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">第 2 層は未着手</text>
+<circle cx="1108" cy="1155" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1160" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">渡す側に一手が残る</text>
+<rect x="1528" y="1068" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L130</text>
+<circle cx="1554" cy="1131" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">C 章の 2 行目</text>
+<text x="172" y="1299.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">状態遷移 (C5)</text>
+<rect x="190" y="1224" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">設計上の外 / 状態遷移・履歴依存</text>
+<circle cx="216" cy="1287" r="2.5" fill="#5b6272"/>
+<text x="228" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 回の lookup で決まらない</text>
+<rect x="636" y="1224" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">数式側 (formula registry) が状態機械を持</text>
+<circle cx="662" cy="1287" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ち、表からは 閾値・率だけ供給</text>
+<rect x="1082" y="1224" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">外から渡す前提</text>
+<circle cx="1108" cy="1287" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">表は閾値だけ出す</text>
+<circle cx="1108" cy="1311" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1316" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">走査は外で回す</text>
+<rect x="1528" y="1224" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">棚卸し L133</text>
+<circle cx="1554" cy="1287" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">C 章の 5 行目</text>
+<text x="172" y="1455.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">未収録の 4 領域</text>
+<rect x="190" y="1380" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1416" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未収録 / 年金・雇用保険・労基・適用要件</text>
+<circle cx="216" cy="1443" r="2.5" fill="#c2410c"/>
+<text x="228" y="1448" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しに在るが引けない</text>
+<rect x="636" y="1380" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1416" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未収録 (棚卸し表 rule_catalog.md A4 には</text>
+<circle cx="662" cy="1443" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1448" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">載っている)</text>
+<rect x="1082" y="1380" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1416" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">止まる</text>
+<circle cx="1108" cy="1443" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1448" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行が無いので例外</text>
+<circle cx="1108" cy="1467" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">4 領域が同じ形</text>
+<rect x="1528" y="1380" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1416" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L125</text>
+<circle cx="1554" cy="1443" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1448" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">L124・126・127 も同じ形</text>
+<text x="172" y="1611.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">独立 golden</text>
+<rect x="190" y="1536" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1572" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">検査 / 独立 golden</text>
+<circle cx="216" cy="1599" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1604" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差し替えの受け入れ検査</text>
+<rect x="636" y="1536" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1572" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">pipeline 内蔵検証のみ、別 golden 未作成</text>
+<circle cx="662" cy="1599" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1604" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">| 規約 5 の「差し替え」はまだできない</text>
+<rect x="1082" y="1536" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1572" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">返るが一手残る</text>
+<circle cx="1108" cy="1599" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1604" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値は返る</text>
+<circle cx="1108" cy="1623" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1628" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">受け入れ検査が外に残る</text>
+<rect x="1528" y="1536" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1572" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L128</text>
+<circle cx="1554" cy="1599" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1604" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">できていないことの表</text>
+<text x="172" y="1767.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">CLI の追記</text>
+<rect x="190" y="1692" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1728" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">運用 / CLI 実行時の event 追記</text>
+<circle cx="216" cy="1755" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1760" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">道具の外に手作業が残る</text>
+<rect x="636" y="1692" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1728" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">未実装 | AI が呼ぶ時に手動追記の運用</text>
+<circle cx="662" cy="1755" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1760" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(規約 4)</text>
+<rect x="1082" y="1692" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1728" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">返るが一手残る</text>
+<circle cx="1108" cy="1755" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1760" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">値は返る</text>
+<circle cx="1108" cy="1779" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1784" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">追記が外に残る</text>
+<rect x="1528" y="1692" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1728" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L129</text>
+<circle cx="1554" cy="1755" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1760" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">できていないことの表</text>
+<rect x="190" y="1858" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="1870" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">返るが一手残る(終了コード 0 で返る)</text>
+<rect x="524" y="1858" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="550" y="1870" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">止まる(値が 1 つも返らない)</text>
+<rect x="802" y="1858" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="828" y="1870" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">外から渡す前提(返り値に現れない)</text>
+</svg>

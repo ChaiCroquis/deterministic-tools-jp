@@ -1,0 +1,11 @@
+{"article": "31_handoff_edge.md",
+ "numbers": [
+  {"value": "11", "what": "合成した守備範囲の宣言表の行数(= 節の数)。節を 1 つずつ外す写しもこの 11 節を 1 つずつ。図 1 に並べた件数も同じ 11 件", "source": "テスト実走 2026-10-23(test_measure_12_questions_split_into_five / test_measure_dropping_a_node_only_adds_the_aside)"},
+  {"value": "12", "what": "問いの数(= 分母)。合成した計算のレシピ表の行数も 12", "source": "テスト実走 2026-10-23(test_measure_12_questions_split_into_five)"},
+  {"value": "14", "what": "残る一手の一覧の行数(問いの数 12 より多い)。止まる理由コードの数も同じ 14 個", "source": "テスト実走 2026-10-23(test_measure_remaining_steps_outnumber_the_questions / test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "19", "what": "tools/handoff_edge のテスト件数(pytest -q の 19 passed)", "source": "テスト実走 2026-10-23(python -m pytest tools/handoff_edge -q)"},
+  {"value": "45", "what": "私の記録に書かれている収録の rule 数(図 1 の subtitle と本文の「1,681 行 / 45 rule」)", "source": "私の設計の記録(非公開)の 1 行(作業状況 2026-09-20、L58)"},
+  {"value": "200", "what": "性質テスト 1 本目の例の数(derandomize で毎回同じ 200 通り)", "source": "tests/test_handoff_edge_property.py の @settings(max_examples=200)、実走 2026-10-23"},
+  {"value": "300", "what": "性質テスト 2 本目の例の数(宣言表に無い節に収録済を当てない側)", "source": "tests/test_handoff_edge_property.py の @settings(max_examples=300)、実走 2026-10-23"},
+  {"value": "1,681", "what": "私の記録に書かれている収録の行数(値そのものは記事にも図にも出していない)", "source": "私の設計の記録(非公開)の 1 行(作業状況 2026-09-20、L58)"}
+ ]}
