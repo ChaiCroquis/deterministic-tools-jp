@@ -48,6 +48,7 @@
 | 2026-10-20 | [公布された改正は表に先に入るので、効き始める日が来るまでは予定として別に返す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_19.html) | [`tools/future_row`](tools/future_row) |
 | 2026-10-21 | [高い方が勝つ裁定は順位では決まらないので、比べる欄と単位と丸めの前後を先に書く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_20.html) | [`tools/compare_pick`](tools/compare_pick) |
 | 2026-10-22 | [引ける年は数表ごとに違うので、計算に要る行がそろう期間を先に年表にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_21.html) | [`tools/cover_stock`](tools/cover_stock) |
+| 2026-10-23 | [返ってきた値で計算が終わるとは限らないので、残る一手を境界の表に書く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_22.html) | [`tools/handoff_edge`](tools/handoff_edge) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
