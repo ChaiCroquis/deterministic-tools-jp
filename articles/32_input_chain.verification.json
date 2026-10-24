@@ -1,0 +1,22 @@
+{"article": "32_input_chain.md",
+ "numbers": [
+  {"value": "10", "what": "問いの数(= 分母の 1 つ)。葉 39 枚のうち 1 段目に出る枚数も 10、呼ぶ前に集めるものを名前に畳んだ個数も 10", "source": "テスト実走 2026-10-24(test_measure_10_questions_make_39_leaves / test_measure_one_step_shows_3_but_the_walk_shows_23 / test_measure_collect_list_folds_23_into_10_names)"},
+  {"value": "12", "what": "崩した表のうち、1 枚も辿らずに止まる枚数(理由コード 10 個に到達する)", "source": "テスト実走 2026-10-24(test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "13", "what": "止まる理由コードの数(1 枚も辿らず止まるもの 10 + verify が見つけるもの 3)", "source": "テスト実走 2026-10-24(test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "14", "what": "私の記録に書かれている数式の数(値そのものは記事にも図にも出していない)", "source": "私の設計の記録(非公開)の 1 行(作業状況 2026-09-20)"},
+  {"value": "15", "what": "崩した表のうち「表として読めない」になる枚数", "source": "テスト実走 2026-10-24(test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "16", "what": "式 9 つに 1 つずつ循環を仕込んだとき、辿れない が出た問いの延べ件数。性質テスト 2 本目の組み合わせの総数も 16", "source": "テスト実走 2026-10-24(test_measure_a_loop_stays_in_the_aside / tests/test_input_chain_property.py)"},
+  {"value": "18", "what": "2 段目にある葉の枚数(段別の葉の数の内訳)", "source": "テスト実走 2026-10-24(test_measure_10_questions_make_39_leaves)"},
+  {"value": "19", "what": "tools/input_chain のテスト件数(pytest -q の 19 passed)", "source": "テスト実走 2026-10-24(python -m pytest tools/input_chain -q)"},
+  {"value": "20", "what": "合成した式の宣言表の行数(= 入力の数)。調達先種別別の件数の合計も 20", "source": "テスト実走 2026-10-24(test_measure_10_questions_make_39_leaves)"},
+  {"value": "23", "what": "下まで辿ったときの「人が用意する」の葉の数(延べ)。呼ぶ前に集めるものの延べ件数も 23", "source": "テスト実走 2026-10-24(test_measure_one_step_shows_3_but_the_walk_shows_23 / test_measure_collect_list_folds_23_into_10_names)"},
+  {"value": "25", "what": "入力 1 つの種別を case の欄 → 別の式 に替えた写しでの「人が用意する」の数(23 から 2 増える)", "source": "テスト実走 2026-10-24(test_measure_retyping_one_input_pushes_leaves_one_step_down)"},
+  {"value": "28", "what": "2 段目より下にある葉の枚数。1 か所だけ崩した表の枚数も同じ 28", "source": "テスト実走 2026-10-24(test_measure_one_step_shows_3_but_the_walk_shows_23 / test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "33", "what": "置き場に入っている合成 CSV のファイル数(読む前後で sha256 が変わらないことを確かめた対象)", "source": "テスト実走 2026-10-24(test_inputs_are_never_written)"},
+  {"value": "39", "what": "問い 10 件を下まで辿ったときの葉の数(延べ)。5 値の合計も問いごとの内訳の合計も同じ 39", "source": "テスト実走 2026-10-24(test_measure_10_questions_make_39_leaves / test_measure_counts_add_up_and_bytes_repeat)"},
+  {"value": "41", "what": "入力 1 つの種別を case の欄 → 別の式 に替えた写しでの葉の数(39 から 2 増える)", "source": "テスト実走 2026-10-24(test_measure_retyping_one_input_pushes_leaves_one_step_down)"},
+  {"value": "45", "what": "私の記録に書かれている収録の rule 数(図 1 の subtitle と本文の「1,681 行 / 45 rule」)", "source": "私の設計の記録(非公開)の 1 行(作業状況 2026-09-20)"},
+  {"value": "200", "what": "性質テスト 1 本目の例の数(derandomize で毎回同じ 200 通り)", "source": "tests/test_input_chain_property.py の @settings(max_examples=200)、実走 2026-10-24"},
+  {"value": "300", "what": "性質テスト 2 本目の上限(組み合わせは 16 通りしかないので全部を尽くす)", "source": "tests/test_input_chain_property.py の @settings(max_examples=300)、実走 2026-10-24"},
+  {"value": "1,681", "what": "私の記録に書かれている収録の行数(値そのものは記事にも図にも出していない)", "source": "私の設計の記録(非公開)の 1 行(作業状況 2026-09-20)"}
+ ]}

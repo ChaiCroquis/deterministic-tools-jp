@@ -1,0 +1,5 @@
+rule_id,basis,dims
+R01,C03,C04|C05
+R02,C03,C07
+R03,C03,
+R04,C03,C09

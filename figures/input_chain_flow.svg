@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1912" height="426" viewBox="0 0 1912 426" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1912" height="426" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">呼ぶ前に葉だけを残すまでの流れ</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">橙のピルが関所。種別に既定を当てる経路・導出すると宣言された入力を人が用意する側に混ぜる経路・循環を黙って切る経路・足りない入力を埋める経路・値を計算する経路・式を評価する経路・行を引く経路・割合を返す経路・入力を直す経路はこの図に無い(引数が無い)。</text>
+<rect x="36" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="36" y="118" width="260" height="6" rx="3" fill="#e7ecfb"/>
+<circle cx="62" cy="152" r="14" fill="#3b5bdb"/>
+<text x="62" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+<text x="84" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">3 枚を読む</text>
+<circle cx="60" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">式の宣言表は 4 列</text>
+<circle cx="60" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の宣言表は 4 列</text>
+<circle cx="60" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">問いの一覧は 4 列</text>
+<circle cx="60" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">id の形を見る</text>
+<line x1="304" y1="204.0" x2="344" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="352" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="352" y="118" width="260" height="6" rx="3" fill="#d6def9"/>
+<circle cx="378" cy="152" r="14" fill="#3b5bdb"/>
+<text x="378" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+<text x="400" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">出典と id を見る</text>
+<circle cx="376" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行ごとに出典が在るか</text>
+<circle cx="376" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ式に同じ入力が 2 行</text>
+<circle cx="376" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">式 id と rule id の衝突</text>
+<circle cx="376" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">手元に在る欄の重複</text>
+<line x1="620" y1="204.0" x2="660" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="668" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="668" y="118" width="260" height="6" rx="3" fill="#c4d0f6"/>
+<circle cx="694" cy="152" r="14" fill="#3b5bdb"/>
+<text x="694" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+<text x="716" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言を見る</text>
+<circle cx="692" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">種別は登録の 4 種か</text>
+<circle cx="692" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">基準日はちょうど 1 つか</text>
+<circle cx="692" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">区分の欄が重複しないか</text>
+<circle cx="692" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">求める値が手元に在る?</text>
+<line x1="936" y1="204.0" x2="976" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="984" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="984" y="118" width="260" height="6" rx="3" fill="#b0c1f2"/>
+<circle cx="1010" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1010" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+<text x="1032" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 段ずつ降りる</text>
+<circle cx="1008" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">別の式 → その式へ</text>
+<circle cx="1008" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">表の行 → 要る欄へ</text>
+<circle cx="1008" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">case の欄 → その場で葉</text>
+<circle cx="1008" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">導出すると宣言 → 葉</text>
+<line x1="1252" y1="204.0" x2="1292" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1300" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1300" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1326" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1326" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+<text x="1348" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">降りられない枝を分ける</text>
+<circle cx="1324" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">参照先が宣言表に無い</text>
+<circle cx="1324" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">経路に同じ式が 2 回出る</text>
+<circle cx="1324" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">段数の上限に当たった</text>
+<circle cx="1324" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">枝の名前と段を残す</text>
+<line x1="1568" y1="204.0" x2="1608" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1616" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1616" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1642" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1642" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">6</text>
+<text x="1664" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">葉を 5 値にして数える</text>
+<circle cx="1640" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">手元に在る / 人が用意する</text>
+<circle cx="1640" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">導出すると宣言 / 宣言が無い</text>
+<circle cx="1640" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">辿れない と 3 つの分母</text>
+<circle cx="1640" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">検算 → sha256 → verify 5 つ</text>
+<line x1="324.0" y1="292" x2="324.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="174.15" y="310" width="299.7" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="324.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">列が足りない / id が空・区切り文字入り</text>
+<line x1="640.0" y1="292" x2="640.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="502.5" y="310" width="275.0" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="640.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">出典が空 / 入力の重複 / 名前の衝突</text>
+<line x1="956.0" y1="292" x2="956.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="818.5" y="310" width="275.0" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="956.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">種別が空・登録外 / 基準日が空・2 つ</text>
+<line x1="1272.0" y1="292" x2="1272.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="1134.5" y="310" width="275.0" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="1272.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">宣言が無い → 別枠へ(既定を当てない)</text>
+<line x1="1588.0" y1="292" x2="1588.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="1475.2" y="310" width="225.6" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="1588.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">件数が合わない / 行順で変わる</text>
+<text x="36" y="396" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">宣言表が 1 行でも壊れていたら、どの問いも辿らない(5 値は全て 0 で、理由コード 13 個のうち該当するものが返る)。返った後に残る一手を数えるのは handoff edge、手元の日付がどの種別かは basis map、丸めと式の置き方は formula table の道具で、この図にその経路は無い。</text>
+</svg>
