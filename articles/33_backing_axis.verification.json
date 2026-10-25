@@ -1,0 +1,20 @@
+{"article": "33_backing_axis.md",
+ "numbers": [
+  {"value": "11", "what": "崩した表のうち、1 行も数えずに止まる枚数(台帳と登録表の理由コード 10 個に到達する)", "source": "テスト実走 2026-10-25(test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "12", "what": "止まる理由コード 11 個(台帳と登録表の 10 + 問い 1 件の 1)に到達する崩した表の枚数。sha256 の先頭を記事に載せた桁数も 12", "source": "テスト実走 2026-10-25(test_measure_stop_reason_codes_all_reachable / test_measure_counts_add_up_and_bytes_repeat)"},
+  {"value": "14", "what": "止まる理由コードの数(1 行も数えず止まるもの 10 + 問い 1 件だけ止まるもの 1 + verify が見つけるもの 3)。欄が埋まっている 22 件のうち、確かめた件数が付かない行の数も 14", "source": "テスト実走 2026-10-25(test_measure_stop_reason_codes_all_reachable / test_measure_only_8_of_22_have_a_counted_check)"},
+  {"value": "16", "what": "図 1 に載せた事例の数(手元の 3 つの文書から拾えた行)", "source": "私の検証・棚卸し・作業状況の記録(非公開)から 16 行を転記、2026-09-19 / 2026-09-20 時点"},
+  {"value": "17", "what": "旧軸 6 つの塊を新軸(由来)に差し替えたときに埋まるセルの数(旧軸が無い 1 件を除く)", "source": "テスト実走 2026-10-25(test_measure_cross_table_splits_6_domains_into_17_cells)"},
+  {"value": "19", "what": "tools/backing_axis のテスト件数(pytest -q の 19 passed)。記号別の件数の合計(別枠 3 件を除く)も 19、崩した表のうち「表として読めない」になる枚数も 19", "source": "テスト実走 2026-10-25(python -m pytest tools/backing_axis -q / test_measure_22_rows_split_into_seven / test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "22", "what": "合成した行の台帳の行数(= 分母の 1 つ)。7 値の合計も、記号別 + 別枠も、対応表のセルの合計も同じ 22", "source": "テスト実走 2026-10-25(test_measure_22_rows_split_into_seven / test_measure_counts_add_up_and_bytes_repeat)"},
+  {"value": "30", "what": "性質テスト 2 本目の組み合わせの総数(証跡の型 5 × 記号が登録済か 2 × 旧軸の値 3)", "source": "tests/test_backing_axis_property.py、実走 2026-10-25"},
+  {"value": "32", "what": "理由コードを出すために 1 か所だけ崩した表の枚数", "source": "テスト実走 2026-10-25(test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "35", "what": "置き場に入っている合成 CSV のファイル数(読む前後で sha256 が変わらないことを確かめた対象)", "source": "テスト実走 2026-10-25(test_inputs_are_never_written)"},
+  {"value": "45", "what": "私の記録に書かれている収録の rule 数(本文の「1,681 行 / 45 rule」)", "source": "私の設計の記録(非公開)の 1 行(作業状況 2026-09-20)"},
+  {"value": "47", "what": "私の記録に書かれている、上流と自前抽出が一致した支部の数(2 系統の独立抽出)。値そのものは記事にも図にも出していない", "source": "私の検証の記録(非公開)の 1 行(作業状況 2026-09-20)"},
+  {"value": "200", "what": "性質テスト 1 本目の例の数(derandomize で毎回同じ 200 通り)", "source": "tests/test_backing_axis_property.py の @settings(max_examples=200)、実走 2026-10-25"},
+  {"value": "300", "what": "性質テスト 2 本目の上限(組み合わせは 30 通りしかないので全部を尽くす)", "source": "tests/test_backing_axis_property.py の @settings(max_examples=300)、実走 2026-10-25"},
+  {"value": "1,681", "what": "私の記録に書かれている収録の行数(値そのものは記事にも図にも出していない)", "source": "私の設計の記録(非公開)の 1 行(作業状況 2026-09-20)"},
+  {"value": "2,350", "what": "私の記録に書かれている、数式経由の折半額の再計算が一致した件数", "source": "私の検証の記録(非公開)の 1 行(作業状況 2026-09-20)"},
+  {"value": "7,050", "what": "私の記録に書かれている、協会けんぽの折半額の再計算が一致したセル数(3 年 × 47 支部 × 50 等級)", "source": "私の検証の記録(非公開)の 1 行(作業状況 2026-09-20)"}
+ ]}
