@@ -50,6 +50,7 @@
 | 2026-10-22 | [引ける年は数表ごとに違うので、計算に要る行がそろう期間を先に年表にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_21.html) | [`tools/cover_stock`](tools/cover_stock) |
 | 2026-10-23 | [返ってきた値で計算が終わるとは限らないので、残る一手を境界の表に書く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_22.html) | [`tools/handoff_edge`](tools/handoff_edge) |
 | 2026-10-24 | [計算に要るものは引数の欄を見ても分からないので、入力の出どころを下まで辿って一覧にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_23.html) | [`tools/input_chain`](tools/input_chain) |
+| 2026-10-25 | [埋まっている欄でも裏付けは同じでないので、行を由来の軸で並べ直す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_24.html) | [`tools/backing_axis`](tools/backing_axis) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
