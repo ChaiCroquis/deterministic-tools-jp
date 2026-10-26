@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1994" height="1448" viewBox="0 0 1994 1448" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1994" height="1448" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">年度をまたぐ重なりを、判定ごとに両経路そろえて並べる</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">経路 A = 去年の資料の「変更後」欄 / 経路 B = 今年の資料の「変更前」欄。どちらが正しいとは論じず、食い違う組み合わせを並べるだけ。件数は合成した 4 枚の表(抽出表 32 行 / 問い 17 件)の実測で、実在の料率・金額は 1 つも出さない。出典はファイル名を伏せた行番号。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">合成データの件数(T1 × T2 / T2 × T3)</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">経路 A(去年の資料の「変更後」欄)</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">経路 B(今年の資料の「変更前」欄)</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">この形が手元に在ることの出典</text>
+<text x="172" y="219.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">一致</text>
+<rect x="190" y="132" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">6 件(2 / 4)</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">突き合わせが成立した 8 件の</text>
+<circle cx="216" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">うち値が同じだった側</text>
+<rect x="636" y="132" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">去年の資料から採った値</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 雇用保険 隣接年度「前年の</text>
+<circle cx="662" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">変更後 = 今年の変更前」|</text>
+<circle cx="662" cy="243" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">R6→R7→R8 全項目 assert 通過</text>
+<rect x="1082" y="132" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">今年の資料の変更前の欄</text>
+<circle cx="1108" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ 1 行が検算の相手になる</text>
+<circle cx="1108" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(採用元が別の欄のときだけ)</text>
+<rect x="1528" y="132" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L89</text>
+<circle cx="1554" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同文が 使い方 L43</text>
+<circle cx="1554" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「隣接年 before=after 一致」</text>
+<text x="172" y="399.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">不一致</text>
+<rect x="190" y="312" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 件(1 / 1)</text>
+<circle cx="216" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">両側の値と出典を並べるだけ</text>
+<circle cx="216" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">正を選ぶ欄は出力に無い</text>
+<rect x="636" y="312" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">去年の変更後の値</text>
+<circle cx="662" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">資料 id と単位と出典が付く</text>
+<circle cx="662" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(値は合成の記号)</text>
+<rect x="1082" y="312" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">今年の変更前の値</text>
+<circle cx="1108" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">資料 id と単位と出典が付く</text>
+<circle cx="1108" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">食い違いの理由は人に戻す</text>
+<rect x="1528" y="312" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L89 の対</text>
+<circle cx="1554" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">assert が落ちた側の形</text>
+<circle cx="1554" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(手元では通過している)</text>
+<text x="172" y="579.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">重なりが無い</text>
+<rect x="190" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 件(1 / 1)</text>
+<circle cx="216" cy="555" r="2.5" fill="#5b6272"/>
+<text x="228" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">新設とも廃止とも取り逃しとも</text>
+<circle cx="216" cy="579" r="2.5" fill="#5b6272"/>
+<text x="228" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">決めつけない 1 値にまとめる</text>
+<rect x="636" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">去年の欄は在る</text>
+<circle cx="662" cy="555" r="2.5" fill="#5b6272"/>
+<text x="674" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 雇用保険: 給付制限期間、受給期間延長、</text>
+<circle cx="662" cy="579" r="2.5" fill="#5b6272"/>
+<text x="674" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">高年齢雇用継続の支給率表 (賃金低下率 → 率)、</text>
+<circle cx="662" cy="603" r="2.5" fill="#5b6272"/>
+<text x="674" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">教育訓練給付 | 未収録</text>
+<rect x="1082" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">今年の欄が無い</text>
+<circle cx="1108" cy="555" r="2.5" fill="#5b6272"/>
+<text x="1120" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">片方の年度にしか無い項目</text>
+<circle cx="1108" cy="579" r="2.5" fill="#5b6272"/>
+<text x="1120" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由は原文で確かめる</text>
+<rect x="1528" y="492" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L124</text>
+<circle cx="1554" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">できていないことの表</text>
+<circle cx="1554" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同趣旨が 使い方 L53</text>
+<text x="172" y="759.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">寄せ方が無い</text>
+<rect x="190" y="672" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 件(1 / 0)</text>
+<circle cx="216" cy="735" r="2.5" fill="#c2410c"/>
+<text x="228" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">両側に欄が在るのに</text>
+<circle cx="216" cy="759" r="2.5" fill="#c2410c"/>
+<text x="228" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">比べに行かない</text>
+<rect x="636" y="672" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">去年の項目名</text>
+<circle cx="662" cy="735" r="2.5" fill="#c2410c"/>
+<text x="674" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 文言の年度揺れ (全角/半角、</text>
+<circle cx="662" cy="759" r="2.5" fill="#c2410c"/>
+<text x="674" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「支給限度額 上限額」vs「支給上限額」、</text>
+<circle cx="662" cy="783" r="2.5" fill="#c2410c"/>
+<text x="674" y="788" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記号) は正規化してから regex を当てれば</text>
+<rect x="1082" y="672" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">今年の項目名(揺れている)</text>
+<circle cx="1108" cy="735" r="2.5" fill="#c2410c"/>
+<text x="1120" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">寄せ方を宣言するまで寄せない</text>
+<circle cx="1108" cy="759" r="2.5" fill="#c2410c"/>
+<text x="1120" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(同じ文字列でも宣言する)</text>
+<rect x="1528" y="672" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L110</text>
+<circle cx="1554" cy="735" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">3 年分同じコードで通る、と</text>
+<circle cx="1554" cy="759" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ行に書かれている</text>
+<text x="172" y="939.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">採用元が同じ欄</text>
+<rect x="190" y="852" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 件(1 / 1)</text>
+<circle cx="216" cy="915" r="2.5" fill="#c2410c"/>
+<text x="228" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">両側の値は同じなので、混ぜると</text>
+<circle cx="216" cy="939" r="2.5" fill="#c2410c"/>
+<text x="228" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">一致は 6 件でなく 8 件に見える</text>
+<rect x="636" y="852" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">去年の資料が無い、または使わなかった</text>
+<circle cx="662" cy="915" r="2.5" fill="#c2410c"/>
+<text x="674" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 2023-08 〜 (変更前欄で 1 年遡る)</text>
+<circle cx="662" cy="939" r="2.5" fill="#c2410c"/>
+<text x="674" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">= 資料は 3 年分しか無いのに</text>
+<circle cx="662" cy="963" r="2.5" fill="#c2410c"/>
+<text x="674" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">収録は 1 年先から始まる</text>
+<rect x="1082" y="852" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">今年の変更前の欄 = 採用元</text>
+<circle cx="1108" cy="915" r="2.5" fill="#c2410c"/>
+<text x="1120" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の値をここから採ったので、</text>
+<circle cx="1108" cy="939" r="2.5" fill="#c2410c"/>
+<text x="1120" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ここと比べるのは自分自身との比較</text>
+<rect x="1528" y="852" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L65</text>
+<circle cx="1554" cy="915" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">雇用保険給付の行末</text>
+<text x="172" y="1119.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">単位がそろわない</text>
+<rect x="190" y="1032" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 件(2 / 0)</text>
+<circle cx="216" cy="1095" r="2.5" fill="#5b6272"/>
+<text x="228" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">単位の宣言が空、または</text>
+<circle cx="216" cy="1119" r="2.5" fill="#5b6272"/>
+<text x="228" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">両側で違う組</text>
+<rect x="636" y="1032" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">去年の欄の単位</text>
+<circle cx="662" cy="1095" r="2.5" fill="#5b6272"/>
+<text x="674" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">桁や単位の宣言が無いと、</text>
+<circle cx="662" cy="1119" r="2.5" fill="#5b6272"/>
+<text x="674" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">文字列の比較に意味が無い</text>
+<rect x="1082" y="1032" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">今年の欄の単位</text>
+<circle cx="1108" cy="1095" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">そろわない組は別枠へ</text>
+<circle cx="1108" cy="1119" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(正規化もしない)</text>
+<rect x="1528" y="1032" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L37</text>
+<circle cx="1554" cy="1095" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典・改定予定・公表時点の</text>
+<circle cx="1554" cy="1119" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">品質を列に持つ宣言</text>
+<text x="172" y="1299.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">資料が手元に無い</text>
+<rect x="190" y="1212" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1248" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1 件(分母の外)</text>
+<circle cx="216" cy="1275" r="2.5" fill="#5b6272"/>
+<text x="228" y="1280" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">外した件数と年度を必ず出す</text>
+<circle cx="216" cy="1299" r="2.5" fill="#5b6272"/>
+<text x="228" y="1304" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(合成では年度 T0)</text>
+<rect x="636" y="1212" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1248" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">その年度の資料が手元に無い</text>
+<circle cx="662" cy="1275" r="2.5" fill="#5b6272"/>
+<text x="674" y="1280" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 令和 9 年度以降の厚労省ページ</text>
+<circle cx="662" cy="1299" r="2.5" fill="#5b6272"/>
+<text x="674" y="1304" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">id・年金 PDF 名 | 手動追加</text>
+<rect x="1082" y="1212" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1248" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">比べる相手を作れない</text>
+<circle cx="1108" cy="1275" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1280" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">重なり候補の分母に入れない</text>
+<circle cx="1108" cy="1299" r="2.5" fill="#5b6272"/>
+<text x="1120" y="1304" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(行がそろうかは別の道具)</text>
+<rect x="1528" y="1212" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1248" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L123</text>
+<circle cx="1554" cy="1275" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1280" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">できていないことの表</text>
+<rect x="190" y="1402" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="1414" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">突き合わせが成立した(一致 / 不一致)</text>
+<rect x="524" y="1402" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="550" y="1414" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">分母の内側だが突合になっていない</text>
+<rect x="802" y="1402" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="828" y="1414" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">比べられない / 分母の外</text>
+</svg>

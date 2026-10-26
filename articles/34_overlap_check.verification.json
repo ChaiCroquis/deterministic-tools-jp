@@ -1,0 +1,19 @@
+{"article": "34_overlap_check.md",
+ "numbers": [
+  {"value": "10", "what": "合成した名前の寄せ方の表の組数(うち 1 組は年度で項目名が揺れる組)", "source": "テスト実走 2026-10-26(test_measure_17_questions_split_into_seven)"},
+  {"value": "11", "what": "合成した採用元の宣言の行数(収録した行 1 件が 1 行)", "source": "テスト実走 2026-10-26(test_measure_17_questions_split_into_seven)"},
+  {"value": "12", "what": "崩した表のうち、1 件も数えずに止まる枚数(表の側の理由コード 9 個に到達する)。sha256 の先頭を記事に載せた桁数も 12", "source": "テスト実走 2026-10-26(test_measure_stop_reason_codes_all_reachable / test_measure_counts_add_up_and_bytes_repeat)"},
+  {"value": "13", "what": "止まる理由コードの数(1 件も数えず止まるもの 9 + 問い 1 件だけ止まるもの 1 + verify が見つけるもの 3)。重なり候補 15 件のうち 5 値に入る件数も 13、理由コードに到達する崩した表の枚数も 13", "source": "テスト実走 2026-10-26(test_measure_stop_reason_codes_all_reachable / test_measure_counts_add_up_and_bytes_repeat)"},
+  {"value": "15", "what": "重なり候補の数(= 分母の 1 つ。問い 17 件から、止まった問い 1 件と資料が手元に無い 1 件を外した数)", "source": "テスト実走 2026-10-26(test_measure_only_8_of_15_are_real_cross_checks)"},
+  {"value": "16", "what": "7 値の件数の合計(問い 17 件 − 同じ年度の指定で止まった 1 件)。性質テスト 2 本目の組み合わせの総数も 16(採用元の欄の役 2 × 資料 2 × 値が同じか 2 × 寄せ方の宣言が在るか 2)", "source": "テスト実走 2026-10-26(test_measure_17_questions_split_into_seven / tests/test_overlap_check_property.py)"},
+  {"value": "17", "what": "合成した問いの一覧の件数(= 分母の 1 つ)。年度ペアごとの内訳の合計も同じ 17", "source": "テスト実走 2026-10-26(test_measure_17_questions_split_into_seven / test_measure_four_year_pairs_add_up)"},
+  {"value": "21", "what": "tools/overlap_check のテスト件数(pytest -q の 21 passed)", "source": "テスト実走 2026-10-26(python -m pytest tools/overlap_check -q)"},
+  {"value": "24", "what": "崩した表のうち「表として読めない」になる枚数(理由コードには混ぜない)", "source": "テスト実走 2026-10-26(test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "32", "what": "合成した抽出表の行数(資料 3 枚の変更前 / 変更後の欄)", "source": "テスト実走 2026-10-26(test_measure_17_questions_split_into_seven)"},
+  {"value": "37", "what": "理由コードと「表として読めない」を出すために 1 か所だけ崩した表の枚数", "source": "テスト実走 2026-10-26(test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "41", "what": "置き場に入っている合成 CSV のファイル数(読む前後で sha256 が変わらないことを確かめた対象)", "source": "テスト実走 2026-10-26(test_inputs_are_never_written)"},
+  {"value": "45", "what": "私の記録に書かれている収録の rule 数(本文では「1,681 行 / 45 rule」としては出さず、分量の目安としてのみ参照)", "source": "私の設計の記録(非公開)の 1 行(作業状況 2026-09-20)"},
+  {"value": "200", "what": "性質テスト 1 本目の例の数(derandomize で毎回同じ 200 通り)", "source": "tests/test_overlap_check_property.py の @settings(max_examples=200)、実走 2026-10-26"},
+  {"value": "300", "what": "性質テスト 2 本目の上限(組み合わせは 16 通りしかないので全部を尽くす)", "source": "tests/test_overlap_check_property.py の @settings(max_examples=300)、実走 2026-10-26"},
+  {"value": "1,681", "what": "私の記録に書かれている収録の行数(値そのものは記事にも図にも出していない)", "source": "私の設計の記録(非公開)の 1 行(作業状況 2026-09-20)"}
+ ]}
