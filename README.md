@@ -51,6 +51,7 @@
 | 2026-10-23 | [返ってきた値で計算が終わるとは限らないので、残る一手を境界の表に書く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_22.html) | [`tools/handoff_edge`](tools/handoff_edge) |
 | 2026-10-24 | [計算に要るものは引数の欄を見ても分からないので、入力の出どころを下まで辿って一覧にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_23.html) | [`tools/input_chain`](tools/input_chain) |
 | 2026-10-25 | [埋まっている欄でも裏付けは同じでないので、行を由来の軸で並べ直す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_24.html) | [`tools/backing_axis`](tools/backing_axis) |
+| 2026-10-26 | [今年の表の変更前の欄は去年の表と重なるので、検算に使うか収録に使うかを行ごとに書く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_25.html) | [`tools/overlap_check`](tools/overlap_check) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
