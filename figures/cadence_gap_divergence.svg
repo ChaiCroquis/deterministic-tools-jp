@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1548" height="1448" viewBox="0 0 1548 1448" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1548" height="1448" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">更新の方針と、履歴に残っていることを、項目ごとに並べる</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">どちらが正しいとも書かず、誰かが手を抜いたとも書かない。並べるのは乖離の事実だけ。方針側は原文のまま、実務側は原文に日付が在る行だけ。出典は URL でなく、ファイル名を伏せた行番号。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">公式にどう書かれているか(原文のまま)</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">履歴に何が残っているか</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">出典 2 本(方針側 / 実務側)</text>
+<text x="172" y="219.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">更新の担い手</text>
+<rect x="190" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">タスクスケジューラ (AI なし)</text>
+<circle cx="216" cy="195" r="2.5" fill="#5b6272"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 構成の表の「実行者」の欄</text>
+<circle cx="216" cy="219" r="2.5" fill="#5b6272"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">見出しも「更新の流れ (AI なし)」</text>
+<rect x="636" y="132" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">現状は手動 python pipeline.py</text>
+<circle cx="662" cy="195" r="2.5" fill="#c2410c"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文のまま。手で起動した回が</text>
+<circle cx="662" cy="219" r="2.5" fill="#c2410c"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">履歴にそのまま残っている</text>
+<rect x="1082" y="132" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">使い方 L12・L31</text>
+<circle cx="1108" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実務側 = 作業状況 L130</text>
+<circle cx="1108" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(ファイル名の日付 2026-09-20)</text>
+<text x="172" y="399.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">周期</text>
+<rect x="190" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">pipeline.py を週 1 回実行</text>
+<circle cx="216" cy="375" r="2.5" fill="#5b6272"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: スケジューラが pipeline.py を</text>
+<circle cx="216" cy="399" r="2.5" fill="#5b6272"/>
+<text x="228" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">週 1 回実行 → 上流 pull → 変換 →</text>
+<circle cx="216" cy="423" r="2.5" fill="#5b6272"/>
+<text x="228" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">検証 → 差分 → manifest</text>
+<rect x="636" y="312" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">11 回すべて同じ 1 日</text>
+<circle cx="662" cy="375" r="2.5" fill="#c2410c"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実行日は 11 行とも 2026-09-19</text>
+<circle cx="662" cy="399" r="2.5" fill="#c2410c"/>
+<text x="674" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">午前に 6 回、夜に 5 回</text>
+<circle cx="662" cy="423" r="2.5" fill="#c2410c"/>
+<text x="674" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">週をまたいだ実行は 0 行</text>
+<rect x="1082" y="312" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">使い方 L33 / 作業状況 L48</text>
+<circle cx="1108" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実務側 = 履歴 L1〜11 の実行時刻</text>
+<circle cx="1108" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(原文に日付が入っている)</text>
+<text x="172" y="579.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">登録の状態</text>
+<rect x="190" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">週次スケジュール登録 (手動実行)</text>
+<circle cx="216" cy="555" r="2.5" fill="#5b6272"/>
+<text x="228" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 構成の表の役割の欄</text>
+<circle cx="216" cy="579" r="2.5" fill="#5b6272"/>
+<text x="228" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">登録そのものは手で 1 回やる前提</text>
+<rect x="636" y="492" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">register_task.ps1 未実行</text>
+<circle cx="662" cy="555" r="2.5" fill="#c2410c"/>
+<text x="674" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文のまま。できていないことの表</text>
+<circle cx="662" cy="579" r="2.5" fill="#c2410c"/>
+<text x="674" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">とファイル一覧の両方に「未実行」</text>
+<circle cx="662" cy="603" r="2.5" fill="#c2410c"/>
+<text x="674" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">次の作業候補の 2 番に残っている</text>
+<rect x="1082" y="492" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">使い方 L14</text>
+<circle cx="1108" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実務側 = 作業状況 L130・L161</text>
+<circle cx="1108" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同 L138(作業候補の 2 番)</text>
+<text x="172" y="759.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">実行の履歴</text>
+<rect x="190" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">全実行の履歴を残す</text>
+<circle cx="216" cy="735" r="2.5" fill="#5b6272"/>
+<text x="228" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 全実行の履歴 (status・差分・</text>
+<circle cx="216" cy="759" r="2.5" fill="#5b6272"/>
+<text x="228" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">sha256・上流 commit)</text>
+<rect x="636" y="672" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">11 回 (ok 9 / failed 2)</text>
+<circle cx="662" cy="735" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: パイプライン実行履歴: 11 回</text>
+<circle cx="662" cy="759" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(ok 9 / failed 2 = 意図的な失敗試験)</text>
+<circle cx="662" cy="783" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="788" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行を数えた数と原文の数が合う</text>
+<rect x="1082" y="672" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">使い方 L15</text>
+<circle cx="1108" cy="735" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実務側 = 作業状況 L99</text>
+<circle cx="1108" cy="759" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">履歴 L1〜11 を数えた数と一致</text>
+<text x="172" y="939.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">落ちた回の扱い</text>
+<rect x="190" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">落ちたら本番は前回のまま</text>
+<circle cx="216" cy="915" r="2.5" fill="#5b6272"/>
+<text x="228" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 検証に落ちれば manifest.json.</text>
+<circle cx="216" cy="939" r="2.5" fill="#5b6272"/>
+<text x="228" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">status = failed、本番 rules_unified.</text>
+<circle cx="216" cy="963" r="2.5" fill="#5b6272"/>
+<text x="228" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">json は前回のまま</text>
+<rect x="636" y="852" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">落ちた 2 行は指紋が null</text>
+<circle cx="662" cy="915" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">履歴の 3・4 行目が failed で、</text>
+<circle cx="662" cy="939" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">sha256 の欄は null</text>
+<circle cx="662" cy="963" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">方針のとおりになっている</text>
+<rect x="1082" y="852" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">使い方 L34 / 作業状況 L51</text>
+<circle cx="1108" cy="915" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実務側 = 履歴 L3・L4</text>
+<circle cx="1108" cy="939" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(同じ日の午前の回)</text>
+<text x="172" y="1119.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">差分 0 の回の扱い</text>
+<rect x="190" y="1032" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">差分 0 なら指紋も同じ</text>
+<circle cx="216" cy="1095" r="2.5" fill="#5b6272"/>
+<text x="228" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 冪等性 | offline 再実行で</text>
+<circle cx="216" cy="1119" r="2.5" fill="#5b6272"/>
+<text x="228" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分 0、sha 同一</text>
+<rect x="636" y="1032" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">差分 0 は 4 行、指紋が同じは 3 行</text>
+<circle cx="662" cy="1095" r="2.5" fill="#c2410c"/>
+<text x="674" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2・7・10・11 行目が差分 0。うち 1 行</text>
+<circle cx="662" cy="1119" r="2.5" fill="#c2410c"/>
+<text x="674" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">は 1 つ前と指紋が違う(どちらが</text>
+<circle cx="662" cy="1143" r="2.5" fill="#c2410c"/>
+<text x="674" y="1148" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">正しいとは書かない)</text>
+<rect x="1082" y="1032" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">作業状況 L97</text>
+<circle cx="1108" cy="1095" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実務側 = 履歴 L2・L7・L10・L11</text>
+<circle cx="1108" cy="1119" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">の差分の欄と sha256 の欄</text>
+<text x="172" y="1299.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">人が見るもの</text>
+<rect x="190" y="1212" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1248" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">人は最終実行だけ見る</text>
+<circle cx="216" cy="1275" r="2.5" fill="#5b6272"/>
+<text x="228" y="1280" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">原文: 人は rules_cli.py status で</text>
+<circle cx="216" cy="1299" r="2.5" fill="#5b6272"/>
+<text x="228" y="1304" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「次回改定が近い dataset」「最終</text>
+<circle cx="216" cy="1323" r="2.5" fill="#5b6272"/>
+<text x="228" y="1328" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実行」「上流の不整合 note」だけ見る</text>
+<rect x="636" y="1212" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1248" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">最終実行は 3 つの日付に分かれる</text>
+<circle cx="662" cy="1275" r="2.5" fill="#c2410c"/>
+<text x="674" y="1280" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">走った最後の日 / 中身が動いた最後の</text>
+<circle cx="662" cy="1299" r="2.5" fill="#c2410c"/>
+<text x="674" y="1304" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">日 / 落ちた回を除いた最後の日。</text>
+<circle cx="662" cy="1323" r="2.5" fill="#c2410c"/>
+<text x="674" y="1328" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どれを指すかは原文に書かれていない</text>
+<rect x="1082" y="1212" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1248" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">使い方 L35</text>
+<circle cx="1108" cy="1275" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1280" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実務側 = 履歴 L1〜11 の</text>
+<circle cx="1108" cy="1299" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1304" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の欄と結果の欄</text>
+<rect x="190" y="1402" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="216" y="1414" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">公式にどう書かれているか(方針側)</text>
+<rect x="482" y="1402" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="508" y="1414" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">履歴と食い違う / 1 つに決まらない</text>
+<rect x="802" y="1402" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="828" y="1414" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">履歴が方針のとおりになっている</text>
+</svg>

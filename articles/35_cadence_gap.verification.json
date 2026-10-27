@@ -1,0 +1,42 @@
+{
+  "article": "35_cadence_gap.md",
+  "numbers": [
+    {"value": "10", "what": "check の出力の末尾に必ず付く固定行の数(持たせていない経路の説明)", "source": "テスト実走 2026-10-27 (test_cli_exit_codes / README の出力例と一致)"},
+    {"value": "11", "what": "合成した実行の履歴表の行数(= 実行の回数)。内訳は ok 9 / 落ちた回 2", "source": "テスト実走 2026-10-27 (test_measure_9_questions_split_into_six の assert len(runs.items) == 11)"},
+    {"value": "11", "what": "止まる理由コードの個数(表の側 8 + verify が見つける 3)", "source": "テスト実走 2026-10-27 (test_measure_stop_reason_codes_all_reachable の assert len(H.STOP_REASONS) == 11)"},
+    {"value": "11", "what": "崩した表のうち 1 件も数えずに止まる枚数", "source": "テスト実走 2026-10-27 (同テストの group 内訳)"},
+    {"value": "12", "what": "動いた件数を 0 に替えた写しで、2 つめの問いの空き日数が 5 日から増えた先の日数", "source": "テスト実走 2026-10-27 (test_measure_zero_diff_moves_only_one_of_three_dates の assert row[空き日数] == [1 → 8, 5 → 12])"},
+    {"value": "13", "what": "持たせていない経路の語として、動く側のコードに無いことを確かめている語の数", "source": "テスト実走 2026-10-27 (test_measure_no_clock_and_no_float の MOTANAI)"},
+    {"value": "17", "what": "同じ数表を 3 つめの基準日で見たときの空き日数", "source": "テスト実走 2026-10-27 (test_measure_same_history_different_asof の assert gap_days == [1, 5, 17])"},
+    {"value": "21", "what": "崩した表のうち「表として読めない」で止まる枚数", "source": "テスト実走 2026-10-27 (test_measure_stop_reason_codes_all_reachable の group 内訳)"},
+    {"value": "25", "what": "この道具のテスト件数", "source": "テスト実走 2026-10-27 (pytest の 25 passed)"},
+    {"value": "30", "what": "合成データで 2 つめに宣言した周期の日数(宣言が無い数表に借りないことの確認に使う)", "source": "テスト実走 2026-10-27 (test_no_default_cycle_for_undeclared_table の assert cycle_days == {7, 30})"},
+    {"value": "33", "what": "理由コードと「表として読めない」を出すために 1 か所崩した表の枚数", "source": "テスト実走 2026-10-27 (fixtures/make_fixtures.py の実走出力と test_measure_stop_reason_codes_all_reachable)"},
+    {"value": "36", "what": "読む前後で sha256 が変わらないことを確かめた入力ファイルの数", "source": "テスト実走 2026-10-27 (test_inputs_are_never_written)"},
+    {"value": "40", "what": "走った最後の日と中身が動いた最後の日が離れた問いの超過日数", "source": "テスト実走 2026-10-27 (test_measure_ran_two_days_ago_but_moved_47_days_ago の assert over_days == 40)"},
+    {"value": "41", "what": "判定部分の sha256 の先頭 2 桁(先頭 12 桁は 41cacc0e689d)", "source": "テスト実走 2026-10-27 (test_measure_counts_add_up_and_bytes_repeat の assert startswith)"},
+    {"value": "47", "what": "同じ問いの空き日数(基準日と中身が動いた最後の日の差)", "source": "テスト実走 2026-10-27 (test_measure_ran_two_days_ago_but_moved_47_days_ago の assert gap_days == 47)"},
+    {"value": "200", "what": "性質テスト 1 本目が引く入力の通り数(乱数は固定)", "source": "テスト実走 2026-10-27 (tests/test_cadence_gap_property.py の max_examples=200)"},
+    {"value": "300", "what": "性質テスト 2 本目の上限", "source": "テスト実走 2026-10-27 (同ファイルの max_examples=300)"},
+    {"value": "365", "what": "閏年でない 1 年の日数(日付を通算日に直す計算の確認)", "source": "テスト実走 2026-10-27 (test_measure_day_number_reads_no_clock)"},
+    {"value": "366", "what": "閏年の 1 年の日数(同上)", "source": "テスト実走 2026-10-27 (test_measure_day_number_reads_no_clock)"}
+  ],
+  "figure_numbers": [
+    {"value": "11", "what": "図 1 の実務側。実行の履歴の行数(原文に「11 回 (ok 9 / failed 2 = 意図的な失敗試験)」と書かれている)", "source": "私の更新の記録(非公開)"},
+    {"value": "130", "what": "図 1 の出典の行番号(登録がまだ済んでいないことが書かれている行)", "source": "私の作業状況の記録(非公開)"},
+    {"value": "161", "what": "図 1 の出典の行番号(ファイル一覧で「未実行」と書かれている行)", "source": "私の作業状況の記録(非公開)"},
+    {"value": "138", "what": "図 1 の出典の行番号(次の作業候補の 2 番)", "source": "私の作業状況の記録(非公開)"},
+    {"value": "99", "what": "図 1 の出典の行番号(実行履歴の回数と内訳)", "source": "私の作業状況の記録(非公開)"},
+    {"value": "97", "what": "図 1 の出典の行番号(差分 0 なら指紋も同じ、と書かれている行)", "source": "私の作業状況の記録(非公開)"},
+    {"value": "48", "what": "図 1 の出典の行番号(週 1 回の宣言)", "source": "私の作業状況の記録(非公開)"},
+    {"value": "51", "what": "図 1 の出典の行番号(落ちたら本番は前回のまま)", "source": "私の作業状況の記録(非公開)"},
+    {"value": "12", "what": "図 1 の出典の行番号(更新の担い手)", "source": "私の道具の説明(非公開)"},
+    {"value": "14", "what": "図 1 の出典の行番号(週次スケジュール登録は手動実行)", "source": "私の道具の説明(非公開)"},
+    {"value": "15", "what": "図 1 の出典の行番号(全実行の履歴を残す)", "source": "私の道具の説明(非公開)"},
+    {"value": "31", "what": "図 1 の出典の行番号(更新の流れの見出し)", "source": "私の道具の説明(非公開)"},
+    {"value": "33", "what": "図 1 の出典の行番号(週 1 回実行)", "source": "私の道具の説明(非公開)"},
+    {"value": "34", "what": "図 1 の出典の行番号(落ちれば本番は前回のまま)", "source": "私の道具の説明(非公開)"},
+    {"value": "35", "what": "図 1 の出典の行番号(人は最終実行だけ見る)", "source": "私の道具の説明(非公開)"}
+  ],
+  "note": "本文の 2 桁以上の数値は全て上の numbers に載せている。figure_numbers は図 1 の中にだけ出る数(原文の行番号と、原文に書かれた回数)で、実在の料率・金額は記事にも図にも出していない。合成データの値は全て架空で、実行の履歴の行数と結果の内訳だけ私の記録と同じ形にそろえた。"
+}
