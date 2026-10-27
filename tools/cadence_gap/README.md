@@ -1,5 +1,9 @@
 # cadence_gap — 自動で更新すると書いた表も最後に動いた日は別なので、宣言した周期と実行の履歴を突き合わせる
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [自動で更新すると書いた表も最後に動いた日は別なので、宣言した周期と実行の履歴を突き合わせる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_26.html)(2026-10-27 公開)
+<!-- article-links:end -->
+
 **「自動で週 1 回更新する」と書いてある数表でも、履歴に残っている実行は別の話で、
 最後に中身が動いた日を見ないと古い行をそのまま引く。**
 
