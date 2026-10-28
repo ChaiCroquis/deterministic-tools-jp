@@ -1,0 +1,23 @@
+{"article": "36_idle_rows.md",
+ "numbers": [
+  {"value": "14", "what": "合成した行の台帳の rule の数(14 rule)。および私の記録に書かれた数式の数(14 式)", "source": "テスト実走 2026-10-28(test_measure_14_rules_split_into_six)/ 私の棚卸し記録(非公開)"},
+  {"value": "277", "what": "合成した行の台帳の全体の行数", "source": "テスト実走 2026-10-28(test_measure_14_rules_split_into_six)"},
+  {"value": "26", "what": "6 値のうち『参照されている』に入った行数", "source": "テスト実走 2026-10-28(test_measure_only_4_rules_are_referenced)"},
+  {"value": "196", "what": "滞留している行数の合計(一次の空白 + 二次の空白)", "source": "テスト実走 2026-10-28(test_measure_only_4_rules_are_referenced)"},
+  {"value": "153", "what": "一次の空白(どの参照元からも参照されない)の行数", "source": "テスト実走 2026-10-28(test_measure_43_of_196_rows_are_second_order)"},
+  {"value": "43", "what": "二次の空白(参照元は在るが問いから呼ばれない)の行数", "source": "テスト実走 2026-10-28(test_measure_43_of_196_rows_are_second_order)"},
+  {"value": "47", "what": "合成した台帳で照合専用と宣言された行数。および私の記録に書かれた協会けんぽの支部数(47 支部)", "source": "テスト実走 2026-10-28(test_measure_shougou_and_future_rows_stay_out)/ 私の棚卸し記録(非公開)"},
+  {"value": "246", "what": "照合専用 47 行と未来有効行 3 行を滞留 196 行に混ぜた場合の行数", "source": "テスト実走 2026-10-28(test_measure_shougou_and_future_rows_stay_out)"},
+  {"value": "200", "what": "宣言 F2 → K12 を 1 行外した写しの滞留している行数。および性質テスト 1 本目の例の数(200 通り)", "source": "テスト実走 2026-10-28(test_measure_dropping_one_declaration_moves_rows / test_いつも成り立つこと_数えた_rule_か理由コードか)"},
+  {"value": "56", "what": "問い Q2 を 1 件外した写しの二次の空白の行数", "source": "テスト実走 2026-10-28(test_measure_dropping_one_question_moves_only_the_second_order)"},
+  {"value": "24", "what": "idle_rows のテスト件数(pytest の passed)", "source": "テスト実走 2026-10-28(python -m pytest tools/idle_rows -q)"},
+  {"value": "10", "what": "性質テストの崩し方の数、および 1 件も数えずに止まる理由コードの数", "source": "テスト実走 2026-10-28(test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "11", "what": "check の出力に必ず付く固定行の数", "source": "テスト実走 2026-10-28(tools/idle_rows/idle_rows.py の counts() 出力)"},
+  {"value": "300", "what": "性質テスト 2 本目の例の上限", "source": "テスト実走 2026-10-28(test_照合専用と未来有効行は滞留に入らない)"},
+  {"value": "1,079", "what": "私の記録に書かれた地域別最低賃金の行数", "source": "私の棚卸し記録(非公開)"},
+  {"value": "55", "what": "私の記録に書かれた労災保険率の業種数", "source": "私の棚卸し記録(非公開)"},
+  {"value": "20", "what": "私の記録に書かれた再評価率の行数", "source": "私の棚卸し記録(非公開)"},
+  {"value": "21", "what": "私の記録に書かれた定額部分の乗率の行数", "source": "私の棚卸し記録(非公開)"},
+  {"value": "1,681", "what": "私の記録に書かれた収録範囲の全体の行数", "source": "私の棚卸し記録(非公開)"},
+  {"value": "45", "what": "私の記録に書かれた収録範囲の rule の数", "source": "私の棚卸し記録(非公開)"}
+ ]}
