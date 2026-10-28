@@ -1,5 +1,9 @@
 # idle_rows — 引ける行をそのまま積んでも答えは変わらないので、どの問いからも参照されない行を先に数える
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [引ける行をそのまま積んでも答えは変わらないので、どの問いからも参照されない行を先に数える](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_28.html)(2026-10-28 公開)
+<!-- article-links:end -->
+
 **引ける状態にした行と、どれかの問いが実際に参照する行は別で、参照されない行を塊に積んでも
 答えは変わらない。**
 
