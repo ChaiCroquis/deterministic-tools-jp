@@ -1,5 +1,9 @@
 # share_terms — 手元で引ける行がそのまま配れる行とは限らないので、許諾の名前と要る欄を行に書いてから出す
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [手元で引ける行がそのまま配れる行とは限らないので、許諾の名前と要る欄を行に書いてから出す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_763.html)(2026-10-29 公開)
+<!-- article-links:end -->
+
 **手元で引ける行と、外に出して配れる行は別で、配れる形かどうかは行の欄に書かれた許諾の宣言から
 しか決まらない。**
 

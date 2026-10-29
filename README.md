@@ -54,6 +54,7 @@
 | 2026-10-26 | [今年の表の変更前の欄は去年の表と重なるので、検算に使うか収録に使うかを行ごとに書く](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_25.html) | [`tools/overlap_check`](tools/overlap_check) |
 | 2026-10-27 | [自動で更新すると書いた表も最後に動いた日は別なので、宣言した周期と実行の履歴を突き合わせる](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_26.html) | [`tools/cadence_gap`](tools/cadence_gap) |
 | 2026-10-28 | [引ける行をそのまま積んでも答えは変わらないので、どの問いからも参照されない行を先に数える](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_28.html) | [`tools/idle_rows`](tools/idle_rows) |
+| 2026-10-29 | [手元で引ける行がそのまま配れる行とは限らないので、許諾の名前と要る欄を行に書いてから出す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_763.html) | [`tools/share_terms`](tools/share_terms) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
