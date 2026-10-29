@@ -1,0 +1,9 @@
+bundle_id,file_name,rule_id,swap
+B1,合成の配布 A(架空).json,K11,逆順
+B1,合成の配布 A(架空).json,K13,
+B1,合成の配布 A(架空).json,K14,
+B1,合成の配布 A(架空).json,K21,
+B2,合成の配布 B(架空).csv,K21,
+B2,合成の配布 B(架空).csv,K31,
+B2,合成の配布 B(架空).csv,K71,
+B3,合成の配布 C(架空).md,K99,

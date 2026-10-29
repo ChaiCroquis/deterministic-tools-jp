@@ -1,0 +1,21 @@
+{"article": "37_share_terms.md",
+ "numbers": [
+  {"value": "15", "what": "合成した行の台帳の rule の数(15 rule)。および K21 の帰属の文字列を空にする測定で動かした別の行の行数(15 行)", "source": "テスト実走 2026-10-29(test_measure_15_rules_split_into_five / test_measure_blanking_one_field_moves_one_rule)"},
+  {"value": "867", "what": "合成した行の台帳の全体の行数", "source": "テスト実走 2026-10-29(test_measure_15_rules_split_into_five)"},
+  {"value": "12", "what": "外に出すと宣言された rule の数", "source": "テスト実走 2026-10-29(test_measure_only_5_rules_are_settled)"},
+  {"value": "769", "what": "外に出すと宣言された rule の行数の合計", "source": "テスト実走 2026-10-29(test_measure_only_5_rules_are_settled)"},
+  {"value": "389", "what": "5 値のうち『宣言が揃っている』に入った行数", "source": "テスト実走 2026-10-29(test_measure_only_5_rules_are_settled)"},
+  {"value": "169", "what": "5 値のうち『出すと宣言されたが欄が空』に入った行数", "source": "テスト実走 2026-10-29(test_measure_only_5_rules_are_settled)"},
+  {"value": "211", "what": "5 値のうち『登録表に無い許諾の名前』(別枠)に入った行数", "source": "テスト実走 2026-10-29(test_measure_only_5_rules_are_settled)"},
+  {"value": "208", "what": "別枠 211 行のうち、許諾の名前の欄が空の行数", "source": "テスト実走 2026-10-29(test_measure_empty_fields_and_unsettled_names_stay_apart)"},
+  {"value": "51", "what": "5 値のうち『出す宣言が無い』に入った行数", "source": "テスト実走 2026-10-29(test_measure_only_5_rules_are_settled)"},
+  {"value": "47", "what": "5 値のうち『出さないと宣言された』に入った行数。および私の記録に書かれた協会けんぽの支部数(47 支部)", "source": "テスト実走 2026-10-29(test_measure_declared_out_rows_are_not_short_of_anything)/ 私の棚卸し記録(非公開)"},
+  {"value": "11", "what": "許諾の名前が登録表に在る rule の数(= 4 値が付く分母)。および check の出力に必ず付く固定行の数", "source": "テスト実走 2026-10-29(test_measure_15_rules_split_into_five / tools/share_terms/share_terms.py の counts() 出力)"},
+  {"value": "240", "what": "1 欄を空にする測定で動かした rule(K21)の行数", "source": "テスト実走 2026-10-29(test_measure_blanking_one_field_moves_one_rule)"},
+  {"value": "149", "what": "K21 の帰属の文字列を空にした写しの『宣言が揃っている』の行数", "source": "テスト実走 2026-10-29(test_measure_blanking_one_field_moves_one_rule)"},
+  {"value": "196", "what": "登録表から MIT を外したときに別枠へ移る行数", "source": "テスト実走 2026-10-29(test_measure_dropping_one_license_moves_only_the_dasu_rows)"},
+  {"value": "25", "what": "share_terms のテスト件数(pytest の passed)", "source": "テスト実走 2026-10-29(python -m pytest tools/share_terms -q)"},
+  {"value": "10", "what": "性質テストの崩し方の数、および 1 件も数えずに止まる理由コードの数", "source": "テスト実走 2026-10-29(test_measure_stop_reason_codes_all_reachable)"},
+  {"value": "200", "what": "性質テスト 1 本目の例の数(200 通り)", "source": "テスト実走 2026-10-29(test_いつも成り立つこと_数えた_rule_か理由コードか)"},
+  {"value": "300", "what": "性質テスト 2 本目の例の上限", "source": "テスト実走 2026-10-29(test_出さない行と宣言の無い行は空の欄を持たない)"}
+ ]}
