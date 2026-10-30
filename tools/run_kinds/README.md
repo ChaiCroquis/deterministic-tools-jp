@@ -1,5 +1,9 @@
 # run_kinds — 落ちた回が障害とは限らないので、実行の記録を成功率にせず回ごとに分ける
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [落ちた回が障害とは限らないので、実行の記録を成功率にせず回ごとに分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_29.html)(2026-10-30 公開)
+<!-- article-links:end -->
+
 **「ジョブが通ったか」と「本番の中身が入れ替わったか」は別の軸で、通った / 落ちたの 2 値だけを
 数えると、どちらも読めない数字が出る。**
 
