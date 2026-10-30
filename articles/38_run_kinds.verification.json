@@ -1,0 +1,16 @@
+{"article": "38_run_kinds.md",
+ "numbers": [
+  {"value": "17", "what": "合成した実行の台帳の行数(17 回の実行)。6 値 + 別枠の合計も 17", "source": "テスト実走 2026-10-30(test_measure_17_runs_split_into_eight)"},
+  {"value": "15", "what": "合成した台帳のうち、6 値が付いた回の数(別枠 2 回を外した分母)", "source": "テスト実走 2026-10-30(test_measure_17_runs_split_into_eight)"},
+  {"value": "11", "what": "合成した台帳で通ったと宣言された回の数(11 回)。および私の記録に残っているパイプラインの実行履歴の行数(11 行)。および崩した表 30 枚のうち 1 回も数えずに止まる枚数(11 枚)", "source": "テスト実走 2026-10-30(test_measure_eleven_ok_runs_are_four_kinds / test_broken_tables_are_counted)/ 私の作業状況の記録(非公開)L99 と 私の実行の台帳(非公開)11 行を数え直した 2026-10-30"},
+  {"value": "12", "what": "止まる理由コードの数(表の側 9 + verify が見つける 3)", "source": "テスト実走 2026-10-30(test_nine_table_reason_codes_are_all_reachable)"},
+  {"value": "30", "what": "合成した崩した表の枚数", "source": "テスト実走 2026-10-30(test_broken_tables_are_counted)"},
+  {"value": "19", "what": "崩した表 30 枚のうち、表として読めない枚数", "source": "テスト実走 2026-10-30(test_broken_tables_are_counted)"},
+  {"value": "33", "what": "読む前後で sha256 が同じであることを確かめた入力ファイルの数", "source": "テスト実走 2026-10-30(test_inputs_are_never_rewritten)"},
+  {"value": "28", "what": "run_kinds のテスト件数(pytest の passed)", "source": "テスト実走 2026-10-30(python -m pytest tools/run_kinds -q)"},
+  {"value": "200", "what": "性質テスト 1 本目の例の数(200 通り)", "source": "テスト実走 2026-10-30(test_いつも成り立つこと_仕分けた回か理由コードか)"},
+  {"value": "300", "what": "性質テスト 2 本目の例の上限", "source": "テスト実走 2026-10-30(test_据え置きの回は宣言だけで分かれる)"},
+  {"value": "1284", "what": "合成した台帳の初回の回の差分の件数(架空の値。桁だけ手元の記録と同じ形)", "source": "fixtures/make_fixtures.py(合成、2026-10-30)"},
+  {"value": "0d7202c99937", "what": "合成した 3 枚に対する判定部分の sha256 の先頭 12 桁(2 回 + 3 通りの入れ替えで 4 回とも同じ)", "source": "テスト実走 2026-10-30(test_verify_passes_on_the_synthetic_tables)"},
+  {"value": "151d31f0", "what": "私の記録に書かれている最新の出力の指紋の先頭 8 桁(図 1 のみ)", "source": "私の作業状況の記録(非公開)L99"}
+ ]}
