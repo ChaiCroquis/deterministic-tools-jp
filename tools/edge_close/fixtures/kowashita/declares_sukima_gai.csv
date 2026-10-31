@@ -1,0 +1,6 @@
+rule_id,end_included,edge_unit,gap_allowed,reason_code,unspecified_mark,close_known,priorities,new_label,source
+甲表,含まない,月,たぶん,,*,閉じる,0;10;20,,私の閉じ方の記録(非公開)L109
+乙表,含まない,月,許さない,,*,閉じない,0;10;20,,私の閉じ方の記録(非公開)L109
+丙表,含む,日,許す,G1,*,閉じる,0;10;20,,articles/22_span_split.md L13
+丁表,含む,月,許さない,,*,閉じない,0;10,,articles/27_rank_clash.md L13
+戊表,含まない,日,許さない,,*,閉じる,0;10;20,,私の閉じ方の記録(非公開)L109

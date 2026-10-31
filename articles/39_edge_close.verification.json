@@ -1,0 +1,18 @@
+{"article": "39_edge_close.md",
+ "numbers": [
+  {"value": "15", "what": "合成した既存の行の表の行数", "source": "テスト実走 2026-10-31(test_measure_17_adds_split_into_seven)"},
+  {"value": "17", "what": "合成した足す行の表の件数、および 6 値 + 別枠の合計", "source": "テスト実走 2026-10-31(test_measure_17_adds_split_into_seven)"},
+  {"value": "14", "what": "6 値が付いた件の数(別枠 3 件を外した数)", "source": "テスト実走 2026-10-31(test_measure_17_adds_split_into_seven)"},
+  {"value": "11", "what": "既存の行の表の列数、および崩した表のうち 1 件も仕分けずに止まる枚数", "source": "テスト実走 2026-10-31(test_broken_tables_are_counted / tools/edge_close/edge_close.py の EXISTING_COLUMNS)"},
+  {"value": "12", "what": "足す行の表の列数、および止まる理由コードの個数", "source": "テスト実走 2026-10-31(test_nine_table_reason_codes_are_all_reachable / ADD_COLUMNS)"},
+  {"value": "10", "what": "閉じ方の宣言表の列数、および部品が import している module の数", "source": "テスト実走 2026-10-31(test_implementation_has_no_clock_no_float_no_network / DECLARE_COLUMNS)"},
+  {"value": "31", "what": "この道具のテスト件数", "source": "テスト実走 2026-10-31(python -m pytest tools/edge_close -q → 31 passed)"},
+  {"value": "36", "what": "合成した崩した表の枚数", "source": "テスト実走 2026-10-31(test_broken_tables_are_counted)"},
+  {"value": "25", "what": "崩した表のうち「表として読めない」枚数", "source": "テスト実走 2026-10-31(test_broken_tables_are_counted)"},
+  {"value": "39", "what": "読む前後で sha256 が変わらなかった入力ファイルの数", "source": "テスト実走 2026-10-31(test_inputs_are_never_rewritten)"},
+  {"value": "200", "what": "性質テスト 1 本目の例の上限", "source": "tools/edge_close/tests/test_edge_close_property.py の settings(max_examples=200)"},
+  {"value": "300", "what": "性質テスト 2 本目の例の上限", "source": "tools/edge_close/tests/test_edge_close_property.py の settings(max_examples=300)"},
+  {"value": "47", "what": "支援金率として収録されている行数(図 1 の 1 行目)", "source": "私の作業状況の記録(非公開)L64"},
+  {"value": "1,079", "what": "地域別最低賃金として収録されている行数(図 1 の 4 行目)", "source": "私の作業状況の記録(非公開)L70"},
+  {"value": "1,681", "what": "有効期間の重複検査を通した行数(重複 0 件)", "source": "私の作業状況の記録(非公開)L95"}
+ ]}
