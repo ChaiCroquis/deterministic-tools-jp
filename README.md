@@ -56,6 +56,7 @@
 | 2026-10-28 | [引ける行をそのまま積んでも答えは変わらないので、どの問いからも参照されない行を先に数える](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_28.html) | [`tools/idle_rows`](tools/idle_rows) |
 | 2026-10-29 | [手元で引ける行がそのまま配れる行とは限らないので、許諾の名前と要る欄を行に書いてから出す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_763.html) | [`tools/share_terms`](tools/share_terms) |
 | 2026-10-30 | [落ちた回が障害とは限らないので、実行の記録を成功率にせず回ごとに分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_29.html) | [`tools/run_kinds`](tools/run_kinds) |
+| 2026-10-31 | [新しい行を足しても前の行は閉じないので、閉じる端を足す前に一覧にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_30.html) | [`tools/edge_close`](tools/edge_close) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの

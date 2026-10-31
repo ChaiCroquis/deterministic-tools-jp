@@ -1,5 +1,9 @@
 # edge_close — 足す行ごとに「前の行のどの端を閉じることになるか」を仕分ける
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [新しい行を足しても前の行は閉じないので、閉じる端を足す前に一覧にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_30.html)(2026-10-31 公開)
+<!-- article-links:end -->
+
 **行を足す操作と、前の行の端を閉じる操作は別だ。足す側の 1 行だけを見ていると閉じ忘れが見えない。
 閉じ忘れた表は同じ日に 2 つの答えを返し、閉じすぎた表は答えの無い日を作る。**
 
