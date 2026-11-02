@@ -58,6 +58,7 @@
 | 2026-10-30 | [落ちた回が障害とは限らないので、実行の記録を成功率にせず回ごとに分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_29.html) | [`tools/run_kinds`](tools/run_kinds) |
 | 2026-10-31 | [新しい行を足しても前の行は閉じないので、閉じる端を足す前に一覧にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_30.html) | [`tools/edge_close`](tools/edge_close) |
 | 2026-11-01 | [表に入らないと書いた項目も行き先は別なので、誰がどこで埋めるかの軸で並べ直す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_31.html) | [`tools/fill_owner`](tools/fill_owner) |
+| 2026-11-02 | [数表が動く時期は行ごとに別なので、改定の記載を一覧にしてから確認の枠を決める](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post.html) | [`tools/change_slot`](tools/change_slot) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
