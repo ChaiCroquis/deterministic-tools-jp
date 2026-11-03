@@ -59,6 +59,7 @@
 | 2026-10-31 | [新しい行を足しても前の行は閉じないので、閉じる端を足す前に一覧にする](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_30.html) | [`tools/edge_close`](tools/edge_close) |
 | 2026-11-01 | [表に入らないと書いた項目も行き先は別なので、誰がどこで埋めるかの軸で並べ直す](https://chronicles-of-solo-parenting.blogspot.com/2026/10/blog-post_31.html) | [`tools/fill_owner`](tools/fill_owner) |
 | 2026-11-02 | [数表が動く時期は行ごとに別なので、改定の記載を一覧にしてから確認の枠を決める](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post.html) | [`tools/change_slot`](tools/change_slot) |
+| 2026-11-03 | [一致した件数は確かめた行数とは限らないので、件数の単位と掛けた次元を先に分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_02.html) | [`tools/count_basis`](tools/count_basis) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの

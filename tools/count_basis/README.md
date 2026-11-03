@@ -1,5 +1,9 @@
 # count_basis — 一致した件数は確かめた行数とは限らないので、件数の単位と掛けた次元を先に分ける
 
+<!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [一致した件数は確かめた行数とは限らないので、件数の単位と掛けた次元を先に分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_02.html)(2026-11-03 公開)
+<!-- article-links:end -->
+
 検証の報告に並ぶ「N 件一致」の N を、**元の行 × 掛けた次元 × 確かめ方** の 3 層へ分けて返す
 部品です。**N 行を独立に確かめたという意味ではない**ことを、出力の形で見せます。
 
