@@ -1,0 +1,22 @@
+{"article": "42_count_basis.md",
+ "numbers": [
+  {"value": "11", "what": "7 値が付いた検証の数(別枠 5 件を外した残り)", "source": "テスト実走 2026-11-03(tools/count_basis、test_measure_16_checks_split_into_eleven)"},
+  {"value": "11", "what": "止まる理由コードの数(表の側 8 + verify 3)", "source": "テスト実走 2026-11-03(test_measure_eleven_stop_reasons_and_broken_tables)"},
+  {"value": "11", "what": "私の実行履歴の行数(検証の件数を持つ欄が無いことの確認対象)", "source": "私の実行履歴の記録(非公開)"},
+  {"value": "12", "what": "上限額の数表の行数(うち 4 行を公表値と突き合わせている)", "source": "私の収録範囲の記録(非公開)"},
+  {"value": "12", "what": "check の出力で消せない宣言行の数(総件数を出さない 〜 入力を書き換えない)", "source": "テスト実走 2026-11-03(tools/count_basis/count_basis.py の counts() を実走した出力)"},
+  {"value": "14", "what": "私の検証の実績表の行数(図 1 が割り直した対象)", "source": "私の作業状況の記録(非公開)"},
+  {"value": "16", "what": "合成した検証の台帳の行数(= 検証の数)", "source": "テスト実走 2026-11-03(test_measure_16_checks_split_into_eleven)"},
+  {"value": "16", "what": "合成した掛けた次元の宣言表の行数", "source": "テスト実走 2026-11-03(test_measure_16_checks_split_into_eleven)"},
+  {"value": "19", "what": "この道具のテストの件数(19 passed)", "source": "テスト実走 2026-11-03(python -m pytest tools/count_basis -q)"},
+  {"value": "20", "what": "再評価率の数表の行数(= 10 世代 × 2 年度)", "source": "私の収録範囲の記録(非公開)"},
+  {"value": "24", "what": "次元を外す前の積(元の行 4 行 × 年 3 × 区分 2)", "source": "テスト実走 2026-11-03(test_measure_dropping_one_dimension_moves_one_check)"},
+  {"value": "47", "what": "協会けんぽの支部の数(料率の 1 年分の行数でもある)", "source": "私の作業状況の記録(非公開)"},
+  {"value": "50", "what": "等級の数(1 行が持つ表の中に在る倍率)", "source": "私の作業状況の記録(非公開)"},
+  {"value": "141", "what": "料率の数表の行数(= 3 年 × 47 支部)", "source": "私の収録範囲の記録(非公開)"},
+  {"value": "200", "what": "性質テスト 1 本目の例の数(derandomize で毎回同じ)", "source": "テスト実走 2026-11-03(tests/test_count_basis_property.py の max_examples)"},
+  {"value": "300", "what": "性質テスト 2 本目の例の上限", "source": "テスト実走 2026-11-03(tests/test_count_basis_property.py の max_examples)"},
+  {"value": "1681", "what": "統一行の全体の行数(validate の重複 0 の分母)", "source": "私の作業状況の記録(非公開)"},
+  {"value": "2350", "what": "数式経由の折半額の検証に宣言されている件数(= 47 支部 × 50 等級 の 1 年分)", "source": "私の作業状況の記録(非公開)"},
+  {"value": "7050", "what": "折半額 再計算の検証に宣言されている件数(= 141 行 × 50 等級)", "source": "私の作業状況の記録(非公開)"}
+ ]}

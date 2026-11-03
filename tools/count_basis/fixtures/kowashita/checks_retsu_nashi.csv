@@ -1,0 +1,17 @@
+check_id,declared_count,unit,tables
+K01,"7,050",cell,T1
+K02,通過,,T2
+K03,47,shibu,T3;T8
+K04,24,row,T4
+K05,12,row,T5
+K06,423,cell,T1
+K07,100,row,T99
+K08,5,row,T6
+K09,10,合成の未登録の単位記号,T6
+K10,10,row,T6
+K11,30,,T6
+K12,1.251,item,T6
+K13,1,item,T6
+K14,6,year,T9
+K15,"1,681",row,T7
+K16,47,shibu,T3
