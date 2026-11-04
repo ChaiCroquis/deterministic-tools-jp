@@ -1,0 +1,547 @@
+{
+ "title": "実行の記録 11 行を、2 経路(差分の件数 / 出力の指紋)に並べ直した一覧",
+ "subtitle": "単位と期間の定義: 「行」は統一行の数、「回」は実行の数で、この 11 行は 1 日分に限る。私の記録 1 ファイルの 11 行だけで、実行の網羅ではない。出典は URL が無いのでファイル名を伏せた行番号で代えた。指紋は先頭 12 文字までの写しで、差分の中身の値は引いていない。正しい経路の列も、一致率の行も、合計の行も置かない。落ちた 2 回は意図的な失敗試験(同 L99)。",
+ "x_axis": {
+  "label": "",
+  "cols": [
+   "経路A(差分の記録)と出典",
+   "経路B(出力の指紋)と出典",
+   "差",
+   "差が生じる既知の理由",
+   "単位",
+   "対象の期間"
+  ]
+ },
+ "y_axis": {
+  "label": "",
+  "rows": [
+   "回 1(L1)",
+   "回 2(L2)",
+   "回 3(L3)",
+   "回 4(L4)",
+   "回 5(L5)",
+   "回 6(L6)",
+   "回 7(L7)",
+   "回 8(L8)",
+   "回 9(L9)",
+   "回 10(L10)",
+   "回 11(L11)",
+   "累積"
+  ]
+ },
+ "cells": [
+  [
+   {
+    "name": "added 1301 / removed 0 / changed 0",
+    "items": [
+     "初回なので全部が増えた行",
+     "出典 = 実行履歴の記録 L1"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "4c9940e79321",
+    "items": [
+     "前の回が無い",
+     "出典 = 同 L1"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "対の相手が無い(初回)",
+    "items": [
+     "比べる前の回が無い"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "宣言なし",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "行 / 文字列の一致",
+    "items": [
+     "この 2 つは足せない"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "回 1",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "added 0 / removed 0 / changed 0",
+    "items": [
+     "差分は 0",
+     "出典 = 同 L2"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "4c9940e79321(前の回と同じ)",
+    "items": [
+     "指紋も動いていない",
+     "出典 = 同 L2"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "2 経路が同じ答え",
+    "items": [
+     "どちらも「動いていない」"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "宣言なし",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "行 / 文字列の一致",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "回 1 → 回 2",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "記載なし",
+    "items": [
+     "落ちた回。差分の欄が無い",
+     "出典 = 同 L3"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "記載なし",
+    "items": [
+     "指紋の欄も無い",
+     "出典 = 同 L3"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "片方の欄が 記載なし",
+    "items": [
+     "本番の出力を差し替えていない"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "上流の値を崩した試験の回",
+    "items": [
+     "宣言表に書いた分だけ"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "―",
+    "items": [
+     "足せる数が無い"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "回 2 → 回 3",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "記載なし",
+    "items": [
+     "落ちた回。差分の欄が無い",
+     "出典 = 同 L4"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "記載なし",
+    "items": [
+     "指紋の欄も無い",
+     "出典 = 同 L4"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "片方の欄が 記載なし",
+    "items": [
+     "本番の出力を差し替えていない"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "宣言なし",
+    "items": [
+     "理由を書いていない回"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "―",
+    "items": [
+     "足せる数が無い"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "回 3 → 回 4",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "added 1 / removed 0 / changed 1",
+    "items": [
+     "差分は 0 でない",
+     "出典 = 同 L5"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "eeb878841d3c",
+    "items": [
+     "前の回の指紋が 記載なし",
+     "出典 = 同 L5"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "片方の欄が 記載なし",
+    "items": [
+     "前の回と比べられない"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "宣言なし",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "行 / 文字列の一致",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "回 4 → 回 5",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "added 0 / removed 1 / changed 1",
+    "items": [
+     "差分は 0 でない",
+     "出典 = 同 L6"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "4c9940e79321(前の回と違う)",
+    "items": [
+     "回 1 / 回 2 と同じ文字列 = 戻り",
+     "出典 = 同 L6"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "2 経路が同じ答え + 戻りの印",
+    "items": [
+     "どちらも「動いた」",
+     "ただし指紋は過去の回へ戻った"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "宣言なし",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "行 / 文字列の一致",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "回 5 → 回 6",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "added 0 / removed 0 / changed 0",
+    "items": [
+     "差分は 0",
+     "出典 = 同 L7"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "4c9940e79321(前の回と同じ)",
+    "items": [
+     "指紋も動いていない",
+     "出典 = 同 L7"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "2 経路が同じ答え",
+    "items": [
+     "どちらも「動いていない」"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "宣言なし",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "行 / 文字列の一致",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "回 6 → 回 7",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "added 341 / removed 141 / changed 1",
+    "items": [
+     "足して引いて中身も替わった",
+     "出典 = 同 L8"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "a5d40eaa30b8(前の回と違う)",
+    "items": [
+     "過去のどの回とも別の文字列",
+     "出典 = 同 L8"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "2 経路が同じ答え",
+    "items": [
+     "どちらも「動いた」"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "宣言なし",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "行 / 文字列の一致",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "回 7 → 回 8",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "added 180 / removed 0 / changed 0",
+    "items": [
+     "差分は 0 でない",
+     "出典 = 同 L9"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "ba9150b8709e(前の回と違う)",
+    "items": [
+     "過去のどの回とも別の文字列",
+     "出典 = 同 L9"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "2 経路が同じ答え",
+    "items": [
+     "どちらも「動いた」"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "宣言なし",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "行 / 文字列の一致",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "回 8 → 回 9",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "added 0 / removed 0 / changed 0",
+    "items": [
+     "差分は 0",
+     "出典 = 同 L10"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "151d31f0661e(前の回と違う)",
+    "items": [
+     "指紋だけが動いた",
+     "出典 = 同 L10"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "2 経路が別の答え",
+    "items": [
+     "差分は「変わっていない」",
+     "指紋は「変わった」"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "宣言なし",
+    "items": [
+     "理由を書いていない回"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "行 / 文字列の一致",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "回 9 → 回 10",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "added 0 / removed 0 / changed 0",
+    "items": [
+     "差分は 0",
+     "出典 = 同 L11"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "151d31f0661e(前の回と同じ)",
+    "items": [
+     "指紋も動いていない",
+     "出典 = 同 L11"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "2 経路が同じ答え",
+    "items": [
+     "どちらも「動いていない」"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "宣言なし",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "行 / 文字列の一致",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "回 10 → 回 11",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "1,681 行",
+    "items": [
+     "差し替えた 9 回の(増えた − 減った)",
+     "出典 = 同 L1〜L11"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "1,681 行 / 45 rule",
+    "items": [
+     "棚卸しが宣言している行数",
+     "出典 = 収録範囲の記録 L58"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "一致(差 0)",
+    "items": [
+     "changed の 3 件を足すと 1,684",
+     "足すと棚卸しの宣言と合わなくなる"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "宣言なし",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "行",
+    "items": [
+     "指紋の経路は累積に入らない"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "回 1〜回 11",
+    "items": [
+     "差し替えた 9 回だけ"
+    ],
+    "tone": "accent"
+   }
+  ]
+ ],
+ "legend": [
+  [
+   "原文の表記(経路A の側)",
+   "muted"
+  ],
+  [
+   "2 経路が同じ答え / 引けた層",
+   "accent"
+  ],
+  [
+   "2 経路が別の答え / 記載なし / 戻り",
+   "warn"
+  ]
+ ]
+}

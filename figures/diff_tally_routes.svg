@@ -1,0 +1,316 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2886" height="2060" viewBox="0 0 2886 2060" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="2886" height="2060" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">実行の記録 11 行を、2 経路(差分の件数 / 出力の指紋)に並べ直した一覧</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">単位と期間の定義: 「行」は統一行の数、「回」は実行の数で、この 11 行は 1 日分に限る。私の記録 1 ファイルの 11 行だけで、実行の網羅ではない。出典は URL が無いのでファイル名を伏せた行番号で代えた。指紋は先頭 12 文字までの写しで、差分の中身の値は引いていない。正しい経路の列も、一致率の行も、合計の行も置かない。落ちた 2 回は意図的な失敗試験(同 L99)。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">経路A(差分の記録)と出典</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">経路B(出力の指紋)と出典</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">差</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">差が生じる既知の理由</text>
+<text x="2189.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">単位</text>
+<text x="2635.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">対象の期間</text>
+<text x="172" y="207.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 1(L1)</text>
+<rect x="190" y="132" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">added 1301 / removed 0 / changed 0</text>
+<circle cx="216" cy="195" r="2.5" fill="#5b6272"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">初回なので全部が増えた行</text>
+<circle cx="216" cy="219" r="2.5" fill="#5b6272"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 実行履歴の記録 L1</text>
+<rect x="636" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4c9940e79321</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">前の回が無い</text>
+<circle cx="662" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L1</text>
+<rect x="1082" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">対の相手が無い(初回)</text>
+<circle cx="1108" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">比べる前の回が無い</text>
+<rect x="1528" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<rect x="1974" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行 / 文字列の一致</text>
+<circle cx="2000" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">この 2 つは足せない</text>
+<rect x="2420" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 1</text>
+<text x="172" y="363.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 2(L2)</text>
+<rect x="190" y="288" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">added 0 / removed 0 / changed 0</text>
+<circle cx="216" cy="351" r="2.5" fill="#5b6272"/>
+<text x="228" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分は 0</text>
+<circle cx="216" cy="375" r="2.5" fill="#5b6272"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L2</text>
+<rect x="636" y="288" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4c9940e79321(前の回と同じ)</text>
+<circle cx="662" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋も動いていない</text>
+<circle cx="662" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L2</text>
+<rect x="1082" y="288" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 経路が同じ答え</text>
+<circle cx="1108" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どちらも「動いていない」</text>
+<rect x="1528" y="288" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<rect x="1974" y="288" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行 / 文字列の一致</text>
+<rect x="2420" y="288" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 1 → 回 2</text>
+<text x="172" y="519.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 3(L3)</text>
+<rect x="190" y="444" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">記載なし</text>
+<circle cx="216" cy="507" r="2.5" fill="#c2410c"/>
+<text x="228" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">落ちた回。差分の欄が無い</text>
+<circle cx="216" cy="531" r="2.5" fill="#c2410c"/>
+<text x="228" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L3</text>
+<rect x="636" y="444" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">記載なし</text>
+<circle cx="662" cy="507" r="2.5" fill="#c2410c"/>
+<text x="674" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋の欄も無い</text>
+<circle cx="662" cy="531" r="2.5" fill="#c2410c"/>
+<text x="674" y="536" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L3</text>
+<rect x="1082" y="444" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">片方の欄が 記載なし</text>
+<circle cx="1108" cy="507" r="2.5" fill="#c2410c"/>
+<text x="1120" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番の出力を差し替えていない</text>
+<rect x="1528" y="444" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">上流の値を崩した試験の回</text>
+<circle cx="1554" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言表に書いた分だけ</text>
+<rect x="1974" y="444" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">―</text>
+<circle cx="2000" cy="507" r="2.5" fill="#c2410c"/>
+<text x="2012" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">足せる数が無い</text>
+<rect x="2420" y="444" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 2 → 回 3</text>
+<text x="172" y="675.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 4(L4)</text>
+<rect x="190" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">記載なし</text>
+<circle cx="216" cy="663" r="2.5" fill="#c2410c"/>
+<text x="228" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">落ちた回。差分の欄が無い</text>
+<circle cx="216" cy="687" r="2.5" fill="#c2410c"/>
+<text x="228" y="692" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L4</text>
+<rect x="636" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">記載なし</text>
+<circle cx="662" cy="663" r="2.5" fill="#c2410c"/>
+<text x="674" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋の欄も無い</text>
+<circle cx="662" cy="687" r="2.5" fill="#c2410c"/>
+<text x="674" y="692" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L4</text>
+<rect x="1082" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">片方の欄が 記載なし</text>
+<circle cx="1108" cy="663" r="2.5" fill="#c2410c"/>
+<text x="1120" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">本番の出力を差し替えていない</text>
+<rect x="1528" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<circle cx="1554" cy="663" r="2.5" fill="#c2410c"/>
+<text x="1566" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由を書いていない回</text>
+<rect x="1974" y="600" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">―</text>
+<circle cx="2000" cy="663" r="2.5" fill="#c2410c"/>
+<text x="2012" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">足せる数が無い</text>
+<rect x="2420" y="600" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 3 → 回 4</text>
+<text x="172" y="831.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 5(L5)</text>
+<rect x="190" y="756" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">added 1 / removed 0 / changed 1</text>
+<circle cx="216" cy="819" r="2.5" fill="#5b6272"/>
+<text x="228" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分は 0 でない</text>
+<circle cx="216" cy="843" r="2.5" fill="#5b6272"/>
+<text x="228" y="848" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L5</text>
+<rect x="636" y="756" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">eeb878841d3c</text>
+<circle cx="662" cy="819" r="2.5" fill="#c2410c"/>
+<text x="674" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">前の回の指紋が 記載なし</text>
+<circle cx="662" cy="843" r="2.5" fill="#c2410c"/>
+<text x="674" y="848" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L5</text>
+<rect x="1082" y="756" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">片方の欄が 記載なし</text>
+<circle cx="1108" cy="819" r="2.5" fill="#c2410c"/>
+<text x="1120" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">前の回と比べられない</text>
+<rect x="1528" y="756" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<rect x="1974" y="756" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行 / 文字列の一致</text>
+<rect x="2420" y="756" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 4 → 回 5</text>
+<text x="172" y="987.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 6(L6)</text>
+<rect x="190" y="912" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">added 0 / removed 1 / changed 1</text>
+<circle cx="216" cy="975" r="2.5" fill="#5b6272"/>
+<text x="228" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分は 0 でない</text>
+<circle cx="216" cy="999" r="2.5" fill="#5b6272"/>
+<text x="228" y="1004" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L6</text>
+<rect x="636" y="912" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4c9940e79321(前の回と違う)</text>
+<circle cx="662" cy="975" r="2.5" fill="#c2410c"/>
+<text x="674" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">回 1 / 回 2 と同じ文字列 = 戻り</text>
+<circle cx="662" cy="999" r="2.5" fill="#c2410c"/>
+<text x="674" y="1004" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L6</text>
+<rect x="1082" y="912" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 経路が同じ答え + 戻りの印</text>
+<circle cx="1108" cy="975" r="2.5" fill="#c2410c"/>
+<text x="1120" y="980" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どちらも「動いた」</text>
+<circle cx="1108" cy="999" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1004" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">ただし指紋は過去の回へ戻った</text>
+<rect x="1528" y="912" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<rect x="1974" y="912" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行 / 文字列の一致</text>
+<rect x="2420" y="912" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="948" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 5 → 回 6</text>
+<text x="172" y="1143.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 7(L7)</text>
+<rect x="190" y="1068" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">added 0 / removed 0 / changed 0</text>
+<circle cx="216" cy="1131" r="2.5" fill="#5b6272"/>
+<text x="228" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分は 0</text>
+<circle cx="216" cy="1155" r="2.5" fill="#5b6272"/>
+<text x="228" y="1160" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L7</text>
+<rect x="636" y="1068" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4c9940e79321(前の回と同じ)</text>
+<circle cx="662" cy="1131" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋も動いていない</text>
+<circle cx="662" cy="1155" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1160" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L7</text>
+<rect x="1082" y="1068" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 経路が同じ答え</text>
+<circle cx="1108" cy="1131" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1136" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どちらも「動いていない」</text>
+<rect x="1528" y="1068" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<rect x="1974" y="1068" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行 / 文字列の一致</text>
+<rect x="2420" y="1068" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="1104" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 6 → 回 7</text>
+<text x="172" y="1299.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 8(L8)</text>
+<rect x="190" y="1224" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">added 341 / removed 141 / changed 1</text>
+<circle cx="216" cy="1287" r="2.5" fill="#5b6272"/>
+<text x="228" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">足して引いて中身も替わった</text>
+<circle cx="216" cy="1311" r="2.5" fill="#5b6272"/>
+<text x="228" y="1316" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L8</text>
+<rect x="636" y="1224" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">a5d40eaa30b8(前の回と違う)</text>
+<circle cx="662" cy="1287" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">過去のどの回とも別の文字列</text>
+<circle cx="662" cy="1311" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1316" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L8</text>
+<rect x="1082" y="1224" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 経路が同じ答え</text>
+<circle cx="1108" cy="1287" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1292" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どちらも「動いた」</text>
+<rect x="1528" y="1224" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<rect x="1974" y="1224" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行 / 文字列の一致</text>
+<rect x="2420" y="1224" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="1260" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 7 → 回 8</text>
+<text x="172" y="1455.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 9(L9)</text>
+<rect x="190" y="1380" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1416" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">added 180 / removed 0 / changed 0</text>
+<circle cx="216" cy="1443" r="2.5" fill="#5b6272"/>
+<text x="228" y="1448" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分は 0 でない</text>
+<circle cx="216" cy="1467" r="2.5" fill="#5b6272"/>
+<text x="228" y="1472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L9</text>
+<rect x="636" y="1380" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1416" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">ba9150b8709e(前の回と違う)</text>
+<circle cx="662" cy="1443" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1448" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">過去のどの回とも別の文字列</text>
+<circle cx="662" cy="1467" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L9</text>
+<rect x="1082" y="1380" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1416" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 経路が同じ答え</text>
+<circle cx="1108" cy="1443" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1448" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どちらも「動いた」</text>
+<rect x="1528" y="1380" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1416" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<rect x="1974" y="1380" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1416" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行 / 文字列の一致</text>
+<rect x="2420" y="1380" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="1416" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 8 → 回 9</text>
+<text x="172" y="1611.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 10(L10)</text>
+<rect x="190" y="1536" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1572" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">added 0 / removed 0 / changed 0</text>
+<circle cx="216" cy="1599" r="2.5" fill="#5b6272"/>
+<text x="228" y="1604" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分は 0</text>
+<circle cx="216" cy="1623" r="2.5" fill="#5b6272"/>
+<text x="228" y="1628" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L10</text>
+<rect x="636" y="1536" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1572" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">151d31f0661e(前の回と違う)</text>
+<circle cx="662" cy="1599" r="2.5" fill="#c2410c"/>
+<text x="674" y="1604" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋だけが動いた</text>
+<circle cx="662" cy="1623" r="2.5" fill="#c2410c"/>
+<text x="674" y="1628" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L10</text>
+<rect x="1082" y="1536" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1572" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 経路が別の答え</text>
+<circle cx="1108" cy="1599" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1604" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分は「変わっていない」</text>
+<circle cx="1108" cy="1623" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1628" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋は「変わった」</text>
+<rect x="1528" y="1536" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1572" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<circle cx="1554" cy="1599" r="2.5" fill="#c2410c"/>
+<text x="1566" y="1604" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由を書いていない回</text>
+<rect x="1974" y="1536" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1572" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行 / 文字列の一致</text>
+<rect x="2420" y="1536" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="1572" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 9 → 回 10</text>
+<text x="172" y="1767.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">回 11(L11)</text>
+<rect x="190" y="1692" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1728" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">added 0 / removed 0 / changed 0</text>
+<circle cx="216" cy="1755" r="2.5" fill="#5b6272"/>
+<text x="228" y="1760" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分は 0</text>
+<circle cx="216" cy="1779" r="2.5" fill="#5b6272"/>
+<text x="228" y="1784" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L11</text>
+<rect x="636" y="1692" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1728" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">151d31f0661e(前の回と同じ)</text>
+<circle cx="662" cy="1755" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1760" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋も動いていない</text>
+<circle cx="662" cy="1779" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1784" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L11</text>
+<rect x="1082" y="1692" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1728" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 経路が同じ答え</text>
+<circle cx="1108" cy="1755" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1760" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">どちらも「動いていない」</text>
+<rect x="1528" y="1692" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1728" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<rect x="1974" y="1692" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1728" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行 / 文字列の一致</text>
+<rect x="2420" y="1692" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="1728" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 10 → 回 11</text>
+<text x="172" y="1923.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">累積</text>
+<rect x="190" y="1848" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1884" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1,681 行</text>
+<circle cx="216" cy="1911" r="2.5" fill="#5b6272"/>
+<text x="228" y="1916" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差し替えた 9 回の(増えた − 減った)</text>
+<circle cx="216" cy="1935" r="2.5" fill="#5b6272"/>
+<text x="228" y="1940" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 L1〜L11</text>
+<rect x="636" y="1848" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1884" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">1,681 行 / 45 rule</text>
+<circle cx="662" cy="1911" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1916" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しが宣言している行数</text>
+<circle cx="662" cy="1935" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1940" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 収録範囲の記録 L58</text>
+<rect x="1082" y="1848" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1884" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">一致(差 0)</text>
+<circle cx="1108" cy="1911" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1916" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">changed の 3 件を足すと 1,684</text>
+<circle cx="1108" cy="1935" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1940" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">足すと棚卸しの宣言と合わなくなる</text>
+<rect x="1528" y="1848" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1884" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">宣言なし</text>
+<rect x="1974" y="1848" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1884" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">行</text>
+<circle cx="2000" cy="1911" r="2.5" fill="#3b5bdb"/>
+<text x="2012" y="1916" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋の経路は累積に入らない</text>
+<rect x="2420" y="1848" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="2442" y="1884" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">回 1〜回 11</text>
+<circle cx="2446" cy="1911" r="2.5" fill="#3b5bdb"/>
+<text x="2458" y="1916" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差し替えた 9 回だけ</text>
+<rect x="190" y="2014" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="216" y="2026" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">原文の表記(経路A の側)</text>
+<rect x="426" y="2014" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="452" y="2026" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">2 経路が同じ答え / 引けた層</text>
+<rect x="704" y="2014" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="730" y="2026" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">2 経路が別の答え / 記載なし / 戻り</text>
+</svg>

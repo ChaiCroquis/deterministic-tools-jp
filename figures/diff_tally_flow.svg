@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2544" height="426" viewBox="0 0 2544 426" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="2544" height="426" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">「表が変わったか」を 2 経路で並べ、差だけを出すまでの流れ</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">橙のピルが関所。ハッシュを計算する経路・中身が替わった行数を累積に足す経路・正しい方を決める経路・原因を推定する経路・割合や一致率を出す経路・成功率を出す経路・周期を読む経路・差分の中身の値を読む経路・現在時刻を読む経路・pipeline を走らせる経路・入力を書き換える経路は、この図に無い(引数が無い)。</text>
+<rect x="36" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="36" y="118" width="260" height="6" rx="3" fill="#e7ecfb"/>
+<circle cx="62" cy="152" r="14" fill="#3b5bdb"/>
+<text x="62" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+<text x="84" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">5 枚を読む</text>
+<circle cx="60" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実行の記録の台帳は 8 列</text>
+<circle cx="60" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しの台帳は 4 列</text>
+<circle cx="60" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">欄と結果記号の登録表は 4 列</text>
+<circle cx="60" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差の理由の宣言表は 4 列</text>
+<line x1="304" y1="204.0" x2="344" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="352" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="352" y="118" width="260" height="6" rx="3" fill="#d6def9"/>
+<circle cx="378" cy="152" r="14" fill="#3b5bdb"/>
+<text x="378" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+<text x="400" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">出典と形を見る</text>
+<circle cx="376" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行ごとに出典が在るか</text>
+<circle cx="376" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">実行 id が重複しないか</text>
+<circle cx="376" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">時点記号が重複しないか</text>
+<circle cx="376" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由が実在する対を指すか</text>
+<line x1="620" y1="204.0" x2="660" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="668" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="668" y="118" width="260" height="6" rx="3" fill="#c4d0f6"/>
+<circle cx="694" cy="152" r="14" fill="#3b5bdb"/>
+<text x="694" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+<text x="716" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">登録表に当てる</text>
+<circle cx="692" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の 3 欄が登録に在るか</text>
+<circle cx="692" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">欄ごとの単位記号が在るか</text>
+<circle cx="692" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">結果記号が登録に在るか</text>
+<circle cx="692" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記号の綴りから当てない</text>
+<line x1="936" y1="204.0" x2="976" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="984" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="984" y="118" width="260" height="6" rx="3" fill="#b0c1f2"/>
+<circle cx="1010" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1010" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+<text x="1032" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">順序番号で並べる</text>
+<circle cx="1008" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">重複が無いか</text>
+<circle cx="1008" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">飛びが無いか</text>
+<circle cx="1008" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の順も時刻も見ない</text>
+<circle cx="1008" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">期間は最小と最大を写す</text>
+<line x1="1252" y1="204.0" x2="1292" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1300" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1300" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1326" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1326" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+<text x="1348" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2 経路の欄を読む</text>
+<circle cx="1324" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">件数が整数か 記載なし か</text>
+<circle cx="1324" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋の長さが揃っているか</text>
+<circle cx="1324" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋は計算せず文字列で比べる</text>
+<circle cx="1324" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分の中身の値は読まない</text>
+<line x1="1568" y1="204.0" x2="1608" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1616" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1616" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1642" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1642" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">6</text>
+<text x="1664" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">隣り合う対に 6 値</text>
+<circle cx="1640" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分が 記載なし → ⑤</text>
+<circle cx="1640" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋が 記載なし → ⑥</text>
+<circle cx="1640" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">差分 3 欄が 0 かを見る</text>
+<circle cx="1640" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">指紋が前の回と同じかを見る</text>
+<line x1="1884" y1="204.0" x2="1924" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1932" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1932" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1958" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1958" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">7</text>
+<text x="1980" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">戻りの印</text>
+<circle cx="1956" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1968" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">前の回でなく過去の回と同じか</text>
+<circle cx="1956" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1968" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">一致した run id を出す</text>
+<circle cx="1956" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1968" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">良し悪しは書かない</text>
+<circle cx="1956" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1968" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由は宣言表の写しだけ</text>
+<line x1="2200" y1="204.0" x2="2240" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="2248" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="2248" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="2274" cy="152" r="14" fill="#3b5bdb"/>
+<text x="2274" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">8</text>
+<text x="2296" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">累積の突合と検算</text>
+<circle cx="2272" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="2284" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">入れると宣言された回だけ</text>
+<circle cx="2272" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="2284" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">増やす欄 − 減らす欄</text>
+<circle cx="2272" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="2284" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しの宣言と並べ差を出す</text>
+<circle cx="2272" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="2284" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2 通りの合計 → sha256</text>
+<line x1="324.0" y1="292" x2="324.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="242.075" y="310" width="163.85" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="324.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">列が無い / 行が無い</text>
+<line x1="640.0" y1="292" x2="640.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="483.975" y="310" width="312.05" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="640.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">出典が空 / 時点記号の重複 / 実在しない対</text>
+<line x1="956.0" y1="292" x2="956.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="799.975" y="310" width="312.05" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="956.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">欄名が登録表に無い / 結果記号が登録表に無い</text>
+<line x1="1272.0" y1="292" x2="1272.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="1183.9" y="310" width="176.2" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="1272.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">順序番号の重複または飛び</text>
+<line x1="1588.0" y1="292" x2="1588.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="1431.975" y="310" width="312.05" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="1588.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">件数が整数でない / 指紋の長さが揃っていない</text>
+<line x1="1904.0" y1="292" x2="1904.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="1815.9" y="310" width="176.2" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="1904.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">6 値の外に値を作れない</text>
+<line x1="2220.0" y1="292" x2="2220.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="2094.85" y="310" width="250.29999999999998" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="2220.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">件数の合計が合わない(verify)</text>
+<text x="36" y="396" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">5 枚のどれかが 1 行でも壊れていたら、どの対も数えない(6 値は全て 0 で、理由コード 11 個のうち該当するものが返る)。隣り合っていない対を指す理由の宣言と、突合に使っていない棚卸しの時点は、止めずに別の一覧へ出す。落ちた回の仕分けは run_kinds、周期との突合は cadence_gap、検証の件数の分解は count_basis、出し直す範囲は recalc_scope の仕事。</text>
+</svg>
