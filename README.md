@@ -61,6 +61,7 @@
 | 2026-11-02 | [数表が動く時期は行ごとに別なので、改定の記載を一覧にしてから確認の枠を決める](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post.html) | [`tools/change_slot`](tools/change_slot) |
 | 2026-11-03 | [一致した件数は確かめた行数とは限らないので、件数の単位と掛けた次元を先に分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_02.html) | [`tools/count_basis`](tools/count_basis) |
 | 2026-11-04 | [差分の件数が 0 の回でも出力の指紋は変わるので、2 経路で並べてから書く](https://chronicles-of-solo-parenting.blogspot.com/2026/11/0-2.html) | [`tools/diff_tally`](tools/diff_tally) |
+| 2026-11-05 | [数表を貼るのをやめても渡す欄を決める推論は残るので、空でも止まらない欄を先に数える](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_04.html) | [`tools/quiet_slots`](tools/quiet_slots) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
