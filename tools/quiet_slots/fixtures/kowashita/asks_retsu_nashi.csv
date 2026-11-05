@@ -1,0 +1,6 @@
+ask_id,command,target,source
+Q1,status,—,合成の呼び出しのメモ(架空)L1
+Q2,resolve,R1,合成の呼び出しのメモ(架空)L2
+Q3,compute,R2,合成の呼び出しのメモ(架空)L3
+Q4,compute,R3,合成の呼び出しのメモ(架空)L4
+Q5,resolve,R1,

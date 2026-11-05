@@ -1,0 +1,298 @@
+{
+ "title": "引く呼び出しの欄を、空にしたときの出口で 4 つに分けた境界表",
+ "subtitle": "行 = README 23〜26 行目の 4 本の呼び出しから取った欄 + as_of + 登録表に無い欄名、列 = 空にしたときの出口。各セルに出典(ファイル名 + 行番号)。正しい埋め方の列・推奨の列・合計の行・割合の行は置かない。",
+ "x_axis": {
+  "label": "空にしたときの出口(宣言されているもの)",
+  "cols": [
+   "(A) 空にできない",
+   "(B) 空でよいと宣言されている",
+   "(C) 埋めるのは人か LLM",
+   "(D) どちらの宣言も無い"
+  ]
+ },
+ "y_axis": {
+  "label": "呼び出しの欄",
+  "rows": [
+   "対象月初日",
+   "賃金締切日",
+   "報酬月額",
+   "賃金総額",
+   "都道府県",
+   "事業の種類",
+   "介護該当",
+   "障害等級の認定",
+   "as_of",
+   "資格取得日"
+  ]
+ },
+ "cells": [
+  [
+   {
+    "name": "例外(基準日欠落)",
+    "items": [
+     "出典 = STATUS 39 行目",
+     "基準日 / rule_catalog 16 行目"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "例外(基準日欠落)",
+    "items": [
+     "出典 = STATUS 39 行目",
+     "basis の登録 = 同 31 行目"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "終了コード 2(入力不足)",
+    "items": [
+     "出典 = README 29 行目",
+     "式の入力 / STATUS 76 行目"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "終了コード 2(入力不足)",
+    "items": [
+     "出典 = README 29 行目",
+     "式の入力 / STATUS 76 行目"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "未指定次元 = ワイルドカード",
+    "items": [
+     "健保料率では 2 行以上が当たる(47 行)",
+     "出典 = STATUS 84 / 64 行目、宣言は同 34 行目",
+     "厚年保険料率では 1 行に決まる(rule_catalog 18 行目)"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "未指定次元 = ワイルドカード",
+    "items": [
+     "2 行以上が当たる(労災保険率 55 業種)",
+     "出典 = STATUS 70 行目",
+     "宣言は同 34 行目 / rule_catalog 115 行目"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "別枠 = 同じ欄に 2 通りの宣言",
+    "items": [
+     "case 側に要求しない(rule_catalog 117 行目)",
+     "欄として渡している(README 25 行目)",
+     "行数を宣言した行は無い"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "人か LLM が起票",
+    "items": [
+     "出典 = rule_catalog 129 行目",
+     "判断の結果を case の属性で受ける"
+    ],
+    "tone": "warn"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "既定を書いた行が無い",
+    "items": [
+     "機能は在る(STATUS 33 行目)",
+     "4 本の例に出てこず、既定を書いた行も無い",
+     "効き方が行ごとに違う(同 122 行目)"
+    ],
+    "tone": "warn"
+   }
+  ],
+  [
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "—",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "別枠 = 欄名が登録表に無い",
+    "items": [
+     "出典 = rule_catalog 105 行目",
+     "basis registry への追加候補のまま"
+    ],
+    "tone": "warn"
+   }
+  ]
+ ],
+ "legend": [
+  [
+   "空なら止まると宣言されている",
+   "accent"
+  ],
+  [
+   "空でも止まらない / 宣言が無い / 別枠",
+   "warn"
+  ],
+  [
+   "その出口の宣言が無い欄",
+   "muted"
+  ]
+ ]
+}

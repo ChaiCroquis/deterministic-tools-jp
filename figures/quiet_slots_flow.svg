@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2860" height="426" viewBox="0 0 2860 426" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="2860" height="426" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">呼び出しの欄を「空にしたときの出口」で 4 つに分けるまでの流れ</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">橙のピルが関所。CLI を呼ぶ経路・欄に値を入れる経路・`宣言なし` を `できる` へ寄せる経路・トークン数や削減量を出す経路・省略の正否を決める経路・入力を下へ辿る経路・行の中身の値を読む経路・現在時刻を読む経路・入力を書き換える経路は、この図に無い(引数が無い)。</text>
+<rect x="36" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="36" y="118" width="260" height="6" rx="3" fill="#e7ecfb"/>
+<circle cx="62" cy="152" r="14" fill="#3b5bdb"/>
+<text x="62" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+<text x="84" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 枚を読む</text>
+<circle cx="60" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">問いの宣言表は 5 列</text>
+<circle cx="60" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">欄の登録表は 6 列</text>
+<circle cx="60" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の在り方の表は 4 列</text>
+<circle cx="60" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="72" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出口の登録表は 3 列</text>
+<line x1="304" y1="204.0" x2="344" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="352" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="352" y="118" width="260" height="6" rx="3" fill="#d6def9"/>
+<circle cx="378" cy="152" r="14" fill="#3b5bdb"/>
+<text x="378" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+<text x="400" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">出典と形を見る</text>
+<circle cx="376" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">登録の行に出典が在るか</text>
+<circle cx="376" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">問い id が重複しないか</text>
+<circle cx="376" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ問いに同じ欄名が無いか</text>
+<circle cx="376" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="388" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">欄名に区切り文字が無いか</text>
+<line x1="620" y1="204.0" x2="660" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="668" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="668" y="118" width="260" height="6" rx="3" fill="#c4d0f6"/>
+<circle cx="694" cy="152" r="14" fill="#3b5bdb"/>
+<text x="694" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+<text x="716" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">登録表に当てる</text>
+<circle cx="692" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">欄名が登録表に在るか</text>
+<circle cx="692" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">無ければ別枠へ(推測しない)</text>
+<circle cx="692" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">種別記号が登録の 5 つか</text>
+<circle cx="692" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="704" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記号の綴りから当てない</text>
+<line x1="936" y1="204.0" x2="976" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="984" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="984" y="118" width="260" height="6" rx="3" fill="#b0c1f2"/>
+<circle cx="1010" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1010" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+<text x="1032" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">出口を結ぶ</text>
+<circle cx="1008" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">`できない` の欄の出口が在るか</text>
+<circle cx="1008" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">その出口が `止まる` 側か</text>
+<circle cx="1008" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「止まる」の定義は登録表の側</text>
+<circle cx="1008" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1020" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">欄名から出口を当てない</text>
+<line x1="1252" y1="204.0" x2="1292" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1300" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1300" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1326" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1326" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+<text x="1348" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">在る欄と無い欄に分ける</text>
+<circle cx="1324" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">手元に在ると宣言した欄を外す</text>
+<circle cx="1324" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典が空の問いは別枠へ</text>
+<circle cx="1324" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2 通りの宣言が在る欄も別枠へ</text>
+<circle cx="1324" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1336" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">残りが「空にする欄」</text>
+<line x1="1568" y1="204.0" x2="1608" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1616" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1616" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1642" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1642" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">6</text>
+<text x="1664" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">空にできるかで振り分け</text>
+<circle cx="1640" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">`できない` → 空にできない</text>
+<circle cx="1640" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">`できる` → 空でよい</text>
+<circle cx="1640" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">`宣言なし` → どちらの宣言も無い</text>
+<circle cx="1640" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1652" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">空白を推測で埋めない</text>
+<line x1="1884" y1="204.0" x2="1924" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1932" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1932" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="1958" cy="152" r="14" fill="#3b5bdb"/>
+<text x="1958" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">7</text>
+<text x="1980" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">人か LLM の欄を移す</text>
+<circle cx="1956" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="1968" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">`人かLLM` の欄だけを移す</text>
+<circle cx="1956" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="1968" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">推論で埋めてよいと宣言された欄</text>
+<circle cx="1956" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="1968" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">これも空でも止まらない側</text>
+<circle cx="1956" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="1968" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">良し悪しは書かない</text>
+<line x1="2200" y1="204.0" x2="2240" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="2248" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="2248" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="2274" cy="152" r="14" fill="#3b5bdb"/>
+<text x="2274" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">8</text>
+<text x="2296" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">空でよい欄に印を付ける</text>
+<circle cx="2272" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="2284" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の在り方から行数を引く</text>
+<circle cx="2272" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="2284" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 行に決まる / 2 行以上が当たる</text>
+<circle cx="2272" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="2284" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言が無ければ印もそのまま</text>
+<circle cx="2272" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="2284" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">引いた結果ではなく数え上げ</text>
+<line x1="2516" y1="204.0" x2="2556" y2="204.0" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="2564" y="118" width="260" height="172" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<rect x="2564" y="118" width="260" height="6" rx="3" fill="#9cb1ee"/>
+<circle cx="2590" cy="152" r="14" fill="#3b5bdb"/>
+<text x="2590" y="157" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">9</text>
+<text x="2612" y="158" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">件数と内訳の検算</text>
+<circle cx="2588" cy="189" r="2.5" fill="#3b5bdb"/>
+<text x="2600" y="194" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">4 値 + 別枠 + 手元に在る</text>
+<circle cx="2588" cy="213" r="2.5" fill="#3b5bdb"/>
+<text x="2600" y="218" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">問いごと / 欄の種別ごと</text>
+<circle cx="2588" cy="237" r="2.5" fill="#3b5bdb"/>
+<text x="2600" y="242" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">印の合計 = 空でよいの件数</text>
+<circle cx="2588" cy="261" r="2.5" fill="#3b5bdb"/>
+<text x="2600" y="266" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">3 通りの数え方 → sha256</text>
+<line x1="324.0" y1="292" x2="324.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="180.32500000000002" y="310" width="287.34999999999997" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="324.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">列が無い / 行が無い / 登録の外の記号</text>
+<line x1="640.0" y1="292" x2="640.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="434.57500000000005" y="310" width="410.84999999999997" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="640.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">宣言の出典が空 / 問い id の重複 / 同じ欄名が 2 回</text>
+<line x1="956.0" y1="292" x2="956.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="824.675" y="310" width="262.65" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="956.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">欄名が登録表に無い(別枠へ、止めない)</text>
+<line x1="1272.0" y1="292" x2="1272.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="1134.5" y="310" width="275.0" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="1272.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">出口が登録表に無い / 出口が止まらない</text>
+<line x1="1588.0" y1="292" x2="1588.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="1475.2" y="310" width="225.6" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="1588.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">同じ rule と次元が 2 行</text>
+<line x1="1904.0" y1="292" x2="1904.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="1815.9" y="310" width="176.2" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="1904.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">4 値の外に値を作れない</text>
+<line x1="2536.0" y1="292" x2="2536.0" y2="308" stroke="#c2410c" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<rect x="2410.85" y="310" width="250.29999999999998" height="28" rx="14" fill="#fff1e8" stroke="#c2410c" stroke-width="1"/>
+<text x="2536.0" y="329" font-size="13" text-anchor="middle" fill="#c2410c">件数の合計が合わない(verify)</text>
+<text x="36" y="396" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">4 枚のどれかが 1 行でも壊れていたら、どの組も数えない(4 値は全て 0 で、理由コード 10 個のうち該当するものが返る)。どの問いも求めていない行の在り方の宣言と、どの欄も指していない出口の登録は、止めずに別の一覧へ出す。渡す日付の種別の台帳は basis_map、入力を下へ辿るのは input_chain、返った値に残る一手は handoff_edge、塊に焼いて渡すのは context_pack、返ってきた数値の突合は answer_check、参照されない行は idle_rows の仕事。</text>
+</svg>
