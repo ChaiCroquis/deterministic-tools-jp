@@ -1,0 +1,4 @@
+PAT = re.compile(r"(令和|平成|昭和)([0-9]+)年([0-9]+)月")
+def to_seireki(s):
+    out = PAT.sub(conv, s)
+    return out

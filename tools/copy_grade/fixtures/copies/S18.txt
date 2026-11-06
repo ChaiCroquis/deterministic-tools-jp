@@ -1,0 +1,3 @@
+def rules_dir():
+    if getattr(sys, "frozen", False):
+        return Path(sys.argv[0]).parent

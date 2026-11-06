@@ -1,0 +1,2 @@
+def get_records(app, query):
+    return client.get("/records.json", app=app, query=query)

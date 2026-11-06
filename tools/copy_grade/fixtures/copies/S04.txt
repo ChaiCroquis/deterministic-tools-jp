@@ -1,0 +1,7 @@
+def read_text(path):
+    raw = path.read_bytes()
+    for enc in ("utf-8-sig", "utf-8", "cp932"):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue

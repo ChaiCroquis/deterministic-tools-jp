@@ -1,0 +1,5 @@
+def norm_corp(s):
+    s = s.replace("株式会社", "")
+    s = s.replace("有限会社", "")
+    s = s.strip()
+    return s

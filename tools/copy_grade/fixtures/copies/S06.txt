@@ -1,0 +1,5 @@
+def norm_name(s):
+    s = unicodedata.normalize("NFKC", s)
+    s = s.replace(" ", "")
+    s = s.strip()
+    return s

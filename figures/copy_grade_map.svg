@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1548" height="1268" viewBox="0 0 1548 1268" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1548" height="1268" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">「同じ処理が散っている」の根拠を、方針側の宣言と実務側の記述と写しの段で並べた表</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">行 = 部品、列 = ① 方針側の宣言 / ② 実務側の記述 / ③ 合成した写しを比べた段。正しい側の列・一致率の行は置かない。</text>
+<text x="851.0" y="92" font-size="13" font-weight="normal" text-anchor="middle" fill="#5b6272">同じだと言える根拠は、どの層に何と書かれているか</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">① 方針側にどう書かれているか</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">② 実務側に何が書かれているか</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">③ 合成した写しを比べた段</text>
+<text transform="translate(36,664.0) rotate(-90)" font-size="13" text-anchor="middle" fill="#5b6272">部品(名前ではなく内容で書く)</text>
+<text x="172" y="219.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">文字コードの判定</text>
+<rect x="190" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「1 か所にまとめる」</text>
+<circle cx="216" cy="195" r="2.5" fill="#5b6272"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 連載 1 本目 8 行目</text>
+<circle cx="216" cy="219" r="2.5" fill="#5b6272"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「正しい順番を決めて、テストで固定する」= 同 10 行目</text>
+<circle cx="216" cy="243" r="2.5" fill="#5b6272"/>
+<text x="228" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">寄せ先を 1 本決めるという宣言</text>
+<rect x="636" y="132" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「17 か所に別実装」</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 棚卸しの記録 28 行目</text>
+<circle cx="662" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「17」+「chardet 等の使用 0」= 同 38 行目</text>
+<circle cx="662" cy="243" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「微妙に順番や例外の扱いが違う」= 連載 1 本目 26 行目</text>
+<rect x="1082" y="132" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(A) 1 / (B) 2 / (C) 3</text>
+<circle cx="1108" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">組 6 件</text>
+<circle cx="1108" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">そのままで同一は 1 組だけ</text>
+<circle cx="1108" cy="243" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(C) の 3 組はどれも 3 行目だけが違う</text>
+<text x="172" y="399.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">会社名の正規化</text>
+<rect x="190" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">方針側の宣言は無い</text>
+<circle cx="216" cy="375" r="2.5" fill="#5b6272"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">寄せ先を決めた行が無い</text>
+<rect x="636" y="312" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「7」+「(同型コピー)」</text>
+<circle cx="662" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 棚卸しの記録 40 行目</text>
+<circle cx="662" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">人が見て同じ形だと書いた注記</text>
+<rect x="1082" y="312" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(C) 1</text>
+<circle cx="1108" cy="375" r="2.5" fill="#c2410c"/>
+<text x="1120" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">組 1 件、違う行の番号は 2 行目と 4 行目</text>
+<circle cx="1108" cy="399" r="2.5" fill="#c2410c"/>
+<text x="1120" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">注記は「同型」だが段は (C)</text>
+<circle cx="1108" cy="423" r="2.5" fill="#c2410c"/>
+<text x="1120" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">注記を段に読み替える経路が無い</text>
+<text x="172" y="579.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">和暦の処理</text>
+<rect x="190" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「モジュール化は … のみ」</text>
+<circle cx="216" cy="555" r="2.5" fill="#5b6272"/>
+<text x="228" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 棚卸しの記録 41 行目</text>
+<circle cx="216" cy="579" r="2.5" fill="#5b6272"/>
+<text x="228" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 本だけモジュール化したという宣言</text>
+<rect x="636" y="492" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「18 ファイルに正規表現散在」</text>
+<circle cx="662" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 41 行目</text>
+<circle cx="662" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">何か所が同じ実装かは数えていない</text>
+<rect x="1082" y="492" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">別枠(出典が空)1</text>
+<circle cx="1108" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">組 1 件、段は付かない</text>
+<circle cx="1108" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典の無い行は段に入れない</text>
+<circle cx="1108" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">`18 ファイル` を整数に直す経路も無い</text>
+<text x="172" y="759.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">台帳のパーサ</text>
+<rect x="190" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">方針側の宣言は無い</text>
+<circle cx="216" cy="735" r="2.5" fill="#5b6272"/>
+<text x="228" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">業種依存は「あり」と注記</text>
+<rect x="636" y="672" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「3 本が派生複製(451 / 483 / 486 行)」</text>
+<circle cx="662" cy="735" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 棚卸しの記録 44 行目</text>
+<circle cx="662" cy="759" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行数が 3 通り = 同じでないと書いてある</text>
+<rect x="1082" y="672" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(D) 1 + 別枠 2</text>
+<circle cx="1108" cy="735" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">組 3 件、行数の組は 7 と 8</text>
+<circle cx="1108" cy="759" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行数の記載が無い 1 箇所は別枠へ</text>
+<circle cx="1108" cy="783" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="788" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">注記に書かれた行数は宣言のまま</text>
+<text x="172" y="939.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">送信と認証</text>
+<rect x="190" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">方針側の宣言は無い</text>
+<circle cx="216" cy="915" r="2.5" fill="#5b6272"/>
+<text x="228" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">寄せ先を決めた行が無い</text>
+<rect x="636" y="852" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「4 / 3(md5 一致)」</text>
+<circle cx="662" cy="915" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 棚卸しの記録 47 行目</text>
+<circle cx="662" cy="939" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">機械が出した指紋が一致したという注記</text>
+<rect x="1082" y="852" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(B) 1</text>
+<circle cx="1108" cy="915" r="2.5" fill="#c2410c"/>
+<text x="1120" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">組 1 件、行末の空白と改行だけの差</text>
+<circle cx="1108" cy="939" r="2.5" fill="#c2410c"/>
+<text x="1120" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">注記は「指紋一致」だが段は (B)</text>
+<circle cx="1108" cy="963" r="2.5" fill="#c2410c"/>
+<text x="1120" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">生の指紋は一致しない</text>
+<text x="172" y="1119.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">API 呼び出し</text>
+<rect x="190" y="1032" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「統一済み」</text>
+<circle cx="216" cy="1095" r="2.5" fill="#5b6272"/>
+<text x="228" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 棚卸しの記録 46 行目</text>
+<circle cx="216" cy="1119" r="2.5" fill="#5b6272"/>
+<text x="228" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">既に 1 本へ寄ったという宣言</text>
+<rect x="636" y="1032" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">「8+(Python のみで)」</text>
+<circle cx="662" cy="1095" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 46 行目</text>
+<circle cx="662" cy="1119" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">件数が確定していない</text>
+<rect x="1082" y="1032" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">組 0 件</text>
+<circle cx="1108" cy="1095" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">写しは 1 本だけ</text>
+<circle cx="1108" cy="1119" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言の文字列は `8+`、写しの件数は 1</text>
+<circle cx="1108" cy="1143" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1148" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">並べて返すだけで、代わりに使わない</text>
+<rect x="190" y="1222" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="216" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">方針側の宣言</text>
+<rect x="328" y="1222" width="18" height="14" rx="4" fill="#ffffff" stroke="#d9dce6"/>
+<text x="354" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">実務側の記述</text>
+<rect x="466" y="1222" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="492" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">合成した写しを比べた段</text>
+<rect x="674" y="1222" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="700" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">注記と段がずれた組</text>
+</svg>
