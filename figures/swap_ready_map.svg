@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1548" height="1268" viewBox="0 0 1548 1268" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1548" height="1268" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">「入れ替えてよい」と書いた経路を、許可の根拠と検査の所属と跡の件数で並べた表</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">行 = 入れ替えの経路、列 = ① 許可の根拠 / ② 受け入れ検査の所属 / ③ 跡の欄と件数と 4 値。入れ替えるべきかの列・正しい側の列・順位の列は置かない。</text>
+<text x="851.0" y="92" font-size="13" font-weight="normal" text-anchor="middle" fill="#5b6272">入れ替えられると言える根拠は、どの層に何と書かれているか</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">① 許可の根拠(出典つき)</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">② 受け入れ検査の所属(出典つき)</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">③ 跡の欄と件数 → 4 値</text>
+<text transform="translate(36,664.0) rotate(-90)" font-size="13" text-anchor="middle" fill="#5b6272">入れ替えの経路(対象の種別 / 入れ替える側の束)</text>
+<text x="172" y="219.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">版 / 借り物の束</text>
+<rect x="190" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">許す(入れ替える経路が在る)</text>
+<circle cx="216" cy="195" r="2.5" fill="#5b6272"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「上流 pull → 変換 → 検証 → 差分」</text>
+<circle cx="216" cy="219" r="2.5" fill="#5b6272"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 私の記録の README 33 行目</text>
+<circle cx="216" cy="243" r="2.5" fill="#5b6272"/>
+<text x="228" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">宣言された日の記載は在る</text>
+<rect x="636" y="132" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">内蔵</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「全段通るまで本番 file を触らない」</text>
+<circle cx="662" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 12 行目(検査は同じ束の中)</text>
+<circle cx="662" cy="243" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">別の束に置いた検査は無い</text>
+<rect x="1082" y="132" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(B) 入れ替えてよいが入れ替えられない</text>
+<circle cx="1108" cy="195" r="2.5" fill="#c2410c"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">跡の欄 = 版の欄、0 件 / 11 行</text>
+<circle cx="1108" cy="219" r="2.5" fill="#c2410c"/>
+<text x="1120" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由 = 「`register_task.ps1` 未実行」</text>
+<circle cx="1108" cy="243" r="2.5" fill="#c2410c"/>
+<text x="1120" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 作業状況の記録 130 行目</text>
+<text x="172" y="399.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">data / 借り物の束</text>
+<rect x="190" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">範囲つきで許す</text>
+<circle cx="216" cy="375" r="2.5" fill="#5b6272"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「`src/data/*.json` を読むだけ」</text>
+<circle cx="216" cy="399" r="2.5" fill="#5b6272"/>
+<text x="228" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">注記 = 「協会けんぽは照合専用」</text>
+<circle cx="216" cy="423" r="2.5" fill="#5b6272"/>
+<text x="228" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 私の記録の README 18 行目</text>
+<rect x="636" y="312" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">独立(私が読んで記号に落とした)</text>
+<circle cx="662" cy="375" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「上流 47 支部一致」= 別の束と突合</text>
+<circle cx="662" cy="399" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「7,050 セル再計算一致」も公式の表と</text>
+<circle cx="662" cy="423" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 10 行目・41 行目</text>
+<rect x="1082" y="312" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(C) 入れ替えられるが入れ替えていない</text>
+<circle cx="1108" cy="375" r="2.5" fill="#c2410c"/>
+<text x="1120" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">跡の欄 = 版の欄、0 件 / 11 行</text>
+<circle cx="1108" cy="399" r="2.5" fill="#c2410c"/>
+<text x="1120" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">11 行すべて同じ上流の commit</text>
+<circle cx="1108" cy="423" r="2.5" fill="#c2410c"/>
+<text x="1120" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由 = 同じ 130 行目</text>
+<text x="172" y="579.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">実装 / 借り物の束</text>
+<rect x="190" y="492" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">許さない(線の外)</text>
+<circle cx="216" cy="555" r="2.5" fill="#5b6272"/>
+<text x="228" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「script は実行しない」</text>
+<circle cx="216" cy="579" r="2.5" fill="#5b6272"/>
+<text x="228" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 私の記録の README 18 行目</text>
+<circle cx="216" cy="603" r="2.5" fill="#5b6272"/>
+<text x="228" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ 1 行が data には許可を出す</text>
+<rect x="636" y="492" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">検査の行が無い</text>
+<circle cx="662" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">線の外なので検査を書いていない</text>
+<circle cx="662" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">4 値は検査を見る前に決まる</text>
+<rect x="1082" y="492" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(D) 線の外</text>
+<circle cx="1108" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">跡の欄は無い → `数えられない`</text>
+<circle cx="1108" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">0 件とは別の値で返る</text>
+<circle cx="1108" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由の記載なし</text>
+<text x="172" y="759.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">実装 / 自前の束</text>
+<rect x="190" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">許す(規約の差し替え)</text>
+<circle cx="216" cy="735" r="2.5" fill="#5b6272"/>
+<text x="228" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「work-tools 規約 5 の『差し替え』」</text>
+<circle cx="216" cy="759" r="2.5" fill="#5b6272"/>
+<text x="228" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 作業状況の記録 128 行目</text>
+<circle cx="216" cy="783" r="2.5" fill="#5b6272"/>
+<text x="228" y="788" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">許可と滞留の理由が同じ 1 行に在る</text>
+<rect x="636" y="672" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">内蔵</text>
+<circle cx="662" cy="735" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「pipeline 内蔵検証のみ、別 golden 未作成」</text>
+<circle cx="662" cy="759" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 128 行目</text>
+<circle cx="662" cy="783" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="788" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">独立の宣言が要求する束の名前が無い</text>
+<rect x="1082" y="672" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(B) 入れ替えてよいが入れ替えられない</text>
+<circle cx="1108" cy="735" r="2.5" fill="#c2410c"/>
+<text x="1120" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">更新履歴の欄は 6 つで実装の欄が無い</text>
+<circle cx="1108" cy="759" r="2.5" fill="#c2410c"/>
+<text x="1120" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">→ `数えられない`(0 回とは言えない)</text>
+<circle cx="1108" cy="783" r="2.5" fill="#c2410c"/>
+<text x="1120" y="788" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由 = 「別 golden 未作成」</text>
+<text x="172" y="939.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">行 / 本番の束</text>
+<rect x="190" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">許す(通れば本番を書き換える)</text>
+<circle cx="216" cy="915" r="2.5" fill="#5b6272"/>
+<text x="228" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「本番 `rules_unified.json` は前回のまま」</text>
+<circle cx="216" cy="939" r="2.5" fill="#5b6272"/>
+<text x="228" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">= 通れば入れ替えるという宣言</text>
+<circle cx="216" cy="963" r="2.5" fill="#5b6272"/>
+<text x="228" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 私の記録の README 34 行目</text>
+<rect x="636" y="852" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">独立(私が読んで記号に落とした)</text>
+<circle cx="662" cy="915" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「協会けんぽ 7,050 セル再計算一致」</text>
+<circle cx="662" cy="939" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">= 公式の表(別の束)と突合</text>
+<circle cx="662" cy="963" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同 10 行目</text>
+<rect x="1082" y="852" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(A) 使われている</text>
+<circle cx="1108" cy="915" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">跡の欄 = `diff`、4 件 / 11 行</text>
+<circle cx="1108" cy="939" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行が入れ替わった回が台帳に在る</text>
+<circle cx="1108" cy="963" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由の記載なし</text>
+<text x="172" y="1119.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">実装 / 配る束</text>
+<rect x="190" y="1032" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">許す(読む人が入れ替えてよい)</text>
+<circle cx="216" cy="1095" r="2.5" fill="#5b6272"/>
+<text x="228" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「第三者の再利用・改変・再配布を許可」</text>
+<circle cx="216" cy="1119" r="2.5" fill="#5b6272"/>
+<text x="228" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 公開している repo の README 106 行目</text>
+<circle cx="216" cy="1143" r="2.5" fill="#5b6272"/>
+<text x="228" y="1148" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">repo 全体に適用すると書いてある</text>
+<rect x="636" y="1032" width="430" height="164" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">内蔵</text>
+<circle cx="662" cy="1095" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">道具のテストは同じ repo の中だけ</text>
+<circle cx="662" cy="1119" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">読む人の側に置いた受け入れ検査は無い</text>
+<circle cx="662" cy="1143" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1148" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 同じ repo の道具の並び</text>
+<rect x="1082" y="1032" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(B) 入れ替えてよいが入れ替えられない</text>
+<circle cx="1108" cy="1095" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">入れ替えの跡を残す欄が無い</text>
+<circle cx="1108" cy="1119" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">→ `数えられない`</text>
+<circle cx="1108" cy="1143" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1148" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">理由の記載なし</text>
+<rect x="190" y="1222" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="216" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">許可の根拠</text>
+<rect x="314" y="1222" width="18" height="14" rx="4" fill="#ffffff" stroke="#d9dce6"/>
+<text x="340" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">受け入れ検査の所属</text>
+<rect x="494" y="1222" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="520" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">使われている経路</text>
+<rect x="660" y="1222" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="686" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">宣言が使われないまま残っている経路</text>
+</svg>

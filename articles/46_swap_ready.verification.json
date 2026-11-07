@@ -1,0 +1,20 @@
+{"article": "46_swap_ready.md",
+ "numbers": [
+  {"value": "10", "what": "合成した受け入れ検査の台帳の行数(同じ 10 = 跡の件数が『数えられない』の経路数 / 出力の末尾の『持たせていないもの』の行数 / 部品が import する module 数)、および引用元の行番号(sharoushi-rules の README 10 行目「validate 重複 0 + 協会けんぽ 7,050 セル再計算一致 + 上流 47 支部一致が通らなければ exit≠0」)", "source": "テスト実走 2026-11-07(tools/swap_ready、19 passed)+ sharoushi-rules の README(公開予定)"},
+  {"value": "11", "what": "許す側の宣言が在る経路の件数(合成 14 件のうち)、および更新パイプラインの実行履歴の行数(11 行。跡の観測範囲として台帳に書いた値)", "source": "テスト実走 2026-11-07 + sharoushi-rules の実行履歴(公開予定、11 行)"},
+  {"value": "12", "what": "引用元の行番号(sharoushi-rules の README 12 行目「全段通るまで本番 file を触らない」)、および判定部分の sha256 の先頭 12 桁、出力の件数側に無いことを確かめた禁則の語 12 語", "source": "sharoushi-rules の README(公開予定)+ テスト実走 2026-11-07"},
+  {"value": "14", "what": "合成した経路の台帳の行数 = 4 値を付けた経路の件数(4 値 7 件 + 別枠 7 件。種別ごとの合計・束ごとの合計も 14)", "source": "テスト実走 2026-11-07(tools/swap_ready)"},
+  {"value": "18", "what": "引用元の行番号(sharoushi-rules の README 18 行目「上流 clone (MIT)。script は実行しない、src/data の JSON を読むだけ (協会けんぽは照合専用)」)", "source": "sharoushi-rules の README(公開予定)"},
+  {"value": "19", "what": "tools/swap_ready のテスト件数(19 passed)", "source": "テスト実走 2026-11-07(python -m pytest tools/swap_ready -q)"},
+  {"value": "33", "what": "引用元の行番号(sharoushi-rules の README 33 行目「スケジューラが pipeline.py を週 1 回実行 → 上流 pull → 変換 → 検証 → 差分 → manifest」)", "source": "sharoushi-rules の README(公開予定)"},
+  {"value": "34", "what": "引用元の行番号(sharoushi-rules の README 34 行目「検証に落ちれば manifest.json.status = failed、本番 rules_unified.json は前回のまま」)", "source": "sharoushi-rules の README(公開予定)"},
+  {"value": "42", "what": "引用元の行番号(sharoushi-rules の README 42 行目 = 上流から借りている範囲 4 つ: 雇用保険料率 / 最低賃金 / 労災 / 消費税)", "source": "sharoushi-rules の README(公開予定)"},
+  {"value": "47", "what": "協会けんぽの支部数(上流 OSS と一致を確認した支部の数)。README 10 行目と 41 行目の引用に含まれる", "source": "sharoushi-rules の README(公開予定)"},
+  {"value": "106", "what": "引用元の行番号(公開している repo の README 106 行目 = MIT License の節「第三者の再利用・改変・再配布を許可、著作権表示の保持のみ条件」)", "source": "07_記事化商品化計画/public/README.md 106 行目(2026-11-07 照合)"},
+  {"value": "128", "what": "引用元の行番号(sharoushi-rules の作業状況の記録 128 行目「独立 golden (registry の acceptance) | pipeline 内蔵検証のみ、別 golden 未作成 | work-tools 規約 5 の『差し替え』はまだできない」)", "source": "sharoushi-rules の作業状況の記録(公開予定)"},
+  {"value": "129", "what": "引用元の行番号(同 129 行目「CLI 実行時の event 追記 (work-tools 規約 4) | 未実装 | AI が呼ぶ時に手動追記の運用」)", "source": "sharoushi-rules の作業状況の記録(公開予定)"},
+  {"value": "130", "what": "引用元の行番号(同 130 行目「スケジューラ登録 | register_task.ps1 未実行 (常駐設定の変更のため chai 実行待ち) | 現状は手動 python pipeline.py」)", "source": "sharoushi-rules の作業状況の記録(公開予定)"},
+  {"value": "200", "what": "性質テスト 1 本目の例の上限(max_examples=200、derandomize=True で毎回同じ 200 通り)", "source": "テスト実走 2026-11-07(tests/test_swap_ready_property.py)"},
+  {"value": "300", "what": "性質テスト 2 本目の例の上限(max_examples=300)", "source": "テスト実走 2026-11-07(tests/test_swap_ready_property.py)"},
+  {"value": "7,050", "what": "協会けんぽ 3 年分の折半額を再計算して一致したセル数(README 10 行目・41 行目の引用に含まれる)", "source": "sharoushi-rules の README(公開予定)"}
+ ]}
