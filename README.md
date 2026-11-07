@@ -63,6 +63,7 @@
 | 2026-11-04 | [差分の件数が 0 の回でも出力の指紋は変わるので、2 経路で並べてから書く](https://chronicles-of-solo-parenting.blogspot.com/2026/11/0-2.html) | [`tools/diff_tally`](tools/diff_tally) |
 | 2026-11-05 | [数表を貼るのをやめても渡す欄を決める推論は残るので、空でも止まらない欄を先に数える](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_04.html) | [`tools/quiet_slots`](tools/quiet_slots) |
 | 2026-11-06 | [同じ処理が散った箇所も同じ写しとは限らないので、まとめる前に文字の一致で段に分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_05.html) | [`tools/copy_grade`](tools/copy_grade) |
+| 2026-11-07 | [入れ替えてよい経路も入れ替えられるとは限らないので、受け入れ検査の所属を先に分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_06.html) | [`tools/swap_ready`](tools/swap_ready) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
