@@ -44,6 +44,17 @@ REAL_SOURCES = {
 }
 
 
+def source_path(rel: str) -> Path:
+    """出典の相対パスを、いま置かれている側で開ける場所に直す。
+
+    非公開側では `public/README.md` に在るが、公開 repo へは export(_export_public.py の
+    allowlist の先頭 = `public/` の中身を repo 直下へ)で `README.md` に移る。両方で開けるようにする。"""
+    p = PLAN / rel
+    if not p.exists() and rel.startswith("public/"):
+        p = PLAN / rel.removeprefix("public/")
+    return p
+
+
 def decl(name: str = "sengen_hantei") -> E.Decl:
     return E.Decl.load(FIX / f"{name}.csv")
 
@@ -102,7 +113,7 @@ def test_sources_point_at_real_lines() -> None:
     """宣言表の出典のうち 7 件は、この repo 内の実在の行を指している。"""
     for src, word in REAL_SOURCES.items():
         rel, lineno = src.rsplit(" L", 1)
-        line = (PLAN / rel).read_text(encoding="utf-8").splitlines()[int(lineno) - 1]
+        line = source_path(rel).read_text(encoding="utf-8").splitlines()[int(lineno) - 1]
         assert word in line, f"{src} に {word} が無い: {line[:60]}"
 
 
