@@ -34,7 +34,9 @@ SRC_BUNBO = "articles/20_order_table.md L105"
 SRC_KAGI = "articles/20_order_table.md L107"
 SRC_KENSUU = "articles/20_order_table.md L103"
 SRC_GYOUSUU = "articles/20_order_table.md L104"
-SRC_CI = "public/README.md L50"
+# README は記事を出すたびにリンクの行が増えて行番号がずれるので、venv を作る CI の行を指す
+# (2026-11-09。前は "public/README.md L50" で、10/13 の後に行がずれてテストが落ちていた)
+SRC_CI = "public/.github/workflows/check.yml L32"
 
 # 合成の「並べた表」。sha256 の欄の値はこの文字列から計算する(架空の 4 行)
 SORTED_CSV = (
