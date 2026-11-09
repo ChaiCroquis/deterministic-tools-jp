@@ -65,6 +65,7 @@
 | 2026-11-06 | [同じ処理が散った箇所も同じ写しとは限らないので、まとめる前に文字の一致で段に分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_05.html) | [`tools/copy_grade`](tools/copy_grade) |
 | 2026-11-07 | [入れ替えてよい経路も入れ替えられるとは限らないので、受け入れ検査の所属を先に分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_06.html) | [`tools/swap_ready`](tools/swap_ready) |
 | 2026-11-08 | [対象外と書いた項目も表に行が無いとは限らないので、触れている線と在り所を 1 行 1 件で分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/1-1.html) | [`tools/off_scope`](tools/off_scope) |
+| 2026-11-09 | [公表時点の欄が埋まっていても当時の知識とは限らないので、仮置きの種類と再現が届く範囲を行ごとに分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_08.html) | [`tools/asof_reach`](tools/asof_reach) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
