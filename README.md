@@ -67,6 +67,7 @@
 | 2026-11-08 | [対象外と書いた項目も表に行が無いとは限らないので、触れている線と在り所を 1 行 1 件で分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/1-1.html) | [`tools/off_scope`](tools/off_scope) |
 | 2026-11-09 | [公表時点の欄が埋まっていても当時の知識とは限らないので、仮置きの種類と再現が届く範囲を行ごとに分ける](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_08.html) | [`tools/asof_reach`](tools/asof_reach) |
 | 2026-11-10 | [いまの総行数が合っていても途中の増減は消えるので、期首と増減を回ごとに歩いて総数に当てる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_09.html) | [`tools/roll_forward`](tools/roll_forward) |
+| 2026-11-11 | [出どころを入れ替えた回も台帳には件数しか残らないので、主の出どころが替わった日と古い側の役を一覧にする](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_10.html) | [`tools/source_shift`](tools/source_shift) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
