@@ -1,0 +1,75 @@
+{
+ "article": "50_source_shift.md",
+ "numbers": [
+  {
+   "value": "10",
+   "what": "合成したいまの由来の台帳の行数 10(= rule の件数)。区分 4 値 + 別枠の合計もこの数",
+   "source": "テスト実走 2026-11-11(tools/source_shift、test_measure_10_rules_split)"
+  },
+  {
+   "value": "11",
+   "what": "私の実行履歴の記録の行数 11(全行で上流の版の印の欄が同じ値)。合成の台帳で歩いた動きの行数 11 と、K08 の最後に動いた順の番号 11 でも使っている",
+   "source": "私の自動更新の実行履歴の記録(非公開)の行数と各行の欄 / 私の作業状況の記録(非公開)L99 / テスト実走 2026-11-11(tools/source_shift、test_measure_checks_side_by_side)"
+  },
+  {
+   "value": "13",
+   "what": "別枠の理由コード 6 個に対する崩し方の件数 13",
+   "source": "テスト実走 2026-11-11(tools/source_shift、test_measure_six_reasons_all_have_a_path)"
+  },
+  {
+   "value": "15",
+   "what": "合成した動きの台帳の行数 15",
+   "source": "テスト実走 2026-11-11(tools/source_shift、test_measure_10_rules_split)"
+  },
+  {
+   "value": "30",
+   "what": "合成の突合 C3 の比べた件数 30・一致した件数 30(テスト出力の写しの中)",
+   "source": "テスト実走 2026-11-11(tools/source_shift、test_measure_checks_side_by_side)"
+  },
+  {
+   "value": "36",
+   "what": "tools/source_shift のテスト件数 36(36 passed)",
+   "source": "テスト実走 2026-11-11(python -m pytest tools/source_shift -q = 36 passed)"
+  },
+  {
+   "value": "47",
+   "what": "状況の文書の原文「47 / 47 支部 一致」「上流と 47 支部一致」「47 支部一致を毎回 assert」「支援金率 (47、…)」の 47。実行履歴の入れ替え前の内訳で協会けんぽに関わる rule 3 つの行数 47。合成の突合 C1 の比べた件数・一致した件数も 47",
+   "source": "私の作業状況の記録(非公開)L19 / L64 / L72 / L86 / 私の自動更新の実行履歴の記録(非公開)L3 / テスト実走 2026-11-11(tools/source_shift、test_measure_checks_side_by_side)/ 道具の実走 2026-11-11(私の記録の動き 5 件を写した台帳を source_shift に 1 回通した出力)"
+  },
+  {
+   "value": "118",
+   "what": "合成の突合 C2 の一致した件数 118",
+   "source": "テスト実走 2026-11-11(tools/source_shift、test_measure_checks_side_by_side)"
+  },
+  {
+   "value": "120",
+   "what": "合成の突合 C2 の比べた件数 120",
+   "source": "テスト実走 2026-11-11(tools/source_shift、test_measure_checks_side_by_side)"
+  },
+  {
+   "value": "141",
+   "what": "実行履歴の 8 行目で減った行数 141。状況の文書の原文「健保料率 (141)、介護保険料率 (141)」の 141。実行履歴 3 行目の内訳で 47 行の rule 3 つ(介護保険料率_協会けんぽ / 健保料率_協会けんぽ / 子ども子育て拠出金率)を足した数 141",
+   "source": "私の自動更新の実行履歴の記録(非公開)L8 / L3 / 私の作業状況の記録(非公開)L64"
+  },
+  {
+   "value": "200",
+   "what": "性質テストの例の数 200(derandomize=True なので毎回同じ 200 通り)",
+   "source": "テスト実走 2026-11-11(tests/test_source_shift_property.py の max_examples=200、--hypothesis-show-statistics で 200 passing examples)"
+  },
+  {
+   "value": "250",
+   "what": "状況の文書の原文「上流 fixture 250/250 一致」の件数(動き 1 に結んだ突合の比べた件数・一致した件数)",
+   "source": "私の作業状況の記録(非公開)L15 / 道具の実走 2026-11-11(私の記録の動き 5 件を写した台帳を source_shift に 1 回通した出力)"
+  },
+  {
+   "value": "341",
+   "what": "実行履歴の 8 行目で増えた行数 341",
+   "source": "私の自動更新の実行履歴の記録(非公開)L8"
+  },
+  {
+   "value": "7,050",
+   "what": "状況の文書の原文「3 年 × 7,050 セル再計算一致」の件数(引用の一部。道具には入れていない)",
+   "source": "私の作業状況の記録(非公開)L19"
+  }
+ ]
+}

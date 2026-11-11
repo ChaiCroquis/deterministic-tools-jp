@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2440" height="1268" viewBox="0 0 2440 1268" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="2440" height="1268" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">主の出どころの線が動いた事例を、順の番号で 1 行 1 件に並べた一覧</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">行 = 動き 1 件(私が振った通しの順)。収集範囲は手元の 2 日間の記録だけで、経緯の表は順の番号しか持たない(1 件ごとの時刻は無い)。出典はファイル名を伏せた行番号。よい側の列・一致率の行・理由の列・実行の台帳の件数を割り振った列・合計の 1 値は置かない。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">① 順と日付の記載 + 出典</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">② 領域</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">③ 動く前 → 動いた後</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">④ 古い側の役(原文 + 出典)</text>
+<text x="2189.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">⑤ 引き継ぎで比べた範囲と件数</text>
+<text x="172" y="219.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">動き 1</text>
+<rect x="190" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">経緯の順 4</text>
+<circle cx="216" cy="195" r="2.5" fill="#5b6272"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2026-09-19 〜 2026-09-20 の 2 日間</text>
+<circle cx="216" cy="219" r="2.5" fill="#5b6272"/>
+<text x="228" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 件ごとの時刻の記載なし</text>
+<circle cx="216" cy="243" r="2.5" fill="#5b6272"/>
+<text x="228" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 状況の記録 L15</text>
+<rect x="636" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">協会けんぽ</text>
+<circle cx="662" cy="195" r="2.5" fill="#5b6272"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">上流の 5 dataset に含まれる</text>
+<circle cx="662" cy="219" r="2.5" fill="#5b6272"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">rule 別の行数は実行履歴 L3</text>
+<rect x="1082" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">無かった → 上流の写し</text>
+<circle cx="1108" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">上流 OSS の JSON を取り込んだ</text>
+<circle cx="1108" cy="219" r="2.5" fill="#5b6272"/>
+<text x="1120" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">最初に置いた動き</text>
+<rect x="1528" y="132" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">古い側なし</text>
+<circle cx="1554" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">前の出どころが無い</text>
+<circle cx="1554" cy="219" r="2.5" fill="#5b6272"/>
+<text x="1566" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">役を書く相手が無い</text>
+<rect x="1974" y="132" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">比べた 250 ・ 一致 250</text>
+<circle cx="2000" cy="195" r="2.5" fill="#c2410c"/>
+<text x="2012" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">範囲 = 上流 fixture(L15)</text>
+<circle cx="2000" cy="219" r="2.5" fill="#c2410c"/>
+<text x="2012" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">入れ替えた範囲 = 5 dataset</text>
+<circle cx="2000" cy="243" r="2.5" fill="#c2410c"/>
+<text x="2012" y="248" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">範囲が違う(文字列が別)</text>
+<text x="172" y="399.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">動き 2</text>
+<rect x="190" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">経緯の順 4</text>
+<circle cx="216" cy="375" r="2.5" fill="#5b6272"/>
+<text x="228" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2026-09-19 〜 2026-09-20 の 2 日間</text>
+<circle cx="216" cy="399" r="2.5" fill="#5b6272"/>
+<text x="228" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 件ごとの時刻の記載なし</text>
+<circle cx="216" cy="423" r="2.5" fill="#5b6272"/>
+<text x="228" y="428" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 状況の記録 L15</text>
+<rect x="636" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">上流由来のままの領域</text>
+<circle cx="662" cy="375" r="2.5" fill="#5b6272"/>
+<text x="674" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">雇用保険料率・最低賃金 ほか</text>
+<circle cx="662" cy="399" r="2.5" fill="#5b6272"/>
+<text x="674" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">= 状況の記録 L68・L70</text>
+<rect x="1082" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">無かった → 上流の写し</text>
+<circle cx="1108" cy="375" r="2.5" fill="#5b6272"/>
+<text x="1120" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">このあと動きの行が無い</text>
+<circle cx="1108" cy="399" r="2.5" fill="#5b6272"/>
+<text x="1120" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(C) 替わっていない</text>
+<rect x="1528" y="312" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">古い側なし</text>
+<circle cx="1554" cy="375" r="2.5" fill="#5b6272"/>
+<text x="1566" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">前の出どころが無い</text>
+<circle cx="1554" cy="399" r="2.5" fill="#5b6272"/>
+<text x="1566" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">役を書く相手が無い</text>
+<rect x="1974" y="312" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="348" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">突合の記載なし</text>
+<circle cx="2000" cy="375" r="2.5" fill="#c2410c"/>
+<text x="2012" y="380" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">この領域だけを比べた記載は</text>
+<circle cx="2000" cy="399" r="2.5" fill="#c2410c"/>
+<text x="2012" y="404" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記録に無い(0 件とは書かない)</text>
+<text x="172" y="579.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">動き 3</text>
+<rect x="190" y="492" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">経緯の順 8</text>
+<circle cx="216" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2026-09-19 〜 2026-09-20 の 2 日間</text>
+<circle cx="216" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 件ごとの時刻の記載なし</text>
+<circle cx="216" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 状況の記録 L19</text>
+<rect x="636" y="492" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">協会けんぽ</text>
+<circle cx="662" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">R6 / R7 / R8 の 3 年</text>
+<circle cx="662" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">= 状況の記録 L64</text>
+<rect x="1082" y="492" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">上流の写し → 原本</text>
+<circle cx="1108" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">公式 xlsx からの自前抽出へ</text>
+<circle cx="1108" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「上流依存を外す」(L19)</text>
+<circle cx="1108" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(A) 役も突合も在る</text>
+<rect x="1528" y="492" width="430" height="164" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">照合専用</text>
+<circle cx="1554" cy="555" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「上流 JSON は 照合専用」</text>
+<circle cx="1554" cy="579" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">= 状況の記録 L72</text>
+<circle cx="1554" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">= 構成の記録 L18</text>
+<rect x="1974" y="492" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="528" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">比べた 47 ・ 一致 47</text>
+<circle cx="2000" cy="555" r="2.5" fill="#c2410c"/>
+<text x="2012" y="560" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">範囲 = R8 の料率(L86)</text>
+<circle cx="2000" cy="579" r="2.5" fill="#c2410c"/>
+<text x="2012" y="584" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">入れ替えた範囲 = R6/R7/R8</text>
+<circle cx="2000" cy="603" r="2.5" fill="#c2410c"/>
+<text x="2012" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">範囲が違う(文字列が別)</text>
+<text x="172" y="759.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">動き 4</text>
+<rect x="190" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">経緯の順 9</text>
+<circle cx="216" cy="735" r="2.5" fill="#5b6272"/>
+<text x="228" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2026-09-19 〜 2026-09-20 の 2 日間</text>
+<circle cx="216" cy="759" r="2.5" fill="#5b6272"/>
+<text x="228" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 件ごとの時刻の記載なし</text>
+<circle cx="216" cy="783" r="2.5" fill="#5b6272"/>
+<text x="228" y="788" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 状況の記録 L20</text>
+<rect x="636" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">雇用保険給付</text>
+<circle cx="662" cy="735" r="2.5" fill="#5b6272"/>
+<text x="674" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">厚労省 PDF + ハローワーク HTML</text>
+<circle cx="662" cy="759" r="2.5" fill="#5b6272"/>
+<text x="674" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">= 状況の記録 L65</text>
+<rect x="1082" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">無かった → 原本</text>
+<circle cx="1108" cy="735" r="2.5" fill="#5b6272"/>
+<text x="1120" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「OSS は無し」(L14)</text>
+<circle cx="1108" cy="759" r="2.5" fill="#5b6272"/>
+<text x="1120" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(D) 出どころが 1 つだけ</text>
+<rect x="1528" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">古い側なし</text>
+<circle cx="1554" cy="735" r="2.5" fill="#5b6272"/>
+<text x="1566" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">入れ替える相手が</text>
+<circle cx="1554" cy="759" r="2.5" fill="#5b6272"/>
+<text x="1566" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">登録表に無い</text>
+<rect x="1974" y="672" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="708" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">突合の記載なし</text>
+<circle cx="2000" cy="735" r="2.5" fill="#5b6272"/>
+<text x="2012" y="740" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">引き継ぐ相手が無い</text>
+<circle cx="2000" cy="759" r="2.5" fill="#5b6272"/>
+<text x="2012" y="764" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(0 件とは書かない)</text>
+<text x="172" y="939.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">動き 5</text>
+<rect x="190" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">経緯の順 9</text>
+<circle cx="216" cy="915" r="2.5" fill="#5b6272"/>
+<text x="228" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2026-09-19 〜 2026-09-20 の 2 日間</text>
+<circle cx="216" cy="939" r="2.5" fill="#5b6272"/>
+<text x="228" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">1 件ごとの時刻の記載なし</text>
+<circle cx="216" cy="963" r="2.5" fill="#5b6272"/>
+<text x="228" y="968" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 状況の記録 L20</text>
+<rect x="636" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">年金</text>
+<circle cx="662" cy="915" r="2.5" fill="#5b6272"/>
+<text x="674" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">年金機構 PDF + 厚労省 press</text>
+<circle cx="662" cy="939" r="2.5" fill="#5b6272"/>
+<text x="674" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">= 状況の記録 L66</text>
+<rect x="1082" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">無かった → 原本</text>
+<circle cx="1108" cy="915" r="2.5" fill="#5b6272"/>
+<text x="1120" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「OSS は無し」(L14)</text>
+<circle cx="1108" cy="939" r="2.5" fill="#5b6272"/>
+<text x="1120" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(D) 出どころが 1 つだけ</text>
+<rect x="1528" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">古い側なし</text>
+<circle cx="1554" cy="915" r="2.5" fill="#5b6272"/>
+<text x="1566" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">入れ替える相手が</text>
+<circle cx="1554" cy="939" r="2.5" fill="#5b6272"/>
+<text x="1566" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">登録表に無い</text>
+<rect x="1974" y="852" width="430" height="164" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="888" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">突合の記載なし</text>
+<circle cx="2000" cy="915" r="2.5" fill="#5b6272"/>
+<text x="2012" y="920" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">引き継ぐ相手が無い</text>
+<circle cx="2000" cy="939" r="2.5" fill="#5b6272"/>
+<text x="2012" y="944" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">(0 件とは書かない)</text>
+<text x="172" y="1119.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">台帳に行が無い</text>
+<rect x="190" y="1032" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">順の番号なし</text>
+<circle cx="216" cy="1095" r="2.5" fill="#c2410c"/>
+<text x="228" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">日付の記載なし</text>
+<circle cx="216" cy="1119" r="2.5" fill="#c2410c"/>
+<text x="228" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">出典 = 状況の記録 L174</text>
+<rect x="636" y="1032" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">雇用保険給付・年金</text>
+<circle cx="662" cy="1095" r="2.5" fill="#c2410c"/>
+<text x="674" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">判断待ちとして書かれた文</text>
+<circle cx="662" cy="1119" r="2.5" fill="#c2410c"/>
+<text x="674" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">まだ起きていない</text>
+<rect x="1082" y="1032" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">動きの行にしない</text>
+<circle cx="1108" cy="1095" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">「範囲外なら該当 file と</text>
+<circle cx="1108" cy="1119" r="2.5" fill="#c2410c"/>
+<text x="1120" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">抽出器を削除する」(L174)</text>
+<rect x="1528" y="1032" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">書かれていない</text>
+<circle cx="1554" cy="1095" r="2.5" fill="#c2410c"/>
+<text x="1566" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">削除したあとの役は</text>
+<circle cx="1554" cy="1119" r="2.5" fill="#c2410c"/>
+<text x="1566" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">記録に無い</text>
+<rect x="1974" y="1032" width="430" height="164" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1996" y="1068" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">突合の記載なし</text>
+<circle cx="2000" cy="1095" r="2.5" fill="#c2410c"/>
+<text x="2012" y="1100" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">起きていない動きは</text>
+<circle cx="2000" cy="1119" r="2.5" fill="#c2410c"/>
+<text x="2012" y="1124" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">台帳に載せない</text>
+<rect x="190" y="1222" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="216" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">記録の写し</text>
+<rect x="314" y="1222" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="340" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">主の出どころが替わった動き</text>
+<rect x="550" y="1222" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="576" y="1234" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">範囲が違う / 記載なし / 台帳に行が無い</text>
+</svg>
