@@ -1,6 +1,7 @@
 # regen_axis — ファイルの一覧を、書き手と作り直す元の軸で並べ直す
 
 <!-- article-links:begin (publish/readme_links.py が台帳から生成。手で直さない) -->
+解説記事: [役割の一覧に並んだファイルも失って戻せるかは別なので、誰が書くかと作り直す元の軸で並べ直す](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_11.html)(2026-11-12 公開)
 <!-- article-links:end -->
 
 フォルダの中身を「役割」で並べた一覧は、何のためのファイルかは答えるが、そのファイルを誰が書き、
