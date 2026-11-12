@@ -1,0 +1,7 @@
+言い方 id,file id,文言,出典
+S01,R27,残骸 (削除可),一覧② L168
+S02,R27,`_patch_pipeline.py` と `rulematrix_demo.py` を残すか,作業状況の記録 L178
+S03,R05,`rulematrix_demo.py` は v1 の 4 落とし穴デモ,一覧② L154
+S04,R05,`_patch_pipeline.py` と `rulematrix_demo.py` を残すか,作業状況の記録 L178
+S05,R11,週次スケジュール登録 (手動実行),一覧① L14
+S06,R11,週次スケジュール登録 (未実行),一覧② L161

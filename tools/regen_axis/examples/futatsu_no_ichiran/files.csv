@@ -1,0 +1,28 @@
+file id,名前,置き場,役割,書き手の記号,取り先,出典
+R01,STATUS_2026-09-20.md,直下,本書,,,一覧② L151
+R02,README.md,直下,使い方・構成・限界 (短版),,,一覧② L152
+R03,rule_catalog.md,直下,設計経緯、棚卸し、表に入らないものの分類,,,一覧② L153
+R04,rulematrix_v2.py,直下,行形式と resolve / validate,,,一覧① L9 / 一覧② L154
+R05,rulematrix_demo.py,直下,v1 の 4 落とし穴デモ,,,一覧② L154 の後半
+R06,unify.py,直下,抽出 JSON (自前 3 本 + 上流) → 統一行 rules_unified.json,,,一覧① L10 / 一覧② L155
+R07,formulas.py,直下,数式 registry (data),,,一覧① L11 / 一覧② L156
+R08,formulas.json,直下,数式 registry (data),,,一覧① L11 / 一覧② L156
+R09,pipeline.py,直下,fetch → extract ×3 → unify → formulas → diff → manifest,,,一覧① L12 / 一覧② L159
+R10,rules_cli.py,直下,resolve / compute / status / list / formulas。1 行 JSON 出力,,,一覧① L13 / 一覧② L160
+R11,register_task.ps1,直下,週次スケジュール登録 (手動実行),,,一覧① L14 / 一覧② L161
+R12,manifest.json,直下,最終実行の状態,実行が書く,,一覧① L15 / 一覧② L162
+R13,CHANGELOG.jsonl,直下,全実行の履歴,控え,,一覧① L15 / 一覧② L162
+R14,extract_kyoukaikenpo.py,直下,公式 xlsx / PDF / HTML → sources/*/extracted*.json,,,一覧① L16 / 一覧② L157
+R15,extract_koyou.py,直下,公式 xlsx / PDF / HTML → sources/*/extracted*.json,,,一覧① L16 / 一覧② L157
+R16,extract_nenkin.py,直下,公式 xlsx / PDF / HTML → sources/*/extracted*.json,,,一覧① L16 / 一覧② L157
+R17,sources_manifest.json,直下,公式 source の URL 台帳 (fetch はここだけ見る),人が書く,,一覧① L17 / 一覧② L158
+R18,jp-payroll-mcp/,jp-payroll-mcp/,上流 clone (MIT)。script は実行しない,外から取る,上流,一覧① L18 / 一覧② L167
+R19,rules_unified.json,直下,本番,実行が書く,,一覧② L163
+R20,rules_unified.prev.json,直下,前回,控え,,一覧② L163
+R21,公式 xlsx ×3,sources/kyoukaikenpo/,公式 xlsx ×3 + extracted.json,外から取る,sources_manifest.json の公式 source,一覧② L164
+R22,extracted.json,sources/kyoukaikenpo/,公式 xlsx ×3 + extracted.json,実行が書く,,一覧② L164
+R23,公式 page・PDF・HTML,sources/mhlw/,page ×3、PDF ×7、HTML ×2、extracted_koyou.json,外から取る,sources_manifest.json の公式 source,一覧② L165
+R24,extracted_koyou.json,sources/mhlw/,page ×3、PDF ×7、HTML ×2、extracted_koyou.json,実行が書く,,一覧② L165
+R25,公式 PDF・HTML,sources/nenkin/,PDF ×5、press PDF、HTML ×3、extracted_nenkin.json,外から取る,sources_manifest.json の公式 source,一覧② L166
+R26,extracted_nenkin.json,sources/nenkin/,PDF ×5、press PDF、HTML ×3、extracted_nenkin.json,実行が書く,,一覧② L166
+R27,_patch_pipeline.py,直下,残骸 (削除可),,,一覧② L168
