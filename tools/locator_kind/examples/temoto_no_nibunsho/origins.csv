@@ -1,0 +1,7 @@
+出どころ id,領域,決まり方の記号,型 id,足す人と機会,版の記録の在り所,出典
+G1,協会けんぽ 公式 xlsx,型から作る,T1,,行の meta(出典・xlsx sha256・次回改定予定・known_from の品質)/ `sources/kyoukaikenpo/` 公式 xlsx ×3,作業状況の記録 L64 / L123 / L37 / L164
+G2,雇用保険給付 厚労省 PDF「基本手当日額の計算式及び金額」「支給限度額の変更」,人が足す,,`sources_manifest.json` に手動追加(令和 9 年度以降の厚労省ページ id)/ (人) が年度追加,`sources/mhlw/` 厚労省 page ×3、PDF ×7,作業状況の記録 L65 / L123 / L165 / 使い方の文書 L52 / L17
+G3,雇用保険給付 ハローワーク HTML,,,,`sources/mhlw/` ハローワーク HTML ×2,作業状況の記録 L65 / L165
+G4,年金 年金機構 PDF(再評価率、従前額保障、定額単価),人が足す,,`sources_manifest.json` に手動追加(令和 9 年度以降の年金 PDF 名)/ (人) が年度追加,`sources/nenkin/` 年金機構 PDF ×5,作業状況の記録 L66 / L123 / L166 / 使い方の文書 L52 / L17
+G5,年金 厚労省 令和 8 年度 年金額改定 press,,,,`sources/nenkin/` press PDF,作業状況の記録 L66 / L166
+G6,上流 jp-payroll-mcp の JSON(雇用保険料率・最低賃金・労災・消費税・厚年等級表),上流が運ぶ,,pipeline が pull,`CHANGELOG.jsonl` の `upstream` の欄(全実行の履歴に上流 commit),作業状況の記録 L70 / L167 / 使い方の文書 L18 / L15
