@@ -69,6 +69,7 @@
 | 2026-11-10 | [いまの総行数が合っていても途中の増減は消えるので、期首と増減を回ごとに歩いて総数に当てる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_09.html) | [`tools/roll_forward`](tools/roll_forward) |
 | 2026-11-11 | [出どころを入れ替えた回も台帳には件数しか残らないので、主の出どころが替わった日と古い側の役を一覧にする](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_10.html) | [`tools/source_shift`](tools/source_shift) |
 | 2026-11-12 | [役割の一覧に並んだファイルも失って戻せるかは別なので、誰が書くかと作り直す元の軸で並べ直す](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_11.html) | [`tools/regen_axis`](tools/regen_axis) |
+| 2026-11-13 | [自動で差し替えると書いた数表も来年の原本の場所は別の話なので、置き場の決まり方を下の層まで並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_12.html) | [`tools/locator_kind`](tools/locator_kind) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
