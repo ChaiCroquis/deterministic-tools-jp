@@ -72,6 +72,7 @@
 | 2026-11-13 | [自動で差し替えると書いた数表も来年の原本の場所は別の話なので、置き場の決まり方を下の層まで並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_12.html) | [`tools/locator_kind`](tools/locator_kind) |
 | 2026-11-14 | [思い出して書いた数と引いてきた数は同じ項目でも別の経路なので、単位をそろえてから横に並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_13.html) | [`tools/recall_tally`](tools/recall_tally) |
 | 2026-11-15 | [部品と詰まり方が 1 対 1 だと書いた計画も、対応を書いた行は一部にしか無いので、線の内と外と記載なしを 1 枚に並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/1-1-1.html) | [`tools/part_map`](tools/part_map) |
+| 2026-11-16 | [次の一歩と書いた項目も翌日の作業状況に同じ形で残るとは限らないので、宣言を割ってから後の記載に当てる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_15.html) | [`tools/step_carry`](tools/step_carry) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
