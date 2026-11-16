@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1994" height="968" viewBox="0 0 1994 968" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1994" height="968" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">宣言 3 項目を 5 つの約束に割り、翌日の 1 枚での記載を並べる</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">行 = 約束 1 件(割り方は私の判断。道具は文を割らない)。完了率の行・正しい側の列・理由の列・合計の 1 値は置かない。記載なしは 2 ファイルを読んだ範囲の話で、作業そのものの有無を確かめた結果ではない。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">宣言の引用</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">後の文書での記載</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">区分(4 値)</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">近い語のみ(数えない)</text>
+<text x="172" y="207.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">約束 1-a</text>
+<rect x="190" y="132" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">値を公式表から取得して行を埋める</text>
+<circle cx="216" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しの記録 L143 の前半</text>
+<rect x="636" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">済みの記載</text>
+<circle cx="662" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L58「現在の収録範囲」</text>
+<circle cx="662" cy="219" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="224" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L64 協会けんぽ 公式 xlsx</text>
+<rect x="1082" y="132" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(A) 済みの記載</text>
+<circle cx="1108" cy="195" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">項目 1 の 2 約束のうち 1</text>
+<rect x="1528" y="132" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">—</text>
+<text x="172" y="363.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">約束 1-b</text>
+<rect x="190" y="288" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">freee 人事労務の出力と突合</text>
+<circle cx="216" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しの記録 L143 の後半</text>
+<rect x="636" y="288" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">読んだ範囲に記載なし</text>
+<circle cx="662" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L1〜L178 を読んだ</text>
+<rect x="1082" y="288" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(D) 記載なし</text>
+<circle cx="1108" cy="351" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">項目 1 の 2 約束のうち 1</text>
+<rect x="1528" y="288" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="324" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">上流との料率の一致</text>
+<circle cx="1554" cy="351" r="2.5" fill="#5b6272"/>
+<text x="1566" y="356" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L86</text>
+<text x="172" y="519.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">約束 2</text>
+<rect x="190" y="444" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">basis registry に 6 種別を追加</text>
+<circle cx="216" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しの記録 L144</text>
+<rect x="636" y="444" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">読んだ範囲に記載なし</text>
+<circle cx="662" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ約束は日付の種別の回で扱った</text>
+<rect x="1082" y="444" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(D) 記載なし</text>
+<circle cx="1108" cy="507" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">項目 2 の 1 約束</text>
+<rect x="1528" y="444" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="480" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">basis は registry で登録制</text>
+<circle cx="1554" cy="507" r="2.5" fill="#5b6272"/>
+<text x="1566" y="512" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L31</text>
+<text x="172" y="675.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">約束 3-a</text>
+<rect x="190" y="600" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">formula registry を作る</text>
+<circle cx="216" cy="663" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しの記録 L145 の前半</text>
+<rect x="636" y="600" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">済みの記載</text>
+<circle cx="662" cy="663" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L43 / L74 / L156</text>
+<rect x="1082" y="600" width="430" height="140" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(A) 済みの記載</text>
+<circle cx="1108" cy="663" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="668" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">項目 3 の 2 約束のうち 1</text>
+<rect x="1528" y="600" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="636" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">—</text>
+<text x="172" y="831.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">約束 3-b</text>
+<rect x="190" y="756" width="430" height="140" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">状態機械を 1 つ実装して境界を確かめる</text>
+<circle cx="216" cy="819" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">棚卸しの記録 L145 の後半</text>
+<rect x="636" y="756" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">別の欄に在る</text>
+<circle cx="662" cy="819" r="2.5" fill="#c2410c"/>
+<text x="674" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L131「設計上の対象外」の行に状態遷移</text>
+<rect x="1082" y="756" width="430" height="140" rx="14" fill="#fff1e8" stroke="#f5c9ae" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(C) 別の欄</text>
+<circle cx="1108" cy="819" r="2.5" fill="#c2410c"/>
+<text x="1120" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">項目 3 の 2 約束のうち 1</text>
+<rect x="1528" y="756" width="430" height="140" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="792" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">育児休業の給付の行</text>
+<circle cx="1554" cy="819" r="2.5" fill="#5b6272"/>
+<text x="1566" y="824" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">作業状況 L65</text>
+<rect x="190" y="922" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="216" y="934" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">済みの記載</text>
+<rect x="314" y="922" width="18" height="14" rx="4" fill="#fff1e8" stroke="#f5c9ae"/>
+<text x="340" y="934" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">別の欄に在る</text>
+<rect x="452" y="922" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="478" y="934" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">近い語のみ・数えない</text>
+<rect x="646" y="922" width="18" height="14" rx="4" fill="#ffffff" stroke="#d9dce6"/>
+<text x="672" y="934" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">次の候補 7 行は、どの約束の記載にも使われていない</text>
+</svg>
