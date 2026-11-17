@@ -1,0 +1,15 @@
+置き場 id,種類,取得の本数,出典
+tori,請求書 PDF,7,置き場の一覧(架空) L3
+tori,納品書 CSV,3,置き場の一覧(架空) L3
+tori,見積 HTML,2,置き場の一覧(架空) L3
+maker,商品マスタ CSV,4,置き場の一覧(架空) L4
+maker,画像,5,置き場の一覧(架空) L4
+maker,価格表 xlsx,1,置き場の一覧(架空) L4
+maker,カタログ PDF,,置き場の一覧(架空) L4
+souko,在庫 CSV,3本,置き場の一覧(架空) L5
+souko,出荷 CSV,2,
+souko,返品 CSV,2,置き場の一覧(架空) L5
+souko,棚卸し xlsx,1,置き場の一覧(架空) L5
+souko,伝票 PDF,4,置き場の一覧(架空) L5
+souko,伝票 PDF,4,置き場の一覧(架空) L6
+kanri,契約書 PDF,2,置き場の一覧(架空) L7

@@ -1,0 +1,14 @@
+記載 id,置き場 id,種類,出典
+S1,tori,請求書 PDF,私の対応付け
+S2,tori,納品書 CSV,私の対応付け
+S3,tori,見積 HTML,私の対応付け
+S4,maker,商品マスタ CSV,私の対応付け
+S5,maker,価格表 xlsx,私の対応付け
+S6,maker,価格表 xlsx,私の対応付け
+S7,maker,カタログ PDF,私の対応付け
+S8,souko,棚卸し xlsx,私の対応付け
+S99,souko,返品 CSV,私の対応付け
+S12,souko,出荷 CSV,私の対応付け
+S9,kanri,契約書 PDF,私の対応付け
+S10,kanri,契約書 PDF,私の対応付け
+S11,kanri,議事録,私の対応付け
