@@ -1,0 +1,126 @@
+{
+ "article": "57_cohort_close.md",
+ "note": "記事内の 1 桁の件数(手元の文書を写した 9 件: (A) 2 / (B) 5 / (C) 1 / 別枠 1、対象の線で閉じる 6 件のうち未収録 5 件)は、記事内に載せた 4 表を 2026-11-18 に cohort_close.py check へ 1 回通した出力。合成 4 表の 1 桁の件数は テスト実走 2026-11-18(python -m pytest tools/cohort_close -q、16 passed)",
+ "numbers": [
+  {
+   "value": "05",
+   "what": "引用した文中の表記(棚卸しの表の冒頭「構造情報は 2026-05 時点の知識に基づく」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 4 行目"
+  },
+  {
+   "value": "10",
+   "what": "引用した行の中の表記(46 行目「経過措置行 (priority 10) の典型」「15%→10%」)、および出力の末尾の「持たせていないもの」の行数",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 46 行目 + テスト実走 2026-11-18(python -m pytest tools/cohort_close -q、16 passed)"
+  },
+  {
+   "value": "11",
+   "what": "合成した線の台帳の行数、および合成 16 件のうち 4 値が付いた rule の件数",
+   "source": "テスト実走 2026-11-18(python -m pytest tools/cohort_close -q、16 passed)"
+  },
+  {
+   "value": "12",
+   "what": "判定部分の sha256 の先頭の桁数(先頭 12 桁 ba3b890371f5)",
+   "source": "テスト実走 2026-11-18(python -m pytest tools/cohort_close -q、16 passed)"
+  },
+  {
+   "value": "15",
+   "what": "合成した収録の台帳の行数、および引用した行の中の表記(46 行目「15%→10%」)",
+   "source": "テスト実走 2026-11-18(python -m pytest tools/cohort_close -q、16 passed) + 私の記録 sharoushi-rules の棚卸しの表(公開予定) 46 行目"
+  },
+  {
+   "value": "16",
+   "what": "合成した rule の件数(行の台帳 17 行 = rule 16 件)、および tools/cohort_close のテスト件数(16 passed)",
+   "source": "テスト実走 2026-11-18(python -m pytest tools/cohort_close -q、16 passed)"
+  },
+  {
+   "value": "17",
+   "what": "引用元の行番号(棚卸しの表 17 行目 介護保険料率_協会けんぽ)、および合成した行の台帳の行数",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) + テスト実走 2026-11-18(python -m pytest tools/cohort_close -q、16 passed)"
+  },
+  {
+   "value": "34",
+   "what": "引用元の行番号(作業状況の記録 34 行目 selector の行「未指定次元 = ワイルドカード」)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定)"
+  },
+  {
+   "value": "36",
+   "what": "引用元の行番号(棚卸しの表 36 行目 高年齢労働者_雇用保険料免除「2020-04 廃止」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "40",
+   "what": "引用した行の中の表記(17 行目「40〜64 歳、全国一律」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 17 行目"
+  },
+  {
+   "value": "46",
+   "what": "引用元の行番号(棚卸しの表 46 行目 高年齢雇用継続給付_支給率)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "59",
+   "what": "引用元の行番号(棚卸しの表 59 行目 年金額改定率)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "60",
+   "what": "引用した行の中の表記(46 行目「60 歳到達日 (経過措置)」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 46 行目"
+  },
+  {
+   "value": "62",
+   "what": "引用元の行番号(棚卸しの表 62 行目 老厚_報酬比例_乗率。記事内の台帳の出典欄)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "64",
+   "what": "引用元の行番号(棚卸しの表 64 行目 老厚_支給開始年齢 / 作業状況の記録 64 行目 介護保険料率の収録)、および引用した行の中の表記(17 行目「40〜64 歳」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) + 私の記録 sharoushi-rules の作業状況の記録(公開予定)"
+  },
+  {
+   "value": "66",
+   "what": "引用元の行番号(棚卸しの表 66 行目 振替加算 / 作業状況の記録 66 行目 年金の収録範囲「改定率 (2)」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) + 私の記録 sharoushi-rules の作業状況の記録(公開予定)"
+  },
+  {
+   "value": "67",
+   "what": "引用した行の中の表記(59 行目「新規裁定 / 既裁定 (67 歳基準)」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 59 行目"
+  },
+  {
+   "value": "68",
+   "what": "引用元の行番号(棚卸しの表 68 行目 繰上げ減額率)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "102",
+   "what": "引用元の行番号(棚卸しの表 102 行目 定額減税「2024 年限り」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "118",
+   "what": "引用元の行番号(作業状況の記録 118 行目「報酬比例部分の乗率 (hirei.pdf) | 画像 PDF、未抽出」)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定)"
+  },
+  {
+   "value": "124",
+   "what": "引用元の行番号(作業状況の記録 124 行目「高年齢雇用継続の支給率表 … | 未収録」。記事内の台帳の出典欄)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定)"
+  },
+  {
+   "value": "125",
+   "what": "引用元の行番号(作業状況の記録 125 行目「年金: 支給開始年齢の経過措置、繰上げ減額率 … 振替加算 … | 未収録」)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定)"
+  },
+  {
+   "value": "178",
+   "what": "作業状況の記録の全行数(定額減税と高年齢労働者_雇用保険料免除が出てこないことを確かめた範囲 L1-L178。記事内の台帳の出典欄)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定)(2026-11-18 に全文を検索)"
+  },
+  {
+   "value": "200",
+   "what": "性質テストの例の数(max_examples=200、derandomize=True で毎回同じ)",
+   "source": "テスト実走 2026-11-18(python -m pytest tools/cohort_close -q、16 passed)(tests/test_cohort_close_property.py)"
+  }
+ ]
+}
