@@ -74,6 +74,7 @@
 | 2026-11-15 | [部品と詰まり方が 1 対 1 だと書いた計画も、対応を書いた行は一部にしか無いので、線の内と外と記載なしを 1 枚に並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/1-1-1.html) | [`tools/part_map`](tools/part_map) |
 | 2026-11-16 | [次の一歩と書いた項目も翌日の作業状況に同じ形で残るとは限らないので、宣言を割ってから後の記載に当てる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_15.html) | [`tools/step_carry`](tools/step_carry) |
 | 2026-11-17 | [取ってきて置いたファイルも抽出に使われたとは限らないので、置き場の本数と出典の欄の記載を並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_16.html) | [`tools/stock_use`](tools/stock_use) |
+| 2026-11-18 | [終わると書いた行も日付で閉じるとは限らないので、対象の線で閉じる行を 1 行 1 件で並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/1-1_02009248762.html) | [`tools/cohort_close`](tools/cohort_close) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
