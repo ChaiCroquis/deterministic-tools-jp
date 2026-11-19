@@ -1,0 +1,19 @@
+{"run_id": "R03", "kind": "changed", "key": "合成の規則A / 区分 甲 / 期 P1 / 0", "old": {"kind": "param", "value": 5000, "unit": "点"}, "new": {"kind": "param", "value": 5100, "unit": "点"}, "source": "合成の実行履歴のメモ(架空)L3"}
+{"run_id": "R04", "kind": "changed", "key": "合成の規則A / 区分 甲 / 期 P1 / 0", "old": {"kind": "param", "value": 5000, "unit": "点"}, "new": {"kind": "param", "value": 5000, "unit": "点"}, "source": "合成の実行履歴のメモ(架空)L4"}
+{"run_id": "R04", "kind": "added", "key": "合成の規則A / 区分 甲 / 期 P2 / 0", "old": null, "new": {"kind": "param", "value": 5000, "unit": "点"}, "source": "合成の実行履歴のメモ(架空)L4"}
+{"run_id": "R05", "kind": "changed", "key": "合成の規則A / 区分 甲 / 期 P1 / 0", "old": {"kind": "param", "value": 5000, "unit": "点"}, "new": {"kind": "param", "value": 5000, "unit": "点"}, "source": "合成の実行履歴のメモ(架空)L5"}
+{"run_id": "R06", "kind": "changed", "key": "合成の規則B / 全体 / 期 P1 / 0", "old": {"kind": "formula", "id": "gousei_marume_a", "text": "合成の文言その一(架空)"}, "new": {"kind": "formula", "id": "gousei_marume_a", "text": "合成の文言その二(架空)", "text_note": "合成の補足(架空)"}, "source": "合成の実行履歴のメモ(架空)L6"}
+{"run_id": "R06", "kind": "changed", "key": "合成の規則C / 区分 乙 / 期 P1 / 0", "old": {"kind": "param", "value": 0.125}, "new": {"kind": "param", "value": 0.135}, "source": "合成の実行履歴のメモ(架空)L6"}
+{"run_id": "R06", "kind": "changed", "key": "合成の規則D / 全体 / 期 P1 / 0", "old": {"kind": "formula", "id": "gousei_shiki_a", "text": "合成の式の文言(架空)"}, "new": {"kind": "formula", "id": "gousei_shiki_b", "text": "合成の式の文言(架空)"}, "source": "合成の実行履歴のメモ(架空)L6"}
+{"run_id": "R06", "kind": "changed", "key": "合成の規則E / 区分 丙 / 期 P1 / 0", "old": {"kind": "param", "value": 300}, "new": {"kind": "param", "value": 310}, "source": ""}
+{"run_id": "R06", "kind": "added", "key": "合成の規則C / 区分 丁 / 期 P1 / 0", "old": null, "new": {"kind": "param", "value": 0.125}, "source": "合成の実行履歴のメモ(架空)L6"}
+{"run_id": "R06", "kind": "added", "key": "合成の規則C / 区分 戊 / 期 P1 / 0", "old": null, "new": {"kind": "param", "value": 0.145}, "source": "合成の実行履歴のメモ(架空)L6"}
+{"run_id": "R06", "kind": "removed", "key": "合成の規則C / 区分 己 / 期 P0 / 0", "old": {"kind": "param", "value": 0.115}, "new": null, "source": "合成の実行履歴のメモ(架空)L6"}
+{"run_id": "R07", "kind": "changed", "key": "合成の規則F / 区分 甲 / 期 P1 / 0", "old": {"kind": "param", "value": 700, "memo": "合成の覚え書きその一(架空)"}, "new": {"kind": "param", "value": 700, "memo": "合成の覚え書きその二(架空)"}, "source": "合成の実行履歴のメモ(架空)L7"}
+{"run_id": "R07", "kind": "changed", "key": "合成の規則F / 区分 乙 / 期 P1 / 0", "old": {"kind": "param", "value": 800}, "new": null, "source": "合成の実行履歴のメモ(架空)L7"}
+{"run_id": "R08", "kind": "changed", "key": "合成の規則G / 区分 甲 / 期 P1 / 0", "old": {"kind": "param", "value": 900}, "new": {"kind": "param", "value": 910}, "source": "合成の実行履歴のメモ(架空)L8"}
+{"run_id": "R08", "kind": "changed", "key": "合成の規則G / 区分 乙 / 期 P1 / 0", "old": {"kind": "param", "value": 920}, "new": {"kind": "param", "value": 920}, "source": "合成の実行履歴のメモ(架空)L8"}
+{"run_id": "R09", "kind": "changed", "key": "合成の規則H / 区分 甲 / 期 P1 / 0", "old": {"kind": "param", "value": 100}, "new": {"kind": "param", "value": 100}, "source": "合成の実行履歴のメモ(架空)L9"}
+{"run_id": "R09", "kind": "changed", "key": "合成の規則H / 区分 甲 / 期 P1 / 0", "old": {"kind": "param", "value": 100}, "new": {"kind": "param", "value": 110}, "source": "合成の実行履歴のメモ(架空)L9"}
+{"run_id": "R09", "kind": "added", "key": "合成の規則H / 区分 乙 / 期 P1 / 0", "old": null, "new": {"kind": "param", "value": 120}, "source": ""}
+{"run_id": "R99", "kind": "changed", "key": "合成の規則I / 区分 甲 / 期 P1 / 0", "old": {"kind": "param", "value": 10}, "new": {"kind": "param", "value": 11}, "source": "合成の実行履歴のメモ(架空)L10"}

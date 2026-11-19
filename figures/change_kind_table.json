@@ -1,0 +1,33 @@
+{
+  "title": "替わったと数えられた 3 件の見本を、前と後で欄ごとに並べた",
+  "subtitle": "前提 =「替わったの件数は、中身が替わった行の数」(構成の記録・全体像の記録・この連載の以前の回の言い方)。区分は見本に写っている欄だけの比較",
+  "x_axis": {"label": "", "cols": ["前(old)の欄", "後(new)の欄", "違った欄と区分", "件数の合計と見本の本数"]},
+  "y_axis": {"label": "", "rows": ["記録の 5 行目", "記録の 6 行目", "記録の 8 行目", "観測のまとめ"]},
+  "cells": [
+    [
+      {"name": "地域別最低賃金 / Tokyo", "items": ["kind: param", "value: 1226", "unit: 円/時", "有効開始日 2025-10-03 / 順位 0"], "tone": "muted"},
+      {"name": "同じ key", "items": ["kind: param", "value: 1226", "unit: 円/時"], "tone": "accent"},
+      {"name": "(A) 写っている欄がすべて同じ", "items": ["違った欄: なし", "同じだった欄: kind / unit / value"], "tone": "warn"},
+      {"name": "合計 2 件 / 見本 2 本", "items": ["見本が全件", "増えた 1 / 替わった 1"]}
+    ],
+    [
+      {"name": "地域別最低賃金 / Tokyo", "items": ["kind: param", "value: 1226", "unit: 円/時", "有効開始日 2025-10-03 / 順位 0"], "tone": "muted"},
+      {"name": "同じ key", "items": ["kind: param", "value: 1226", "unit: 円/時"], "tone": "accent"},
+      {"name": "(A) 写っている欄がすべて同じ", "items": ["違った欄: なし", "同じだった欄: kind / unit / value"], "tone": "warn"},
+      {"name": "合計 2 件 / 見本 1 本", "items": ["見本が一部", "減った 1 行は見本に無い"]}
+    ],
+    [
+      {"name": "保険料_端数処理", "items": ["kind: formula", "id: round_half_employee_50sen", "text: 従業員負担分は端数が…", "有効開始日 2026-03-01 / 順位 0"], "tone": "muted"},
+      {"name": "同じ key", "items": ["kind: formula", "id: round_half_employee_50sen", "text: 事業主が、給与から…", "text_cash: 被保険者が、…(new にだけ)"], "tone": "accent"},
+      {"name": "(B) 違うのは文言の欄だけ", "items": ["違った欄: text / text_cash", "同じだった欄: id / kind"], "tone": "accent"},
+      {"name": "合計 483 件 / 見本 6 本", "items": ["見本が一部", "減った 141 行は見本に無い"]}
+    ],
+    [
+      {"name": "差の大きさ", "items": ["(A) 2 件 / (B) 1 件", "(C) 数値の欄が違う 0 件", "(D) 0 件 / (E) 0 件"]},
+      {"name": "同じ記録に在る記載", "items": ["5 行目: 同じ回に 2026-10-03 の行が 1 行増えた", "6 行目: 1 行減り、指紋が 1・2・7 行目と同じ", "全体像の記録: 行を足したら前の行を閉じる", "並べるだけで、結び付けない"]},
+      {"name": "残差", "items": ["5・6 行目で old と new の何が違ったか", "見本には写っていない", "見本の欄は kind / value / unit だけ"], "tone": "warn"},
+      {"name": "見本は全件ではない", "items": ["9 行目は合計 180 件 / 見本 5 本", "区分は見本だけの比較", "欄の記号は私が登録した分"]}
+    ]
+  ],
+  "legend": [["前(old)", "muted"], ["後(new)・文言の違い", "accent"], ["写っている欄が同じ・残差", "warn"]]
+}
