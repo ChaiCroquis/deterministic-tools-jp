@@ -1,0 +1,200 @@
+{
+ "article": "59_stamp_day.md",
+ "numbers": [
+  {
+   "value": "00",
+   "what": "時差の印 +00:00 と換算先 +09:00 / -05:00 / -12:00 / +14:00 の分の 00、および合成の時刻 15:00:00 → 00:00:00 などの分・秒の 00(文字列の一部)",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文) / tools/stamp_day/fixtures/stamps_a.csv(合成) / tools/stamp_day/fixtures/zones_a.csv(合成)/ テスト実走 2026-11-20(tools/stamp_day、test_measure_edge_of_day_is_one_second)"
+  },
+  {
+   "value": "01",
+   "what": "合成の日付 2031-04-01 の日 01(日付の一部)",
+   "source": "tools/stamp_day/fixtures/stamps_a.csv(合成)"
+  },
+  {
+   "value": "02",
+   "what": "合成の日付 2031-04-02 の日 02(日付の一部)",
+   "source": "tools/stamp_day/fixtures/stamps_a.csv(合成)"
+  },
+  {
+   "value": "04",
+   "what": "合成の日付 2031-04-01 の月 04、および私の記録の 7 行目の時刻 22:04:22(換算後 07:04:22)の分 04",
+   "source": "tools/stamp_day/fixtures/stamps_a.csv(合成) / 私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文) / 道具の実走 2026-11-20(私の実行履歴の記録(非公開)11 行を時刻の台帳に写し、stamp_day.py check / rows を 1 回通した出力)"
+  },
+  {
+   "value": "05",
+   "what": "合成の換算先B の時差 -05:00 の 05",
+   "source": "tools/stamp_day/fixtures/zones_a.csv(合成)/ テスト実走 2026-11-20(tools/stamp_day、test_measure_other_zone_moves_rows_the_other_way)"
+  },
+  {
+   "value": "07",
+   "what": "私の記録の 7〜11 行目を +09:00 へ換算した時刻 07:04:22〜07:50:45 の時 07。合成の 7 行目の換算後 07:48:48 の時 07",
+   "source": "道具の実走 2026-11-20(私の実行履歴の記録(非公開)11 行を時刻の台帳に写し、stamp_day.py check / rows を 1 回通した出力) / テスト実走 2026-11-20(tools/stamp_day、test_measure_order_first_last_and_changed_rows)"
+  },
+  {
+   "value": "09",
+   "what": "私の記録の 1〜6 行目の時刻 09:55:21〜09:55:42 の時 09、日付 2026-09-19 の月 09、私が登録した換算先 +09:00 の 09。合成の換算先A +09:00 の 09",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文) / tools/stamp_day/fixtures/zones_a.csv(合成)"
+  },
+  {
+   "value": "10",
+   "what": "頭の 10 文字(日付として切り出す文字数)。私の記録の 10 行目。合成の台帳の行の番号 10 と 13 行目の時刻 10:00:00。止まる理由コードの個数 10 と崩した表の組数 10。出力の末尾の「持たせていないもの」の行数 10",
+   "source": "道具の仕様(tools/stamp_day/stamp_day.py の書かれたままの日付 = stamp[:10])/ 私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文) / tools/stamp_day/fixtures/stamps_a.csv(合成) / テスト実走 2026-11-20(tools/stamp_day、test_measure_every_stop_code_has_a_broken_table / test_measure_tail_lines_and_no_verdict_words)"
+  },
+  {
+   "value": "11",
+   "what": "私の実行履歴の記録の行数 11(= 実行 11 回)。書かれたままの読みで 2026-09-19 に入る回数 11。記録の 11 行目。文書の原文「パイプライン実行履歴: 11 回」と連載の以前の言い方「11 回」。合成の台帳の行の番号 11、合成で換算先B に替えたときの 2031-04-01 の換算後の読み 11",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文)の行数 / 道具の実走 2026-11-20(私の実行履歴の記録(非公開)11 行を時刻の台帳に写し、stamp_day.py check / rows を 1 回通した出力) / 私の全体像を書いた記録(非公開)99 行目 / 公開済みの以前の回の本文 / テスト実走 2026-11-20(tools/stamp_day、test_measure_other_zone_moves_rows_the_other_way)"
+  },
+  {
+   "value": "12",
+   "what": "合成の台帳で区分に入った行数 12(日ごとの回数の合計も 2 列とも 12、verify ④ で試した行数も 12)。合成の台帳の行の番号 12。直した話に出る時差 -12:00 の 12",
+   "source": "テスト実走 2026-11-20(tools/stamp_day、test_measure_sums_two_ways / test_measure_verify_five_things / test_two_day_shift_is_reported_as_days)"
+  },
+  {
+   "value": "13",
+   "what": "合成の台帳の行の番号 13(時差の印が無い行)と、その出典の L13",
+   "source": "tools/stamp_day/fixtures/stamps_a.csv(合成) / テスト実走 2026-11-20(tools/stamp_day、test_measure_z_is_read_with_a_note_and_no_mark_is_not_guessed)"
+  },
+  {
+   "value": "14",
+   "what": "合成の台帳の 4 行目の時刻 14:59:59 の時 14、行の番号 14(時差の印が無い行)。直した話に出る時差 +14:00 の 14",
+   "source": "tools/stamp_day/fixtures/stamps_a.csv(合成) / テスト実走 2026-11-20(tools/stamp_day、test_measure_edge_of_day_is_one_second / test_two_day_shift_is_reported_as_days)"
+  },
+  {
+   "value": "15",
+   "what": "私の構成を書いた記録で「pipeline が書く」と在る行の行番号 15。合成の台帳の 5 行目の時刻 15:00:00 の時 15",
+   "source": "私の構成を書いた記録(非公開)の行番号 / tools/stamp_day/fixtures/stamps_a.csv(合成)"
+  },
+  {
+   "value": "16",
+   "what": "tools/stamp_day のテスト件数 16(16 passed)。私の記録の 8 行目の時刻 22:35:16(換算後 07:35:16)の秒 16",
+   "source": "テスト実走 2026-11-20(python -m pytest tools/stamp_day -q = 16 passed)/ 私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文)"
+  },
+  {
+   "value": "18",
+   "what": "私の記録の 1〜6 行目を +09:00 へ換算した時刻 18:55:21〜18:55:42 の時 18",
+   "source": "道具の実走 2026-11-20(私の実行履歴の記録(非公開)11 行を時刻の台帳に写し、stamp_day.py check / rows を 1 回通した出力)"
+  },
+  {
+   "value": "19",
+   "what": "私の記録の日付 2026-09-19 の日 19(日付の一部)。文書の原文「(09-19 の run 3・4)」「2026-09-19 〜 09-20」の 19",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文) / 私の全体像を書いた記録(非公開)8 行目・96 行目"
+  },
+  {
+   "value": "20",
+   "what": "合成した時刻の台帳の行数 20(区分 12 + 別枠 8)。換算後の日付 2026-09-20 の日 20、文書の原文「(2026-09-20 時点)」「09-20」の 20(日付の一部)",
+   "source": "テスト実走 2026-11-20(tools/stamp_day、test_measure_two_tables_split_into_three_and_aside / test_measure_sums_two_ways)/ 道具の実走 2026-11-20(私の実行履歴の記録(非公開)11 行を時刻の台帳に写し、stamp_day.py check / rows を 1 回通した出力) / 私の全体像を書いた記録(非公開)1 行目・8 行目"
+  },
+  {
+   "value": "21",
+   "what": "私の記録の 1 行目の時刻 09:55:21(換算後 18:55:21)の秒 21。合成の 1 行目も同じ形の 09:55:21",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文) / tools/stamp_day/fixtures/stamps_a.csv(合成)"
+  },
+  {
+   "value": "22",
+   "what": "私の記録の 2・3 行目の時刻 09:55:22 の秒 22、7〜11 行目の時刻 22:04:22〜22:50:45 の時 22 と 7 行目の秒 22",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文)"
+  },
+  {
+   "value": "23",
+   "what": "私の記録の 4 行目の時刻 09:55:23 の秒 23。合成の 4 行目の換算後 23:59:59 の時 23、直した話に出る合成の時刻 23:30:00 の時 23",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文) / テスト実走 2026-11-20(tools/stamp_day、test_measure_edge_of_day_is_one_second / test_two_day_shift_is_reported_as_days)"
+  },
+  {
+   "value": "24",
+   "what": "私の記録の 5 行目の時刻 09:55:24(換算後 18:55:24)の秒 24",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文)"
+  },
+  {
+   "value": "30",
+   "what": "直した話に出る合成の時刻 23:30:00 の分 30",
+   "source": "テスト実走 2026-11-20(tools/stamp_day、test_two_day_shift_is_reported_as_days)"
+  },
+  {
+   "value": "35",
+   "what": "私の記録の 8 行目の時刻 22:35:16(換算後 07:35:16)の分 35",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文)"
+  },
+  {
+   "value": "37",
+   "what": "私の構成を書いた記録で「収録範囲 (2026-09-20)」と在る見出しの行番号 37",
+   "source": "私の構成を書いた記録(非公開)の行番号"
+  },
+  {
+   "value": "42",
+   "what": "私の記録の 6 行目の時刻 09:55:42(換算後 18:55:42)の秒 42",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文)"
+  },
+  {
+   "value": "45",
+   "what": "私の記録の 11 行目の時刻 22:50:45(換算後 07:50:45)の秒 45",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文)"
+  },
+  {
+   "value": "48",
+   "what": "私の記録の 9 行目の時刻 22:48:48(換算後 07:48:48)の分と秒 48。合成の 7 行目も同じ形の 22:48:48Z",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文) / tools/stamp_day/fixtures/stamps_a.csv(合成)"
+  },
+  {
+   "value": "49",
+   "what": "私の記録の 10 行目の時刻 22:49:52(換算後 07:49:52)の分 49",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文)"
+  },
+  {
+   "value": "50",
+   "what": "私の記録の 11 行目の時刻 22:50:45(換算後 07:50:45)の分 50",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文)"
+  },
+  {
+   "value": "52",
+   "what": "私の記録の 10 行目の時刻 22:49:52(換算後 07:49:52)の秒 52",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文)"
+  },
+  {
+   "value": "55",
+   "what": "私の記録の 1〜6 行目の時刻 09:55:21〜09:55:42(換算後 18:55:21〜18:55:42)の分 55。合成の 1〜3 行目も同じ形",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文) / tools/stamp_day/fixtures/stamps_a.csv(合成)"
+  },
+  {
+   "value": "59",
+   "what": "合成の台帳の 4 行目の時刻 14:59:59(換算後 23:59:59)の分と秒 59",
+   "source": "tools/stamp_day/fixtures/stamps_a.csv(合成) / テスト実走 2026-11-20(tools/stamp_day、test_measure_edge_of_day_is_one_second)"
+  },
+  {
+   "value": "96",
+   "what": "私の全体像を書いた記録で「(09-19 の run 3・4)」と在る行の行番号 96",
+   "source": "私の全体像を書いた記録(非公開)の行番号"
+  },
+  {
+   "value": "99",
+   "what": "私の全体像を書いた記録で「パイプライン実行履歴: 11 回」と在る行の行番号 99",
+   "source": "私の全体像を書いた記録(非公開)の行番号"
+  },
+  {
+   "value": "256",
+   "what": "ハッシュ関数の名前 sha256 の中の 256(名前の一部で、測定値ではない)",
+   "source": "tools/stamp_day/stamp_day.py(hashlib.sha256 を呼ぶ 1 か所)"
+  },
+  {
+   "value": "300",
+   "what": "性質テストが毎回通す入力の数 300(乱数は固定)",
+   "source": "テスト実走 2026-11-20(tools/stamp_day、tests/test_stamp_day_property.py の max_examples=300。--hypothesis-show-statistics で 300 passing examples)"
+  },
+  {
+   "value": "2026",
+   "what": "私の記録の日付 2026-09-19 / 2026-09-20 の年 2026(日付の一部)",
+   "source": "私の自動更新の実行履歴の記録(非公開)の時刻の欄の文字列(原文) / 道具の実走 2026-11-20(私の実行履歴の記録(非公開)11 行を時刻の台帳に写し、stamp_day.py check / rows を 1 回通した出力)"
+  },
+  {
+   "value": "2031",
+   "what": "合成の台帳の日付 2031-04-01 / 2031-04-02 の年 2031(架空の年。日付の一部)",
+   "source": "tools/stamp_day/fixtures/stamps_a.csv(合成)"
+  },
+  {
+   "value": "1,681",
+   "what": "文書の総数の宣言 1,681 行(原文)。増減を足した累計がこの数に届くのは実行履歴の記録の 9 行目の回",
+   "source": "私の全体像を書いた記録(非公開)の原文 / 公開済みの以前の回(増減の累計を並べた回)の本文"
+  }
+ ]
+}
