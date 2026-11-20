@@ -76,6 +76,7 @@
 | 2026-11-17 | [取ってきて置いたファイルも抽出に使われたとは限らないので、置き場の本数と出典の欄の記載を並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_16.html) | [`tools/stock_use`](tools/stock_use) |
 | 2026-11-18 | [終わると書いた行も日付で閉じるとは限らないので、対象の線で閉じる行を 1 行 1 件で並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/1-1_02009248762.html) | [`tools/cohort_close`](tools/cohort_close) |
 | 2026-11-19 | [差分に替わったと出た行も値が替わったとは限らないので、前と後を欄ごとに見比べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_18.html) | [`tools/change_kind`](tools/change_kind) |
+| 2026-11-20 | [時刻の欄の頭の日付を切り出しても現地の日付とは限らないので、時差の印を読んでから日ごとに並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_19.html) | [`tools/stamp_day`](tools/stamp_day) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
