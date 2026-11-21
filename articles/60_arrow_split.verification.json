@@ -1,0 +1,266 @@
+{
+ "article": "60_arrow_split.md",
+ "note": "記事内の 1 桁の件数(手元の文書を写した 17 件: 前後の値 5 / 後だけ 2 / (C) 4 / (D) 1 / 台帳に無い矢印の行 4)は、記事内に載せた 4 表と棚卸しの表の写しを 2026-11-21 に arrow_split.py check へ 1 回通した出力。verify も同じ 4 表で 2026-11-21 に 1 回通し、5 つとも通った。合成 4 表の 1 桁の件数は テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)。棚卸しの表の行は要照合の記載で、前後の値そのものが正しいかは扱っていない",
+ "numbers": [
+  {
+   "value": "04",
+   "what": "引用した行の中の年月の表記(2025-04 / 2022-04 / 2009-04 / 2026-04)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 45・46・67・68・69・70 行目"
+  },
+  {
+   "value": "09",
+   "what": "判定部分の sha256 の先頭 12 桁(9cb25ec34d09)の中の字",
+   "source": "テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "10",
+   "what": "引用した行の中の表記(46 行目「15%→10%」、51 行目「2028-10 に 10 時間へ」、92 行目「2024-10」「2027-10」)、および合成の台帳の割らない記号の行数・差し替えた文字列 `10%→20%`・「持たせていないもの」の行数",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 46・51・92 行目 + テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "12",
+   "what": "手元の台帳の割らない記号の件数、合成した収録の台帳の行数、sha256 の先頭の桁数",
+   "source": "記事内に載せた 4 表と棚卸しの表の写しを 2026-11-21 に arrow_split.py check へ 1 回通した出力 + テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "13",
+   "what": "合成した対の登録表の行数",
+   "source": "テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "14",
+   "what": "引用した行の中の表記(25 行目「v2: 14 日ルール追加」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 25 行目"
+  },
+  {
+   "value": "15",
+   "what": "引用した行の中の表記(46 行目「15%→10%」)、手元の文書で矢印の字を含む行のうち台帳に在る行数、tools/arrow_split のテスト件数(15 passed)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 46 行目 + 記事内に載せた 4 表と棚卸しの表の写しを 2026-11-21 に arrow_split.py check へ 1 回通した出力 + テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "16",
+   "what": "引用元の行番号(棚卸しの表 16 行目 健保料率_協会けんぽ の備考)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "17",
+   "what": "手元の文書から写した記載の台帳の行数",
+   "source": "記事内に載せた 4 表と棚卸しの表の写しを 2026-11-21 に arrow_split.py check へ 1 回通した出力"
+  },
+  {
+   "value": "19",
+   "what": "手元の文書で矢印の字を含む行数、および合成の台帳で別枠を除いた行数",
+   "source": "記事内に載せた 4 表と棚卸しの表の写しを 2026-11-21 に arrow_split.py check へ 1 回通した出力 + テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "20",
+   "what": "引用元の行番号(棚卸しの表 20 行目)、引用した行の中の表記(51 行目「param (20 時間)」)、試験で差し替えた文字列 `10%→20%`",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 20・51 行目 + テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "22",
+   "what": "合成の台帳で矢印の字をちょうど 1 つ含む行数、および合成の文書で台帳に在る矢印の行数",
+   "source": "テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "23",
+   "what": "合成の台帳で矢印の字を含む行数",
+   "source": "テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "25",
+   "what": "引用元の行番号(棚卸しの表 25 行目)、および sha256 の先頭 12 桁の中の字",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) + テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "26",
+   "what": "合成した記載の台帳の行数、および合成の文書で矢印の字を含む行数",
+   "source": "テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "34",
+   "what": "引用元の行番号(棚卸しの表 34 行目)、および sha256 の先頭 12 桁の中の字",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) + テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "37",
+   "what": "合成の文書の行数",
+   "source": "テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "43",
+   "what": "引用元の行番号(棚卸しの表 43 行目 基本手当日額_給付率)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "45",
+   "what": "引用元の行番号(棚卸しの表 45 行目 給付制限_期間)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "46",
+   "what": "引用元の行番号(棚卸しの表 46 行目 高年齢雇用継続給付_支給率)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "50",
+   "what": "引用した行の中の表記(43 行目「賃金日額帯→50〜80%」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 43 行目"
+  },
+  {
+   "value": "51",
+   "what": "引用元の行番号(棚卸しの表 51 行目 雇用保険_適用要件_週所定労働時間)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "57",
+   "what": "引用元の行番号(棚卸しの表 57 行目 国民年金保険料 の備考)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "59",
+   "what": "引用元の行番号(棚卸しの表 59 行目 年金額改定率)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "60",
+   "what": "合成した記載の文字列(`上限 60→65 歳`)",
+   "source": "テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "61",
+   "what": "引用元の行番号(棚卸しの表 61 行目 再評価率表)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "62",
+   "what": "引用した行の中の表記(67 行目「2026-04 に 62 万円へ引上げ」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 67 行目"
+  },
+  {
+   "value": "65",
+   "what": "引用元の行番号(作業状況の記録 65 行目「高年齢雇用継続 4 種 (各 4)」)、および合成した記載の文字列(`上限 60→65 歳`)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) + テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "66",
+   "what": "引用元の行番号(作業状況の記録 66 行目「在職老齢 支給停止調整額 (2)」)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定)"
+  },
+  {
+   "value": "67",
+   "what": "引用元の行番号(棚卸しの表 67 行目 在職老齢年金_支給停止調整額)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "68",
+   "what": "引用元の行番号(棚卸しの表 68 行目 繰上げ減額率)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "69",
+   "what": "引用元の行番号(棚卸しの表 69 行目 繰下げ増額率 / 上限年齢)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "70",
+   "what": "引用元の行番号(棚卸しの表 70 行目 免除期間_年金額反映率)、および引用した行の中の表記(69 行目「上限 70→75 歳」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "75",
+   "what": "引用した行の中の表記(69 行目「上限 70→75 歳」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 69 行目"
+  },
+  {
+   "value": "80",
+   "what": "引用した行の中の表記(43 行目「賃金日額帯→50〜80%」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 43 行目"
+  },
+  {
+   "value": "82",
+   "what": "引用元の行番号(棚卸しの表 82 行目 特定 (産業別) 最低賃金 の備考)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "92",
+   "what": "引用元の行番号(棚卸しの表 92 行目 短時間労働者_社保適用_企業規模要件)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定)"
+  },
+  {
+   "value": "109",
+   "what": "手元の文書で、矢印の字を含むのに台帳に無い行の行番号",
+   "source": "記事内に載せた 4 表と棚卸しの表の写しを 2026-11-21 に arrow_split.py check へ 1 回通した出力"
+  },
+  {
+   "value": "121",
+   "what": "手元の文書で、矢印の字を含むのに台帳に無い行の行番号",
+   "source": "記事内に載せた 4 表と棚卸しの表の写しを 2026-11-21 に arrow_split.py check へ 1 回通した出力"
+  },
+  {
+   "value": "143",
+   "what": "手元の文書で、矢印の字を含むのに台帳に無い行の行番号",
+   "source": "記事内に載せた 4 表と棚卸しの表の写しを 2026-11-21 に arrow_split.py check へ 1 回通した出力"
+  },
+  {
+   "value": "145",
+   "what": "手元の文書(棚卸しの表)の行数、および矢印の字を含むのに台帳に無い行の行番号",
+   "source": "記事内に載せた 4 表と棚卸しの表の写しを 2026-11-21 に arrow_split.py check へ 1 回通した出力"
+  },
+  {
+   "value": "124",
+   "what": "引用元の行番号(作業状況の記録 124 行目 雇用保険の未収録の行)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定)"
+  },
+  {
+   "value": "125",
+   "what": "引用元の行番号(作業状況の記録 125 行目 年金の未収録の行)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定)"
+  },
+  {
+   "value": "256",
+   "what": "指紋の方式の名前(sha256)の中の数字",
+   "source": "方式の名前(測定値ではない)"
+  },
+  {
+   "value": "300",
+   "what": "性質テストが毎回通す入力の通り数(max_examples=300、乱数は固定)",
+   "source": "テスト実走 2026-11-21(python -m pytest tools/arrow_split -q、15 passed)"
+  },
+  {
+   "value": "2009",
+   "what": "引用した行の中の年の表記(70 行目「2009-04」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 70 行目"
+  },
+  {
+   "value": "2022",
+   "what": "引用した行の中の年の表記(68・69 行目「2022-04」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 68・69 行目"
+  },
+  {
+   "value": "2024",
+   "what": "引用した行の中の年の表記(92 行目「2024-10」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 92 行目"
+  },
+  {
+   "value": "2025",
+   "what": "引用した行の中の年の表記(45・46 行目「2025-04」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 45・46 行目"
+  },
+  {
+   "value": "2026",
+   "what": "引用した行の中の年の表記(67 行目「2026-04」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 67 行目"
+  },
+  {
+   "value": "2027",
+   "what": "引用した行の中の年の表記(92 行目「2027-10〜」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 92 行目"
+  },
+  {
+   "value": "2028",
+   "what": "引用した行の中の年の表記(51 行目「2028-10」)",
+   "source": "私の記録 sharoushi-rules の棚卸しの表(公開予定) 51 行目"
+  }
+ ]
+}
