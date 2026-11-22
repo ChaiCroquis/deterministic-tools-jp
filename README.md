@@ -78,6 +78,7 @@
 | 2026-11-19 | [差分に替わったと出た行も値が替わったとは限らないので、前と後を欄ごとに見比べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_18.html) | [`tools/change_kind`](tools/change_kind) |
 | 2026-11-20 | [時刻の欄の頭の日付を切り出しても現地の日付とは限らないので、時差の印を読んでから日ごとに並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_19.html) | [`tools/stamp_day`](tools/stamp_day) |
 | 2026-11-21 | [改定の欄に前と後が矢印で書いてあっても表に前の行と後の行が在るとは限らないので、矢印の意味を分けてから前と後を行ごとに並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_20.html) | [`tools/arrow_split`](tools/arrow_split) |
+| 2026-11-22 | [式が呼べる関数の一覧が在っても境目を確かめた記載が関数ごとに在るとは限らないので、働きの軸で並べ直して検証の記載を横に置く](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_21.html) | [`tools/call_axis`](tools/call_axis) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
