@@ -1,0 +1,91 @@
+{
+ "article": "61_call_axis.md",
+ "note": "記事内の 1 桁の件数(手元の記録から写した 7 語: (A) 3 / (B) 2 / (C) 1 / (D) 1、対 9 本、literal に含む対 0、境目の印 1 語、横に置かれなかった記載 式の一覧 1 / 検証の表 9)は、記事内に載せた 4 表(記載の台帳は検証の表の残り 9 行も写した 17 行)を 2026-11-22 に call_axis.py check へ 1 回通した出力。verify も同じ 4 表で 2026-11-22 に 1 回通し、5 つとも通った(④ 7/7、⑤ 9/9)。--doc の突き合わせは文書 178 行に対し、出典がその行を指す 24 行で写し間違い 0 件(178 はコードブロック内の表記)。合成 4 表の 1 桁の件数は テスト実走 2026-11-22(python -m pytest tools/call_axis -q -s、17 passed)。働きの記号・境目の印・語と記載の対応は書き手が登録したもので、語の境目が確かめられているか、検証の結果の数が正しいかは扱っていない",
+ "numbers": [
+  {
+   "value": "10",
+   "what": "合成の台帳で、境目を持つ働きとして登録した段の語の数(うち検証の側の記載が在る 5 語 / 無い 5 語)",
+   "source": "テスト実走 2026-11-22(python -m pytest tools/call_axis -q -s、17 passed)"
+  },
+  {
+   "value": "11",
+   "what": "「数式 registry (data)。ast 制限付き安全評価、Decimal、端数処理」が書かれた行の行番号",
+   "source": "私の記録 sharoushi-rules の説明書き(公開予定) 11 行目"
+  },
+  {
+   "value": "13",
+   "what": "検証の実績の表の行数(84〜96 行目)、および合成の台帳で語の字を literal に含まない対の数",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 84〜96 行目 + テスト実走 2026-11-22(python -m pytest tools/call_axis -q -s、17 passed)"
+  },
+  {
+   "value": "14",
+   "what": "式の一覧の見出し「数式 (14 式)」の中の表記",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 74 行目"
+  },
+  {
+   "value": "15",
+   "what": "合成の台帳で、別枠を除いて並べ直せた語の数",
+   "source": "テスト実走 2026-11-22(python -m pytest tools/call_axis -q -s、17 passed)"
+  },
+  {
+   "value": "17",
+   "what": "手元の記録から写した記載の台帳の行数(括弧書き 4 + 検証の表 13)、および合成の台帳で横に置いた対の数",
+   "source": "記事内に載せた 4 表を 2026-11-22 に call_axis.py check へ 1 回通した出力 + テスト実走 2026-11-22(python -m pytest tools/call_axis -q -s、17 passed)"
+  },
+  {
+   "value": "23",
+   "what": "合成の語の台帳の行数",
+   "source": "テスト実走 2026-11-22(python -m pytest tools/call_axis -q -s、17 passed)"
+  },
+  {
+   "value": "24",
+   "what": "手元の台帳で、出典が記録の行を指す行数(語 7 + 記載 17)",
+   "source": "記事内に載せた 4 表を 2026-11-22 に call_axis.py check へ 1 回通した出力(--doc 付き)"
+  },
+  {
+   "value": "43",
+   "what": "呼べる関数の一覧が書かれた行の行番号",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 43 行目"
+  },
+  {
+   "value": "50",
+   "what": "式の一覧の括弧書き「50 銭ルール」の中の表記",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 76 行目"
+  },
+  {
+   "value": "76",
+   "what": "式の一覧(括弧書き 4 つ)が書かれた行の行番号",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 76 行目"
+  },
+  {
+   "value": "88",
+   "what": "「端数処理境界」の行の行番号",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 88 行目"
+  },
+  {
+   "value": "91",
+   "what": "「基本手当 最低額 = floor(0.8 × 賃金日額下限) vs press 公表値」の行の行番号",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 91 行目"
+  },
+  {
+   "value": "92",
+   "what": "「基本手当 帯境界 (13,490 円) の連続性、60〜64 歳「低い方」」の行の行番号",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 92 行目"
+  },
+  {
+   "value": "94",
+   "what": "「再評価率 期間帯の連続性」の行の行番号",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 94 行目"
+  },
+  {
+   "value": "300",
+   "what": "性質テストの入力の数(max_examples=300、乱数は固定)",
+   "source": "テスト実走 2026-11-22(python -m pytest tools/call_axis -q -s、17 passed)"
+  },
+  {
+   "value": "2,856",
+   "what": "引用した文字列「2,856.5 が 2,856.4999…」「2,856.5 → 2,856」の中の表記(結果の正しさは扱っていない)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 43 行目・88 行目"
+  }
+ ]
+}
