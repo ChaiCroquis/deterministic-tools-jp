@@ -1,0 +1,50 @@
+run_id,status,error,source
+r01,ok,,実行の記録(合成) L1
+r02,failed,"load done: 120
+match rows: 120
+  DIFF id=7 left=3 right=4
+  DIFF id=9 left=1 right=2
+  DIFF id=12 left=5 right=8
+match check: 117/120 same
+sum total: 4810
+HALT at step sum
+  at /srv/app/run.py line 40
+",実行の記録(合成) L2
+r03,failed,"load done: 120
+match rows: 118
+HALT rows differ
+  at /srv/app/match.py line 12
+",実行の記録(合成) L3
+r04,failed,"load done: 0
+HALT empty input",実行の記録(合成) L4
+r05,error,"connection reset
+retry 3
+gave up",実行の記録(合成) L5
+r06,failed,"load done: 120
+match rows: 120
+match check: 120/120 same
+killed",実行の記録(合成) L6
+r07,ok,,実行の記録(合成) L7
+r08,failed,"load done: 95
+match rows: 95
+  DIFF id=3 left=2 right=6
+match check: 94/95 same
+sum total: 3100
+HALT at step sum
+",実行の記録(合成) L8
+r09,failed,"load done: 95 from /srv/in/a.csv
+match rows: 95
+  DIFF id=3 left=2 right=6
+  DIFF id=4 left=0 right=1
+HALT
+",実行の記録(合成) L9
+r10,ok,,実行の記録(合成) L10
+r11,failed,"  at /srv/app/x.py line 2
+boom",実行の記録(合成) L11
+r12,failed,sum total: 10,実行の記録(合成) L12
+r13,ok,,実行の記録(合成) L13
+r14,failed,"load done: 1
+HALT",実行の記録(合成) L14
+r14,ok,,実行の記録(合成) L15
+r15,failed,"load done: 2
+HALT",

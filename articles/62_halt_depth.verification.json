@@ -1,0 +1,201 @@
+{
+ "article": "62_halt_depth.md",
+ "note": "記事内の 1 桁の件数(手元の履歴 11 回: (A) 1 / (B) 1 / (D) 9、使った印 通過 5 + 止まった 1、印ごとの在る回数、補助の印 M4 が 3 行・M3 と M6、伏せた行 各 1 行)は、記事内に載せた登録表 3 つと実行の履歴 11 行を 2026-11-23 に halt_depth.py check へ 1 回通した出力。verify も同じ入力で 2026-11-23 に 1 回通し、5 つとも通った(④ 6/6、⑤ 伏せた行 2)。履歴の sha256 は 47dc2db478bd…。error の中の実行した場所の絶対パスを含む行(各 1 行)は、記事・図・試験データ・README のどこにも写していない。合成 4 表の 1 桁の件数は テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)。印と段の登録は書き手が決めたもので、止まった理由、印の後ろの文字列の正しさ、96 行目の 2 つと run 3・4 の対応は扱っていない。区分はカードの案の 4 値に、通過の印は在るが止まった印が無い回の (E) を足して 5 値にした(4 値のどれにも入らない回が在りうるため)",
+ "numbers": [
+  {
+   "value": "11",
+   "what": "実行の履歴の行数(回の数)",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 全 11 行 + 私の記録 sharoushi-rules の作業状況の記録(公開予定) 99 行目"
+  },
+  {
+   "value": "99",
+   "what": "実行の回数と ok / failed の内訳が書かれた行の行番号",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 99 行目"
+  },
+  {
+   "value": "50",
+   "what": "段の並びが書かれた行の行番号、および 3 行目の回の error 23 行目の表記「50 mismatch」",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 50 行目 + 私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error 23 行目"
+  },
+  {
+   "value": "96",
+   "what": "「パイプラインの失敗経路」の項目が書かれた行の行番号",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 96 行目"
+  },
+  {
+   "value": "09",
+   "what": "96 行目の結果の欄の表記「09-19 の run 3・4」の月(19 は別の行で台帳に在る数と同じ字)",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 96 行目"
+  },
+  {
+   "value": "29",
+   "what": "3 行目の回の error を改行で割った行数(末尾の空行を含む)",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力"
+  },
+  {
+   "value": "25",
+   "what": "4 行目の回の error を改行で割った行数(末尾の空行を含む)、および 3 行目の回で伏せた行の行番号",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力 + 私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error"
+  },
+  {
+   "value": "15",
+   "what": "error の 3〜17 行目(rule の名前と行数)の行数",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目・4 行目の error"
+  },
+  {
+   "value": "17",
+   "what": "rule の名前と行数の行の終わりの行番号",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目・4 行目の error"
+  },
+  {
+   "value": "18",
+   "what": "「total rows:」の行の行番号",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力"
+  },
+  {
+   "value": "1301",
+   "what": "error 18 行目の表記「total rows: 1301」",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目・4 行目の error 18 行目"
+  },
+  {
+   "value": "19",
+   "what": "「validate overlaps:」の行の行番号、および どの印にも当たらなかった行の件数(2 回とも)",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力"
+  },
+  {
+   "value": "20",
+   "what": "3 行目の回で MISMATCH の行が始まる行番号",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力"
+  },
+  {
+   "value": "21",
+   "what": "3 行目の回の MISMATCH の 2 行目の行番号、および 4 行目の回で伏せた行の行番号",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力 + 私の記録 sharoushi-rules の実行の履歴(公開予定) 4 行目の error"
+  },
+  {
+   "value": "22",
+   "what": "3 行目の回で MISMATCH の行が終わる行番号",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力"
+  },
+  {
+   "value": "23",
+   "what": "「fixture cross-check:」の行の行番号",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力"
+  },
+  {
+   "value": "200/250",
+   "what": "error 23 行目の表記「200/250 match, 50 mismatch」",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error 23 行目"
+  },
+  {
+   "value": "200",
+   "what": "error 23 行目の表記「200/250 match」の分子",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error 23 行目"
+  },
+  {
+   "value": "250",
+   "what": "error 23 行目の表記「200/250 match」の分母",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error 23 行目"
+  },
+  {
+   "value": "26",
+   "what": "3 行目の回の「assert bad == 0」の行番号",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error 26 行目"
+  },
+  {
+   "value": "28",
+   "what": "3 行目の回の「AssertionError」の行番号",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力"
+  },
+  {
+   "value": "24",
+   "what": "4 行目の回の「AssertionError:」の行番号",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力"
+  },
+  {
+   "value": "58000",
+   "what": "error 20 行目の表記(smr の値)",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error 20 行目"
+  },
+  {
+   "value": "2856.4999999999995",
+   "what": "error 20 行目の表記(health_half の値)",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error 20 行目"
+  },
+  {
+   "value": "3326.2999999999997",
+   "what": "error 20 行目の表記(health_ltc_half の値)",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error 20 行目"
+  },
+  {
+   "value": "2897.1",
+   "what": "error 20 行目の後ろの括弧の中の表記",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error 20 行目"
+  },
+  {
+   "value": "3366.9",
+   "what": "error 20 行目の後ろの括弧の中の表記",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定) 3 行目の error 20 行目"
+  },
+  {
+   "value": "54",
+   "what": "手元の履歴で、エラーの欄を割った行数の合計(29 + 25)",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力"
+  },
+  {
+   "value": "12",
+   "what": "手元の履歴で印に当たった行の件数、および合成の印の登録表の行数、指紋の先頭の桁数",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力 + テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)"
+  },
+  {
+   "value": "38",
+   "what": "手元の履歴で、どの印にも当たらなかった行の件数(19 + 19)",
+   "source": "私の記録 sharoushi-rules の実行の履歴(公開予定)を 2026-11-23 に halt_depth.py check へ 1 回通した出力"
+  },
+  {
+   "value": "16",
+   "what": "合成の回の台帳の行数、および通ったテストの数",
+   "source": "テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)"
+  },
+  {
+   "value": "13",
+   "what": "合成の台帳で、別枠を除いて区分が付いた回の数",
+   "source": "テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)"
+  },
+  {
+   "value": "40",
+   "what": "合成の台帳で、エラーの欄を割った行数の合計",
+   "source": "テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)"
+  },
+  {
+   "value": "27",
+   "what": "合成の台帳で、印に当たった行の件数",
+   "source": "テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)"
+  },
+  {
+   "value": "120",
+   "what": "合成の記録の印の後ろの文字列(120 / 0120 / 120.0 の 3 通り)",
+   "source": "テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)"
+  },
+  {
+   "value": "0120",
+   "what": "合成の記録の印の後ろの文字列",
+   "source": "テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)"
+  },
+  {
+   "value": "120.0",
+   "what": "合成の記録の印の後ろの文字列",
+   "source": "テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)"
+  },
+  {
+   "value": "300",
+   "what": "性質テストの入力の通り数(max_examples=300、乱数固定)",
+   "source": "テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)"
+  },
+  {
+   "value": "4d9f793acb86",
+   "what": "合成 4 表の判定部分の sha256 の先頭 12 桁",
+   "source": "テスト実走 2026-11-23(python -m pytest tools/halt_depth -q -s、16 passed)"
+  }
+ ]
+}

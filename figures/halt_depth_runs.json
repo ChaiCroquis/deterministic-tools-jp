@@ -1,0 +1,29 @@
+{
+ "title": "failed と書かれた 2 回を、エラーの欄の中の印まで降りて並べる",
+ "subtitle": "上の層 = 状態の 1 語と段の名前は 2 回とも同じ字。下の層 = エラーの欄を行に割り、登録した印が在るか・何行目か・後ろの文字列を原文のまま置く",
+ "x_axis": {
+  "label": "印と段の対応は人が登録したもの。MISMATCH の行数は表示された行の数。伏せた行が各 1 行在る。残る 9 回はエラーの欄が空。手元の 11 回だけで、網羅ではない",
+  "cols": ["上の層(状態と段)", "行数の印 / 重なりの印", "不一致の印 / 突き合わせの印", "止まった印", "区分"]
+ },
+ "y_axis": {
+  "label": "実行の履歴の行(回の台帳の順)",
+  "rows": ["履歴 3 行目の回", "履歴 4 行目の回"]
+ },
+ "cells": [
+  [
+   {"name": "failed / unify", "items": ["1 行目が unify failed:", "エラーの欄は 29 行(末尾の空行を含む)"]},
+   {"name": "total rows: 在る(18 行目)", "items": ["後ろ「 1301」", "validate overlaps: 在る(19 行目)", "後ろ「 0」"], "tone": "accent"},
+   {"name": "MISMATCH 在る(20〜22 行目)", "items": ["表示された行が 3 行", "fixture cross-check: 在る(23 行目)", "後ろ「 200/250 match, 50 mismatch」"], "tone": "accent"},
+   {"name": "AssertionError 在る(28 行目)", "items": ["後ろの文字列は空"], "tone": "accent"},
+   {"name": "(A) 通過の印が全部在る", "items": ["止まった印が在る", "伏せた行 1 行"]}
+  ],
+  [
+   {"name": "failed / unify", "items": ["1 行目が unify failed:", "エラーの欄は 25 行(末尾の空行を含む)"]},
+   {"name": "total rows: 在る(18 行目)", "items": ["後ろ「 1301」", "validate overlaps: 在る(19 行目)", "後ろ「 6」"], "tone": "accent"},
+   {"name": "MISMATCH 無い", "items": ["fixture cross-check: 無い"], "tone": "muted"},
+   {"name": "AssertionError 在る(24 行目)", "items": ["後ろは「: [(」で始まる", "rule 名と出典名の組が続く"], "tone": "accent"},
+   {"name": "(B) 通過の印の一部が無い", "items": ["止まった印が在る", "伏せた行 1 行"]}
+  ]
+ ],
+ "legend": [["登録した印が在る", "accent"], ["登録した印が無い", "muted"]]
+}
