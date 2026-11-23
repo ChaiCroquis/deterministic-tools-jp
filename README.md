@@ -79,6 +79,7 @@
 | 2026-11-20 | [時刻の欄の頭の日付を切り出しても現地の日付とは限らないので、時差の印を読んでから日ごとに並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_19.html) | [`tools/stamp_day`](tools/stamp_day) |
 | 2026-11-21 | [改定の欄に前と後が矢印で書いてあっても表に前の行と後の行が在るとは限らないので、矢印の意味を分けてから前と後を行ごとに並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_20.html) | [`tools/arrow_split`](tools/arrow_split) |
 | 2026-11-22 | [式が呼べる関数の一覧が在っても境目を確かめた記載が関数ごとに在るとは限らないので、働きの軸で並べ直して検証の記載を横に置く](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_21.html) | [`tools/call_axis`](tools/call_axis) |
+| 2026-11-23 | [失敗と書かれた回も止まった場所が同じとは限らないので、エラーの欄に残った印を下の層まで並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_22.html) | [`tools/halt_depth`](tools/halt_depth) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
