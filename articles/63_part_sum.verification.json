@@ -1,0 +1,210 @@
+{
+ "article": "63_part_sum.md",
+ "numbers": [
+  {
+   "value": "1,681",
+   "what": "見出しが宣言している総数(行)。登録表の総数の台帳にも同じ数",
+   "source": "私の収録範囲の記録(非公開)の 58 行目 / テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_sums_and_diffs)"
+  },
+  {
+   "value": "45",
+   "what": "見出しが宣言している rule の数(今回は突合していない)",
+   "source": "私の収録範囲の記録(非公開)の 58 行目"
+  },
+  {
+   "value": "58",
+   "what": "総数を宣言している見出しの行番号",
+   "source": "私の収録範囲の記録(非公開)の行番号"
+  },
+  {
+   "value": "62",
+   "what": "表の見出し行(列名「rule (行数)」)の行番号",
+   "source": "私の収録範囲の記録(非公開)の行番号"
+  },
+  {
+   "value": "64",
+   "what": "内訳の 1 行目(協会けんぽの行)の行番号",
+   "source": "私の収録範囲の記録(非公開)の行番号"
+  },
+  {
+   "value": "65",
+   "what": "内訳の 2 行目(雇用保険給付の行)の行番号",
+   "source": "私の収録範囲の記録(非公開)の行番号"
+  },
+  {
+   "value": "66",
+   "what": "内訳の 3 行目(年金の行)の行番号",
+   "source": "私の収録範囲の記録(非公開)の行番号"
+  },
+  {
+   "value": "70",
+   "what": "内訳の 4 行目(上流由来の段落)の行番号。合成の表 G4 の足した数 70 も同じ字",
+   "source": "私の収録範囲の記録(非公開)の行番号 / テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)"
+  },
+  {
+   "value": "141",
+   "what": "64 行目の括弧の数(健保料率、介護保険料率)",
+   "source": "私の収録範囲の記録(非公開)の 64 行目"
+  },
+  {
+   "value": "47",
+   "what": "64 行目の括弧の数(子ども子育て支援金率)",
+   "source": "私の収録範囲の記録(非公開)の 64 行目"
+  },
+  {
+   "value": "12",
+   "what": "65 行目の括弧の数(基本手当日額_計算式 ほか)",
+   "source": "私の収録範囲の記録(非公開)の 65 行目"
+  },
+  {
+   "value": "39",
+   "what": "65 行目の括弧の数(所定給付日数)",
+   "source": "私の収録範囲の記録(非公開)の 65 行目"
+  },
+  {
+   "value": "67",
+   "what": "65 行目の項目の名前に含まれる字「67%」(行数ではない)",
+   "source": "私の収録範囲の記録(非公開)の 65 行目"
+  },
+  {
+   "value": "50",
+   "what": "65 行目の項目の名前に含まれる字「50%」(行数ではない)",
+   "source": "私の収録範囲の記録(非公開)の 65 行目"
+  },
+  {
+   "value": "1,079",
+   "what": "70 行目の括弧の数(地域別最低賃金)",
+   "source": "私の収録範囲の記録(非公開)の 70 行目 / テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_names_and_marks)"
+  },
+  {
+   "value": "55",
+   "what": "70 行目の括弧の数(労災保険率、単位の字は業種)",
+   "source": "私の収録範囲の記録(非公開)の 70 行目 / テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_names_and_marks)"
+  },
+  {
+   "value": "16",
+   "what": "「4 種 (各 4)」を人が掛けて読んだ数(掛けて読んだ 1 項目の小計)",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_by_source_line)"
+  },
+  {
+   "value": "36",
+   "what": "私の記録から写した内訳の台帳の行数",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_sums_and_diffs)"
+  },
+  {
+   "value": "30",
+   "what": "そのまま写した項目の数",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_sums_and_diffs)"
+  },
+  {
+   "value": "10",
+   "what": "64 行目のそのまま写した項目の数。合成の表 G4 の差 −10 の絶対値も同じ字",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_by_source_line / test_measure_gousei_four_categories)"
+  },
+  {
+   "value": "346",
+   "what": "64 行目のそのまま写した項目の小計",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_by_source_line)"
+  },
+  {
+   "value": "78",
+   "what": "65 行目のそのまま写した項目の小計",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_by_source_line)"
+  },
+  {
+   "value": "53",
+   "what": "66 行目のそのまま写した項目の小計",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_by_source_line)"
+  },
+  {
+   "value": "1,155",
+   "what": "70 行目のそのまま写した項目の小計",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_by_source_line)"
+  },
+  {
+   "value": "1,632",
+   "what": "そのまま写した 30 項目の和",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_sums_and_diffs)"
+  },
+  {
+   "value": "1,648",
+   "what": "掛けて読んだ 1 項目も入れた和",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_sums_and_diffs)"
+  },
+  {
+   "value": "49",
+   "what": "総数の宣言 − そのまま写した項目の和",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_sums_and_diffs)"
+  },
+  {
+   "value": "33",
+   "what": "総数の宣言 − 掛けて読んだ項目も入れた和",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_sums_and_diffs)"
+  },
+  {
+   "value": "29",
+   "what": "そのまま写した 30 項目から最大の 1 項目を除いた項目数",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_names_and_marks)"
+  },
+  {
+   "value": "553",
+   "what": "そのまま写した項目の和から最大の 1 項目(1,079)を除いた残り",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_shuuroku_names_and_marks)"
+  },
+  {
+   "value": "21",
+   "what": "道具のテストの通過件数(21 passed)",
+   "source": "テスト実走 2026-11-24(python -m pytest tools/part_sum -q)"
+  },
+  {
+   "value": "14",
+   "what": "合成の表の内訳の台帳の行数",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)"
+  },
+  {
+   "value": "120",
+   "what": "合成の表 G1 の総数の宣言と足した数",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)"
+  },
+  {
+   "value": "200",
+   "what": "合成の表 G2 の総数の宣言",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)"
+  },
+  {
+   "value": "195",
+   "what": "合成の表 G2 の足した数",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)"
+  },
+  {
+   "value": "300",
+   "what": "合成の表 G3 の総数の宣言。性質テストが通す入力の通り数 300 も同じ字",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)/ tests/test_part_sum_property.py の max_examples=300"
+  },
+  {
+   "value": "190",
+   "what": "合成の表 G3 の足した数(そのまま写しただけ)",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)"
+  },
+  {
+   "value": "214",
+   "what": "合成の表 G3 の足した数(掛けて読んだも)",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)"
+  },
+  {
+   "value": "110",
+   "what": "合成の表 G3 の差(そのまま写しただけ)",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)"
+  },
+  {
+   "value": "86",
+   "what": "合成の表 G3 の差(掛けて読んだも)",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)"
+  },
+  {
+   "value": "60",
+   "what": "合成の表 G4 の総数の宣言",
+   "source": "テスト実走 2026-11-24(tools/part_sum、test_measure_gousei_four_categories)"
+  }
+ ]
+}
