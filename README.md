@@ -81,6 +81,7 @@
 | 2026-11-22 | [式が呼べる関数の一覧が在っても境目を確かめた記載が関数ごとに在るとは限らないので、働きの軸で並べ直して検証の記載を横に置く](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_21.html) | [`tools/call_axis`](tools/call_axis) |
 | 2026-11-23 | [失敗と書かれた回も止まった場所が同じとは限らないので、エラーの欄に残った印を下の層まで並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_22.html) | [`tools/halt_depth`](tools/halt_depth) |
 | 2026-11-24 | [総数の下に内訳が並んでいても足して総数になるとは限らないので、数の付いた項目と付いていない項目を分けてから足す](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_23.html) | [`tools/part_sum`](tools/part_sum) |
+| 2026-11-25 | [項目名の全角と半角を揃えても別の文書の呼び方と同じ字になるとは限らないので、畳んで同じになる対とならない対を分けて並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_24.html) | [`tools/label_fold`](tools/label_fold) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
