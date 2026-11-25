@@ -1,0 +1,95 @@
+{
+ "article": "64_label_fold.md",
+ "numbers": [
+  {
+   "value": "18",
+   "what": "対の登録表の行数",
+   "source": "テスト実走 2026-11-25(tools/label_fold、test_measure_shuuroku_categories)"
+  },
+  {
+   "value": "12",
+   "what": "全段を通しても違う対(区分 C)",
+   "source": "テスト実走 2026-11-25(tools/label_fold、test_measure_shuuroku_categories)"
+  },
+  {
+   "value": "13",
+   "what": "手順を外したときの区分 C / 合成の表の対の行数",
+   "source": "テスト実走 2026-11-25(tools/label_fold、test_measure_shuuroku_drop_one_step, test_measure_shuuroku_empty_and_swapped_steps, test_measure_gousei)"
+  },
+  {
+   "value": "16",
+   "what": "短い版の名前の数",
+   "source": "テスト実走 2026-11-25(tools/label_fold、test_measure_shuuroku_categories)"
+  },
+  {
+   "value": "17",
+   "what": "収録範囲の記録の名前の数",
+   "source": "テスト実走 2026-11-25(tools/label_fold、test_measure_shuuroku_categories)"
+  },
+  {
+   "value": "35",
+   "what": "出典の行に在るかを照合した名前の数(外れ 0)",
+   "source": "照合スクリプト実走 2026-11-25(shuuroku の名前の台帳 35 行)"
+  },
+  {
+   "value": "24",
+   "what": "通ったテストの数",
+   "source": "テスト実走 2026-11-25(24 passed)"
+  },
+  {
+   "value": "300",
+   "what": "性質テストの例の数",
+   "source": "tools/label_fold/tests/test_label_fold_property.py の max_examples"
+  },
+  {
+   "value": "110",
+   "what": "揺れを 1 文で書いた行",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "42",
+   "what": "項目の一覧の行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "48",
+   "what": "項目の一覧の行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "49",
+   "what": "項目の一覧の行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "57",
+   "what": "項目の一覧の行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "67",
+   "what": "項目の一覧の行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "43",
+   "what": "名前を写した行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "44",
+   "what": "名前を写した行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "65",
+   "what": "名前を写した行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "66",
+   "what": "名前を写した行番号",
+   "source": "私の記録(非公開)の行番号"
+  }
+ ]
+}
