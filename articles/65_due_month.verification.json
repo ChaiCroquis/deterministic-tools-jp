@@ -1,0 +1,115 @@
+{
+ "article": "65_due_month.md",
+ "numbers": [
+  {
+   "value": "45",
+   "what": "数表の rule の種類数",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_table_size)"
+  },
+  {
+   "value": "1681",
+   "what": "数表の行数(元の行)",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_table_size)"
+  },
+  {
+   "value": "343",
+   "what": "行の表にまとめた後の行数",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_table_size)"
+  },
+  {
+   "value": "12",
+   "what": "区分 A の rule 数(比べ方 = どれかの行)",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_categories_any)"
+  },
+  {
+   "value": "21",
+   "what": "区分 B の rule 数(比べ方 = どれかの行)",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_categories_any)"
+  },
+  {
+   "value": "11",
+   "what": "区分 D の rule 数 / 比べ方を最後の行に替えたときの区分 A",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_categories_any, test_measure_suuhyo_categories_last)"
+  },
+  {
+   "value": "22",
+   "what": "比べ方を最後の行に替えたときの区分 B",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_categories_last)"
+  },
+  {
+   "value": "19",
+   "what": "区分 B のうち雇用保険の給付の rule 数",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_b_month_days, test_measure_suuhyo_marks)"
+  },
+  {
+   "value": "28",
+   "what": "台帳の予定と違う印の rule 数",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_marks)"
+  },
+  {
+   "value": "20",
+   "what": "自前の雇用保険の給付の台帳と違う rule 数",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_marks)"
+  },
+  {
+   "value": "36",
+   "what": "上流の台帳と結んだ rule 数(全て同じ日付)",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_marks)"
+  },
+  {
+   "value": "231",
+   "what": "地域別最低賃金の開始日の通り数",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_minimum_wage_spread)"
+  },
+  {
+   "value": "48",
+   "what": "地域別最低賃金の開始日の月日の通り数",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_suuhyo_minimum_wage_spread)"
+  },
+  {
+   "value": "13",
+   "what": "合成の表の行数",
+   "source": "テスト実走 2026-11-26(tools/due_month、test_measure_gousei)"
+  },
+  {
+   "value": "29",
+   "what": "通ったテストの数",
+   "source": "テスト実走 2026-11-26(29 passed)"
+  },
+  {
+   "value": "300",
+   "what": "性質テストの例の数",
+   "source": "tools/due_month/tests/test_due_month_property.py の max_examples"
+  },
+  {
+   "value": "74",
+   "what": "予定を返す関数の行番号(始まり)",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "77",
+   "what": "予定を返す関数の行番号(終わり)",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "171",
+   "what": "雇用保険の給付の行にキーを渡している行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "204",
+   "what": "年金の行にキーを渡している行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "18",
+   "what": "自前の台帳で雇用保険の給付の予定が書かれた行番号",
+   "source": "私の記録(非公開)の行番号"
+  },
+  {
+   "value": "33",
+   "what": "自前の台帳で年金の予定が書かれた行番号",
+   "source": "私の記録(非公開)の行番号"
+  }
+ ]
+}

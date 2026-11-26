@@ -1,0 +1,11 @@
+出どころ,台帳id,出典
+extract_kyoukaikenpo.py,自前:kyoukaikenpo,sources_manifest.json L9(extractor の欄が同じ字)
+extract_kyoukaikenpo.py,上流:social_insurance,unify.py L90
+extract_koyou.py,自前:koyou_kyufu,sources_manifest.json L16(extractor の欄が同じ字)
+extract_koyou.py,上流:employment_insurance,unify.py L171
+extract_nenkin.py,自前:nenkin,sources_manifest.json L31(extractor の欄が同じ字)
+extract_nenkin.py,上流:pension,unify.py L204
+厚生労働省のPDFから手入力,上流:employment_insurance,unify.py L131
+scripts/extract-minimum-wage.py,上流:minimum_wage,unify.py L142
+国税庁タックスアンサーから手入力,上流:consumption_tax,unify.py L155
+scripts/extract-insurance.py(等級は協会けんぽの保険料額表から),上流:pension_grade_table,unify.py L116

@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1994" height="1412" viewBox="0 0 1994 1412" font-family="'BIZ UDPGothic', 'Yu Gothic UI', 'Meiryo UI', sans-serif">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/><feOffset in="blur" dx="0" dy="2" result="off"/><feFlood flood-color="#1b1f2a" flood-opacity="0.10" result="col"/><feComposite in="col" in2="off" operator="in" result="sh"/><feMerge><feMergeNode in="sh"/><feMergeNode in="SourceGraphic"/></feMerge></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.5 L7,4 L0,7.5" fill="none" stroke="#5b6272" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1994" height="1412" fill="#f5f6fa"/>
+<text x="36" y="48" font-size="24" font-weight="bold" fill="#1b1f2a">行が動いてきた月日(左)と、行に付いた予定(右)— 数表のまとまりごと 45 rule</text>
+<text x="36" y="74" font-size="14" fill="#5b6272">予定は台帳から行へ写された日付で、行ごとに調べた値ではない。比べ方(どれかの行 / 最後の行)で件数は動く。食い違いを誤りとは言わない。期限の判定は実行日に依るので使っていない。手元の 1 回の生成物だけで網羅ではない。</text>
+<text x="405.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">行が動いてきた月日</text>
+<text x="851.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">行に付いた予定</text>
+<text x="1297.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">自前の台帳の予定</text>
+<text x="1743.0" y="118" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b1f2a">区分と rule 数</text>
+<text x="172" y="197.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">協会けんぽ 3 月</text>
+<rect x="190" y="132" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">3 月 1 日</text>
+<circle cx="216" cy="195" r="2.5" fill="#5b6272"/>
+<text x="228" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2024・2025・2026 年の 3 行ぶん</text>
+<rect x="636" y="132" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-03-01</text>
+<circle cx="662" cy="195" r="2.5" fill="#5b6272"/>
+<text x="674" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">上流の台帳から写された日付</text>
+<rect x="1082" y="132" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-03-01</text>
+<circle cx="1108" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1120" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の予定と同じ</text>
+<rect x="1528" y="132" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="168" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">A  8 rule</text>
+<circle cx="1554" cy="195" r="2.5" fill="#5b6272"/>
+<text x="1566" y="200" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">月日が同じ</text>
+<text x="172" y="333.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">子ども子育て 2 率</text>
+<rect x="190" y="268" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 月 1 日</text>
+<circle cx="216" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">支援金率と拠出金率</text>
+<rect x="636" y="268" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-03-01</text>
+<circle cx="662" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">同じ表の予定を共有</text>
+<rect x="1082" y="268" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-03-01</text>
+<circle cx="1108" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の予定と同じ</text>
+<rect x="1528" y="268" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="304" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">B  2 rule</text>
+<circle cx="1554" cy="331" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="336" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">月日が違う</text>
+<text x="172" y="469.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">雇用保険料率</text>
+<rect x="190" y="404" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 月 1 日</text>
+<circle cx="216" cy="467" r="2.5" fill="#5b6272"/>
+<text x="228" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2025・2026 年</text>
+<rect x="636" y="404" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-04-01</text>
+<circle cx="662" cy="467" r="2.5" fill="#5b6272"/>
+<text x="674" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">上流の台帳から写された日付</text>
+<rect x="1082" y="404" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(自前の台帳に無い)</text>
+<rect x="1528" y="404" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="440" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">A  2 rule</text>
+<circle cx="1554" cy="467" r="2.5" fill="#5b6272"/>
+<text x="1566" y="472" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">月日が同じ</text>
+<text x="172" y="605.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">雇用保険給付</text>
+<rect x="190" y="540" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">8 月 1 日</text>
+<circle cx="216" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2023〜2026 年</text>
+<rect x="636" y="540" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-04-01</text>
+<circle cx="662" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">雇用保険料率と同じキーで写された</text>
+<rect x="1082" y="540" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-08-01</text>
+<circle cx="1108" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の予定と違う(印)</text>
+<rect x="1528" y="540" width="430" height="120" rx="14" fill="#e7ecfb" stroke="#c4d0f6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="576" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">B  19 rule</text>
+<circle cx="1554" cy="603" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="608" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">月日が違う</text>
+<text x="172" y="741.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">所定給付日数</text>
+<rect x="190" y="676" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 月 1 日</text>
+<circle cx="216" cy="739" r="2.5" fill="#5b6272"/>
+<text x="228" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">適用日が仮置きの 1 通りだけ</text>
+<rect x="636" y="676" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-04-01</text>
+<circle cx="662" cy="739" r="2.5" fill="#5b6272"/>
+<text x="674" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">雇用保険料率と同じキーで写された</text>
+<rect x="1082" y="676" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-08-01</text>
+<circle cx="1108" cy="739" r="2.5" fill="#5b6272"/>
+<text x="1120" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の予定と違う(印)</text>
+<rect x="1528" y="676" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="712" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">A  1 rule</text>
+<circle cx="1554" cy="739" r="2.5" fill="#5b6272"/>
+<text x="1566" y="744" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">月日が同じ(仮置きの日付と)</text>
+<text x="172" y="877.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">地域別最低賃金</text>
+<rect x="190" y="812" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">48 通り</text>
+<circle cx="216" cy="875" r="2.5" fill="#5b6272"/>
+<text x="228" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">最後の行は 3 月 31 日</text>
+<rect x="636" y="812" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2026-10-01</text>
+<circle cx="662" cy="875" r="2.5" fill="#5b6272"/>
+<text x="674" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">10 月 1 日の行は過去に在る</text>
+<rect x="1082" y="812" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(自前の台帳に無い)</text>
+<rect x="1528" y="812" width="430" height="120" rx="14" fill="#eef0f5" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="848" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">A  1 rule</text>
+<circle cx="1554" cy="875" r="2.5" fill="#5b6272"/>
+<text x="1566" y="880" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">最後の行で比べると B</text>
+<text x="172" y="1013.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">厚年の等級表</text>
+<rect x="190" y="948" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">9 月 1 日</text>
+<circle cx="216" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2027〜2029 年の行を既に持つ</text>
+<rect x="636" y="948" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-09-01</text>
+<circle cx="662" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">既に持っている行の開始日と同じ</text>
+<rect x="1082" y="948" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(自前の台帳に無い)</text>
+<rect x="1528" y="948" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="984" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">C  1 rule</text>
+<circle cx="1554" cy="1011" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1016" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">予定が最後の開始日以前</text>
+<text x="172" y="1149.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">年金</text>
+<rect x="190" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 月 1 日</text>
+<circle cx="216" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">2025〜2027 年</text>
+<rect x="636" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(空)</text>
+<circle cx="662" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">写す先のキーが上流の台帳に無い</text>
+<rect x="1082" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">2027-04-01</text>
+<circle cx="1108" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="1120" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">行の予定は空(印)</text>
+<rect x="1528" y="1084" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1120" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">D  8 rule</text>
+<circle cx="1554" cy="1147" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1152" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">予定が空</text>
+<text x="172" y="1285.0" font-size="15" font-weight="bold" text-anchor="end" fill="#1b1f2a">労災・消費税</text>
+<rect x="190" y="1220" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="212" y="1256" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">4 月 1 日・10 月 1 日</text>
+<circle cx="216" cy="1283" r="2.5" fill="#3b5bdb"/>
+<text x="228" y="1288" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">労災 1、消費税 2</text>
+<rect x="636" y="1220" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="658" y="1256" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(空)</text>
+<circle cx="662" cy="1283" r="2.5" fill="#3b5bdb"/>
+<text x="674" y="1288" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">消費税は上流の台帳でも空</text>
+<rect x="1082" y="1220" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1104" y="1256" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">(自前の台帳に無い)</text>
+<rect x="1528" y="1220" width="430" height="120" rx="14" fill="#ffffff" stroke="#d9dce6" stroke-width="1" filter="url(#shadow)"/>
+<text x="1550" y="1256" font-size="17" font-weight="bold" text-anchor="start" fill="#1b1f2a">D  3 rule</text>
+<circle cx="1554" cy="1283" r="2.5" fill="#3b5bdb"/>
+<text x="1566" y="1288" font-size="14" font-weight="normal" text-anchor="start" fill="#1b1f2a">予定が空</text>
+<rect x="190" y="1366" width="18" height="14" rx="4" fill="#eef0f5" stroke="#d9dce6"/>
+<text x="216" y="1378" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">月日が重なる(A)</text>
+<rect x="370" y="1366" width="18" height="14" rx="4" fill="#e7ecfb" stroke="#c4d0f6"/>
+<text x="396" y="1378" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">月日が重ならない(B)</text>
+<rect x="578" y="1366" width="18" height="14" rx="4" fill="#ffffff" stroke="#d9dce6"/>
+<text x="604" y="1378" font-size="13" font-weight="normal" text-anchor="start" fill="#5b6272">予定が既存の行以前(C)・予定が空(D)</text>
+</svg>

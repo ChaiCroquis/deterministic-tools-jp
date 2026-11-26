@@ -1,0 +1,11 @@
+台帳id,種別,数表id,予定,出典
+自前:kyoukaikenpo,自前,kyoukaikenpo,2027-03-01,sources_manifest.json L11
+自前:koyou_kyufu,自前,koyou_kyufu,2027-08-01,sources_manifest.json L18
+自前:nenkin,自前,nenkin,2027-04-01,sources_manifest.json L33
+上流:social_insurance,上流,social_insurance,2027-03-01,freshness.json L8
+上流:employment_insurance,上流,employment_insurance,2027-04-01,freshness.json L18
+上流:minimum_wage,上流,minimum_wage,2026-10-01,freshness.json L29
+上流:holidays,上流,holidays,2027-02-01,freshness.json L40
+上流:consumption_tax,上流,consumption_tax,,freshness.json L50(null)
+上流:corporate_number,上流,corporate_number,,freshness.json L60(null)
+上流:pension_grade_table,上流,pension_grade_table,2027-09-01,freshness.json L70
