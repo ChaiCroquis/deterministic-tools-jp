@@ -1,0 +1,4 @@
+word,note,source
+upper,"v = upper(v, alt)",合成の実装 L22(steps の関数の中)
+tier,"t = tier(cells, x)",合成の実装 L25(tier_span の関数の中)
+nobody,x = nobody(y),合成の実装 L27

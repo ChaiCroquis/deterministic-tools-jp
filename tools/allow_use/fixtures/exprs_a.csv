@@ -1,0 +1,23 @@
+expr_id,bundle,expr,source
+E01,式の一覧,"tier(tbl, base)",合成の式の表 E01.expr
+E02,式の一覧,"tier_span(tbl, day)",合成の式の表 E02.expr
+E03,式の一覧,base * rate,合成の式の表 E03.expr
+E04,式の一覧,total / 2,合成の式の表 E04.expr
+E05,式の一覧,half_up(a + b),合成の式の表 E05.expr
+E06,式の一覧,"cut0(steps(plan, w))",合成の式の表 E06.expr
+E07,式の一覧,row['amount'] * rate / 2 if flag else Num(0),合成の式の表 E07.expr
+E08,式の一覧,half_up(base * rate),合成の式の表 E08.expr
+E09,式の一覧,clip * qty * months,合成の式の表 E09.expr
+E10,式の一覧,ghost(base),合成の式の表 E10.expr
+E11,式の一覧,base * (,合成の式の表 E11.expr
+E12,式の一覧,a and b,合成の式の表 E12.expr
+E13,式の一覧,row.amount * rate,合成の式の表 E13.expr
+R01,行の式,0.8 * w,合成の数表 R01.expr_row
+R02,行の式,0.8 * w - 0.3 * ((w - 4000) / (9000 - 4000)) * w,合成の数表 R02.expr_row
+R03,行の式,0.5 * w,合成の数表 R03.expr_row
+R04,行の式,6100,合成の数表 R04.expr_row
+R05,行の式,"lower(0.45 * w, 5000)",合成の数表 R05.expr_row
+R06,行の式,-w + 100,合成の数表 R06.expr_row
+R07,行の式,w ** 2,合成の数表 R07.expr_row
+R08,行の式,w +,合成の数表 R08.expr_row
+R09,行の式,0.6 * w,

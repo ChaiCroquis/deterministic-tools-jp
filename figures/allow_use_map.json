@@ -1,0 +1,340 @@
+{
+ "title": "許した語を 1 語 1 行にして、式に出てくる本数を横に置く",
+ "subtitle": "数え方 = 書かれた字のまま。書き換えの後で数えると Call と Decimal は数字を含む式すべてに出て、本数が動く(区分は動かなかった)",
+ "x_axis": {
+  "label": "min は関数の中で呼ばれていて、一覧を通る経路ではない。出てこない語を不要とは言わない。文書 7 語とコード 8 つの差を誤記とは言わない。手元の 1 回の生成物(2026-09-19)と 14 式だけで、網羅ではない",
+  "cols": [
+   "一覧の出どころ",
+   "式に出てくる本数",
+   "区分",
+   "別の在り所"
+  ]
+ },
+ "y_axis": {
+  "label": "許した語(名前は 1 語 1 行、構文の種類は区分ごとにまとめた行)",
+  "rows": [
+   "Decimal",
+   "band",
+   "band_period",
+   "floor1",
+   "max",
+   "min",
+   "piecewise",
+   "round50",
+   "構文の種類 11 個",
+   "構文の種類 1 個",
+   "構文の種類 12 個"
+  ]
+ },
+ "cells": [
+  [
+   {
+    "name": "文書 なし / コード 在り",
+    "items": [
+     "formulas.py L59",
+     "印: 出どころの片方にしか無い"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "式の一覧 1 本",
+    "items": [
+     "行に埋まった式 0 本"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "(A) 主の束に出てくる",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "登録なし",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "文書 在り / コード 在り",
+    "items": [
+     "作業状況の記録 L43",
+     "formulas.py L59"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "式の一覧 2 本",
+    "items": [
+     "行に埋まった式 0 本"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "(A) 主の束に出てくる",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "登録なし",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "文書 在り / コード 在り",
+    "items": [
+     "作業状況の記録 L43",
+     "formulas.py L59"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "式の一覧 1 本",
+    "items": [
+     "行に埋まった式 0 本"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "(A) 主の束に出てくる",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "登録なし",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "文書 在り / コード 在り",
+    "items": [
+     "作業状況の記録 L43",
+     "formulas.py L59"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "式の一覧 1 本",
+    "items": [
+     "行に埋まった式 0 本"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "(A) 主の束に出てくる",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "登録なし",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "文書 在り / コード 在り",
+    "items": [
+     "作業状況の記録 L43",
+     "formulas.py L59"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "式の一覧 0 本",
+    "items": [
+     "行に埋まった式 0 本"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "(C) どの束にも出てこない",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "登録なし",
+    "items": [],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "文書 在り / コード 在り",
+    "items": [
+     "作業状況の記録 L43",
+     "formulas.py L59"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "式の一覧 0 本",
+    "items": [
+     "行に埋まった式 0 本"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "(C) どの束にも出てこない",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "formulas.py L47",
+    "items": [
+     "piecewise の関数の中で呼ばれている",
+     "一覧を通る経路ではない"
+    ],
+    "tone": "accent"
+   }
+  ],
+  [
+   {
+    "name": "文書 在り / コード 在り",
+    "items": [
+     "作業状況の記録 L43",
+     "formulas.py L59"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "式の一覧 1 本",
+    "items": [
+     "行に埋まった式 0 本"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "(A) 主の束に出てくる",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "登録なし",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "文書 在り / コード 在り",
+    "items": [
+     "作業状況の記録 L43",
+     "formulas.py L59"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "式の一覧 3 本",
+    "items": [
+     "行に埋まった式 0 本"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "(A) 主の束に出てくる",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "登録なし",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "コードの一覧だけに在る",
+    "items": [
+     "Expression / BinOp / Add / Mult / Div / Call",
+     "Name / Load / Constant / Subscript / IfExp"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "式の一覧 1〜14 本",
+    "items": [
+     "行に埋まった式 0〜51 本"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "(A) 主の束に出てくる",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "登録なし",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "コードの一覧だけに在る",
+    "items": [
+     "Sub"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "式の一覧 0 本",
+    "items": [
+     "行に埋まった式 12 本"
+    ],
+    "tone": "muted"
+   },
+   {
+    "name": "(B) 主の束には出ず他の束にだけ",
+    "items": [],
+    "tone": "muted"
+   },
+   {
+    "name": "登録なし",
+    "items": [],
+    "tone": "muted"
+   }
+  ],
+  [
+   {
+    "name": "コードの一覧だけに在る",
+    "items": [
+     "UnaryOp / USub / Attribute / Compare / Lt / LtE",
+     "Gt / GtE / Eq / Dict / List / Tuple"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "式の一覧 0 本",
+    "items": [
+     "行に埋まった式 0 本"
+    ],
+    "tone": "accent"
+   },
+   {
+    "name": "(C) どの束にも出てこない",
+    "items": [],
+    "tone": "accent"
+   },
+   {
+    "name": "登録なし",
+    "items": [],
+    "tone": "accent"
+   }
+  ]
+ ],
+ "legend": [
+  [
+   "線の内側で、手元の式に用例が在る",
+   "muted"
+  ],
+  [
+   "線の内側で、手元の式に用例が無い",
+   "accent"
+  ]
+ ]
+}

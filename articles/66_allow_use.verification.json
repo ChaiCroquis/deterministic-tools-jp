@@ -1,0 +1,141 @@
+{
+ "article": "66_allow_use.md",
+ "note": "記事内の 1 桁の件数(手元の式: 名前 (A) 6 / (C) 2、構文の種類 (B) 1、(D) 0、印 各 1、round50 3 式 / band 2 式 / ほか 1 式ずつ、書き換えの後で本数が動いた 4 語、Decimal の式の一覧 1 → 4 本、verify 5 つ)は、私の記録(作業状況の記録 43 行目・formulas.py 47 行目と 59〜62 行目と 66 行目・formulas.json の 14 式・rules_unified.json の行に埋まった 51 本)から写した 4 表を 2026-11-27 に allow_use.py check / verify へ通した出力(書かれた字のまま と 書き換えの後 を各 1 回。判定部分の sha256 の先頭は cc3963c4d7b7 / d515abc075c4)。4 表は合成でないので道具の fixtures には置いておらず、手元の数字はテストの assert では固定していない(固定しているのは合成の 4 表の数字)。合成 4 表の 1 桁の件数は テスト実走 2026-11-27(python -m pytest tools/allow_use -q -s、13 passed、Python 3.13.9 / pytest 9.0.2 / hypothesis 6.152.8)。コードブロック内の数字(式の文字列、行番号 L43 など、出力の本数)は台帳または実走の出力の表記。出てこない語が要るか要らないか、式の値が正しいか、一覧が狭いほど安全かは扱っていない",
+ "numbers": [
+  {
+   "value": "11",
+   "what": "「数式 registry (data)。ast 制限付き安全評価、Decimal、端数処理」が書かれた行の行番号 / 手元の式で、式の一覧に出てくる構文の種類の数((A))/ 書き換えの後で数えた Call の式の一覧での本数",
+   "source": "私の記録 sharoushi-rules の説明書き 11 行目 / 記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力"
+  },
+  {
+   "value": "12",
+   "what": "手元の式で、どの束にも出てこない構文の種類の数((C))/ Sub が出てくる行に埋まった式の本数",
+   "source": "記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力"
+  },
+  {
+   "value": "14",
+   "what": "式の一覧の式の本数(formulas.json の expr)/ 見出し「数式 (14 式)」の表記 / 手元の式でどの束にも出てこない語の数(名前 2 + 構文の種類 12)/ verify ④ で確かめた (C) の語数",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 74 行目の見出し / 記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力(verify も同日に 1 回、④ 14/14)"
+  },
+  {
+   "value": "17",
+   "what": "手元の式で、式の一覧に出てくる語の数((A)。名前 6 + 構文の種類 11)",
+   "source": "記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力"
+  },
+  {
+   "value": "18",
+   "what": "合成の 4 表で (A) に入った語の数",
+   "source": "テスト実走 2026-11-27(python -m pytest tools/allow_use -q -s、13 passed)"
+  },
+  {
+   "value": "22",
+   "what": "許可の台帳に写した構文の種類のうち、記事に載せていない残りの行数(24 - 2)",
+   "source": "私の記録 sharoushi-rules の formulas.py(公開予定) 60〜62 行目の ALLOWED 24 個から、記事に載せた 2 行を引いた数"
+  },
+  {
+   "value": "24",
+   "what": "ALLOWED に並ぶ構文の種類の数",
+   "source": "私の記録 sharoushi-rules の formulas.py(公開予定) 60〜62 行目 / 記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力(構文の種類 (A) 11 + (B) 1 + (C) 12)"
+  },
+  {
+   "value": "32",
+   "what": "手元の許可の台帳の語の種類数(名前 8 + 構文の種類 24)",
+   "source": "記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力"
+  },
+  {
+   "value": "33",
+   "what": "合成の許可の台帳の語の種類数",
+   "source": "テスト実走 2026-11-27(python -m pytest tools/allow_use -q -s、13 passed)"
+  },
+  {
+   "value": "39",
+   "what": "手元の許可の台帳の行数(文書 7 + コード 8 + 構文の種類 24)",
+   "source": "記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力"
+  },
+  {
+   "value": "43",
+   "what": "「呼べる関数: band / band_period / piecewise / round50 / floor1 / min / max」が書かれた行の行番号",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 43 行目"
+  },
+  {
+   "value": "45",
+   "what": "rules_unified.json の rule の数",
+   "source": "記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力ではなく、rules_unified.json(generated 2026-09-19)の rows の rule 欄の種類を 2026-11-27 に数えた値(1,681 行 / 45 rule)"
+  },
+  {
+   "value": "46",
+   "what": "piecewise が行の expr_py を safe_eval に渡す行の行番号",
+   "source": "私の記録 sharoushi-rules の formulas.py(公開予定) 46 行目"
+  },
+  {
+   "value": "47",
+   "what": "piecewise の関数の中で min が呼ばれている行の行番号 / 記事に載せていない行に埋まった式の本数(51 - 4)",
+   "source": "私の記録 sharoushi-rules の formulas.py(公開予定) 47 行目 / 記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力(行に埋まった式 51 本)"
+  },
+  {
+   "value": "48",
+   "what": "rules_unified.json の行に埋まった expr_py の本数",
+   "source": "rules_unified.json(generated 2026-09-19)から式を写した手続きの 2026-11-27 の出力(expr_py 48 / expr_alt_min_py 3)"
+  },
+  {
+   "value": "51",
+   "what": "行に埋まった式の本数(expr_py 48 + expr_alt_min_py 3)/ 書き換えの後で数えた Decimal・Call・Name・Load の行に埋まった式での本数",
+   "source": "記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力(書き換えの後は数え方の登録を替えて同日にもう 1 回)"
+  },
+  {
+   "value": "59",
+   "what": "BUILTINS が書かれた行の行番号",
+   "source": "私の記録 sharoushi-rules の formulas.py(公開予定) 59 行目"
+  },
+  {
+   "value": "62",
+   "what": "ALLOWED の最後の行の行番号",
+   "source": "私の記録 sharoushi-rules の formulas.py(公開予定) 60〜62 行目"
+  },
+  {
+   "value": "64",
+   "what": "safe_eval の最初の行の行番号",
+   "source": "私の記録 sharoushi-rules の formulas.py(公開予定) 64〜73 行目"
+  },
+  {
+   "value": "65",
+   "what": "手元の式の台帳の行数(式の一覧 14 + 行に埋まった式 51)",
+   "source": "記事内に載せた形の 4 表(私の記録から写したもの)を 2026-11-27 に allow_use.py check へ 1 回通した出力"
+  },
+  {
+   "value": "66",
+   "what": "safe_eval が数字を Decimal('...') に書き換える行の行番号",
+   "source": "私の記録 sharoushi-rules の formulas.py(公開予定) 66 行目"
+  },
+  {
+   "value": "73",
+   "what": "safe_eval の最後の行の行番号",
+   "source": "私の記録 sharoushi-rules の formulas.py(公開予定) 64〜73 行目"
+  },
+  {
+   "value": "74",
+   "what": "見出し「### 3.3 数式 (14 式)」の行番号",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) 74 行目"
+  },
+  {
+   "value": "300",
+   "what": "性質テストの入力の数(max_examples=300、乱数は固定)",
+   "source": "テスト実走 2026-11-27(python -m pytest tools/allow_use -q -s、13 passed)"
+  },
+  {
+   "value": "1,681",
+   "what": "rules_unified.json の行数",
+   "source": "私の記録 sharoushi-rules の作業状況の記録(公開予定) の検証の表「validate … 1,681 行で 0」/ rules_unified.json(generated 2026-09-19)の rows を 2026-11-27 に数えた値"
+  },
+  {
+   "value": "5200",
+   "what": "行に埋まった式 R02 の文字列「0.8*w-0.3*((w-5200)/(12790-5200))*w」の中の表記(式の値や正しさは扱っていない)",
+   "source": "rules_unified.json rows[1502].payload.cells[1].expr_py"
+  },
+  {
+   "value": "7845",
+   "what": "行に埋まった式 R04 の文字列(数字だけの式)の表記(式の値や正しさは扱っていない)",
+   "source": "rules_unified.json rows[1502].payload.cells[3].expr_py"
+  }
+ ]
+}

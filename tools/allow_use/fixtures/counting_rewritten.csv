@@ -1,0 +1,2 @@
+mode,main_bundle,pattern,repl,source
+書き換えの後,式の一覧,(?<![\w.])(\d+\.\d+|\d+)(?![\w.]),Num('\1'),合成の実装 L40
