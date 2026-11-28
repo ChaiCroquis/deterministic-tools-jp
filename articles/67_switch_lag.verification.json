@@ -1,0 +1,160 @@
+{
+ "article": "67_switch_lag.md",
+ "numbers": [
+  {
+   "value": "1079",
+   "what": "地域別の最低賃金の行数(行の表の行 = 使った行 = 回ごとの行数の合計)",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_table_size)"
+  },
+  {
+   "value": "1681",
+   "what": "数表の行数(元の行)",
+   "source": "tools/switch_lag/fixtures/utsusu.py の実走出力 2026-11-28(元の行 1681 行、generated 2026-09-19)"
+  },
+  {
+   "value": "24",
+   "what": "回の数(2002〜2025)",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_table_size)"
+  },
+  {
+   "value": "47",
+   "what": "登録した地域の全体の数 / 行数が 47 の回の行数 / 2026-03-31 の A / 2025-09-30 と 2020-10-09 の 2020→2021 の B",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_table_size, test_measure_suuhyo_2025_days, test_measure_suuhyo_2020_days)"
+  },
+  {
+   "value": "11",
+   "what": "登録した見る日の数 / 2024 の回の開始日の種類",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_table_size, test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "23",
+   "what": "回の対の数(24 回の隣り合う対)/ 通ったテストの数",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_table_size) / 23 passed"
+  },
+  {
+   "value": "253",
+   "what": "見る日 11 × 回の対 23 の対の数",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_table_size)"
+  },
+  {
+   "value": "22",
+   "what": "47 の地域すべてに行が在る回の数 / 2025-11-01 の B / 2020-10-01 の A",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_windows, test_measure_suuhyo_2025_days, test_measure_suuhyo_2020_days)"
+  },
+  {
+   "value": "42",
+   "what": "2003 の回の行の無い地域の数 / 2011 の回の窓の日数(2024 の回までの最大)",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_windows)"
+  },
+  {
+   "value": "40",
+   "what": "2020 の回の行数 / 2025-12-01 の A / 2020-10-09 の A",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_windows, test_measure_suuhyo_2025_days, test_measure_suuhyo_2020_days)"
+  },
+  {
+   "value": "49",
+   "what": "47 × 24 から 1,079 を引いた数 = 行の無い地域の数の合計(42 + 7)",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_windows)"
+  },
+  {
+   "value": "181",
+   "what": "2025 の回の窓の日数(2025-10-01 から 2026-03-31)",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_windows)"
+  },
+  {
+   "value": "18",
+   "what": "2025 の回の開始日の種類 / 2003 の回の窓の日数 / 2020-10-01 の B",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_windows, test_measure_suuhyo_window_table, test_measure_suuhyo_2020_days)"
+  },
+  {
+   "value": "25",
+   "what": "2025-11-01 の A / 2014 の回の窓の日数",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_2025_days, test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "45",
+   "what": "2026-01-01 と 2026-02-01 の A",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_2025_days)"
+  },
+  {
+   "value": "46",
+   "what": "2025-10-01 の B / 2026-03-01 と 2026-03-30 の A",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_2025_days)"
+  },
+  {
+   "value": "31",
+   "what": "2024・2009・2013 の回の窓の日数 / 合成の表の第3回の窓の日数",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "10",
+   "what": "2015 の回の開始日の種類",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "12",
+   "what": "2007 の回の窓の日数",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "13",
+   "what": "2023 の回の窓の日数 / 2014 の回の開始日の種類",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "14",
+   "what": "2017 の回の窓の日数 / 合成の表の行数",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table) / test_measure_gousei"
+  },
+  {
+   "value": "15",
+   "what": "2008・2013 の回の開始日の種類",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "16",
+   "what": "2009 の回の開始日の種類",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "17",
+   "what": "2004・2015 の回の窓の日数 / 2010・2012 の回の開始日の種類",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "19",
+   "what": "2016・2022 の回の窓の日数 / 2011 の回の開始日の種類",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "29",
+   "what": "2010 の回の窓の日数",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "33",
+   "what": "2008 の回の窓の日数",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "35",
+   "what": "2012 の回の窓の日数",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_suuhyo_window_table)"
+  },
+  {
+   "value": "43",
+   "what": "合成の表の年をまたぐ回の窓の日数",
+   "source": "テスト実走 2026-11-28(tools/switch_lag、test_measure_gousei)"
+  },
+  {
+   "value": "300",
+   "what": "性質テストの例の数",
+   "source": "tools/switch_lag/tests/test_switch_lag_property.py の max_examples"
+  },
+  {
+   "value": "1240",
+   "what": "私の数表から起こした 3 表を通したときの文字の出力の行数",
+   "source": "道具の実走出力 2026-11-28(switch_lag.py --verify の標準出力の行数)"
+  }
+ ]
+}
