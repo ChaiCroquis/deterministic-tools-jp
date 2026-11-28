@@ -84,6 +84,7 @@
 | 2026-11-25 | [項目名の全角と半角を揃えても別の文書の呼び方と同じ字になるとは限らないので、畳んで同じになる対とならない対を分けて並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_24.html) | [`tools/label_fold`](tools/label_fold) |
 | 2026-11-26 | [次回改定の予定が行に付いていても行が動いてきた月日と同じとは限らないので、予定の月日と行の開始の月日を数表ごとに並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_25.html) | [`tools/due_month`](tools/due_month) |
 | 2026-11-27 | [式に書いてよい語の一覧が在っても式がその語を全部使っているとは限らないので、許した語と式に出てくる語を一語一行で並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_27.html) | [`tools/allow_use`](tools/allow_use) |
+| 2026-11-28 | [年度の数表が替わっても全部の地域が同じ日に新しい行へ移るとは限らないので、切り替わりの途中の日ごとに前の行に居る地域を並べる](https://chronicles-of-solo-parenting.blogspot.com/2026/11/blog-post_96.html) | [`tools/switch_lag`](tools/switch_lag) |
 <!-- article-links:end -->
 
 ## この repo に入っているもの
